@@ -48,6 +48,15 @@
                 "type": "layout",
                 "key": "mario items"
               }
+            },
+            {
+              "type": "group",
+              "header": "Small Keys",
+              "dock": "top",
+              "content":{
+                "type": "layout",
+                "key": "small_keys"
+              }
             }
           ]
         },
