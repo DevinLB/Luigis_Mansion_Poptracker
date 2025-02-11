@@ -1,15 +1,33 @@
 [
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
   {
-    "name": "map1",
+    "name": "f1",
     "location_size": 48,
     "location_border_thickness": 4,
-    "img": "images/maps/map.png"
+    "img": "images/maps/floor_1.png"
   },
   {
-    "name": "map2",
+    "name": "f2",
     "location_size": 48,
     "location_border_thickness": 4,
-    "img": "images/maps/map_2.png"
+    "img": "images/maps/f2.png"
+  },
+  {
+    "name": "f3",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/f3.png"
+  },
+  {
+    "name": "b1",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/b1.png"
+  },
+  {
+    "name": "roof",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/roof.png"
   }
 ]

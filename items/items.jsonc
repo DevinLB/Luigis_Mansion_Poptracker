@@ -1,55 +1,374 @@
 [
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
-  {
-    "name": "Toggle",
+ 
+ //////   Medals   ////// 
+
+ {
+    "name": "Fire Medal",
     "type": "toggle",
-    "img": "images/items/toggle.png",
-    "codes": "toggle"
+    "codes": "fire",
+    "img": "images/items/medal_fire.png"
   },
   {
-    "name": "Progressive",
+    "name": "Water Medal",
+    "type": "toggle",
+    "codes": "water",
+    "img": "images/items/medal_water.png"
+  },
+  {
+    "name": "Ice Medal",
+    "type": "toggle",
+    "codes": "ice",
+    "img": "images/items/medal_ice.png"
+  },
+ 
+  //////   Game Boy Horror   //////
+  {
+    "name": "Game Boy Horror",
+    "type": "toggle",
+    "codes": "gb_horror",
+    "img": "images/items/gb_horror.png"
+  },
+
+
+
+  //////   Mario Items   //////
+ 
+  
+  {
+    "name": "Mario's Cap",
+    "type": "toggle",
+    "codes": "cap",
+    "img": "images/mario items/mario_cap.png"
+  },
+  {
+    "name": "Mario's Glove",
+    "type": "toggle",
+    "codes": "glove",
+    "img": "images/mario items/mario_glove.png"
+  },
+  {
+    "name": "Mario's Letter",
+    "type": "toggle",
+    "codes": "letter",
+    "img": "images/mario items/mario_letter.png"
+  },
+  {
+    "name": "Mario's Shoe",
+    "type": "toggle",
+    "codes": "shoe",
+    "img": "images/mario items/mario_shoe.png"
+  },
+  {
+    "name": "Mario's Star",
+    "type": "toggle",
+    "codes": "star",
+    "img": "images/mario items/mario_star.png"
+  },
+ 
+  //////   Keys   //////
+
+
+  {
+    "name": "Heart Key",
+    "type": "toggle",
+    "codes": "key_heart",
+    "img": "images/items/key_heart.png"
+  },
+  {
+    "name": "Spade Key",
+    "type": "toggle",
+    "codes": "key_spade",
+    "img": "images/items/key_spade.png"
+  },
+  {
+    "name": "Club Key",
+    "type": "toggle",
+    "codes": "key_club",
+    "img": "images/items/key_club.png"
+  },
+  {
+    "name": "Diamond Key",
+    "type": "toggle",
+    "codes": "key_diamond",
+    "img": "images/items/key_diamond.png"
+  },
+  {
+    "name": "Small Key",
+    "type": "toggle",
+    "codes": "key_small",
+    "img": "images/items/key_small.png"
+  },
+
+
+
+
+  //////   Ghosts   ////// 
+ 
+  
+  {
+    "name": "Nevil",
+    "type": "toggle",
+    "codes": "nevil",
+    "img": "images/ghosts/nevil.png"
+  },
+  {
+    "name": "Lydia",
+    "type": "toggle",
+    "codes": "lydia",
+    "img": "images/ghosts/lydia.png"
+  },
+  {
+    "name": "Chauncey",
+    "type": "toggle",
+    "codes": "chauncey",
+    "img": "images/ghosts/chauncey.png"
+  },
+  {
+    "name": "The Floating Whirlindas",
+    "type": "toggle",
+    "codes": "whirlindas",
+    "img": "images/ghosts/whirlindas.png"
+  },
+  {
+    "name": "Shivers",
+    "type": "toggle",
+    "codes": "shivers",
+    "img": "images/ghosts/shivers.png"
+  },
+  {
+    "name": "Melody Pianissima",
+    "type": "toggle",
+    "codes": "melody",
+    "img": "images/ghosts/melody.png"
+  },
+  {
+    "name": "Mr. Luggs",
+    "type": "toggle",
+    "codes": "luggs",
+    "img": "images/ghosts/luggs.png"
+  },
+  {
+    "name": "Spooky",
+    "type": "toggle",
+    "codes": "spooky",
+    "img": "images/ghosts/spooky.png"
+  },
+  {
+    "name": "Pogmire",
+    "type": "toggle",
+    "codes": "bogmire",
+    "img": "images/ghosts/bogmire.png"
+  },
+  {
+    "name": "Biff Atlas",
+    "type": "toggle",
+    "codes": "biff",
+    "img": "images/ghosts/biff.png"
+  },
+  {
+    "name": "Miss Petunia",
+    "type": "toggle",
+    "codes": "petunia",
+    "img": "images/ghosts/petunia.png"
+  },
+  {
+    "name": "Nana",
+    "type": "toggle",
+    "codes": "nana",
+    "img": "images/ghosts/nana.png"
+  },
+  {
+    "name": "Slim Bankshot",
+    "type": "toggle",
+    "codes": "slim",
+    "img": "images/ghosts/slim.png"
+  },
+  {
+    "name": "Henry and Orville",
+    "type": "toggle",
+    "codes": "twins",
+    "img": "images/ghosts/twins.png"
+  },
+  {
+    "name": "Madame Clairvoya",
+    "type": "toggle",
+    "codes": "clairvoya",
+    "img": "images/ghosts/clairvoya.png"
+  },
+  {
+    "name": "Boolossus",
+    "type": "toggle",
+    "codes": "boolossus",
+    "img": "images/ghosts/boolossus.png"
+  },
+  {
+    "name": "Uncle Grimmly",
+    "type": "toggle",
+    "codes": "grimmly",
+    "img": "images/ghosts/grimmly.png"
+  },
+  {
+    "name": "Clockwork Soldiers",
+    "type": "toggle",
+    "codes": "soldiers",
+    "img": "images/ghosts/soldiers.png"
+  },
+  {
+    "name": "Sue Pea",
+    "type": "toggle",
+    "codes": "sue",
+    "img": "images/ghosts/sue.png"
+  },
+  {
+    "name": "Jarvis",
+    "type": "toggle",
+    "codes": "jarvis",
+    "img": "images/ghosts/jarvis.png"
+  },
+  {
+    "name": "Sir Weston",
+    "type": "toggle",
+    "codes": "weston",
+    "img": "images/ghosts/weston.png"
+  },
+  {
+    "name": "Vincent Van Gore",
+    "type": "toggle",
+    "codes": "van_gore",
+    "img": "images/ghosts/van_gore.png"
+  },
+ 
+ 
+
+
+
+
+ 
+  //////   Options   //////
+  
+  {
+    "name": "Required Mario Items",
+    "type": "consumable",
+    "codes": "mario_items",
+    "max_quantity": 5,
+    "initial_quantity": 0,
+    "allow_disabled": false,
+    "overlay_font_size": 55,
+    "overlay_align": "center",
+    "img": "images/mario items/mario_items.png"
+  },
+  {
+    "name": "Total Boos",
+    "type": "consumable",
+    "codes": "boo",
+    "max_quantity": 50,
+    "initial_quantity": 0,
+    "allow_disabled": false,
+    "overlay_font_size": 55,
+    "overlay_align": "center",
+    "img": "images/minor checks/boo.png"
+  },
+  {
+    "name": "Required Boos",
+    "type": "consumable",
+    "codes": "king_boo",
+    "max_quantity": 50,
+    "initial_quantity": 0,
+    "allow_disabled": false,
+    "overlay_font_size": 55,
+    "overlay_align": "center",
+    "img": "images/ghosts/king_boo.png"
+  },
+  {
+    "name": "Toad Shuffle?",
     "type": "progressive",
-    "allow_disabled": true,
-    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": true,
     "stages": [
       {
-        "img": "images/items/progressive.png",
-        "codes": "progressive",
-        "inherit_codes": false
+        "codes": "toad",
+        "inherit_codes": false,
+        "img": "images/options/toad_shuffle.png"
+      }, 
+      {
+        "codes": "toad_off, toad",
+        "inherit_codes": false,
+        "img": "images/options/toad_shuffle_off.png"
       },
       {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_2",
-        "inherit_codes": false
+        "codes": "toad_on, toad",
+        "inherit_codes": false,
+        "img": "images/options/toad_shuffle_on.png"
       }
     ]
   },
   {
-    "name": "Consumable",
-    "type": "consumable",
-    "img": "images/items/consumable.png",
-    "max_quantity": 8,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 1,
-    "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "consumable"
-  },
-  {
-    "name": "Progressive Toggle",
-    "type": "progressive_toggle",
-    "initial_stage_idx": 0,
+    "name": "Object Shuffle?",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
     "stages": [
       {
-        "img": "images/items/progressive.png",
-        "codes": "progressive_toggle",
-        "inherit_codes": false
+        "codes": "object",
+        "inherit_codes": false,
+        "img": "images/options/object_shuffle.png"
       },
       {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_toggle_2",
-        "inherit_codes": false
+        "codes": "object_off, object",
+        "inherit_codes": false,
+        "img": "images/options/object_shuffle_off.png"
+      },
+      {
+        "codes": "object_on, object",
+        "inherit_codes": false,
+        "img": "images/options/object_shuffle_on.png"
+      }
+    ]
+  },
+  {
+    "name": "Speedy Sirits?",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "speedy",
+        "inherit_codes": false,
+        "img": "images/options/speedy.png"
+      },
+      {
+        "codes": "speedy_off, speedy",
+        "inherit_codes": false,
+        "img": "images/options/speedy_off.png"
+      },
+      {
+        "codes": "speedy_on, speedy",
+        "inherit_codes": false,
+        "img": "images/options/speedy_on.png"
+      }
+    ]
+  },
+  {
+    "name": "Plant Shuffle?",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "plant",
+        "inherit_codes": false,
+        "img": "images/options/plant_shuffle.png"
+      },
+      {
+        "codes": "plant_off, plant",
+        "inherit_codes": false,
+        "img": "images/options/plant_shuffle_off.png"
+      },
+      {
+        "codes": "plant_on, plant",
+        "inherit_codes": false,
+        "img": "images/options/plant_shuffle_on.png"
       }
     ]
   }

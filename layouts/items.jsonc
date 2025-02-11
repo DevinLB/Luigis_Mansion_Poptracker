@@ -1,33 +1,112 @@
 {
   // sets layouts for shadred items grids
   // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
-  "shared_item_grid": {
-    "type": "array",
-    "orientation": "vertical",
-    "margin": "0,0",
-    "content": [
-      {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "0,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "item_margin": "10, 10",
-            "h_alignment": "left",
-            "rows": [
-              [
-                "toggle",
-                "progressive"
-              ],
-              [
-                "consumable",
-                "progressive_toggle"
-              ]
-            ]
-          }
-        ]
-      }
+ 
+  "ghosts": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "margin": "0,0,0,0",
+    "item_margin": "5,5",
+    "item_size": 75,
+    "rows": [
+      [
+        "nevil",
+        "lydia",
+        "chauncey",
+        "whirlindas",
+        "shivers"
+      ],      
+      [
+        "melody",
+        "luggs",
+        "spooky",
+        "bogmire",
+        "biff"
+      ],
+      [
+        "petunia",
+        "nana",
+        "slim",
+        "twins",
+        "clairvoya"
+      ],
+      [
+        "boolossus",
+        "grimmly",
+        "soldiers",
+        "sue",
+        "jarvis"
+      ],
+      [
+        "weston",
+        "van_gore"
+      ]
+    ]
+  },
+  "keys": {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "margin": "0,0,0,0",
+    "item_margin": "10,0",
+    "item_size": 65,
+    "rows": [
+      [
+        "key_small",
+        "key_heart",
+        "key_club",
+        "key_diamond",
+        "key_spade"
+      ]
+    ]
+  },
+  "key items": {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "margin": "0,0,0,0",
+    "item_margin": "12,0",
+    "item_size": 60,
+    "rows": [
+      [
+        "fire",
+        "water",
+        "ice",
+        "",
+        "gb_horror"
+      ]
+    ]
+  },
+  "mario items": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "margin": "0,0,0,0",
+    "item_margin": "12,0",
+    "item_size": 60,
+    "rows": [
+      [
+        "cap",
+        "glove",
+        "letter",
+        "shoe",
+        "star"
+      ]
+    ]
+  },
+  "settings": {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "margin": "0,0,0,0",
+    "item_margin": "20,0",
+    "item_size": 100,
+    "rows": [
+      [
+        "mario_items",
+        "toad",
+        "plant",
+        "object",
+        "speedy",
+        "boo",
+        "king_boo"
+      ]
     ]
   }
 }

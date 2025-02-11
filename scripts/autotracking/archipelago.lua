@@ -1,5 +1,5 @@
 -- this is an example/default implementation for AP autotracking
--- it will use the mappings defined in item_mapping.lua and location_mapping.lua to track items and locations via their ids
+-- it will use the mappings defined in item_mapping.lua and location_mapping.lua to track items and locations via thier ids
 -- it will also keep track of the current index of on_item messages in CUR_INDEX
 -- addition it will keep track of what items are local items and which one are remote using the globals LOCAL_ITEMS and GLOBAL_ITEMS
 -- this is useful since remote items will not reset but local items might
@@ -11,7 +11,7 @@ CUR_INDEX = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
--- resets an item to its initial state
+-- resets an item to it's inital state
 function resetItem(item_code, item_type)
 	local obj = Tracker:FindObjectForCode(item_code)
 	if obj then
@@ -43,7 +43,7 @@ function resetItem(item_code, item_type)
 end
 
 -- advances the state of an item
-function incrementItem(item_code, item_type, multiplier)
+function incrementItem(item_code, item_type)
 	local obj = Tracker:FindObjectForCode(item_code)
 	if obj then
 		item_type = item_type or obj.Type
@@ -59,7 +59,7 @@ function incrementItem(item_code, item_type, multiplier)
 				obj.Active = true
 			end
 		elseif item_type == "consumable" then
-			obj.AcquiredCount = obj.AcquiredCount + obj.Increment * multiplier
+			obj.AcquiredCount = obj.AcquiredCount + obj.Increment
 		elseif item_type == "custom" then
 			-- your code for your custom lua items goes here
 		elseif item_type == "static" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -168,9 +168,8 @@ function onItem(index, item_id, item_name, player_number)
 		if item_table then
 			local item_code = item_table[1]
 			local item_type = item_table[2]
-			local multiplier = item_table[3] or 1
 			if item_code then
-				incrementItem(item_code, item_type, multiplier)
+				incrementItem(item_code, item_type)
 				-- keep track which items we touch are local and which are global
 				if is_local then
 					if LOCAL_ITEMS[item_code] then

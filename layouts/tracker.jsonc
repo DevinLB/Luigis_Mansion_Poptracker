@@ -15,62 +15,55 @@
           "content": [
             {
               "type": "group",
-              "header": "Items",
+              "header": "Ghosts",
               "dock": "top",
               "content": {
                 "type": "layout",
-                "key": "shared_item_grid"
+                "key": "ghosts"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Keys",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "keys"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Key Items",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "key items"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Mario Items",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "mario items"
               }
             }
           ]
         },
-        {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Map 1",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map1"
-                ]
-              }
-            },
-            {
-              "title": "Map 2",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map2"
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "tracker_horizontal": {
-    "type": "container",
-    "background": "#000000",
-    "content": {
-      "type": "dock",
-      "dropshadow": true,
-      "content": [
         {
           "type": "dock",
           "dock": "bottom",
-          "content": [
+          "v_alignment": "stretch",
+          "content": [            
             {
               "type": "group",
-              "header": "Items",
-              "dock": "left",
-              "margin": "0,0,3,0",
+              "header": "Settings",
+              "dock": "right",
               "content": {
                 "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "shared_item_grid"
+                "v_alignment": "stretch",
+                "key": "settings"
               }
             }
           ]
@@ -79,20 +72,49 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Map 1",
+              "title": "Floor 1",
+              "v_alignment": "stretch",
+              "h_alignment": "stretch",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map1"
+                  "f1"
                 ]
               }
             },
             {
-              "title": "Map 2",
+              "title": "Floor 2",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map2"
+                  "f2"
+                ]
+              }
+            },
+            {
+              "title": "Floor 3",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "f3"
+                ]
+              }
+            },
+            {
+              "title": "Roof",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "roof"
+                ]
+              }
+            },
+            {
+              "title": "Basement",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "b1"
                 ]
               }
             }
