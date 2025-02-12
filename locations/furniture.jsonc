@@ -1,61 +1,4 @@
-[
-  {
-    "name": "Example Parent",
-    "children": [
-      {
-        "name": "Example Location 1",
-        "access_rules": [
-          //read as: progressive_2 or toggle
-          "progressive_2",
-          "toggle"
-        ],
-        "sections": [
-          {
-            "name": "Example Section 1",
-            "item_count": 1
-          },
-          {
-            "name": "Example Section 2",
-            "item_count": 3
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "map1",
-            "x": 1750,
-            "y": 700
-          },
-          {
-            "map": "map2",
-            "x": 1000,
-            "y": 500
-          }
-        ]
-      },
-      {
-        "name": "Example Location 2",
-        "access_rules": [
-          //read as: progressive_toggle_2 and has more than 4 consumable
-          "progressive_toggle_2, $has_more_then_n_consumable|4"
-        ],
-        "sections": [
-          {
-            "name": "Example Section 1",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "map1",
-            "x": 1500,
-            "y": 400
-          }
-        ]
-      }
-    ]
-  },
-
-  //=-=-=-=-=-=-=-=-=-=-= Floor 1 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[//=-=-=-=-=-=-=-=-=-=-= Floor 1 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   {
     //floor name
     "name": "Floor 1",
@@ -119,8 +62,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "515",
+            "y": "741",
+            "size": 16
           }
         ]
       },
@@ -178,8 +122,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "675",
+            "y": "467",
+            "size": 16
           }
         ]
       },
@@ -243,8 +188,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "130",
+            "y": "625",
+            "size": 16
           }
         ]
       },
@@ -357,8 +303,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "116",
+            "y": "727",
+            "size": 16
           }
         ]
       },
@@ -434,8 +381,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "298",
+            "y": "726",
+            "size": 16
           }
         ]
       },
@@ -499,8 +447,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "735",
+            "y": "725",
+            "size": 16
           }
         ]
       },
@@ -558,8 +507,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "930",
+            "y": "730",
+            "size": 16
           }
         ]
       },
@@ -659,8 +609,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "478",
+            "y": "531",
+            "size": 16
           }
         ]
       },
@@ -730,8 +681,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "165",
+            "y": "545",
+            "size": 16
           }
         ]
       },
@@ -765,19 +717,26 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "120",
+            "y": "410",
+            "size": 16
           }
         ]
       },
       {
         //rooms
-        "name": "Graveyard",
+        "name": "Graveyard", //DOUBLE CHECK
         "access_rules": [
 
         ],
         "sections": [
           //furniture checks
+          {
+            "name": "Bogmire's Tombstone",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
           {
             "name": "Graveyard Downspout",
             "chest_unopened_img": "images/minor checks/chest_red.png",
@@ -819,19 +778,14 @@
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
-          },
-          {
-            "name": "Graveyard Tombstone (left side, near bogmire)",
-            "chest_unopened_img": "images/minor checks/chest_red.png",
-            "chest_opened_img": "images/minor checks/chest_red_gray.png",
-            "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "125",
+            "y": "175",
+            "size": 16
           }
         ]
       },
@@ -889,8 +843,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "860",
+            "y": "530",
+            "size": 16
           }
         ]
       },
@@ -972,8 +927,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "940",
+            "y": "365",
+            "size": 16
           }
         ]
       },
@@ -1103,8 +1059,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "551",
+            "y": "187",
+            "size": 16
           }
         ]
       },
@@ -1199,13 +1156,20 @@
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
+          },
+          {
+            "name": "Billiards Room R Chair",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "324",
+            "y": "398",
+            "size": 16
           }
         ]
       },
@@ -1269,8 +1233,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "547",
+            "y": "401",
+            "size": 16
           }
         ]
       },
@@ -1334,8 +1299,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "321",
+            "y": "278",
+            "size": 16
           }
         ]
       },
@@ -1369,8 +1335,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "311",
+            "y": "206",
+            "size": 16
           }
         ]
       },
@@ -1422,8 +1389,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "618",
+            "y": "96",
+            "size": 16
           }
         ]
       },
@@ -1511,8 +1479,9 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "0",
-            "y": "0"
+            "x": "800",
+            "y": "200",
+            "size": 16
           }
         ]
       }
