@@ -6,7 +6,7 @@ local variant = Tracker.ActiveVariantUID
 -- check variant info
 IS_ITEMS_ONLY = variant:find("itemsonly")
 
-print("-- Example Tracker --")
+print("-- Luigi Mansion PopTracker --")
 print("Loaded variant: ", variant)
 if ENABLE_DEBUG_LOG then
     print("Debug logging is enabled!")
@@ -32,6 +32,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddMaps("maps/maps.jsonc")
     -- Locations
     Tracker:AddLocations("locations/locations.jsonc")
+    Tracker:AddLocations("locations/furniture.jsonc")
 end
 
 -- Layout

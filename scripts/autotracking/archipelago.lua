@@ -32,9 +32,9 @@ function dump_table(o, depth)
 end
 
 function onClear(slot_data)
-    print(dump_table(slot_data))
-    SLOT_DATA = slot_data
-    CUR_INDEX = -1
+    -- print(dump_table(slot_data))
+    -- SLOT_DATA = slot_data
+    -- CUR_INDEX = -1
     -- reset locations
     -- for _, v in pairs(LOCATION_MAPPING) do
     --     if v[1] then
@@ -48,7 +48,7 @@ function onClear(slot_data)
     --         end
     --     end
     -- end
-    -- reset items
+    -- -- reset items
     -- for _, v in pairs(ITEM_MAPPING) do
     --     if v[1] and v[2] then
     --         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -165,7 +165,18 @@ function onLocation(location_id, location_name)
     end
 end
 
+function onBoo(item_id, item_name)
+    
+    if item_name == "Boo" then
+        local boo_count = Tracker:FindObjectForCode("booCount")
+        if boo_count then
+            boo_count.AcquiredCount = boo_count.AcquiredCount + 1
+        end
+    end
+end
+
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddItemHandler("boo handler", onBoo)
