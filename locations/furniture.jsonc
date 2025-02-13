@@ -2048,7 +2048,7 @@
       },
       {
         //rooms
-        "name": "Twin's Room",
+        "name": "Twins' Room",
         "access_rules": [
         ],
         "sections": [
@@ -2839,7 +2839,7 @@
     "children": [
       {
         //rooms
-        "name": "Safari",
+        "name": "Safari Room",
         "access_rules": [
         ],
         "sections": [
