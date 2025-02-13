@@ -1869,6 +1869,12 @@
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
+          },
+          {
+            "name": "Neville's Chair",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -2837,6 +2843,29 @@
     //floor name
     "name": "Floor 3",
     "children": [
+      {
+        //rooms
+        "name": "3F Stairwell",
+        "access_rules": [
+        ],
+        "sections": [
+          //furniture checks
+          {
+            "name": "3F Stairwell Ceiling Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "950",
+            "y": "530",
+            "size": 16
+          }
+        ]
+      },
       {
         //rooms
         "name": "Safari Room",
