@@ -73,25 +73,25 @@
     "name": "Heart Key",
     "type": "toggle",
     "codes": "key_heart",
-    "img": "images/items/key_heart.png"
+    "img": "images/keys/key_heart.png"
   },
   {
     "name": "Spade Key",
     "type": "toggle",
     "codes": "key_spade",
-    "img": "images/items/key_spade.png"
+    "img": "images/keys/key_spade.png"
   },
   {
     "name": "Club Key",
     "type": "toggle",
     "codes": "key_club",
-    "img": "images/items/key_club.png"
+    "img": "images/keys/key_club.png"
   },
   {
     "name": "Diamond Key",
     "type": "toggle",
     "codes": "key_diamond",
-    "img": "images/items/key_diamond.png"
+    "img": "images/keys/key_diamond.png"
   },
 
   //////  Room Keys   //////
@@ -100,301 +100,301 @@
     "name": "Parlor Key",
     "type": "toggle",
     "codes": "key_parlor",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_parlor.png"
   },
   {
     "name": "Anteroom Key",
     "type": "toggle",
     "codes": "key_anteroom",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_anteroom.png"
   },
   {
     "name": "Wardrobe Key",
     "type": "toggle",
     "codes": "key_wardrobe",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "Family Hallway Key",
     "type": "toggle",
     "codes": "key_famhall",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
     {
     "name": "Master Bedroom Key",
     "type": "toggle",
     "codes": "key_Masterbed",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_master_bedroom.png"
   },
   {
     "name": "Nursery Key",
     "type": "toggle",
     "codes": "key_nursery",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_nursery.png"
   },
   {
     "name": "Twins Bedroom Key",
     "type": "toggle",
     "codes": "key_twin",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_twins.png"
   },
   {
     "name": "Ballroom Key",
     "type": "toggle",
     "codes": "key_ballroom",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_ballroom.png"
   },
   {
     "name": "Storage Room Key",
     "type": "toggle",
     "codes": "key_storage",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_storage.png"
   },
   {
     "name": "Fortune Teller Key",
     "type": "toggle",
     "codes": "key_fortune",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_fortune_teller.png"
   },
   {
     "name": "Laundry Key",
     "type": "toggle",
     "codes": "key_laundry",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_laundry.png"
   },
   {
     "name": "Lower 2F Stairwell Key",
     "type": "toggle",
     "codes": "key_lower2f",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_lower_2f_stairwell.png"
   },
   {
     "name": "Conservatory Key",
     "type": "toggle",
     "codes": "key_conservatory",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_conservatory.png"
   },
   {
     "name": "Dining Room Key",
     "type": "toggle",
     "codes": "key_dining",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_dining_room.png"
   },
   {
     "name": "North Rec Room Key",
     "type": "toggle",
     "codes": "key_northrec",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_north_rec_room.png"
   },
   {
     "name": "Billiards Key",
     "type": "toggle",
     "codes": "key_billiards",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_billiards.png"
   },
   {
     "name": "Safari Key",
     "type": "toggle",
     "codes": "key_safari",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_safari.png"
   },
   {
     "name": "Balcony Key",
     "type": "toggle",
     "codes": "key_balcony",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_balcony.png"
   },
   {
     "name": "Cellar Key",
     "type": "toggle",
     "codes": "key_Cellar",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_cellar.png"
   },
   {
     "name": "Clockwork Key",
     "type": "toggle",
     "codes": "key_clockwork",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_clockwork.png"
   },
   {
     "name": "Armory Key",
     "type": "toggle",
     "codes": "key_armory",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_armory.png"
   },
   {
     "name": "Sitting Room Key",
     "type": "toggle",
     "codes": "key_sitting",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_sitting_room.png"
   },
   {
     "name": "Pipe Room Key",
     "type": "toggle",
     "codes": "key_pipe",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_pipe_room.png"
   },
   {
     "name": "Cold Storage Key",
     "type": "toggle",
     "codes": "key_cold",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_cold_storage.png"
   },
   {
     "name": "Artist's Studio Key",
     "type": "toggle",
     "codes": "key_artist",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_art_studio.png"
   },
   {
     "name": "Wardrobe Balcony Key",
     "type": "toggle",
     "codes": "key_wardrobebalcony",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "Study Key",
     "type": "toggle",
     "codes": "key_study",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_study.png"
   },
   {
     "name": "Basement Stairwell Key",
     "type": "toggle",
     "codes": "key_basementstair",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "1F Bathroom Key",
     "type": "toggle",
     "codes": "key_1fbath",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "1F Washroom Key",
     "type": "toggle",
     "codes": "key_1fwash",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "Kitchen Key",
     "type": "toggle",
     "codes": "key_kitchen",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "Boneyard Key",
     "type": "toggle",
     "codes": "key_boneyard",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_bone_yard.png"
   },
   {
     "name": "Projection Room Key",
     "type": "toggle",
     "codes": "key_projection",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "Mirror Room Key",
     "type": "toggle",
     "codes": "key_mirror",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_mirror_room.png"
   },
   {
     "name": "Butler's Room Key",
     "type": "toggle",
     "codes": "key_butler",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "Tea Room Key",
     "type": "toggle",
     "codes": "key_tea",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "South Rec Room Key",
     "type": "toggle",
     "codes": "key_southrec",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_south_rec_room.png"
   },
   {
     "name": "Upper 2F Stairwell Key",
     "type": "toggle",
     "codes": "key_upper2f",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_upper_2f_stairwell.png"
   },
   {
     "name": "2F Bathroom Key",
     "type": "toggle",
     "codes": "key_2fbath",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "2F Washroom Key",
     "type": "toggle",
     "codes": "key_2fwash",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "Nana's Room Key",
     "type": "toggle",
     "codes": "key_nana",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "Astral Hall Key",
     "type": "toggle",
     "codes": "key_astral",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "Observatory Key",
     "type": "toggle",
     "codes": "key_observatory",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "Guest Room Key",
     "type": "toggle",
     "codes": "key_guest",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "East Attic Hallway Key",
     "type": "toggle",
     "codes": "key_eastattic",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "Telephone Room Key",
     "type": "toggle",
     "codes": "key_telephone",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "Ceramics Studio Key",
     "type": "toggle",
     "codes": "key_ceramics",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "Breaker Room Key",
     "type": "toggle",
     "codes": "key_breaker",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_breaker.png"
   },
   {
     "name": "Basement Hallway Key",
     "type": "toggle",
     "codes": "key_basehall",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   {
     "name": "Spade Hallway Key",
     "type": "toggle",
     "codes": "key_spadehall",
-    "img": "images/items/key_small.png"
+    "img": "images/keys/key_small.png"
   },
   
 
