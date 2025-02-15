@@ -15,15 +15,6 @@
           "content": [
             {
               "type": "group",
-              "header": "Ghosts",
-              "dock": "top",
-              "content": {
-                "type": "layout",
-                "key": "ghosts"
-              }
-            },
-            {
-              "type": "group",
               "header": "Keys",
               "dock": "top",
               "content": {
