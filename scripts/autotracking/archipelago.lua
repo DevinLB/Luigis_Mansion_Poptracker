@@ -32,9 +32,9 @@ function dump_table(o, depth)
 end
 
 function onClear(slot_data)
-    -- print(dump_table(slot_data))
-    -- SLOT_DATA = slot_data
-    -- CUR_INDEX = -1
+    print(dump_table(slot_data))
+    SLOT_DATA = slot_data
+    CUR_INDEX = -1
     -- reset locations
     -- for _, v in pairs(LOCATION_MAPPING) do
     --     if v[1] then
