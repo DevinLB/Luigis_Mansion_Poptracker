@@ -1,4 +1,4 @@
-[//=-=-=-=-=-=-=-=-=-=-= Floor 1 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[ //=-=-=-=-=-=-=-=-=-=-= Floor 1 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   {
     //floor name
     "name": "Floor 1",
@@ -6,8 +6,7 @@
       {
         //rooms
         "name": "Foyer",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -71,9 +70,7 @@
       {
         //rooms
         "name": "1F Hallway",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -131,9 +128,7 @@
       {
         //rooms
         "name": "Laundry Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -197,9 +192,7 @@
       {
         //rooms
         "name": "Butler's Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -208,91 +201,78 @@
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Stool (candle on Top)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Stool (near Sewing Machine)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Stool (middle table, R)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Stool (middle table, C)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Stool (close to Left Wall)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Mop Bucket",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Toilet Paper (near Hidden Room)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Toilet Paper (near Mop n Bucket)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Ceiling Light",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Bucket",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Cabinet",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Ironing Board",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Sewing Machine",
             "chest_unopened_img": "images/minor checks/chest_red.png",
@@ -312,67 +292,65 @@
       {
         //rooms
         "name": "Hidden Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
-            "name":"Hidden Room R Trophy",
+            "name": "Hidden Room R Trophy",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room L Trophy",
+            "name": "Hidden Room L Trophy",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room R Candlestick",
+            "name": "Hidden Room R Candlestick",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room L Candlestick",
+            "name": "Hidden Room L Candlestick",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room Chandelier",
+            "name": "Hidden Room Chandelier",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room Painting Middle C",
+            "name": "Hidden Room Painting Middle C",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room Painting R",
+            "name": "Hidden Room Painting R",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room Painting L",
+            "name": "Hidden Room Painting L",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room Painting Middle L",
+            "name": "Hidden Room Painting Middle L",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room Painting Middle R",
+            "name": "Hidden Room Painting Middle R",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
@@ -390,9 +368,7 @@
       {
         //rooms
         "name": "Fortune Teller's Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -456,48 +432,46 @@
       {
         //rooms
         "name": "Mirror Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
-          { 
+          {
             "name": "Mirror Room Drawer",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          { 
+          {
             "name": "Mirror Room Brazier",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          { 
+          {
             "name": "Mirror Room West Candlestick",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          { 
+          {
             "name": "Mirror Room East Candlestick",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          { 
+          {
             "name": "Mirror Room West Chandelier",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          { 
+          {
             "name": "Mirror Room East Chandelier",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          { 
+          {
             "name": "Mirror Room Picture",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
@@ -516,90 +490,88 @@
       {
         //rooms
         "name": "Dining Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
-          {  
+          {
             "name": "Dining Room L Chair",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room R Chair",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room R China Hutch",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room L Brazier",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room R Brazier",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room Picture",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room Table",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room Table Mess L (furthest Left)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room Table Mess L (near Luggs)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room Table Mess R (near Candles)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room Table Mess R",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room Table Mess L (underneath Table)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room R Candles and Plates",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room L Candles",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
@@ -618,9 +590,7 @@
       {
         //rooms
         "name": "Kitchen",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -690,9 +660,7 @@
       {
         //rooms
         "name": "Boneyard",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -726,9 +694,7 @@
       {
         //rooms
         "name": "Graveyard", //DOUBLE CHECK
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -792,9 +758,7 @@
       {
         //rooms
         "name": "Ballroom",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -852,9 +816,7 @@
       {
         //rooms
         "name": "Storage Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -936,9 +898,7 @@
       {
         //rooms
         "name": "Conservatory",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1068,9 +1028,7 @@
       {
         //rooms
         "name": "Billiards Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1176,9 +1134,7 @@
       {
         //rooms
         "name": "Projection Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1242,9 +1198,7 @@
       {
         //rooms
         "name": "1F Washroom",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1308,9 +1262,7 @@
       {
         //rooms
         "name": "1F Bathroom",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1344,9 +1296,7 @@
       {
         //rooms
         "name": "Courtyard",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1398,9 +1348,7 @@
       {
         //rooms
         "name": "Rec Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1487,9 +1435,7 @@
       }
     ]
   },
-
-//=-=-=-=-=-=-=-=-=-=-= Floor 2 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
+  //=-=-=-=-=-=-=-=-=-=-= Floor 2 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   {
     //floor name
     "name": "Floor 2",
@@ -1497,8 +1443,7 @@
       {
         //rooms
         "name": "Parlor",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1616,8 +1561,7 @@
       {
         //rooms
         "name": "Anteroom",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1663,8 +1607,7 @@
       {
         //rooms
         "name": "Wardrobe",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1758,8 +1701,7 @@
       {
         //rooms
         "name": "Study",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1889,8 +1831,7 @@
       {
         //rooms
         "name": "Master Bedroom",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1966,8 +1907,7 @@
       {
         //rooms
         "name": "Nursery",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2055,8 +1995,7 @@
       {
         //rooms
         "name": "Twins' Room",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2144,8 +2083,7 @@
       {
         //rooms
         "name": "2F Stairwell",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2167,8 +2105,7 @@
       {
         //rooms
         "name": "2F Rear Hallway",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2226,8 +2163,7 @@
       {
         //rooms
         "name": "Tea Room",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2351,8 +2287,7 @@
       {
         //rooms
         "name": "2F Washroom",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2416,8 +2351,7 @@
       {
         //rooms
         "name": "2F Bathroom",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2445,8 +2379,7 @@
       {
         //rooms
         "name": "Nana's Room",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2540,8 +2473,7 @@
       {
         //rooms
         "name": "Astral Hall",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2605,8 +2537,7 @@
       {
         //rooms
         "name": "Observatory",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2634,8 +2565,7 @@
       {
         //rooms
         "name": "Sitting Room",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2687,8 +2617,7 @@
       {
         //rooms
         "name": "Guest Room",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2734,8 +2663,7 @@
       {
         //rooms
         "name": "Sealed Room",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2834,11 +2762,7 @@
       }
     ]
   },
-
-
-//=-=-=-=-=-=-=-=-=-=-= Floor 3 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
-
+  //=-=-=-=-=-=-=-=-=-=-= Floor 3 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   {
     //floor name
     "name": "Floor 3",
@@ -2846,8 +2770,7 @@
       {
         //rooms
         "name": "3F Stairwell",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2869,8 +2792,7 @@
       {
         //rooms
         "name": "Safari Room",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2934,8 +2856,7 @@
       {
         //rooms
         "name": "Artist's Studio",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -2987,8 +2908,7 @@
       {
         //rooms
         "name": "Balcony",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -3028,8 +2948,7 @@
       {
         //rooms
         "name": "Armory",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -3111,8 +3030,7 @@
       {
         //rooms
         "name": "Ceramics Studio",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -3212,8 +3130,7 @@
       {
         //rooms
         "name": "Telephone Room",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -3283,8 +3200,7 @@
       {
         //rooms
         "name": "Clockwork Room",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -3377,11 +3293,7 @@
       }
     ]
   },
-
-
-//=-=-=-=-=-=-=-=-=-=-= Roof -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
-
+  //=-=-=-=-=-=-=-=-=-=-= Roof -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   {
     //floor name
     "name": "Roof",
@@ -3389,8 +3301,7 @@
       {
         //rooms
         "name": "Roof",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -3483,11 +3394,7 @@
       }
     ]
   },
-
-
-//=-=-=-=-=-=-=-=-=-=-= Basement -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
-
+  //=-=-=-=-=-=-=-=-=-=-= Basement -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   {
     //floor name
     "name": "Basement",
@@ -3495,8 +3402,7 @@
       {
         //rooms
         "name": "Basement Stairwell",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -3524,8 +3430,7 @@
       {
         //rooms
         "name": "Breaker Room",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -3625,8 +3530,7 @@
       {
         //rooms
         "name": "Cellar",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -3726,8 +3630,7 @@
       {
         //rooms
         "name": "Cold Storage",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -3791,8 +3694,7 @@
       {
         //rooms
         "name": "Pipe Room",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -3826,8 +3728,7 @@
       {
         //rooms
         "name": "Secret Altar",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
