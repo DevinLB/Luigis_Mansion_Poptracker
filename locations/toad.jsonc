@@ -1,54 +1,80 @@
 [
   {
-    "name": "Example Parent",
+    "name": "Toad Locations",
     "children": [
       {
-        "name": "Example Location 1",
-        "access_rules": [
-          //read as: progressive_2 or toggle
-          "progressive_2",
-          "toggle"
-        ],
+        "name": "Foyer",
+        "access_rules": [],
         "sections": [
           {
-            "name": "Example Section 1",
+            "name": "Foyer Toad",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
             "item_count": 1
-          },
-          {
-            "name": "Example Section 2",
-            "item_count": 3
           }
         ],
         "map_locations": [
           {
-            "map": "map1",
-            "x": 1750,
-            "y": 700
-          },
-          {
-            "map": "map2",
-            "x": 1000,
-            "y": 500
+            "map": "f1",
+            "x": 0,
+            "y": 0
           }
         ]
       },
       {
-        "name": "Example Location 2",
-        "access_rules": [
-          //read as: progressive_toggle_2 and has more than 4 consumable
-          "progressive_toggle_2, $has_more_then_n_consumable|4"
-        ],
+        "name": "Wardrobe",
+        "access_rules": [],
         "sections": [
           {
-            "name": "Example Section 1",
+            "name": "Wardrobe Balcony Toad",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map1",
-            "x": 1500,
-            "y": 400
+            "map": "f2",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "1F Washroom",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "1F Washroom Toad",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Courtyard",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Courtyard Toad",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 0,
+            "y": 0
           }
         ]
       }
