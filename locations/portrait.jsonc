@@ -2,7 +2,7 @@
   //=-=-=-=-=-=-=-=-=-=-= Floor 1 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   {
     //Floors
-    "name": "Floor 1 Portaits",
+    "name": "Floor 1 Portraits",
     "children": [
       {
         //Rooms
@@ -207,7 +207,7 @@
   //=-=-=-=-=-=-=-=-=-=-= Floor 2 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   {
     //Floors
-    "name": "Floor 2 Portaits",
+    "name": "Floor 2 Portraits",
     "children": [
       {
         //Rooms
@@ -390,7 +390,7 @@
   //=-=-=-=-=-=-=-=-=-=-= Floor 3 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   {
     //Floors
-    "name": "Floor 3 Portaits",
+    "name": "Floor 3 Portraits",
     "children": [
       {
         //Rooms
@@ -485,7 +485,7 @@
   //=-=-=-=-=-=-=-=-=-=-= Basement -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   {
     //Floors
-    "name": "Basement Portaits",
+    "name": "Basement Portraits",
     "children": [
       {
         //Rooms

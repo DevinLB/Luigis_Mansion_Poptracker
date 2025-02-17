@@ -1,13 +1,13 @@
 [
   {
-    "name": "Speedy Ghost Locations",
+    "name": "Speedy Spirits",
     "children": [
       {
         "name": "Wardrobe",
         "access_rules": [],
         "sections": [
           {
-            "name": "Wardrobe Speedy",
+            "name": "Wardrobe Speedy Spirit",
             "chest_unopened_img": "images/minor checks/speedy.png",
             "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
@@ -27,7 +27,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Study Speedy",
+            "name": "Study Speedy Spirit",
             "chest_unopened_img": "images/minor checks/speedy.png",
             "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
@@ -47,7 +47,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Storage Room Speedy",
+            "name": "Storage Room Speedy Spirit",
             "chest_unopened_img": "images/minor checks/speedy.png",
             "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
@@ -67,7 +67,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Dining Room Speedy",
+            "name": "Dining Room Speedy Spirit",
             "chest_unopened_img": "images/minor checks/speedy.png",
             "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
@@ -87,7 +87,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Kitchen Speedy",
+            "name": "Kitchen Speedy Spirit",
             "chest_unopened_img": "images/minor checks/speedy.png",
             "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
@@ -107,7 +107,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Rec Room Speedy",
+            "name": "Rec Room Speedy Spirit",
             "chest_unopened_img": "images/minor checks/speedy.png",
             "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
@@ -127,7 +127,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Nana's Room Speedy",
+            "name": "Nana's Room Speedy Spirit",
             "chest_unopened_img": "images/minor checks/speedy.png",
             "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
@@ -147,7 +147,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Billiards Room Speedy",
+            "name": "Billiards Room Speedy Spirit",
             "chest_unopened_img": "images/minor checks/speedy.png",
             "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
@@ -167,7 +167,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Twins' Room Speedy",
+            "name": "Twins' Room Speedy Spirit",
             "chest_unopened_img": "images/minor checks/speedy.png",
             "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
@@ -187,7 +187,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Breaker Room Speedy",
+            "name": "Breaker Room Speedy Spirit",
             "chest_unopened_img": "images/minor checks/speedy.png",
             "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
@@ -207,7 +207,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Cellar Speedy",
+            "name": "Cellar Speedy Spirit",
             "chest_unopened_img": "images/minor checks/speedy.png",
             "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
@@ -227,7 +227,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Sealed Room Speedy",
+            "name": "Sealed Room Speedy Spirit",
             "chest_unopened_img": "images/minor checks/speedy.png",
             "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
