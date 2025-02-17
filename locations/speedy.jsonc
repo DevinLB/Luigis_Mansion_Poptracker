@@ -1,54 +1,232 @@
 [
   {
-    "name": "Example Parent",
+    "name": "Speedy Ghost Locations",
     "children": [
       {
-        "name": "Example Location 1",
-        "access_rules": [
-          //read as: progressive_2 or toggle
-          "progressive_2",
-          "toggle"
-        ],
+        "name": "Wardrobe",
+        "access_rules": [],
         "sections": [
           {
-            "name": "Example Section 1",
+            "name": "Wardrobe Speedy",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
             "item_count": 1
-          },
-          {
-            "name": "Example Section 2",
-            "item_count": 3
           }
         ],
         "map_locations": [
           {
-            "map": "map1",
-            "x": 1750,
-            "y": 700
-          },
-          {
-            "map": "map2",
-            "x": 1000,
-            "y": 500
+            "map": "f2",
+            "x": 0,
+            "y": 0
           }
         ]
       },
       {
-        "name": "Example Location 2",
-        "access_rules": [
-          //read as: progressive_toggle_2 and has more than 4 consumable
-          "progressive_toggle_2, $has_more_then_n_consumable|4"
-        ],
+        "name": "Study",
+        "access_rules": [],
         "sections": [
           {
-            "name": "Example Section 1",
+            "name": "Study Speedy",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "map1",
-            "x": 1500,
-            "y": 400
+            "map": "f2",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Storage Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Storage Room Speedy",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Dining Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Dining Room Speedy",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Kitchen",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Kitchen Speedy",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Rec Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Rec Room Speedy",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Nana's Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Nana's Room Speedy",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Billiards Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Billiards Room Speedy",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Twins' Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Twins' Room Speedy",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Breaker Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Breaker Room Speedy",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Cellar",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cellar Speedy",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "name": "Sealed Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Sealed Room Speedy",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 0,
+            "y": 0
           }
         ]
       }
