@@ -501,7 +501,7 @@
       },
       {
         //rooms
-        "name": "Nursury",
+        "name": "Nursery",
         "access_rules": [],
         "sections": [
           //chest checks
@@ -841,19 +841,19 @@
         "sections": [
           //chest checks
           {
-            "name": "Armory Gray Chest (left back Wall)",
+            "name": "Armory Gray Chest (left, back Wall)",
             "chest_unopened_img": "images/minor checks/chest_gold.png",
             "chest_opened_img": "images/minor checks/chest_gold_gray.png",
             "item_count": 1
           },
           {
-            "name": "Armory Gray Chest (middle back Wall)",
+            "name": "Armory Gray Chest (middle, back Wall)",
             "chest_unopened_img": "images/minor checks/chest_gold.png",
             "chest_opened_img": "images/minor checks/chest_gold_gray.png",
             "item_count": 1
           },
           {
-            "name": "Armory Gray Chest (right back Wall)",
+            "name": "Armory Gray Chest (right, back Wall)",
             "chest_unopened_img": "images/minor checks/chest_gold.png",
             "chest_opened_img": "images/minor checks/chest_gold_gray.png",
             "item_count": 1
