@@ -1,0 +1,1031 @@
+[
+  //=-=-=-=-=-=-=-=-=-=-= Floor 1 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //floor name
+    "name": "Floor 1 Chests",
+    "children": [
+      {
+        //rooms
+        "name": "Foyer",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Ghost Foyer Key",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "500",
+            "y": "740",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Fortune Teller's Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Fortune Teller Candles",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Fortune Teller Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "740",
+            "y": "740",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Mirror Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Mirror Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "900",
+            "y": "740",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Butler's Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Butler Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "120",
+            "y": "740",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Hidden Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Hidden Room Large Chest R",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Hidden Room Small Chest R Shelf",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Hidden Room Small Chest L Floor",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Hidden Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "300",
+            "y": "740",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Laundry Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Laundry Washing Machine",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Laundry Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "130",
+            "y": "625",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Ballroom",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Ballroom Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "920",
+            "y": "540",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Dining Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Dining Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "370",
+            "y": "560",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Kitchen",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Kitchen Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "130",
+            "y": "560",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Graveyard",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Graveyard Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "100",
+            "y": "220",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Conservatory",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Conservatory Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "520",
+            "y": "210",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "1F Washroom",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "1F Washroom Toilet",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "310",
+            "y": "280",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "1F Bathroom",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "1F Bathroom Shelf Key",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "290",
+            "y": "220",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Courtyard",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Courtyard Birdhouse",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Courtyard Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "The Well Key",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "590",
+            "y": "100",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Rec Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Rec Room Treadmill Key",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Rec Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "800",
+            "y": "210",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Billiards Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Billiards Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "300",
+            "y": "430",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Projection Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Projection Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "550",
+            "y": "430",
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Floor 2 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //floor name
+    "name": "Floor 2 Chests",
+    "children": [
+      {
+        //rooms
+        "name": "Study",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Study Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "300",
+            "y": "580",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Master Bedroom",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Master Bedroom Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "120",
+            "y": "580",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Twins' Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Twins' Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "320",
+            "y": "830",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Nursury",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Nursery Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "130",
+            "y": "830",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Parlor",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Parlor Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "550",
+            "y": "580",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Wardrobe",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Wardrobe Shelf Key",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "310",
+            "y": "380",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Tea Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Tea Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "920",
+            "y": "180",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "2F Washroom",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "2F Washroom Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "280",
+            "y": "240",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "2F Bathroom",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "2F Bathroom Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "270",
+            "y": "150",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Nana's Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Nana's Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "570",
+            "y": "150",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Guest Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Guest Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "890",
+            "y": "830",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Sealed Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Sealed Room NW Shelf Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room NE Shelf Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room SW Shelf Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room SE Shelf Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room Table Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room Upper L Big Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room Upper R Big Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "930",
+            "y": "580",
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Floor 3 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //floor name
+    "name": "Floor 3 Chests",
+    "children": [
+      {
+        //rooms
+        "name": "Safari Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Safari Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "950",
+            "y": "650",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Artist's Studio",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Artist's Studio Chest Painting",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "830",
+            "y": "450",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Balcony",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Balcony Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "720",
+            "y": "180",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Armory",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Armory Gray Chest (left back Wall)",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Gray Chest (middle back Wall)",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Gray Chest (right back Wall)",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "200",
+            "y": "600",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Ceramics Studio",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Ceramics Studio Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "200",
+            "y": "450",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Telephone Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Telephone Room R2 Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Telephone Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "590",
+            "y": "600",
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Roof -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //floor name
+    "name": "Roof Chests",
+    "children": [
+      {
+        //rooms
+        "name": "Roof",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Roof Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "roof",
+            "x": "520",
+            "y": "320",
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Basement -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //floor name
+    "name": "Basement Chests",
+    "children": [
+      {
+        //rooms
+        "name": "Breaker Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Breaker Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "450",
+            "y": "650",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Cellar",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Cellar Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "430",
+            "y": "860",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Cold Storage",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Cold Storage Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "180",
+            "y": "860",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Pipe Room",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Pipe Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "180",
+            "y": "680",
+            "size": 16
+          }
+        ]
+      }
+    ]
+  }
+]

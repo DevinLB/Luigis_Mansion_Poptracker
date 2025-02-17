@@ -33,6 +33,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Locations
     Tracker:AddLocations("locations/locations.jsonc")
     Tracker:AddLocations("locations/furniture.jsonc")
+    Tracker:AddLocations("locations/chest.jsonc")
 end
 
 -- Layout
