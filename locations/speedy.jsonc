@@ -8,16 +8,17 @@
         "sections": [
           {
             "name": "Wardrobe Speedy",
-            "chest_unopened_img": "images/ghosts/whirlindas.png",
-            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f2",
-            "x": 0,
-            "y": 0
+            "x": 350,
+            "y": 300,
+            "size": 16
           }
         ]
       },
@@ -27,16 +28,17 @@
         "sections": [
           {
             "name": "Study Speedy",
-            "chest_unopened_img": "images/ghosts/whirlindas.png",
-            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f2",
-            "x": 0,
-            "y": 0
+            "x": 350,
+            "y": 490,
+            "size": 16
           }
         ]
       },
@@ -46,16 +48,17 @@
         "sections": [
           {
             "name": "Storage Room Speedy",
-            "chest_unopened_img": "images/ghosts/whirlindas.png",
-            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f1",
-            "x": 0,
-            "y": 0
+            "x": 1010,
+            "y": 390,
+            "size": 16
           }
         ]
       },
@@ -65,16 +68,17 @@
         "sections": [
           {
             "name": "Dining Room Speedy",
-            "chest_unopened_img": "images/ghosts/whirlindas.png",
-            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f1",
-            "x": 0,
-            "y": 0
+            "x": 370,
+            "y": 500,
+            "size": 16
           }
         ]
       },
@@ -84,16 +88,17 @@
         "sections": [
           {
             "name": "Kitchen Speedy",
-            "chest_unopened_img": "images/ghosts/whirlindas.png",
-            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f1",
-            "x": 0,
-            "y": 0
+            "x": 100,
+            "y": 510,
+            "size": 16
           }
         ]
       },
@@ -103,16 +108,17 @@
         "sections": [
           {
             "name": "Rec Room Speedy",
-            "chest_unopened_img": "images/ghosts/whirlindas.png",
-            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f1",
-            "x": 0,
-            "y": 0
+            "x": 750,
+            "y": 170,
+            "size": 16
           }
         ]
       },
@@ -122,16 +128,17 @@
         "sections": [
           {
             "name": "Nana's Room Speedy",
-            "chest_unopened_img": "images/ghosts/whirlindas.png",
-            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f2",
-            "x": 0,
-            "y": 0
+            "x": 630,
+            "y": 160,
+            "size": 16
           }
         ]
       },
@@ -141,16 +148,17 @@
         "sections": [
           {
             "name": "Billiards Room Speedy",
-            "chest_unopened_img": "images/ghosts/whirlindas.png",
-            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f1",
-            "x": 0,
-            "y": 0
+            "x": 440,
+            "y": 460,
+            "size": 16
           }
         ]
       },
@@ -160,16 +168,17 @@
         "sections": [
           {
             "name": "Twins' Room Speedy",
-            "chest_unopened_img": "images/ghosts/whirlindas.png",
-            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f2",
-            "x": 0,
-            "y": 0
+            "x": 360,
+            "y": 770,
+            "size": 16
           }
         ]
       },
@@ -179,16 +188,17 @@
         "sections": [
           {
             "name": "Breaker Room Speedy",
-            "chest_unopened_img": "images/ghosts/whirlindas.png",
-            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "b1",
-            "x": 0,
-            "y": 0
+            "x": 340,
+            "y": 650,
+            "size": 16
           }
         ]
       },
@@ -198,16 +208,17 @@
         "sections": [
           {
             "name": "Cellar Speedy",
-            "chest_unopened_img": "images/ghosts/whirlindas.png",
-            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "b1",
-            "x": 0,
-            "y": 0
+            "x": 340,
+            "y": 800,
+            "size": 16
           }
         ]
       },
@@ -217,16 +228,17 @@
         "sections": [
           {
             "name": "Sealed Room Speedy",
-            "chest_unopened_img": "images/ghosts/whirlindas.png",
-            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f2",
-            "x": 0,
-            "y": 0
+            "x": 860,
+            "y": 600,
+            "size": 16
           }
         ]
       }

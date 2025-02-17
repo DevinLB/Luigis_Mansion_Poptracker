@@ -12,34 +12,35 @@
           //Plant Checks
           {
             "name": "Courtyard SW Plant",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Courtyard NW Plant",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Courtyard NE Plant",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Courtyard SE Plant",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f1",
-            "x": 0,
-            "y": 0
+            "x": "650",
+            "y": "100",
+            "size": 16
           }
         ]
       }
@@ -58,34 +59,35 @@
           //Plant Checks
           {
             "name": "Wardrobe Balcony Plant R (near Door)",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Balcony Plant L (next to Toad)",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Balcony Plant C",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Balcony Plant L (in Corner)",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f2",
-            "x": 0,
-            "y": 0
+            "x": "160",
+            "y": "370",
+            "size": 16
           }
         ]
       },
@@ -97,16 +99,17 @@
           //Plant Checks
           {
             "name": "Master Bedroom Plant",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f2",
-            "x": 0,
-            "y": 0
+            "x": "40",
+            "y": "480",
+            "size": 16
           }
         ]
       },
@@ -118,16 +121,17 @@
           //Plant Checks
           {
             "name": "Sitting Room Plant",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f2",
-            "x": 0,
-            "y": 0
+            "x": "690",
+            "y": "760",
+            "size": 16
           }
         ]
       },
@@ -139,16 +143,17 @@
           //Plant Checks
           {
             "name": "Guest Room Plant",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f2",
-            "x": 0,
-            "y": 0
+            "x": "1000",
+            "y": "750",
+            "size": 16
           }
         ]
       }
@@ -167,100 +172,101 @@
           //Plant Checks
           {
             "name": "Balcony Plant NW Not Near Bench",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant E Railing",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant NE Near Bench",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant NW Corner Near Bench",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant SW Corner",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant NW Corner",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony West Double Plant",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant Center R",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant 5",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant SE Corner",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant 12",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant 11",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant 13",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant Center L",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant NE Corner",
-            "chest_unopened_img": "images/minor checks/boo1.png",
-            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "chest_unopened_img": "images/minor checks/plant.png",
+            "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f3",
-            "x": 0,
-            "y": 0
+            "x": "780",
+            "y": "180",
+            "size": 16
           }
         ]
       }
