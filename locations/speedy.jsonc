@@ -1,0 +1,247 @@
+[
+  {
+    "name": "Speedy Spirits",
+    "children": [
+      {
+        "name": "Wardrobe",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Wardrobe Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 350,
+            "y": 300,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Study",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Study Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 350,
+            "y": 490,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Storage Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Storage Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 1010,
+            "y": 390,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Dining Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Dining Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 370,
+            "y": 500,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Kitchen",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Kitchen Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 100,
+            "y": 510,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Rec Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Rec Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 750,
+            "y": 170,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Nana's Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Nana's Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 630,
+            "y": 160,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Billiards Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Billiards Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 440,
+            "y": 460,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Twins' Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Twins' Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 360,
+            "y": 770,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Breaker Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Breaker Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": 340,
+            "y": 650,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Cellar",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cellar Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": 340,
+            "y": 800,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Sealed Room",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Sealed Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 860,
+            "y": 600,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  }
+]

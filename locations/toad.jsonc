@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Toad Locations",
+    "children": [
+      {
+        "name": "Foyer",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Foyer Toad",
+            "chest_unopened_img": "images/minor checks/toad.png",
+            "chest_opened_img": "images/minor checks/toad_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 450,
+            "y": 740,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Wardrobe",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Wardrobe Balcony Toad",
+            "chest_unopened_img": "images/minor checks/toad.png",
+            "chest_opened_img": "images/minor checks/toad_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 150,
+            "y": 330,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "1F Washroom",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "1F Washroom Toad",
+            "chest_unopened_img": "images/minor checks/toad.png",
+            "chest_opened_img": "images/minor checks/toad_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 280,
+            "y": 280,
+            "size": 16
+          }
+        ]
+      },
+      {
+        "name": "Courtyard",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Courtyard Toad",
+            "chest_unopened_img": "images/minor checks/toad.png",
+            "chest_opened_img": "images/minor checks/toad_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 920,
+            "y": 90,
+            "size": 16
+          }
+        ]
+      }
+    ]
+  }
+]

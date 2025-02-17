@@ -1,4 +1,5 @@
-[//=-=-=-=-=-=-=-=-=-=-= Floor 1 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[ 
+  //=-=-=-=-=-=-=-=-=-=-= Floor 1 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   {
     //floor name
     "name": "Floor 1",
@@ -6,8 +7,7 @@
       {
         //rooms
         "name": "Foyer",
-        "access_rules": [
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -62,8 +62,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "515",
-            "y": "741",
+            "x": "530",
+            "y": "740",
             "size": 16
           }
         ]
@@ -71,9 +71,7 @@
       {
         //rooms
         "name": "1F Hallway",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -123,7 +121,7 @@
           {
             "map": "f1",
             "x": "675",
-            "y": "467",
+            "y": "470",
             "size": 16
           }
         ]
@@ -131,9 +129,7 @@
       {
         //rooms
         "name": "Laundry Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -188,7 +184,7 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "130",
+            "x": "100",
             "y": "625",
             "size": 16
           }
@@ -197,9 +193,7 @@
       {
         //rooms
         "name": "Butler's Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -208,91 +202,78 @@
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Stool (candle on Top)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Stool (near Sewing Machine)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Stool (middle table, R)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Stool (middle table, C)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Stool (close to Left Wall)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Mop Bucket",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Toilet Paper (near Hidden Room)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Toilet Paper (near Mop n Bucket)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Ceiling Light",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Bucket",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Cabinet",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Ironing Board",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-      
           {
             "name": "Butler's Room Sewing Machine",
             "chest_unopened_img": "images/minor checks/chest_red.png",
@@ -303,8 +284,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "116",
-            "y": "727",
+            "x": "150",
+            "y": "740",
             "size": 16
           }
         ]
@@ -312,67 +293,65 @@
       {
         //rooms
         "name": "Hidden Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
-            "name":"Hidden Room R Trophy",
+            "name": "Hidden Room R Trophy",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room L Trophy",
+            "name": "Hidden Room L Trophy",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room R Candlestick",
+            "name": "Hidden Room R Candlestick",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room L Candlestick",
+            "name": "Hidden Room L Candlestick",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room Chandelier",
+            "name": "Hidden Room Chandelier",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room Painting Middle C",
+            "name": "Hidden Room Painting Middle C",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room Painting R",
+            "name": "Hidden Room Painting R",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room Painting L",
+            "name": "Hidden Room Painting L",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room Painting Middle L",
+            "name": "Hidden Room Painting Middle L",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
           {
-            "name":"Hidden Room Painting Middle R",
+            "name": "Hidden Room Painting Middle R",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
@@ -381,8 +360,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "298",
-            "y": "726",
+            "x": "330",
+            "y": "740",
             "size": 16
           }
         ]
@@ -390,9 +369,7 @@
       {
         //rooms
         "name": "Fortune Teller's Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -447,8 +424,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "735",
-            "y": "725",
+            "x": "770",
+            "y": "740",
             "size": 16
           }
         ]
@@ -456,48 +433,46 @@
       {
         //rooms
         "name": "Mirror Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
-          { 
+          {
             "name": "Mirror Room Drawer",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          { 
+          {
             "name": "Mirror Room Brazier",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          { 
+          {
             "name": "Mirror Room West Candlestick",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          { 
+          {
             "name": "Mirror Room East Candlestick",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          { 
+          {
             "name": "Mirror Room West Chandelier",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          { 
+          {
             "name": "Mirror Room East Chandelier",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          { 
+          {
             "name": "Mirror Room Picture",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
@@ -508,7 +483,7 @@
           {
             "map": "f1",
             "x": "930",
-            "y": "730",
+            "y": "740",
             "size": 16
           }
         ]
@@ -516,90 +491,88 @@
       {
         //rooms
         "name": "Dining Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
-          {  
+          {
             "name": "Dining Room L Chair",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room R Chair",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room R China Hutch",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room L Brazier",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room R Brazier",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room Picture",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room Table",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room Table Mess L (furthest Left)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room Table Mess L (near Luggs)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room Table Mess R (near Candles)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room Table Mess R",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room Table Mess L (underneath Table)",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room R Candles and Plates",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {  
+          {
             "name": "Dining Room L Candles",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
@@ -609,8 +582,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "478",
-            "y": "531",
+            "x": "400",
+            "y": "560",
             "size": 16
           }
         ]
@@ -618,9 +591,7 @@
       {
         //rooms
         "name": "Kitchen",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -681,8 +652,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "165",
-            "y": "545",
+            "x": "160",
+            "y": "560",
             "size": 16
           }
         ]
@@ -690,9 +661,7 @@
       {
         //rooms
         "name": "Boneyard",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -717,8 +686,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "120",
-            "y": "410",
+            "x": "130",
+            "y": "440",
             "size": 16
           }
         ]
@@ -726,9 +695,7 @@
       {
         //rooms
         "name": "Graveyard", //DOUBLE CHECK
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -783,8 +750,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "125",
-            "y": "175",
+            "x": "130",
+            "y": "220",
             "size": 16
           }
         ]
@@ -792,9 +759,7 @@
       {
         //rooms
         "name": "Ballroom",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -843,8 +808,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "860",
-            "y": "530",
+            "x": "950",
+            "y": "540",
             "size": 16
           }
         ]
@@ -852,9 +817,7 @@
       {
         //rooms
         "name": "Storage Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -936,9 +899,7 @@
       {
         //rooms
         "name": "Conservatory",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1059,8 +1020,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "551",
-            "y": "187",
+            "x": "550",
+            "y": "210",
             "size": 16
           }
         ]
@@ -1068,9 +1029,7 @@
       {
         //rooms
         "name": "Billiards Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1167,8 +1126,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "324",
-            "y": "398",
+            "x": "330",
+            "y": "430",
             "size": 16
           }
         ]
@@ -1176,9 +1135,7 @@
       {
         //rooms
         "name": "Projection Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1233,8 +1190,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "547",
-            "y": "401",
+            "x": "580",
+            "y": "430",
             "size": 16
           }
         ]
@@ -1242,9 +1199,7 @@
       {
         //rooms
         "name": "1F Washroom",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1299,8 +1254,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "321",
-            "y": "278",
+            "x": "340",
+            "y": "280",
             "size": 16
           }
         ]
@@ -1308,9 +1263,7 @@
       {
         //rooms
         "name": "1F Bathroom",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1335,8 +1288,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "311",
-            "y": "206",
+            "x": "320",
+            "y": "220",
             "size": 16
           }
         ]
@@ -1344,9 +1297,7 @@
       {
         //rooms
         "name": "Courtyard",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1389,8 +1340,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "618",
-            "y": "96",
+            "x": "620",
+            "y": "100",
             "size": 16
           }
         ]
@@ -1398,9 +1349,7 @@
       {
         //rooms
         "name": "Rec Room",
-        "access_rules": [
-
-        ],
+        "access_rules": [],
         "sections": [
           //furniture checks
           {
@@ -1479,99 +1428,2348 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "800",
-            "y": "200",
+            "x": "830",
+            "y": "210",
             "size": 16
           }
         ]
       }
     ]
   },
-
-//=-=-=-=-=-=-=-=-=-=-= Floor 2 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
+  //=-=-=-=-=-=-=-=-=-=-= Floor 2 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   {
     //floor name
     "name": "Floor 2",
     "children": [
       {
         //rooms
-        "name": "room",
-        "access_rules": [
-
-        ],
+        "name": "Parlor",
+        "access_rules": [],
         "sections": [
           //furniture checks
+          {
+            "name": "Parlor Chair",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor Wine Table",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor Couch",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor Table",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor Chandelier",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor China Cabinet",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor Book Hutch",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor Green Lamp",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor Table Candle",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor West Three Candles",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor East Three Candles",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor End Table",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor Painting L (closer to 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor Painting L (near China Cabinet)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor Center Painting",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor Painting R (near Anteroom Door)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor Painting R (closer to 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
         ],
         "map_locations": [
           {
-            "map": "f1",
-            "x": "0",
-            "y": "0"
+            "map": "f2",
+            "x": "580",
+            "y": "580",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Anteroom",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Anteroom R End Table",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Anteroom C End Table",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Anteroom L End Table",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Anteroom R Chandelier",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Anteroom L Chandelier",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "580",
+            "y": "380",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Wardrobe",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Wardrobe Chandelier",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Shoe Rack",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Hat Stand",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Mirror",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Center Dresser",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Balcony Brazier",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Purple Dress",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Red Dress",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Blue Shirt",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Brown Suit",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Black Shirt",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Green Jacket",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Yellow Dress",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "340",
+            "y": "380",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Study",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Study Lamp",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Hat Rack",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Chandelier",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Bottled Ship",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Desk",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Chair",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Book (on Desk closer to Door)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Book (on Desk closer to Bookshelves)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Painting L (closer to 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Painting L (near Bookshelves)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Painting R (near Bookshelves)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Painting R (closer to 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Bookshelf (far left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Bookshelf (second from left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Bookshelf (third from left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Bookshelf (third from right)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Bookshelf (second from right)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Bookshelf (far right)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Neville's Chair",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "330",
+            "y": "580",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Master Bedroom",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Master Bedroom Bed",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Master Bedroom Dresser",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Master Bedroom Stool",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Lydia's Vanity",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Master Bedroom End Table",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Master Bedroom Ceiling Fan",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Master Bedroom Painting L",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Master Bedroom Painting R (near Window)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Master Bedroom Painting R (closer to 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Master Bedroom Lamp",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "150",
+            "y": "580",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Nursery",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Nursery Vase",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Chauncey's Crib",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nursery Heart Dresser",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nursery Chair L",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nursery Chair R",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nursery Table",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nursery Toy Blocks R (closer to Door)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nursery Toy Blocks R (closer to 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nursery Wall Picture",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nursery Picture R (closer to Door)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nursery Picture R (closer to 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nursery Ceiling Lamp",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "160",
+            "y": "830",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Twins' Room",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Twins' Room Tennis Rackets",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Twins' Room Dartboard",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Twins' Room Star Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Twins' Room Toy Train",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Twins' Room Toy Car",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Twins' Room Desk",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Twins' Room Picture L (farthest from Globe)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Twins' Room Picture L (closest to Globe)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Twins' Room Chair L (closest to 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Twins' Room Chair L (farthest from Desk)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Twins' Room Toy Truck",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Twins' Room Dresser",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "350",
+            "y": "830",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "2F Stairwell",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "2F Stairwell Ceiling Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "900",
+            "y": "250",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "2F Rear Hallway",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "2F Rear Hallway Picture",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Rear Hallway Vase L",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Rear Hallway Vase R",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Rear Hallway Vase 3",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Rear Hallway Vase 4",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Rear Hallway Vase 5",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Rear Hallway Vase 6",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "675",
+            "y": "260",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Tea Room",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Tea Room Ice Bucket",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room L Tea Set",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room R Tea Set",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room Chair (left table, left side near Door)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room Chair (left table, right side near Door)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room Chair (right table, left side near Door)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room Chair (right table, right side near Door)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room Chair (right table, right side near Window)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room Chair (right table, left side near Window)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room Chair (left table, right side near Window)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room Chair (left table, left side near Window)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room L Stored China",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room R Stored China",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room L Drawers",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room R Drawers",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room Chandelier",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room Tea Box",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room L Candlestick",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "950",
+            "y": "180",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "2F Washroom",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "2F Washroom Water Tank (above Toilet)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Washroom Mirror",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Washroom Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Washroom Radiator",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Washroom Picture",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Washroom Toilet Paper",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Washroom Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Washroom Sink",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "310",
+            "y": "240",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "2F Bathroom",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Petunia's Bathtub",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Bathroom Sink",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "300",
+            "y": "150",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Nana's Room",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Nana's Room Spinning Wheel",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nana's Room Sewing Machine",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nana's Room Dresser",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nana's Room Loveseat",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nana's Room Chair",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nana's Room Coffee Table",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nana's Room Chandelier",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nana's Room Books",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nana's Room Shelf Photos",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nana's Room Shelf Clock",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nana's Room Shelf Pots",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nana's Room Painting",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nana's Yarn Balls",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "600",
+            "y": "150",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Astral Hall",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Astral Hall Right Dresser",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Astral Hall Left Dresser",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Astral Hall Chandelier",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Astral Hall North Candlabra",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Astral Hall East Candlabra",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Astral Hall West Candlabra",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Astral Hall SW Candlabra",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Astral Hall SE Candlabra",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "860",
+            "y": "380",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Observatory",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Observatory Dresser",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Observatory Chair",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "950",
+            "y": "380",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Sitting Room",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Sitting Room Hat Stand",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sitting Room Water Pot",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sitting Room Couch",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sitting Room Chair",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sitting Room Table",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sitting Room Picture",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "800",
+            "y": "830",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Guest Room",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Guest Room Chair",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sue Pea's Bed",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Guest Room Vanity",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Guest Room End Table",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Guest Room Painting",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "920",
+            "y": "830",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Sealed Room",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Sealed Room Chandelier",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room Mirror",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room Picture",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room Table",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room L Plate",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room R Plate",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room L Mantle Candles",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room R Mantle Candles",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room L Table Candles",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room R Table Candles",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room L Trophy",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room R Rear Trophy",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room R Middle Trophy",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room R Front Trophy",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "960",
+            "y": "580",
+            "size": 16
           }
         ]
       }
     ]
   },
-
-
-//=-=-=-=-=-=-=-=-=-=-= Floor 3 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
-
+  //=-=-=-=-=-=-=-=-=-=-= Floor 3 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   {
     //floor name
     "name": "Floor 3",
     "children": [
       {
         //rooms
-        "name": "room",
-        "access_rules": [
-
-        ],
+        "name": "3F Stairwell",
+        "access_rules": [],
         "sections": [
           //furniture checks
+          {
+            "name": "3F Stairwell Ceiling Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "950",
+            "y": "530",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Safari Room",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Safari Room Chair",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Safari Room Top Boxes",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Safari Room Bottom Boxes",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Safari Room L Ceiling Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Safari Room R Ceiling Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Safari Room L Deer Head",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Safari Room R Deer Head",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Safari Room Leopard Chest Box",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "980",
+            "y": "650",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Artist's Studio",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Artist's Studio Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Artist's Studio Stools",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Artist's Studio Art Supply Shelves",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Artist's Studio Biff Bust",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Artist's Studio Brick Pile",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Artist's Studio Art Piece Shelves",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "860",
+            "y": "450",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Balcony",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Balcony West Bench",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Balcony East Bench",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Balcony West Statue",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Balcony East Statue",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "750",
+            "y": "180",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Armory",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Armory Armor Suit R (top)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Armor Suit (middle, right)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Armor Suit (middle, left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Armor Suit (middle, second from left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Armor Suit L (right side)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Ceiling Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Wall Shield",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Crates (near Ceramics Door)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Crates (front left corner)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Crates (middle left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Crates (back left corner)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "230",
+            "y": "600",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Ceramics Studio",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Ceramics Studio Chair",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ceramics Studio Ceiling Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ceramics Studio Ice Vase",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ceramics Studio Boxes (top, back Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ceramics Studio Boxes (bottom, back Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ceramics Studio Boxes (left corner near 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ceramics Studio Vase (bottom right)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ceramics Studio Vase (bottom middle)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ceramics Studio Vase (bottom left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ceramics Studio Vase (bottom more left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ceramics Studio Vase (top more left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ceramics Studio Vase (top left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ceramics Studio Vase (top middle)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ceramics Studio Vase (top right)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "230",
+            "y": "450",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Telephone Room",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Telephone Room Table",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Telephone Room Couch",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Telephone Room L Ceiling Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Telephone Room R Ceiling Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Telephone Room R Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Telephone Room L Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Telephone Room C Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Telephone Room L Cabinet",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Telephone Room R Cabinet",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "620",
+            "y": "600",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Clockwork Room",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Clockwork Room R Ceiling Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Clockwork Room L Ceiling Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Clockwork Room R Puppet",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Clockwork Room L Puppet",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Clockwork Room L Chair",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Clockwork Room R Chair",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Clockwork Room C Chair",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Clockwork Room R Stool",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Clockwork Room L Stool",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Clockwork Room Bee-Hat Clocks",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Clockwork Room Woman-Windmill Clocks",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Clockwork Room Cuckoo Clock",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Clockwork Room Table with Head",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "620",
+            "y": "420",
+            "size": 16
+          }
         ]
       }
     ]
   },
-
-
-//=-=-=-=-=-=-=-=-=-=-= Roof -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
-
+  //=-=-=-=-=-=-=-=-=-=-= Roof -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   {
     //floor name
     "name": "Roof",
     "children": [
       {
         //rooms
-        "name": "room",
-        "access_rules": [
-
-        ],
+        "name": "Roof",
+        "access_rules": [],
         "sections": [
           //furniture checks
+          {
+            "name": "Roof Pillar (bottom row, furthest left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Roof Pillar (top row, furthest left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Roof Pillar (bottom row, second from left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Roof Pillar (top row, second from left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Roof Pillar (bottom row, third from left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Roof Pillar (top row, third from left)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Roof Pillar (bottom row, third from right)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Roof Pillar (top row, third from right)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Roof Pillar (bottom row, second from right)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Roof Pillar (top row, second from right)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Roof Pillar (top row, furthest right)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Roof Pillar (bottom row, furthest right)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Roof Campfire",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "roof",
+            "x": "550",
+            "y": "320",
+            "size": 16
+          }
         ]
       }
     ]
   },
-
-
-//=-=-=-=-=-=-=-=-=-=-= Basement -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
-
+  //=-=-=-=-=-=-=-=-=-=-= Basement -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
   {
     //floor name
     "name": "Basement",
     "children": [
       {
         //rooms
-        "name": "room",
-        "access_rules": [
-
-        ],
+        "name": "Basement Stairwell",
+        "access_rules": [],
         "sections": [
           //furniture checks
+          {
+            "name": "Basement Stairwell Wall Lamp",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Basement Stairwell Hanging Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "500",
+            "y": "740",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Breaker Room",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Breaker Room Ceiling Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Breaker Room Metal Drum L",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Breaker Room Metal Drum R",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Breaker Room Barrel (bottom row, closest to back Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Breaker Room Barrel (bottom row, second from back Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Breaker Room Barrel (bottom row, third from back Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Breaker Room Barrel (bottom row, third from 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Breaker Room Barrel (bottom row, second from 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Breaker Room Barrel (bottom row, closest to 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Breaker Room Barrel (top row, closest to 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Breaker Room Barrel (top row, second from 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Breaker Room Barrel (top row, middle)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Breaker Room Barrel (top row, second from back Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Breaker Room Barrel (top row, closest to back Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "480",
+            "y": "650",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Cellar",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Cellar Ceiling Light",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar Crate (along back wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar Center Shelf Boxes",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar Center High Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar Center Middle Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar Center Low Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar Right Shelf Boxes",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar Right High Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar Right Middle Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar Right Low Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar Back Candle",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar Left Candle",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar C Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar R Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "460",
+            "y": "860",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Cold Storage",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Cold Storage Barrel L",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cold Storage Barrel R",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cold Storage Crate (closest to Sir Weston)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cold Storage Crate (closest to 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cold Storage Rear Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cold Storage Front Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cold Storage Gas Burner",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Weston's Camp Gear",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "210",
+            "y": "860",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Pipe Room",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Pipe Room Ice Barrel",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Pipe Room Crate",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Pipe Room Bucket",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "210",
+            "y": "680",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Secret Altar",
+        "access_rules": [],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Secret Altar Brazier (near front, closest to 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Secret Altar Brazier (near front, away from 4th Wall)",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Secret Altar C Chandelier",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Secret Altar L Candles",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Secret Altar R Candles",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "330",
+            "y": "210",
+            "size": 16
+          }
         ]
       }
     ]

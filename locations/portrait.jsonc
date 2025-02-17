@@ -1,0 +1,514 @@
+[
+  //=-=-=-=-=-=-=-=-=-=-= Floor 1 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //Floors
+    "name": "Floor 1 Portraits",
+    "children": [
+      {
+        //Rooms
+        "name": "Ballroom",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "The Floating Whirlindas",
+            "chest_unopened_img": "images/ghosts/whirlindas.png",
+            "chest_opened_img": "images/ghosts/whirlindas_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "920",
+            "y": "510",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Butler's Room",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Shivers, the Wandering Butler",
+            "chest_unopened_img": "images/ghosts/shivers.png",
+            "chest_opened_img": "images/ghosts/shivers_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "120",
+            "y": "710",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Fortune Teller's Room",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Madame Clairvoya, the Freaky Fortune-Teller",
+            "chest_unopened_img": "images/ghosts/clairvoya.png",
+            "chest_opened_img": "images/ghosts/clairvoya_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "740",
+            "y": "710",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Conservatory",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Melody Pianissima, the Beautiful Pianist",
+            "chest_unopened_img": "images/ghosts/melody.png",
+            "chest_opened_img": "images/ghosts/melody_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "520",
+            "y": "180",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Dining Room",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Mr. Luggs, the Glutton",
+            "chest_unopened_img": "images/ghosts/luggs.png",
+            "chest_opened_img": "images/ghosts/luggs_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "370",
+            "y": "530",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Boneyard",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Spooky, the Guard Dog",
+            "chest_unopened_img": "images/ghosts/spooky.png",
+            "chest_opened_img": "images/ghosts/spooky_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "100",
+            "y": "410",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Graveyard",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Bogmire, the Cemetary Shadow",
+            "chest_unopened_img": "images/ghosts/bogmire.png",
+            "chest_opened_img": "images/ghosts/bogmire_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "100",
+            "y": "190",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Rec Room",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Biff Atlas, the Bodybuilder",
+            "chest_unopened_img": "images/ghosts/biff.png",
+            "chest_opened_img": "images/ghosts/biff_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "800",
+            "y": "180",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Billiards Room",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Slim Bankshot, the Lonely Poolshark",
+            "chest_unopened_img": "images/ghosts/slim.png",
+            "chest_opened_img": "images/ghosts/slim_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "300",
+            "y": "400",
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Floor 2 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //Floors
+    "name": "Floor 2 Portraits",
+    "children": [
+      {
+        //Rooms
+        "name": "Study",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Neville, the Bookish Father",
+            "chest_unopened_img": "images/ghosts/neville.png",
+            "chest_opened_img": "images/ghosts/neville_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "300",
+            "y": "550",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Master Bedroom",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Lydia, the Mirror-Gazing Mother",
+            "chest_unopened_img": "images/ghosts/lydia.png",
+            "chest_opened_img": "images/ghosts/lydia_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "120",
+            "y": "550",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Nursery",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Chauncey, the Spoiled Baby",
+            "chest_unopened_img": "images/ghosts/chauncey.png",
+            "chest_opened_img": "images/ghosts/chauncey_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "130",
+            "y": "800",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Twins' Room",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Henry and Orville, the Twin Brothers",
+            "chest_unopened_img": "images/ghosts/twins.png",
+            "chest_opened_img": "images/ghosts/twins_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "320",
+            "y": "800",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "2F Bathroom",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Miss Petunia, the Bathing Beauty",
+            "chest_unopened_img": "images/ghosts/petunia.png",
+            "chest_opened_img": "images/ghosts/petunia_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "270",
+            "y": "120",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Nana's Room",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Nana, the Scarf-Knitting Granny",
+            "chest_unopened_img": "images/ghosts/nana.png",
+            "chest_opened_img": "images/ghosts/nana_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "570",
+            "y": "120",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Guest Room",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Sue Pea, the Dozing Girl",
+            "chest_unopened_img": "images/ghosts/sue.png",
+            "chest_opened_img": "images/ghosts/sue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "890",
+            "y": "800",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Wardrobe",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Uncle Grimmly, Hermit of the Darkness",
+            "chest_unopened_img": "images/ghosts/grimmly.png",
+            "chest_opened_img": "images/ghosts/grimmly_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "310",
+            "y": "350",
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Floor 3 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //Floors
+    "name": "Floor 3 Portraits",
+    "children": [
+      {
+        //Rooms
+        "name": "Balcony",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Boolossus, the Jumbo Ghost",
+            "chest_unopened_img": "images/ghosts/boolossus.png",
+            "chest_opened_img": "images/ghosts/boolossus_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "720",
+            "y": "150",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Ceramics Studio",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Jarvis, the Jar Collector",
+            "chest_unopened_img": "images/ghosts/jarvis.png",
+            "chest_opened_img": "images/ghosts/jarvis_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "200",
+            "y": "420",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Clockwork Room",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Clockwork Soldiers, the Toy Platoon",
+            "chest_unopened_img": "images/ghosts/soldiers.png",
+            "chest_opened_img": "images/ghosts/soldiers_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "590",
+            "y": "390",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Artist's Studio",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Vincent van Gore, the Starving Artist",
+            "chest_unopened_img": "images/ghosts/van_gore.png",
+            "chest_opened_img": "images/ghosts/van_gore_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "830",
+            "y": "420",
+            "size": 16
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Basement -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //Floors
+    "name": "Basement Portraits",
+    "children": [
+      {
+        //Rooms
+        "name": "Cold Storage",
+        "access_rules": [],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Sir Weston, the Chilly Climber",
+            "chest_unopened_img": "images/ghosts/weston.png",
+            "chest_opened_img": "images/ghosts/weston_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "180",
+            "y": "830",
+            "size": 16
+          }
+        ]
+      }
+    ]
+  }
+]

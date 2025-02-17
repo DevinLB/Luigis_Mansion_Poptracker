@@ -596,17 +596,17 @@
       {
         "codes": "object",
         "inherit_codes": false,
-        "img": "images/options/object_shuffle.png"
+        "img": "images/options/furniture_sanity.png"
       },
       {
         "codes": "object_on, object",
         "inherit_codes": false,
-        "img": "images/options/object_shuffle_on.png"
+        "img": "images/options/furniture_sanity_on.png"
       },
       {
         "codes": "object_off, object",
         "inherit_codes": false,
-        "img": "images/options/object_shuffle_off.png"
+        "img": "images/options/furniture_sanity_off.png"
       }
     ]
   },
