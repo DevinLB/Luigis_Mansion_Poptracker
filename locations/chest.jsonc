@@ -655,6 +655,28 @@
       },
       {
         //rooms
+        "name": "Observatory",
+        "access_rules": [],
+        "sections": [
+          //chest checks
+          {
+            "name": "Observatory Mario Star",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "920",
+            "y": "380",
+            "size": 16
+          }
+        ]
+      },
+      {
+        //rooms
         "name": "Guest Room",
         "access_rules": [],
         "sections": [
