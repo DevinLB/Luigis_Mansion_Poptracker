@@ -30,7 +30,12 @@
     "img": "images/items/gb_horror.png"
   },
 
-
+  {
+    "name": "Poltergust 4000",
+    "type": "toggle",
+    "codes": "poltergust",
+    "img": "images/keys/poltergust.png"
+  },
 
   //////   Mario Items   //////
  

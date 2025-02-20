@@ -4,6 +4,66 @@ ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 CUR_INDEX = -1
 SLOT_DATA = nil
 
+parlor = 35
+foyer = 2
+family_hallway = 29
+hallway_1f = 6
+anteroom = 39
+well = 69 -- nice
+wardrobe = 38
+wardrobe_balcony = 37
+study = 34
+master_bedroom = 33
+nursery = 24
+twins = 25
+laundry = 5
+butler = 0
+fortune = 3
+ballroom = 10
+dining = 9
+washroom_1f = 17
+bathroom_1f = 20
+conservatory = 21
+billiards = 12
+basement_stairwell = 65
+projection = 13
+kitchen = 8
+boneyard = 11
+graveyard = 16
+hidden = 1
+storage = 14
+mirror = 4
+rec = 22
+courtyard = 23
+stairwell_2f = 19
+cellar = 63
+breaker = 67
+basement_hallway = 62
+cold = 61
+pipe = 66
+secret_altar = 70
+tea = 47
+nana = 46
+rear_hallway2f = 26
+washroom_2f = 42
+bathroom_2f = 45
+astral = 40
+observatory = 41
+sealed = 36
+sitting = 27
+guest = 28
+safari = 52
+east_attic = 51
+west_attic = 49
+artist = 57
+balcony = 59
+armory = 48
+ceramics = 55
+telephone = 50
+clockwork = 56
+roof = 60
+spade_hallway = 68
+
 function has_value (t, val)
     for i, v in ipairs(t) do
         if v == val then return 1 end
@@ -35,42 +95,42 @@ function onClear(slot_data)
     print(dump_table(slot_data))
     SLOT_DATA = slot_data
     CUR_INDEX = -1
-    -- reset locations
-    -- for _, v in pairs(LOCATION_MAPPING) do
-    --     if v[1] then
-    --         local obj = Tracker:FindObjectForCode(v[1])
-    --         if obj then
-    --             if v[1]:sub(1, 1) == "@" then
-    --                 obj.AvailableChestCount = obj.ChestCount
-    --             else
-    --                 obj.Active = false
-    --             end
-    --         end
-    --     end
-    -- end
-    -- -- reset items
-    -- for _, v in pairs(ITEM_MAPPING) do
-    --     if v[1] and v[2] then
-    --         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-    --             print(string.format("onClear: clearing item %s of type %s", v[1], v[2]))
-    --         end
-    --         local obj = Tracker:FindObjectForCode(v[1])
-    --         if obj then
-    --             if v[2] == "toggle" then
-    --                 obj.Active = false
-    --             elseif v[2] == "progressive" then
-    --                 obj.CurrentStage = 0
-    --                 obj.Active = false
-    --             elseif v[2] == "consumable" then
-    --                 obj.AcquiredCount = 0
-    --             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-    --                 print(string.format("onClear: unknown item type %s for code %s", v[2], v[1]))
-    --             end
-    --         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-    --             print(string.format("onClear: could not find object for code %s", v[1]))
-    --         end
-    --     end
-    -- end
+    --reset locations
+    for _, v in pairs(LOCATION_MAPPING) do
+        if v[1] then
+            local obj = Tracker:FindObjectForCode(v[1])
+            if obj then
+                if v[1]:sub(1, 1) == "@" then
+                    obj.AvailableChestCount = obj.ChestCount
+                else
+                    obj.Active = false
+                end
+            end
+        end
+    end
+    -- reset items
+    for _, v in pairs(ITEM_MAPPING) do
+        if v[1] and v[2] then
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("onClear: clearing item %s of type %s", v[1], v[2]))
+            end
+            local obj = Tracker:FindObjectForCode(v[1])
+            if obj then
+                if v[2] == "toggle" then
+                    obj.Active = false
+                elseif v[2] == "progressive" then
+                    obj.CurrentStage = 0
+                    obj.Active = false
+                elseif v[2] == "consumable" then
+                    obj.AcquiredCount = 0
+                elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                    print(string.format("onClear: unknown item type %s for code %s", v[2], v[1]))
+                end
+            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("onClear: could not find object for code %s", v[1]))
+            end
+        end
+    end
 
     if slot_data == nil  then
         print("welp")
@@ -165,18 +225,8 @@ function onLocation(location_id, location_name)
     end
 end
 
-function onBoo(item_id, item_name)
-    
-    if item_name == "Boo" then
-        local boo_count = Tracker:FindObjectForCode("booCount")
-        if boo_count then
-            boo_count.AcquiredCount = boo_count.AcquiredCount + 1
-        end
-    end
-end
 
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
-Archipelago:AddItemHandler("boo handler", onBoo)
