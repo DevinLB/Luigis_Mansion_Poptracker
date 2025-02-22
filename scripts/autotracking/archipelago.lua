@@ -75,17 +75,15 @@ function onClear(slot_data)
 
     --Door Randomizer Logic
     door_locks = {}
-    if slot_data['door rando'] then
         --organizes and iterates the slot_data doors
-        for k,v in pairs(door_numbers) do
-            door_name = door_names[k]
-            door_slot_data = dump_table(slot_data['door rando list'][v])
-            -- print(k, v, door_slot_data)
-            door_finished = {[door_name] = door_slot_data}
-            table.insert(door_locks, door_finished)
-            -- print(door_names[k])
-            -- print(dump_table(door_locks[k]))
-        end
+    for k,v in pairs(door_numbers) do
+        door_name = door_names[k]
+        door_slot_data = dump_table(slot_data['door rando list'][v])
+        -- print(k, v, door_slot_data)
+        door_finished = {[door_name] = door_slot_data}
+        table.insert(door_locks, door_finished)
+        --Prints out door number, door name, and locked status
+        -- print(v, door_names[k], dump_table(door_locks[k][door_names[k]]))
     end
     -- print(dump_table(door_locks))
 
