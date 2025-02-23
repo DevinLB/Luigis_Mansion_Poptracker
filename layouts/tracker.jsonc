@@ -59,7 +59,7 @@
             {
               "type": "group",
               "header": "Settings",
-              "dock": "right",
+              "dock": "left",
               "content": {
                 "type": "layout",
                 "v_alignment": "stretch",
