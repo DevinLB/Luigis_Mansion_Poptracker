@@ -1,68 +1,9 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/door_rando_tables.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
-
-parlor = 35
-foyer = 2
-family_hallway = 29
-hallway_1f = 6
-anteroom = 39
-well = 69 -- nice
-wardrobe = 38
-wardrobe_balcony = 37
-study = 34
-master_bedroom = 33
-nursery = 24
-twins = 25
-laundry = 5
-butler = 0
-fortune = 3
-ballroom = 10
-dining = 9
-washroom_1f = 17
-bathroom_1f = 20
-conservatory = 21
-billiards = 12
-basement_stairwell = 65
-projection = 13
-kitchen = 8
-boneyard = 11
-graveyard = 16
-hidden = 1
-storage = 14
-mirror = 4
-rec = 22
-courtyard = 23
-stairwell_2f = 19
-cellar = 63
-breaker = 67
-basement_hallway = 62
-cold = 61
-pipe = 66
-secret_altar = 70
-tea = 47
-nana = 46
-rear_hallway2f = 26
-washroom_2f = 42
-bathroom_2f = 45
-astral = 40
-observatory = 41
-sealed = 36
-sitting = 27
-guest = 28
-safari = 52
-east_attic = 51
-west_attic = 49
-artist = 57
-balcony = 59
-armory = 48
-ceramics = 55
-telephone = 50
-clockwork = 56
-roof = 60
-spade_hallway = 68
 
 function has_value (t, val)
     for i, v in ipairs(t) do
@@ -131,6 +72,20 @@ function onClear(slot_data)
             end
         end
     end
+
+    --Door Randomizer Logic
+    door_locks = {}
+        --organizes and iterates the slot_data doors
+    for k,v in pairs(door_numbers) do
+        door_name = door_names[k]
+        door_slot_data = dump_table(slot_data['door rando list'][v])
+        -- print(k, v, door_slot_data)
+        door_finished = {[door_name] = door_slot_data}
+        table.insert(door_locks, door_finished)
+        --Prints out door number, door name, and locked status
+        -- print(v, door_names[k], dump_table(door_locks[k][door_names[k]]))
+    end
+    -- print(dump_table(door_locks))
 
     if slot_data == nil  then
         print("welp")
