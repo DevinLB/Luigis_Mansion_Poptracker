@@ -559,7 +559,7 @@
     "img": "images/mario items/mario_items.png"
   },
   {
-    "name": "Required Boos",
+    "name": "Final Boo Count",
     "type": "consumable",
     "codes": "boo",
     "max_quantity": 50,
@@ -578,17 +578,17 @@
       {
         "codes": "toad",
         "inherit_codes": false,
-        "img": "images/options/toad_shuffle.png"
+        "img": "images/options/toad_sanity.png"
       }, 
       {
         "codes": "toad_on, toad",
         "inherit_codes": false,
-        "img": "images/options/toad_shuffle_on.png"
+        "img": "images/options/toad_sanity_on.png"
       },
       {
         "codes": "toad_off, toad",
         "inherit_codes": false,
-        "img": "images/options/toad_shuffle_off.png"
+        "img": "images/options/toad_sanity_off.png"
       }
     ]
   },
@@ -624,17 +624,17 @@
       {
         "codes": "speedy",
         "inherit_codes": false,
-        "img": "images/options/speedy.png"
+        "img": "images/options/speedy_spirits.png"
       },
       {
         "codes": "speedy_on, speedy",
         "inherit_codes": false,
-        "img": "images/options/speedy_on.png"
+        "img": "images/options/speedy_spirits_on.png"
       },
       {
         "codes": "speedy_off, speedy",
         "inherit_codes": false,
-        "img": "images/options/speedy_off.png"
+        "img": "images/options/speedy_spirits_off.png"
       }
     ]
   },
@@ -647,17 +647,17 @@
       {
         "codes": "plant",
         "inherit_codes": false,
-        "img": "images/options/plant_shuffle.png"
+        "img": "images/options/plant_sanity.png"
       },
       {
         "codes": "plant_on, plant",
         "inherit_codes": false,
-        "img": "images/options/plant_shuffle_on.png"
+        "img": "images/options/plant_sanity_on.png"
       },
       {
         "codes": "plant_on, plant",
         "inherit_codes": false,
-        "img": "images/options/plant_shuffle_off.png"
+        "img": "images/options/plant_sanity_off.png"
       }
     ]
   },
@@ -719,6 +719,120 @@
         "name": "H Rank",
         "inherit_codes": false,
         "img": "images/options/rankh.png"
+      }
+    ]
+  },
+  {
+    "name": "Washroom Boo Count",
+    "type": "consumable",
+    "codes": "washroom_boo",
+    "max_quantity": 50,
+    "initial_quantity": 0,
+    "allow_disabled": false,
+    "overlay_font_size": 55,
+    "overlay_align": "center",
+    "img": "images/options/washroom_boo_count.png"
+  },
+  {
+    "name": "Balcony Boo Count",
+    "type": "consumable",
+    "codes": "balcony_boo",
+    "max_quantity": 50,
+    "initial_quantity": 0,
+    "allow_disabled": false,
+    "overlay_font_size": 55,
+    "overlay_align": "center",
+    "img": "images/options/balcony_boo_count.png"
+  },
+  {
+    "name": "Walk Sanity",
+    "type":"progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages":[
+      {
+        "codes": "walk",
+        "inherit_codes": false,
+        "img": "images/options/walk_sanity.png"
+      },
+      {
+        "codes": "walk_on, walk",
+        "inherit_codes": false,
+        "img": "images/options/walk_sanity_on.png"
+      },
+      {
+        "codes": "walk_off, walk",
+        "inherit_codes": false,
+        "img": "images/options/walk_sanity_off.png"
+      }
+    ]
+  },
+  {
+    "name": "Boo Sanity",
+    "type":"progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages":[
+      {
+        "codes": "boosanity",
+        "inherit_codes": false,
+        "img": "images/options/boo_sanity.png"
+      },
+      {
+        "codes": "boosanity_on, boosanity",
+        "inherit_codes": false,
+        "img": "images/options/boo_sanity_on.png"
+      },
+      {
+        "codes": "boosanity_off, boosanity",
+        "inherit_codes": false,
+        "img": "images/options/boo_sanity_off.png"
+      }
+    ]
+  },
+  {
+    "name": "Light Sanity",
+    "type":"progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages":[
+      {
+        "codes": "light",
+        "inherit_codes": false,
+        "img": "images/options/light_sanity.png"
+      },
+      {
+        "codes": "light_on, light",
+        "inherit_codes": false,
+        "img": "images/options/light_sanity_on.png"
+      },
+      {
+        "codes": "light_off, light",
+        "inherit_codes": false,
+        "img": "images/options/light_sanity_off.png"
+      }
+    ]
+  },
+  {
+    "name": "Portrification",
+    "type":"progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages":[
+      {
+        "codes": "portrait",
+        "inherit_codes": false,
+        "img": "images/options/portrification.png"
+      },
+      {
+        "codes": "portrait_on, portrait",
+        "inherit_codes": false,
+        "img": "images/options/portrification_on.png"
+      },
+      {
+        "codes": "portrait_off, portrait",
+        "inherit_codes": false,
+        "img": "images/options/portrification_off.png"
       }
     ]
   }

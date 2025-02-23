@@ -12,6 +12,14 @@ function has(item, amount)
     end
 end
 
+--counter
+
+function booCount()
+    return Tracker:ProviderCountForCode("booCount")
+end
+
+
+
 -- Room Logic
 
 function canReachParlor()
@@ -71,7 +79,7 @@ function canReachFloor1Bath()
 end
 
 function canReachFloor1Wash()
-    return has("key_1fwash") and canReachFloor1Hall() and onBoo() >= 5 --Fix once washroom boo count gets added
+    return has("key_1fwash") and canReachFloor1Hall() and booCount() >= Tracker:ProviderCountForCode("washroom boo count") --Fix once washroom boo count gets added
 end
 
 function canReachBallRoom()
@@ -187,7 +195,7 @@ function canReachBalcony()
 end
 
 function canReachWestAttic()
-    return has("key_diamond") and canReachBalcony() and onBoo() >= 25 --Update to check for yaml
+    return has("key_diamond") and canReachBalcony() and booCount() >= Tracker:ProviderCountForCode("balcony boo count") --Update to check for yaml
 end
 
 function canReachArmory()
@@ -235,7 +243,7 @@ function canReachSpadeHall()
 end
 
 function canReachAltar()
-    return has("key_spade") and canReachSpadeHall() and onBoo() >= 40 --Update to match yaml
+    return has("key_spade") and canReachSpadeHall() and booCount() >= Tracker:ProviderCountForCode("final boo count") --Update to match yaml
 end
 
 -- Medal Logic
