@@ -117,13 +117,13 @@
     "name": "Wardrobe Key",
     "type": "toggle",
     "codes": "key_wardrobe",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_wardrobe.png"
   },
   {
     "name": "Family Hallway Key",
     "type": "toggle",
     "codes": "key_famhall",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_family_hallway.png"
   },
     {
     "name": "Master Bedroom Key",
@@ -189,7 +189,7 @@
     "name": "North Rec Room Key",
     "type": "toggle",
     "codes": "key_northrec",
-    "img": "images/keys/key_north_rec_room.png"
+    "img": "images/keys/key_north_rec.png"
   },
   {
     "name": "Billiards Key",
@@ -237,7 +237,7 @@
     "name": "Pipe Room Key",
     "type": "toggle",
     "codes": "key_pipe",
-    "img": "images/keys/key_pipe_room.png"
+    "img": "images/keys/key_pipe.png"
   },
   {
     "name": "Cold Storage Key",
@@ -255,7 +255,7 @@
     "name": "Wardrobe Balcony Key",
     "type": "toggle",
     "codes": "key_wardrobebalcony",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_wardrobe_balcony.png"
   },
   {
     "name": "Study Key",
@@ -273,25 +273,25 @@
     "name": "1F Bathroom Key",
     "type": "toggle",
     "codes": "key_1fbath",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_1f_bathroom.png"
   },
   {
     "name": "1F Washroom Key",
     "type": "toggle",
     "codes": "key_1fwash",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_1f_washroom.png"
   },
   {
     "name": "Kitchen Key",
     "type": "toggle",
     "codes": "key_kitchen",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_kitchen.png"
   },
   {
     "name": "Boneyard Key",
     "type": "toggle",
     "codes": "key_boneyard",
-    "img": "images/keys/key_bone_yard.png"
+    "img": "images/keys/key_boneyard.png"
   },
   {
     "name": "Projection Room Key",
@@ -309,19 +309,19 @@
     "name": "Butler's Room Key",
     "type": "toggle",
     "codes": "key_butler",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_butler.png"
   },
   {
     "name": "Tea Room Key",
     "type": "toggle",
     "codes": "key_tea",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_tea.png"
   },
   {
     "name": "South Rec Room Key",
     "type": "toggle",
     "codes": "key_southrec",
-    "img": "images/keys/key_south_rec_room.png"
+    "img": "images/keys/key_south_rec.png"
   },
   {
     "name": "Upper 2F Stairwell Key",
@@ -333,25 +333,25 @@
     "name": "2F Bathroom Key",
     "type": "toggle",
     "codes": "key_2fbath",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_2f_bathroom.png"
   },
   {
     "name": "2F Washroom Key",
     "type": "toggle",
     "codes": "key_2fwash",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_2f_washroom.png"
   },
   {
     "name": "Nana's Room Key",
     "type": "toggle",
     "codes": "key_nana",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_nana.png"
   },
   {
     "name": "Astral Hall Key",
     "type": "toggle",
     "codes": "key_astral",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_astral.png"
   },
   {
     "name": "Observatory Key",
@@ -363,7 +363,7 @@
     "name": "Guest Room Key",
     "type": "toggle",
     "codes": "key_guest",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_guest.png"
   },
   {
     "name": "East Attic Hallway Key",
@@ -375,13 +375,13 @@
     "name": "Telephone Room Key",
     "type": "toggle",
     "codes": "key_telephone",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_telephone.png"
   },
   {
     "name": "Ceramics Studio Key",
     "type": "toggle",
     "codes": "key_ceramics",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_ceramics.png"
   },
   {
     "name": "Breaker Room Key",
@@ -393,18 +393,24 @@
     "name": "Basement Hallway Key",
     "type": "toggle",
     "codes": "key_basehall",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_basement_hallway.png"
+  },
+  {
+    "name": "Basement Stairwell Key",
+    "type": "toggle",
+    "codes": "key_basestair",
+    "img": "images/keys/key_basement_stairwell.png"
   },
   {
     "name": "Spade Hallway Key",
     "type": "toggle",
     "codes": "key_spadehall",
-    "img": "images/keys/key_small.png"
+    "img": "images/keys/key_spade_hallway.png"
   },
   
 
   //////   Ghosts   ////// 
- 
+
   
   {
     "name": "Nevil",
