@@ -98,7 +98,7 @@
         "key_1fwash", "key_mirror", "key_laundry", "key_butler", "key_southrec", "key_northrec", "key_billiards", "key_lower2f"
       ],
       [
-        "key_basehall", "key_breaker", "key_cellar", "key_cold", "key_pipe", "key_spadehall"
+        "key_basestair","key_basehall", "key_breaker", "key_cellar", "key_cold", "key_pipe", "key_spadehall"
       ]
     ]
   }
