@@ -19,15 +19,24 @@ function booCount()
 end
 
 
-
 -- Room Logic
 
+function isDoorOpen(door)
+    local door_locks = {} -- Ensure door_locks is defined
+    local door_status = door_locks[door]
+    if door_status then
+        return false
+    else
+        return true
+    end
+end
+
 function canReachParlor()
-    return has("keyParlor")
+    return has("key_parlor") or isDoorOpen("parlor")
 end
 
 function canReachAnteroom()
-    return has("key_parlor") and has("key_anteroom")
+    return canReachParlor() and has("key_anteroom")
 end
 
 function canReachWardrobe()

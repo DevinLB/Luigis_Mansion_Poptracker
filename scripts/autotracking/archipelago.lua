@@ -83,7 +83,7 @@ function onClear(slot_data)
         door_finished = {[door_name] = door_slot_data}
         table.insert(door_locks, door_finished)
         --Prints out door number, door name, and locked status
-        -- print(v, door_names[k], dump_table(door_locks[k][door_names[k]]))
+        print(v, door_names[k], dump_table(door_locks[k][door_names[k]]))
     end
     -- print(dump_table(door_locks))
 
@@ -116,10 +116,6 @@ function onClear(slot_data)
         local furniture = Tracker:FindObjectForCode('object')
         furniture.CurrentStage = (slot_data['furnisanity'])
     end
-    if slot_data['speedy spirits'] then
-        local spirit = Tracker:FindObjectForCode("speedy")
-        spirit.CurrentStage = (slot_data['speedy spirits'])
-    end
     if slot_data['clairvoya requirement'] then
         local mario = Tracker:FindObjectForCode("mario_items")
         mario.AcquiredCount = (slot_data['clairvoya requirement'])
@@ -127,6 +123,59 @@ function onClear(slot_data)
     if slot_data['toadsanity'] then
         local toad = Tracker:FindObjectForCode("toad")
         toad.CurrentStage = (slot_data['toadsanity'])
+    end
+    if slot_data['speedy spirits'] then
+        local obj = Tracker:FindObjectForCode("speedy")
+        local stage = slot_data['speedy spirits']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        elseif stage == 0 then
+            obj.CurrentStage = 2
+        end
+    end
+    if slot_data['boosanity'] then
+        local obj = Tracker:FindObjectForCode("boosanity")
+        local stage = slot_data['boosanity']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        elseif stage == 0 then
+            obj.CurrentStage = 2
+        end
+    end
+    if slot_data['walksanity'] then
+        local obj = Tracker:FindObjectForCode("walk")
+        local stage = slot_data['walksanity']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        elseif stage == 0 then
+            obj.CurrentStage = 2
+        end
+    end
+    if slot_data['portrait ghosts'] then
+        local obj = Tracker:FindObjectForCode("portrait")
+        local stage = slot_data['portrait ghosts']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        elseif stage == 0 then
+            obj.CurrentStage = 2
+        end
+    end
+    if slot_data['lightsanity'] then
+        local obj = Tracker:FindObjectForCode("light")
+        local stage = slot_data['lightsanity']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        elseif stage == 0 then
+            obj.CurrentStage = 2
+        end
+    end
+    if slot_data['washroom boo count'] then
+        local mario = Tracker:FindObjectForCode("washroom_boo")
+        mario.AcquiredCount = (slot_data['washroom boo count'])
+    end
+    if slot_data['balcony boo count'] then
+        local mario = Tracker:FindObjectForCode("balcony_boo")
+        mario.AcquiredCount = (slot_data['balcony boo count'])
     end
 end
 
