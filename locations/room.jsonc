@@ -11,12 +11,14 @@
           //Room Checks
           {
             "name": "Foyer Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Foyer Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -38,12 +40,14 @@
           //Room Checks
           {
             "name": "1F Hallway Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Hallway Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -65,12 +69,14 @@
           //Room Checks
           {
             "name": "Laundry Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Laundry Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -92,12 +98,14 @@
           //Room Checks
           {
             "name": "Butler's Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Butler's Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -119,12 +127,14 @@
           //Room Checks
           {
             "name": "Hidden Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Hidden Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -146,12 +156,14 @@
           //Room Checks
           {
             "name": "Fortune-Teller's Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Fortune-Teller's Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -173,12 +185,14 @@
           //Room Checks
           {
             "name": "Mirror Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Mirror Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -200,12 +214,14 @@
           //Room Checks
           {
             "name": "Ballroom Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Ballroom Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -227,12 +243,14 @@
           //Room Checks
           {
             "name": "Storage Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Storage Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -254,12 +272,14 @@
           //Room Checks
           {
             "name": "Dining Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Dining Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -281,12 +301,14 @@
           //Room Checks
           {
             "name": "Kitchen Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Kitchen Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -308,12 +330,14 @@
           //Room Checks
           {
             "name": "Boneyard Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Boneyard Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -335,12 +359,14 @@
           //Room Checks
           {
             "name": "Graveyard Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Graveyard Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -362,12 +388,14 @@
           //Room Checks
           {
             "name": "Billiards Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Billiards Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -389,12 +417,14 @@
           //Room Checks
           {
             "name": "Projection Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Projection Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -416,12 +446,14 @@
           //Room Checks
           {
             "name": "Conservatory Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -443,12 +475,14 @@
           //Room Checks
           {
             "name": "1F Washroom Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Washroom Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -470,12 +504,14 @@
           //Room Checks
           {
             "name": "1F Bathroom Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Bathroom Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -497,24 +533,28 @@
           //Room Checks
           {
             "name": "Courtyard Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Courtyard Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Well Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Well Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -536,12 +576,14 @@
           //Room Checks
           {
             "name": "Rec Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Rec Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -570,12 +612,14 @@
           //Room Checks
           {
             "name": "Parlor Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Parlor Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -597,12 +641,14 @@
           //Room Checks
           {
             "name": "Anteroom Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Anteroom Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -624,24 +670,28 @@
           //Room Checks
           {
             "name": "Wardrobe Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Balcony Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Balcony Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -663,12 +713,14 @@
           //Room Checks
           {
             "name": "Family Hallway Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Family Hallway Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -690,12 +742,14 @@
           //Room Checks
           {
             "name": "Study Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -717,12 +771,14 @@
           //Room Checks
           {
             "name": "Master Bedroom Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Master Bedroom Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -744,12 +800,14 @@
           //Room Checks
           {
             "name": "Nursery Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Nursery Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -771,12 +829,14 @@
           //Room Checks
           {
             "name": "Twins' Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Twins' Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -798,12 +858,14 @@
           //Room Checks
           {
             "name": "2F Stairwell Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Stairwell Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -825,12 +887,14 @@
           //Room Checks
           {
             "name": "Tea Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -852,12 +916,14 @@
           //Room Checks
           {
             "name": "2F Rear Hallway Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Rear Hallway Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -879,12 +945,14 @@
           //Room Checks
           {
             "name": "2F Washroom Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Washroom Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -906,12 +974,14 @@
           //Room Checks
           {
             "name": "2F Bathroom Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Bathroom Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -933,12 +1003,14 @@
           //Room Checks
           {
             "name": "Nana's Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Nana's Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -960,12 +1032,14 @@
           //Room Checks
           {
             "name": "Sitting Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Sitting Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -987,12 +1061,14 @@
           //Room Checks
           {
             "name": "Astral Hall Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Astral Hall Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1014,6 +1090,7 @@
           //Room Checks
           {
             "name": "Observatory Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1035,12 +1112,14 @@
           //Room Checks
           {
             "name": "Guest Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Guest Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1062,12 +1141,14 @@
           //Room Checks
           {
             "name": "Sealed Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Sealed Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1096,6 +1177,7 @@
           //Room Checks
           {
             "name": "2F - Attic Stairwell Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1117,12 +1199,14 @@
           //Room Checks
           {
             "name": "Safari Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Safari Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1144,12 +1228,14 @@
           //Room Checks
           {
             "name": "East Attic Hallway Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "East Attic Hallway Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1171,12 +1257,14 @@
           //Room Checks
           {
             "name": "Artist's Studio Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Artist's Studio Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1198,12 +1286,14 @@
           //Room Checks
           {
             "name": "Balcony Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1225,12 +1315,14 @@
           //Room Checks
           {
             "name": "West Attic Hallway Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "West Attic Hallway Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1252,12 +1344,14 @@
           //Room Checks
           {
             "name": "Armory Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1279,12 +1373,14 @@
           //Room Checks
           {
             "name": "Ceramics Studio Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Ceramics Studio Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1306,12 +1402,14 @@
           //Room Checks
           {
             "name": "Telephone Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Telephone Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1333,12 +1431,14 @@
           //Room Checks
           {
             "name": "Clockwork Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Clockwork Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1367,12 +1467,14 @@
           //Room Checks
           {
             "name": "Roof Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Roof Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1401,12 +1503,14 @@
           //Room Checks
           {
             "name": "Basement Stairwell Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Basement Stairwell Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1428,12 +1532,14 @@
           //Room Checks
           {
             "name": "Breaker Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Breaker Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1455,12 +1561,14 @@
           //Room Checks
           {
             "name": "Cellar Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Cellar Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1482,6 +1590,7 @@
           //Room Checks
           {
             "name": "Basement Hallway Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1503,12 +1612,14 @@
           //Room Checks
           {
             "name": "Pipe Room Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Pipe Room Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1530,12 +1641,14 @@
           //Room Checks
           {
             "name": "Cold Storage Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
           },
           {
             "name": "Cold Storage Light On",
+            "visibility_rules": "lightsanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -1557,6 +1670,7 @@
           //Room Checks
           {
             "name": "Spade Hallway Visited",
+            "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1

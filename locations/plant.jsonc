@@ -3,6 +3,7 @@
   {
     //Floors
     "name": "Floor 1 Plants",
+    "visibility_rules": "plantsanity_on",
     "children": [
       {
         //Rooms
@@ -50,6 +51,7 @@
   {
     //Floors
     "name": "Floor 2 Plants",
+    "visibility_rules": "plantsanity_on",
     "children": [
       {
         //Rooms
@@ -163,6 +165,7 @@
   {
     //Floors
     "name": "Floor 3 Plants",
+    "visibility_rules": "plantsanity_on",
     "children": [
       {
         //Rooms

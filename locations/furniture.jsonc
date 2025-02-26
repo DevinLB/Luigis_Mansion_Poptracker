@@ -3,6 +3,7 @@
   {
     //floor name
     "name": "Floor 1",
+    "visibility_rules": "furnisanity_on",
     "children": [
       {
         //rooms
@@ -1440,6 +1441,7 @@
   {
     //floor name
     "name": "Floor 2",
+    "visibility_rules": "furnisanity_on",
     "children": [
       {
         //rooms
@@ -2761,6 +2763,7 @@
   {
     //floor name
     "name": "Floor 3",
+    "visibility_rules": "furnisanity_on",
     "children": [
       {
         //rooms
@@ -3292,6 +3295,7 @@
   {
     //floor name
     "name": "Roof",
+    "visibility_rules": "furnisanity_on",
     "children": [
       {
         //rooms
@@ -3393,6 +3397,7 @@
   {
     //floor name
     "name": "Basement",
+    "visibility_rules": "furnisanity_on",
     "children": [
       {
         //rooms

@@ -3,6 +3,7 @@
   {
     //Floor
     "name": "Floor 1 Boos",
+    "visibility_rules": "boosanity_on",
     "children": [
       {
         //Rooms
@@ -296,6 +297,7 @@
   {
     //Floor
     "name": "Floor 2 Boos",
+    "visibility_rules": "boosanity_on",
     "children": [
       {
         //Rooms
@@ -567,6 +569,7 @@
   {
     //Floor
     "name": "Floor 3 Boos",
+    "visibility_rules": "boosanity_on",
     "children": [
       {
         //Rooms
@@ -811,6 +814,7 @@
   {
     //Floor
     "name": "Basement Boos",
+    "visibility_rules": "boosanity_on",
     "children": [
       {
         //Rooms

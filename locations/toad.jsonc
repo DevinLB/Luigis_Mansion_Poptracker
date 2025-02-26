@@ -1,6 +1,7 @@
 [
   {
     "name": "Toad Locations",
+    "visibility_rules": "toadsanity_on",
     "children": [
       {
         "name": "Foyer",
