@@ -1,6 +1,7 @@
 [
   {
     "name": "Speedy Spirits",
+    "visibility_rules": "speedy_spirits_on",
     "children": [
       {
         "name": "Wardrobe",

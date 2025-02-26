@@ -3,6 +3,7 @@
   {
     //Floors
     "name": "Floor 1 Portraits",
+    "visibility_rules": "portrification_on",
     "children": [
       {
         //Rooms
@@ -208,6 +209,7 @@
   {
     //Floors
     "name": "Floor 2 Portraits",
+    "visibility_rules": "portrification_on",
     "children": [
       {
         //Rooms
@@ -391,6 +393,7 @@
   {
     //Floors
     "name": "Floor 3 Portraits",
+    "visibility_rules": "portrification_on",
     "children": [
       {
         //Rooms
@@ -486,6 +489,7 @@
   {
     //Floors
     "name": "Basement Portraits",
+    "visibility_rules": "portrification_on",
     "children": [
       {
         //Rooms

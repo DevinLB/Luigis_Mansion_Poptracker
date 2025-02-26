@@ -582,17 +582,17 @@
     "loop": true,
     "stages": [
       {
-        "codes": "toad",
+        "codes": "toadsanity",
         "inherit_codes": false,
         "img": "images/options/toad_sanity.png"
       }, 
       {
-        "codes": "toad_on, toad",
+        "codes": "toadsanity_on, toadsanity",
         "inherit_codes": false,
         "img": "images/options/toad_sanity_on.png"
       },
       {
-        "codes": "toad_off, toad",
+        "codes": "toadsanity_off, toadsanity",
         "inherit_codes": false,
         "img": "images/options/toad_sanity_off.png"
       }
@@ -605,17 +605,17 @@
     "loop": true,
     "stages": [
       {
-        "codes": "object",
+        "codes": "furnisanity",
         "inherit_codes": false,
         "img": "images/options/furniture_sanity.png"
       },
       {
-        "codes": "object_on, object",
+        "codes": "furnisanity_on, furnisanity",
         "inherit_codes": false,
         "img": "images/options/furniture_sanity_on.png"
       },
       {
-        "codes": "object_off, object",
+        "codes": "furnisanity_off, furnisanity",
         "inherit_codes": false,
         "img": "images/options/furniture_sanity_off.png"
       }
@@ -628,17 +628,17 @@
     "loop": true,
     "stages": [
       {
-        "codes": "speedy",
+        "codes": "speedy_spirits",
         "inherit_codes": false,
         "img": "images/options/speedy_spirits.png"
       },
       {
-        "codes": "speedy_on, speedy",
+        "codes": "speedy_spirits_on, speedy_spirits",
         "inherit_codes": false,
         "img": "images/options/speedy_spirits_on.png"
       },
       {
-        "codes": "speedy_off, speedy",
+        "codes": "speedy_spirits_off, speedy_spirits",
         "inherit_codes": false,
         "img": "images/options/speedy_spirits_off.png"
       }
@@ -651,17 +651,17 @@
     "loop": true,
     "stages": [
       {
-        "codes": "plant",
+        "codes": "plantsanity",
         "inherit_codes": false,
         "img": "images/options/plant_sanity.png"
       },
       {
-        "codes": "plant_on, plant",
+        "codes": "plantsanity_on, plantsanity",
         "inherit_codes": false,
         "img": "images/options/plant_sanity_on.png"
       },
       {
-        "codes": "plant_on, plant",
+        "codes": "plantsanity_on, plantsanity",
         "inherit_codes": false,
         "img": "images/options/plant_sanity_off.png"
       }
@@ -757,17 +757,17 @@
     "loop": true,
     "stages":[
       {
-        "codes": "walk",
+        "codes": "walksanity",
         "inherit_codes": false,
         "img": "images/options/walk_sanity.png"
       },
       {
-        "codes": "walk_on, walk",
+        "codes": "walksanity_on, walksanity",
         "inherit_codes": false,
         "img": "images/options/walk_sanity_on.png"
       },
       {
-        "codes": "walk_off, walk",
+        "codes": "walksanity_off, walksanity",
         "inherit_codes": false,
         "img": "images/options/walk_sanity_off.png"
       }
@@ -803,17 +803,17 @@
     "loop": true,
     "stages":[
       {
-        "codes": "light",
+        "codes": "lightsanity",
         "inherit_codes": false,
         "img": "images/options/light_sanity.png"
       },
       {
-        "codes": "light_on, light",
+        "codes": "lightsanity_on, lightsanity",
         "inherit_codes": false,
         "img": "images/options/light_sanity_on.png"
       },
       {
-        "codes": "light_off, light",
+        "codes": "lightsanity_off, lightsanity",
         "inherit_codes": false,
         "img": "images/options/light_sanity_off.png"
       }
@@ -826,17 +826,17 @@
     "loop": true,
     "stages":[
       {
-        "codes": "portrait",
+        "codes": "portrification",
         "inherit_codes": false,
         "img": "images/options/portrification.png"
       },
       {
-        "codes": "portrait_on, portrait",
+        "codes": "portrification_on, portrification",
         "inherit_codes": false,
         "img": "images/options/portrification_on.png"
       },
       {
-        "codes": "portrait_off, portrait",
+        "codes": "portrification_off, portrification",
         "inherit_codes": false,
         "img": "images/options/portrification_off.png"
       }

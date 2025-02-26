@@ -11,14 +11,16 @@
           //Room Checks
           {
             "name": "Foyer Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Foyer Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -38,14 +40,16 @@
           //Room Checks
           {
             "name": "1F Hallway Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Hallway Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -65,14 +69,16 @@
           //Room Checks
           {
             "name": "Laundry Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Laundry Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -92,14 +98,16 @@
           //Room Checks
           {
             "name": "Butler's Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Butler's Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -119,14 +127,16 @@
           //Room Checks
           {
             "name": "Hidden Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Hidden Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -146,14 +156,16 @@
           //Room Checks
           {
             "name": "Fortune-Teller's Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Fortune-Teller's Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -173,14 +185,16 @@
           //Room Checks
           {
             "name": "Mirror Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Mirror Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -200,14 +214,16 @@
           //Room Checks
           {
             "name": "Ballroom Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Ballroom Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -227,14 +243,16 @@
           //Room Checks
           {
             "name": "Storage Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Storage Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -254,14 +272,16 @@
           //Room Checks
           {
             "name": "Dining Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Dining Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -281,14 +301,16 @@
           //Room Checks
           {
             "name": "Kitchen Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Kitchen Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -308,14 +330,16 @@
           //Room Checks
           {
             "name": "Boneyard Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Boneyard Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -335,14 +359,16 @@
           //Room Checks
           {
             "name": "Graveyard Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Graveyard Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -362,14 +388,16 @@
           //Room Checks
           {
             "name": "Billiards Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Billiards Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -389,14 +417,16 @@
           //Room Checks
           {
             "name": "Projection Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Projection Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -416,14 +446,16 @@
           //Room Checks
           {
             "name": "Conservatory Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -443,14 +475,16 @@
           //Room Checks
           {
             "name": "1F Washroom Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Washroom Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -470,14 +504,16 @@
           //Room Checks
           {
             "name": "1F Bathroom Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Bathroom Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -497,26 +533,30 @@
           //Room Checks
           {
             "name": "Courtyard Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Courtyard Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           },
           {
             "name": "Well Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Well Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -536,14 +576,16 @@
           //Room Checks
           {
             "name": "Rec Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Rec Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -570,14 +612,16 @@
           //Room Checks
           {
             "name": "Parlor Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Parlor Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -597,14 +641,16 @@
           //Room Checks
           {
             "name": "Anteroom Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Anteroom Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -624,26 +670,30 @@
           //Room Checks
           {
             "name": "Wardrobe Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Balcony Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Balcony Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }      
         ],
@@ -663,14 +713,16 @@
           //Room Checks
           {
             "name": "Family Hallway Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Family Hallway Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -690,14 +742,16 @@
           //Room Checks
           {
             "name": "Study Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -717,14 +771,16 @@
           //Room Checks
           {
             "name": "Master Bedroom Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Master Bedroom Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -744,14 +800,16 @@
           //Room Checks
           {
             "name": "Nursery Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Nursery Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -771,14 +829,16 @@
           //Room Checks
           {
             "name": "Twins' Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Twins' Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -798,14 +858,16 @@
           //Room Checks
           {
             "name": "2F Stairwell Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Stairwell Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -825,14 +887,16 @@
           //Room Checks
           {
             "name": "Tea Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -852,14 +916,16 @@
           //Room Checks
           {
             "name": "2F Rear Hallway Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Rear Hallway Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -879,14 +945,16 @@
           //Room Checks
           {
             "name": "2F Washroom Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Washroom Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -906,14 +974,16 @@
           //Room Checks
           {
             "name": "2F Bathroom Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Bathroom Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -933,14 +1003,16 @@
           //Room Checks
           {
             "name": "Nana's Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Nana's Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -960,14 +1032,16 @@
           //Room Checks
           {
             "name": "Sitting Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Sitting Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }      
         ],
@@ -987,14 +1061,16 @@
           //Room Checks
           {
             "name": "Astral Hall Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Astral Hall Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1014,8 +1090,9 @@
           //Room Checks
           {
             "name": "Observatory Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           }
         ],
@@ -1035,14 +1112,16 @@
           //Room Checks
           {
             "name": "Guest Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Guest Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1062,14 +1141,16 @@
           //Room Checks
           {
             "name": "Sealed Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Sealed Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1096,8 +1177,9 @@
           //Room Checks
           {
             "name": "2F - Attic Stairwell Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1117,14 +1199,16 @@
           //Room Checks
           {
             "name": "Safari Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Safari Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1144,14 +1228,16 @@
           //Room Checks
           {
             "name": "East Attic Hallway Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "East Attic Hallway Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1171,14 +1257,16 @@
           //Room Checks
           {
             "name": "Artist's Studio Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Artist's Studio Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1198,14 +1286,16 @@
           //Room Checks
           {
             "name": "Balcony Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }      
         ],
@@ -1225,14 +1315,16 @@
           //Room Checks
           {
             "name": "West Attic Hallway Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "West Attic Hallway Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }      
         ],
@@ -1252,14 +1344,16 @@
           //Room Checks
           {
             "name": "Armory Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1279,14 +1373,16 @@
           //Room Checks
           {
             "name": "Ceramics Studio Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Ceramics Studio Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1306,14 +1402,16 @@
           //Room Checks
           {
             "name": "Telephone Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Telephone Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1333,14 +1431,16 @@
           //Room Checks
           {
             "name": "Clockwork Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Clockwork Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1367,14 +1467,16 @@
           //Room Checks
           {
             "name": "Roof Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Roof Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }      
         ],
@@ -1401,14 +1503,16 @@
           //Room Checks
           {
             "name": "Basement Stairwell Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Basement Stairwell Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1428,14 +1532,16 @@
           //Room Checks
           {
             "name": "Breaker Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Breaker Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1455,14 +1561,16 @@
           //Room Checks
           {
             "name": "Cellar Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Cellar Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1482,8 +1590,9 @@
           //Room Checks
           {
             "name": "Basement Hallway Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           }
         ],
@@ -1503,14 +1612,16 @@
           //Room Checks
           {
             "name": "Pipe Room Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Pipe Room Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1530,14 +1641,16 @@
           //Room Checks
           {
             "name": "Cold Storage Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           },
           {
             "name": "Cold Storage Light On",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1557,8 +1670,9 @@
           //Room Checks
           {
             "name": "Spade Hallway Visited",
-            "chest_unopened_img": "images/minor checks/mouse.png",
-            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
           }      
         ],

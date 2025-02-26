@@ -58,16 +58,16 @@
     "rows": [
       [
         "wincon",
-        "speedy",
-        "toad",
-        "plant",
-        "object",
+        "speedy_spirits",
+        "toadsanity",
+        "plantsanity",
+        "furnisanity",
         "boosanity",
-        "portrait"
+        "portrification"
       ],
       [
-        "walk",
-        "light",
+        "walksanity",
+        "lightsanity",
         "mario_items",
         "washroom_boo",
         "balcony_boo",
