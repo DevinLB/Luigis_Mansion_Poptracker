@@ -72,7 +72,7 @@
       {
         //rooms
         "name": "1F Hallway",
-        "access_rules": [],
+        "access_rules": ["$canReachFloor1Hall"],
         "sections": [
           //furniture checks
           {
@@ -130,7 +130,7 @@
       {
         //rooms
         "name": "Laundry Room",
-        "access_rules": [],
+        "access_rules": ["$canReachLaundry"],
         "sections": [
           //furniture checks
           {
@@ -194,7 +194,7 @@
       {
         //rooms
         "name": "Butler's Room",
-        "access_rules": [],
+        "access_rules": ["$canReachButler"],
         "sections": [
           //furniture checks
           {
@@ -294,7 +294,7 @@
       {
         //rooms
         "name": "Hidden Room",
-        "access_rules": [],
+        "access_rules": ["$canReachHidden"],
         "sections": [
           //furniture checks
           {
@@ -370,7 +370,7 @@
       {
         //rooms
         "name": "Fortune Teller's Room",
-        "access_rules": [],
+        "access_rules": ["$canReachFortune"],
         "sections": [
           //furniture checks
           {
@@ -434,7 +434,7 @@
       {
         //rooms
         "name": "Mirror Room",
-        "access_rules": [],
+        "access_rules": ["$canReachMirror"],
         "sections": [
           //furniture checks
           {
@@ -492,7 +492,7 @@
       {
         //rooms
         "name": "Dining Room",
-        "access_rules": [],
+        "access_rules": ["$canReachDining"],
         "sections": [
           //furniture checks
           {
@@ -592,7 +592,7 @@
       {
         //rooms
         "name": "Kitchen",
-        "access_rules": [],
+        "access_rules": ["$canReachKitchen"],
         "sections": [
           //furniture checks
           {
@@ -662,7 +662,7 @@
       {
         //rooms
         "name": "Boneyard",
-        "access_rules": [],
+        "access_rules": ["$canReachBoneyard"],
         "sections": [
           //furniture checks
           {
@@ -696,7 +696,7 @@
       {
         //rooms
         "name": "Graveyard", //DOUBLE CHECK
-        "access_rules": [],
+        "access_rules": ["$canReachGraveyard"],
         "sections": [
           //furniture checks
           {
@@ -760,7 +760,7 @@
       {
         //rooms
         "name": "Ballroom",
-        "access_rules": [],
+        "access_rules": ["$canReachBallRoom"],
         "sections": [
           //furniture checks
           {
@@ -818,7 +818,7 @@
       {
         //rooms
         "name": "Storage Room",
-        "access_rules": [],
+        "access_rules": ["$canReachStorage"],
         "sections": [
           //furniture checks
           {
@@ -900,7 +900,7 @@
       {
         //rooms
         "name": "Conservatory",
-        "access_rules": [],
+        "access_rules": ["$canReachConservatory"],
         "sections": [
           //furniture checks
           {
@@ -1030,7 +1030,7 @@
       {
         //rooms
         "name": "Billiards Room",
-        "access_rules": [],
+        "access_rules": ["$canReachBilliards"],
         "sections": [
           //furniture checks
           {
@@ -1136,7 +1136,7 @@
       {
         //rooms
         "name": "Projection Room",
-        "access_rules": [],
+        "access_rules": ["$canReachProjection"],
         "sections": [
           //furniture checks
           {
@@ -1200,7 +1200,7 @@
       {
         //rooms
         "name": "1F Washroom",
-        "access_rules": [],
+        "access_rules": ["$canReachFloor1Wash"],
         "sections": [
           //furniture checks
           {
@@ -1264,7 +1264,7 @@
       {
         //rooms
         "name": "1F Bathroom",
-        "access_rules": [],
+        "access_rules": ["$canReachFloor1Bath"],
         "sections": [
           //furniture checks
           {
@@ -1298,7 +1298,7 @@
       {
         //rooms
         "name": "Courtyard",
-        "access_rules": [],
+        "access_rules": ["$canReachCourtyard"],
         "sections": [
           //furniture checks
           {
@@ -1350,7 +1350,7 @@
       {
         //rooms
         "name": "Rec Room",
-        "access_rules": [],
+        "access_rules": ["$canReachRec"],
         "sections": [
           //furniture checks
           {
@@ -1446,7 +1446,7 @@
       {
         //rooms
         "name": "Parlor",
-        "access_rules": [],
+        "access_rules": ["$canReachParlor"],
         "sections": [
           //furniture checks
           {
@@ -1564,7 +1564,7 @@
       {
         //rooms
         "name": "Anteroom",
-        "access_rules": [],
+        "access_rules": ["$canReachAnteroom"],
         "sections": [
           //furniture checks
           {
@@ -1610,7 +1610,7 @@
       {
         //rooms
         "name": "Wardrobe",
-        "access_rules": [],
+        "access_rules": ["$canReachWardrobe"],
         "sections": [
           //furniture checks
           {
@@ -1704,7 +1704,7 @@
       {
         //rooms
         "name": "Study",
-        "access_rules": [],
+        "access_rules": ["$canReachStudy"],
         "sections": [
           //furniture checks
           {
@@ -1828,7 +1828,7 @@
       {
         //rooms
         "name": "Master Bedroom",
-        "access_rules": [],
+        "access_rules": ["$canReachMaster"],
         "sections": [
           //furniture checks
           {
@@ -1904,7 +1904,7 @@
       {
         //rooms
         "name": "Nursery",
-        "access_rules": [],
+        "access_rules": ["$canReachNursery"],
         "sections": [
           //furniture checks
           {
@@ -1992,7 +1992,7 @@
       {
         //rooms
         "name": "Twins' Room",
-        "access_rules": [],
+        "access_rules": ["$canReachTwins"],
         "sections": [
           //furniture checks
           {
@@ -2080,7 +2080,7 @@
       {
         //rooms
         "name": "2F Stairwell",
-        "access_rules": [],
+        "access_rules": ["$canReach2FStair"],
         "sections": [
           //furniture checks
           {
@@ -2102,7 +2102,7 @@
       {
         //rooms
         "name": "2F Rear Hallway",
-        "access_rules": [],
+        "access_rules": ["$canReach2FHall"],
         "sections": [
           //furniture checks
           {
@@ -2160,7 +2160,7 @@
       {
         //rooms
         "name": "Tea Room",
-        "access_rules": [],
+        "access_rules": ["$canReachTea"],
         "sections": [
           //furniture checks
           {
@@ -2284,7 +2284,7 @@
       {
         //rooms
         "name": "2F Washroom",
-        "access_rules": [],
+        "access_rules": ["$canReach2FWash"],
         "sections": [
           //furniture checks
           {
@@ -2348,7 +2348,7 @@
       {
         //rooms
         "name": "2F Bathroom",
-        "access_rules": [],
+        "access_rules": ["$canReach2FBath"],
         "sections": [
           //furniture checks
           {
@@ -2376,7 +2376,7 @@
       {
         //rooms
         "name": "Nana's Room",
-        "access_rules": [],
+        "access_rules": ["$canReachNana"],
         "sections": [
           //furniture checks
           {
@@ -2470,7 +2470,7 @@
       {
         //rooms
         "name": "Astral Hall",
-        "access_rules": [],
+        "access_rules": ["$canReachAstral"],
         "sections": [
           //furniture checks
           {
@@ -2534,7 +2534,7 @@
       {
         //rooms
         "name": "Observatory",
-        "access_rules": [],
+        "access_rules": ["$canReachObservatory"],
         "sections": [
           //furniture checks
           {
@@ -2562,7 +2562,7 @@
       {
         //rooms
         "name": "Sitting Room",
-        "access_rules": [],
+        "access_rules": ["$canReachSitting"],
         "sections": [
           //furniture checks
           {
@@ -2614,7 +2614,7 @@
       {
         //rooms
         "name": "Guest Room",
-        "access_rules": [],
+        "access_rules": ["$canReachGuest"],
         "sections": [
           //furniture checks
           {
@@ -2660,7 +2660,7 @@
       {
         //rooms
         "name": "Sealed Room",
-        "access_rules": [],
+        "access_rules": ["$canReachRoof, $canGrabFire"],
         "sections": [
           //furniture checks
           {
@@ -2768,7 +2768,7 @@
       {
         //rooms
         "name": "3F Stairwell",
-        "access_rules": [],
+        "access_rules": ["$canReach2FHall"],
         "sections": [
           //furniture checks
           {
@@ -2790,7 +2790,7 @@
       {
         //rooms
         "name": "Safari Room",
-        "access_rules": [],
+        "access_rules": ["$canReachSafari"],
         "sections": [
           //furniture checks
           {
@@ -2854,7 +2854,7 @@
       {
         //rooms
         "name": "Artist's Studio",
-        "access_rules": [],
+        "access_rules": ["$canReachArtist"],
         "sections": [
           //furniture checks
           {
@@ -2906,7 +2906,7 @@
       {
         //rooms
         "name": "Balcony",
-        "access_rules": [],
+        "access_rules": ["$canReachBalcony"],
         "sections": [
           //furniture checks
           {
@@ -2946,7 +2946,7 @@
       {
         //rooms
         "name": "Armory",
-        "access_rules": [],
+        "access_rules": ["$canReachArmory"],
         "sections": [
           //furniture checks
           {
@@ -3028,7 +3028,7 @@
       {
         //rooms
         "name": "Ceramics Studio",
-        "access_rules": [],
+        "access_rules": ["$canReachCeramics"],
         "sections": [
           //furniture checks
           {
@@ -3128,7 +3128,7 @@
       {
         //rooms
         "name": "Telephone Room",
-        "access_rules": [],
+        "access_rules": ["$canReachTelephone"],
         "sections": [
           //furniture checks
           {
@@ -3198,7 +3198,7 @@
       {
         //rooms
         "name": "Clockwork Room",
-        "access_rules": [],
+        "access_rules": ["$canReachClockWork"],
         "sections": [
           //furniture checks
           {
@@ -3300,7 +3300,7 @@
       {
         //rooms
         "name": "Roof",
-        "access_rules": [],
+        "access_rules": ["$canReachRoof"],
         "sections": [
           //furniture checks
           {
@@ -3402,7 +3402,7 @@
       {
         //rooms
         "name": "Basement Stairwell",
-        "access_rules": [],
+        "access_rules": ["$canReachBaseStair"],
         "sections": [
           //furniture checks
           {
@@ -3430,7 +3430,7 @@
       {
         //rooms
         "name": "Breaker Room",
-        "access_rules": [],
+        "access_rules": ["$canReachBreaker"],
         "sections": [
           //furniture checks
           {
@@ -3530,7 +3530,7 @@
       {
         //rooms
         "name": "Cellar",
-        "access_rules": [],
+        "access_rules": ["$canReachCellar"],
         "sections": [
           //furniture checks
           {
@@ -3630,7 +3630,7 @@
       {
         //rooms
         "name": "Cold Storage",
-        "access_rules": [],
+        "access_rules": ["$canReachColdRoom"],
         "sections": [
           //furniture checks
           {
@@ -3694,7 +3694,7 @@
       {
         //rooms
         "name": "Pipe Room",
-        "access_rules": [],
+        "access_rules": ["$canReachPipe"],
         "sections": [
           //furniture checks
           {
@@ -3728,7 +3728,7 @@
       {
         //rooms
         "name": "Secret Altar",
-        "access_rules": [],
+        "access_rules": ["$canReachAltar"],
         "sections": [
           //furniture checks
           {

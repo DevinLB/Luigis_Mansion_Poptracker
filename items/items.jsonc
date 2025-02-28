@@ -264,12 +264,6 @@
     "img": "images/keys/key_study.png"
   },
   {
-    "name": "Basement Stairwell Key",
-    "type": "toggle",
-    "codes": "key_basementstair",
-    "img": "images/keys/key_small.png"
-  },
-  {
     "name": "1F Bathroom Key",
     "type": "toggle",
     "codes": "key_1fbath",
