@@ -53,8 +53,8 @@
     "type": "itemgrid",
     "h_alignment": "left",
     "margin": "0,0,0,0",
-    "item_margin": "20,0",
-    "item_size": 100,
+    "item_margin": "10,0",
+    "item_size": 75,
     "rows": [
       [
         "wincon",
