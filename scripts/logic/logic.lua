@@ -25,9 +25,9 @@ function isDoorOpen(door)
     local door_locks = {} -- Ensure door_locks is defined
     local door_status = door_locks[door]
     if door_status then
-        return false
-    else
         return true
+    else
+        return false
     end
 end
 
@@ -36,91 +36,95 @@ function canReachParlor()
 end
 
 function canReachAnteroom()
-    return canReachParlor() and has("key_anteroom")
+    return canReachParlor() and (has("key_anteroom") or isDoorOpen("anteroom"))
 end
 
 function canReachWardrobe()
-    return has("key_wardrobe") and canReachAnteroom()
+    return (has("key_wardrobe") or isDoorOpen("wardrobe")) and canReachAnteroom()
 end
 
 function canReachWarBalcony()
-    return has("key_wardrobebalcony") and canReachWardrobe()
+    return (has("key_wardrobebalcony") or isDoorOpen("wardrobe_balcony")) and canReachWardrobe()
 end
 
 function canReachFamHall()
-    return has("key_famhall")
+    return has("key_famhall") or isDoorOpen("family_hallway")
 end
 
 function canReachFloor1Hall()
-    return has("key_heart")
+    return has("key_heart") or isDoorOpen("hallway_1f")
 end
 
 function canReachStudy()
-    return has("key_study") and canReachFamHall()
+    return (has("key_study") or isDoorOpen("study")) and canReachFamHall()
 end
 
 function canReachMaster()
-    return has("key_master") and canReachFamHall()
+    return (has("key_master") or isDoorOpen("master_bedroom")) and canReachFamHall()
 end
 
 function canReachNursery()
-    return has("key_nursery") and canReachFamHall()
+    return (has("key_nursery") or isDoorOpen("nursery")) and canReachFamHall()
 end
 
 function canReachTwins()
-    return has("key_twin") and canReachFamHall()
+    return (has("key_twin") or isDoorOpen("twins")) and canReachFamHall()
 end
 
 function canReachBaseStair()
-    return has("key_basementstair") and canReachFloor1Hall()
+    return (has("key_basementstair") or isDoorOpen("basement_stairwell")) and canReachFloor1Hall()
 end
 
 function canReach2FStair()
-    return (has("key_lower2f") and canReachFloor1Hall()) or (has("key_southrec") and canReachRec())
+    return ((has("key_lower2f") or isDoorOpen("stairwell_2f_w")) and canReachFloor1Hall()) or ((has("key_southrec") or isDoorOpen("rec_room_s")) and canReachRec())
 end
 
 function canReachCourtyard()
-    return (has("key_club") and canReachFloor1Hall()) or (has("key_northrec") and canReachRec())
+    return ((has("key_club") or isDoorOpen("courtyard_w")) and canReachFloor1Hall()) or ((has("key_northrec") or isDoorOpen("rec_room_n")) and canReachRec())
 end
 
 function canReachFloor1Bath()
-    return has("key_1fbath") and canReachFloor1Hall()
+    return (has("key_1fbath") or isDoorOpen("bathroom_if")) and canReachFloor1Hall()
 end
 
 function canReachFloor1Wash()
-    return has("key_1fwash") and canReachFloor1Hall() and booCount() >= Tracker:ProviderCountForCode("washroom boo count") --Fix once washroom boo count gets added
+    return (has("key_1fwash") or isDoorOpen("washroom_1f")) and canReachFloor1Hall() and booCount() >= Tracker:ProviderCountForCode("washroom boo count") --Fix once washroom boo count gets added
 end
 
 function canReachBallRoom()
-    return has("key_ballroom") and canReachFloor1Hall()
+    return (has("key_ballroom") or isDoorOpen("ballroom")) and canReachFloor1Hall()
 end
 
 function canReachDining()
-    return has("key_dining") and canReachFloor1Hall()
+    return (has("key_dining") or isDoorOpen("dining")) and canReachFloor1Hall()
 end
 
 function canReachLaundry()
-    return has("key_laundry") and canReachFloor1Hall()
+    return (has("key_laundry") or isDoorOpen("laundry")) and canReachFloor1Hall()
 end
 
 function canReachFortune()
-    return has("key_fortune") and canReachFloor1Hall()
+    return (has("key_fortune") or isDoorOpen("fortune")) and canReachFloor1Hall()
+end
+
+function canReachMirror()
+    return (has("key_mirror") or isDoorOpen("mirror")) and canReachFortune()
 end
 
 function canReachRec()
-    return (has("key_northrec") and canReachCourtyard()) or (has("key_southrec") and canReach2FStair())
+    return ((has("key_northrec") or isDoorOpen("rec_room_n")) and canReachCourtyard()) or ((has("key_southrec") or isDoorOpen("rec_room_s")) and canReach2FStair())
 end
 
 function canReachStorage()
-    return has("key_storage") and canReachBallRoom()
+    return (has("key_storage") or isDoorOpen("storage")) and canReachBallRoom()
 end
 
 function canReachKitchen()
-    return has("key_kitchen") and canReachDining()
+    return (has("key_kitchen") or isDoorOpen("kitchen")) and canReachDining()
 end
 
 function canReachBoneyard()
-    return has("key_boneyard") and canReachKitchen() and canGrabWater()
+    return (has("key_boneyard") or isDoorOpen("key_boneyard")) and canReachKitchen() and canGrabWater()
 end
 
 function canReachGraveyard()
@@ -128,19 +132,19 @@ function canReachGraveyard()
 end
 
 function canReachConservatory()
-    return has("key_conservatory") and canReachFloor1Hall()
+    return (has("key_conservatory") or isDoorOpen("conservatory")) and canReachFloor1Hall()
 end
 
 function canReachBilliards()
-    return has("key_billiard") and canReachFloor1Hall()
+    return (has("key_billiard") or isDoorOpen("billiards")) and canReachFloor1Hall()
 end
 
-function canReachMirror()
-    return has("key_mirror") and canReachFortune()
+function canReachProjection()
+    return (has("key_projection") or isDoorOpen("projection")) and canReachBilliards
 end
 
 function canReachButler()
-    return has("key_butler") and canReachLaundry()
+    return (has("key_butler") or isDoorOpen("butler")) and canReachLaundry()
 end
 
 function canReachHidden()
@@ -152,75 +156,75 @@ function canReachWell()
 end
 
 function canReachTea()
-    return has("key_tea") and canReach2FStair()
+    return (has("key_tea") or isDoorOpen("tea")) and canReach2FStair()
 end
 
 function canReach2FHall()
-    return has("key_upper2f") and canReach2FStair()
+    return (has("key_upper2f") or isDoorOpen("rear_hallway_2f")) and canReach2FStair()
 end
 
-function canReachF2Bath()
-    return has("key_f2bath") and canReach2FHall()
+function canReach2FBath()
+    return (has("key_f2bath") or isDoorOpen("bathroom_2f")) and canReach2FHall()
 end
 
 function canReach2FWash()
-    return has("key_2fwash") and canReach2FHall()
+    return (has("key_2fwash") or isDoorOpen("washroom_2f")) and canReach2FHall()
 end
 
 function canReachNana()
-    return has("key_nana") and canReach2FHall()
+    return (has("key_nana") or isDoorOpen("nana")) and canReach2FHall()
 end
 
 function canReachAstral()
-    return has("key_astral") and canReach2FHall()
+    return (has("key_astral") or isDoorOpen("astral")) and canReach2FHall()
 end
 
 function canReachSitting()
-    return has("key_sitting") and canReach2FHall()
+    return (has("key_sitting") or isDoorOpen("sitting")) and canReach2FHall()
 end
 
 function canReachSafari()
-    return has("key_safari") and canReach2FHall()
+    return (has("key_safari") or isDoorOpen("safari")) and canReach2FHall()
 end
 
 function canReachObservatory()
-    return has("key_observatory") and canReachAstral() and canGrabFire()
+    return (has("key_observatory") or isDoorOpen("observatory")) and canReachAstral() and canGrabFire()
 end
 
 function canReachGuest()
-    return has("key_guest") and canReachSitting()
+    return (has("key_guest") or isDoorOpen("guest")) and canReachSitting()
 end
 
 function canReachEastAttic()
-    return has("key_eastattic") and canReachSafari()
+    return (has("key_eastattic") or isDoorOpen("east_attic")) and canReachSafari()
 end
 
 function canReachArtist()
-    return has("key_artist") and canReachEastAttic()
+    return (has("key_artist") or isDoorOpen("artist")) and canReachEastAttic()
 end
 
 function canReachBalcony()
-    return has("key_balcony") and canReachEastAttic()
+    return (has("key_balcony") or isDoorOpen("balcony")) and canReachEastAttic() and booCount() >= Tracker:ProviderCountForCode("balcony boo count")
 end
 
 function canReachWestAttic()
-    return has("key_diamond") and canReachBalcony() and booCount() >= Tracker:ProviderCountForCode("balcony boo count") --Update to check for yaml
+    return (has("key_diamond") or isDoorOpen("west_attic")) and canReachBalcony()
 end
 
 function canReachArmory()
-    return has("key_armory") and canReachWestAttic()
+    return (has("key_armory") or isDoorOpen("armory")) and canReachWestAttic()
 end
 
 function canReachTelephone()
-    return has("key_telephone") and canReachWestAttic()
+    return (has("key_telephone") or isDoorOpen("telephone")) and canReachWestAttic()
 end
 
 function canReachClockWork()
-    return has("key_clockwork") and canReachTelephone()
+    return (has("key_clockwork") or isDoorOpen("clockwork")) and canReachTelephone()
 end
 
 function canReachCeramics()
-    return has("key_ceramics") and canReachArmory()
+    return (has("key_ceramics") or isDoorOpen("ceramics")) and canReachArmory()
 end
 
 function canReachRoof()
@@ -228,31 +232,31 @@ function canReachRoof()
 end
 
 function canReachBreaker()
-    return has("key_breaker") and canReachBaseStair()
+    return (has("key_breaker") or isDoorOpen("breaker")) and canReachBaseStair()
 end
 
 function canReachCellar()
-    return has("key_cellar") and canReachBaseStair()
+    return (has("key_cellar") or isDoorOpen("cellar")) and canReachBaseStair()
 end
 
 function canReachBasementHall()
-    return has("key_basehall") and canReachCellar()
+    return (has("key_basehall") or isDoorOpen("basement_hallway")) and canReachCellar()
 end
 
 function canReachColdRoom()
-    return has("key_cold") and canReachBasementHall()
+    return (has("key_cold") or isDoorOpen("cold")) and canReachBasementHall()
 end
 
 function canReachPipe()
-    return has("key_pipe") and canReachBasementHall()
+    return (has("key_pipe") or isDoorOpen("pipe")) and canReachBasementHall()
 end
 
 function canReachSpadeHall()
-    return has("key_spadehall") and canReachBasementHall()
+    return (has("key_spadehall") or isDoorOpen("spade_hallway")) and canReachBasementHall()
 end
 
 function canReachAltar()
-    return has("key_spade") and canReachSpadeHall() and booCount() >= Tracker:ProviderCountForCode("final boo count") --Update to match yaml
+    return (has("key_spade") or isDoorOpen("secret_altar")) and canReachSpadeHall() and booCount() >= Tracker:ProviderCountForCode("final boo count") --Update to match yaml
 end
 
 -- Medal Logic

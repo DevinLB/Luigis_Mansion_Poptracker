@@ -1,6 +1,7 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/door_rando_tables.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -108,12 +109,12 @@ function onClear(slot_data)
         rank.CurrentStage = (slot_data['rank requirement'])
     end
     if slot_data['plantsanity'] then
-        local plant = Tracker:FindObjectForCode('plant')
+        local plant = Tracker:FindObjectForCode('plantsanity')
         plant.CurrentStage = (slot_data['plantsanity'])
     end
 
     if slot_data['furnisanity'] then
-        local furniture = Tracker:FindObjectForCode('object')
+        local furniture = Tracker:FindObjectForCode('furnisanity')
         furniture.CurrentStage = (slot_data['furnisanity'])
     end
     if slot_data['clairvoya requirement'] then
@@ -121,11 +122,11 @@ function onClear(slot_data)
         mario.AcquiredCount = (slot_data['clairvoya requirement'])
     end
     if slot_data['toadsanity'] then
-        local toad = Tracker:FindObjectForCode("toad")
+        local toad = Tracker:FindObjectForCode("toadsanity")
         toad.CurrentStage = (slot_data['toadsanity'])
     end
     if slot_data['speedy spirits'] then
-        local obj = Tracker:FindObjectForCode("speedy")
+        local obj = Tracker:FindObjectForCode("speedy_spirits")
         local stage = slot_data['speedy spirits']
         if stage == 1 then
             obj.CurrentStage = 1
@@ -143,7 +144,7 @@ function onClear(slot_data)
         end
     end
     if slot_data['walksanity'] then
-        local obj = Tracker:FindObjectForCode("walk")
+        local obj = Tracker:FindObjectForCode("walksanity")
         local stage = slot_data['walksanity']
         if stage == 1 then
             obj.CurrentStage = 1
@@ -152,7 +153,7 @@ function onClear(slot_data)
         end
     end
     if slot_data['portrait ghosts'] then
-        local obj = Tracker:FindObjectForCode("portrait")
+        local obj = Tracker:FindObjectForCode("portrification")
         local stage = slot_data['portrait ghosts']
         if stage == 1 then
             obj.CurrentStage = 1
@@ -161,7 +162,7 @@ function onClear(slot_data)
         end
     end
     if slot_data['lightsanity'] then
-        local obj = Tracker:FindObjectForCode("light")
+        local obj = Tracker:FindObjectForCode("lightsanity")
         local stage = slot_data['lightsanity']
         if stage == 1 then
             obj.CurrentStage = 1
@@ -176,6 +177,12 @@ function onClear(slot_data)
     if slot_data['balcony boo count'] then
         local mario = Tracker:FindObjectForCode("balcony_boo")
         mario.AcquiredCount = (slot_data['balcony boo count'])
+    end
+    if Archipelago.PlayerNumber > -1 then
+        print("SUCCESS?")
+        ROOM_ID = "lm_room_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({ROOM_ID})
+        Archipelago:Get({ROOM_ID})
     end
 end
 
@@ -229,8 +236,37 @@ function onLocation(location_id, location_name)
     end
 end
 
+function onNotify(key, value, old_value)
+	if value ~= old_value then
+		if key == ROOM_ID then
+            print("room: "..value)
+        end
+	end
+end
+
+function onNotifyLaunch(key, value)
+    Tracker.BulkUpdate = false
+    if key == ROOM_ID then
+        print("room: "..value)
+    end
+end
+
+function onMapChange(key, value, old)
+    print("got  " .. key .. " = " .. tostring(value) .. " (was " .. tostring(old) .. ")")
+    print(dump_table(MAP_MAPPING[tostring(value)]))
+
+    tabs = MAP_MAPPING[tostring(value)]
+    for i, tab in ipairs(tabs) do
+        Tracker:UiHint("ActivateTab", tab)
+    end
+end
+
 
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+Archipelago:AddSetReplyHandler("map_key", onMapChange)
+Archipelago:AddRetrievedHandler("map_key", onMapChange)
