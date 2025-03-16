@@ -29,17 +29,19 @@
       {
         //rooms
         "name": "Fortune Teller's Room",
-        "access_rules": [],
+        "access_rules": ["$canReachFortune"],
         "sections": [
           //chest checks
           {
             "name": "Fortune Teller Candles",
             "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "access_rules": ["$canGrabFire"],
             "chest_opened_img": "images/minor checks/chest_gold_gray.png",
             "item_count": 1
           },
           {
             "name": "Fortune Teller Clear Chest",
+            "access_rules": ["$canBeatClairvoya"],
             "chest_unopened_img": "images/minor checks/chest_gold.png",
             "chest_opened_img": "images/minor checks/chest_gold_gray.png",
             "item_count": 1
@@ -62,6 +64,7 @@
           //chest checks
           {
             "name": "Mirror Room Clear Chest",
+            "access_rules": ["$canReachMirror"],
             "chest_unopened_img": "images/minor checks/chest_gold.png",
             "chest_opened_img": "images/minor checks/chest_gold_gray.png",
             "item_count": 1
@@ -79,7 +82,7 @@
       {
         //rooms
         "name": "Butler's Room",
-        "access_rules": [],
+        "access_rules": ["$canReachButler, $canGrabFire"],
         "sections": [
           //chest checks
           {
@@ -101,7 +104,7 @@
       {
         //rooms
         "name": "Hidden Room",
-        "access_rules": [],
+        "access_rules": ["$canReachHidden"],
         "sections": [
           //chest checks
           {
@@ -141,7 +144,7 @@
       {
         //rooms
         "name": "Laundry Room",
-        "access_rules": [],
+        "access_rules": ["$canReachLaundry"],
         "sections": [
           //chest checks
           {
@@ -169,7 +172,7 @@
       {
         //rooms
         "name": "Ballroom",
-        "access_rules": [],
+        "access_rules": ["$canReachBallRoom"],
         "sections": [
           //chest checks
           {
@@ -191,7 +194,7 @@
       {
         //rooms
         "name": "Dining Room",
-        "access_rules": [],
+        "access_rules": ["$canReachDining, $canGrabFire"],
         "sections": [
           //chest checks
           {
@@ -213,7 +216,7 @@
       {
         //rooms
         "name": "Kitchen",
-        "access_rules": [],
+        "access_rules": ["$canReachKitchen, $canGrabFire"],
         "sections": [
           //chest checks
           {
@@ -235,7 +238,7 @@
       {
         //rooms
         "name": "Graveyard",
-        "access_rules": [],
+        "access_rules": ["$canReachGraveyard"],
         "sections": [
           //chest checks
           {
@@ -257,7 +260,7 @@
       {
         //rooms
         "name": "Conservatory",
-        "access_rules": [],
+        "access_rules": ["$canReachConservatory"],
         "sections": [
           //chest checks
           {
@@ -279,7 +282,7 @@
       {
         //rooms
         "name": "1F Washroom",
-        "access_rules": [],
+        "access_rules": ["$canReachFloor1Wash"],
         "sections": [
           //chest checks
           {
@@ -301,7 +304,7 @@
       {
         //rooms
         "name": "1F Bathroom",
-        "access_rules": [],
+        "access_rules": ["$canReachFloor1Bath"],
         "sections": [
           //chest checks
           {
@@ -323,7 +326,7 @@
       {
         //rooms
         "name": "Courtyard",
-        "access_rules": [],
+        "access_rules": ["$canReachCourtyard"],
         "sections": [
           //chest checks
           {
@@ -357,7 +360,7 @@
       {
         //rooms
         "name": "Rec Room",
-        "access_rules": [],
+        "access_rules": ["$canReachRec"],
         "sections": [
           //chest checks
           {
@@ -385,7 +388,7 @@
       {
         //rooms
         "name": "Billiards Room",
-        "access_rules": [],
+        "access_rules": ["$canReachBilliards"],
         "sections": [
           //chest checks
           {
@@ -407,7 +410,7 @@
       {
         //rooms
         "name": "Projection Room",
-        "access_rules": [],
+        "access_rules": ["$canReachProjection"],
         "sections": [
           //chest checks
           {
@@ -436,7 +439,7 @@
       {
         //rooms
         "name": "Study",
-        "access_rules": [],
+        "access_rules": ["$canReachStudy"],
         "sections": [
           //chest checks
           {
@@ -458,7 +461,7 @@
       {
         //rooms
         "name": "Master Bedroom",
-        "access_rules": [],
+        "access_rules": ["$canReachMaster"],
         "sections": [
           //chest checks
           {
@@ -480,7 +483,7 @@
       {
         //rooms
         "name": "Twins' Room",
-        "access_rules": [],
+        "access_rules": ["$canReachTwins"],
         "sections": [
           //chest checks
           {
@@ -502,7 +505,7 @@
       {
         //rooms
         "name": "Nursery",
-        "access_rules": [],
+        "access_rules": ["$canReachNursery"],
         "sections": [
           //chest checks
           {
@@ -524,7 +527,7 @@
       {
         //rooms
         "name": "Parlor",
-        "access_rules": [],
+        "access_rules": ["$canReachParlor"],
         "sections": [
           //chest checks
           {
@@ -546,7 +549,7 @@
       {
         //rooms
         "name": "Wardrobe",
-        "access_rules": [],
+        "access_rules": ["$canReachWardrobe"],
         "sections": [
           //chest checks
           {
@@ -568,7 +571,7 @@
       {
         //rooms
         "name": "Tea Room",
-        "access_rules": [],
+        "access_rules": ["$canReachTea"],
         "sections": [
           //chest checks
           {
@@ -590,7 +593,7 @@
       {
         //rooms
         "name": "2F Washroom",
-        "access_rules": [],
+        "access_rules": ["$canReach2FWash"],
         "sections": [
           //chest checks
           {
@@ -612,7 +615,7 @@
       {
         //rooms
         "name": "2F Bathroom",
-        "access_rules": [],
+        "access_rules": ["$canReach2FBath"],
         "sections": [
           //chest checks
           {
@@ -634,7 +637,7 @@
       {
         //rooms
         "name": "Nana's Room",
-        "access_rules": [],
+        "access_rules": ["$canReachNana"],
         "sections": [
           //chest checks
           {
@@ -656,7 +659,7 @@
       {
         //rooms
         "name": "Observatory",
-        "access_rules": [],
+        "access_rules": ["$canReachObservatory, $canGrabFire"],
         "sections": [
           //chest checks
           {
@@ -678,7 +681,7 @@
       {
         //rooms
         "name": "Guest Room",
-        "access_rules": [],
+        "access_rules": ["$canReachGuest"],
         "sections": [
           //chest checks
           {
@@ -700,7 +703,7 @@
       {
         //rooms
         "name": "Sealed Room",
-        "access_rules": [],
+        "access_rules": ["$canReachRoof, $canGrabFire"],
         "sections": [
           //chest checks
           {
@@ -771,7 +774,7 @@
       {
         //rooms
         "name": "Safari Room",
-        "access_rules": [],
+        "access_rules": ["$canReachSafari, $canGrabFire"],
         "sections": [
           //chest checks
           {
@@ -793,7 +796,7 @@
       {
         //rooms
         "name": "Artist's Studio",
-        "access_rules": [],
+        "access_rules": ["$canReachArtist"],
         "sections": [
           //chest checks
           {
@@ -815,7 +818,7 @@
       {
         //rooms
         "name": "Balcony",
-        "access_rules": [],
+        "access_rules": ["$canReachBalcony, $canGrabIce"],
         "sections": [
           //chest checks
           {
@@ -837,7 +840,7 @@
       {
         //rooms
         "name": "Armory",
-        "access_rules": [],
+        "access_rules": ["$canReachArmory"],
         "sections": [
           //chest checks
           {
@@ -877,7 +880,7 @@
       {
         //rooms
         "name": "Ceramics Studio",
-        "access_rules": [],
+        "access_rules": ["$canReachCeramics, $canGrabIce"],
         "sections": [
           //chest checks
           {
@@ -899,7 +902,7 @@
       {
         //rooms
         "name": "Telephone Room",
-        "access_rules": [],
+        "access_rules": ["$canReachTelephone"],
         "sections": [
           //chest checks
           {
@@ -934,7 +937,7 @@
       {
         //rooms
         "name": "Roof",
-        "access_rules": [],
+        "access_rules": ["$canReachRoof, $canGrabFire"],
         "sections": [
           //chest checks
           {
@@ -963,7 +966,7 @@
       {
         //rooms
         "name": "Breaker Room",
-        "access_rules": [],
+        "access_rules": ["$canReachBreaker"],
         "sections": [
           //chest checks
           {
@@ -985,7 +988,7 @@
       {
         //rooms
         "name": "Cellar",
-        "access_rules": [],
+        "access_rules": ["$canReachCellar"],
         "sections": [
           //chest checks
           {
@@ -1007,7 +1010,7 @@
       {
         //rooms
         "name": "Cold Storage",
-        "access_rules": [],
+        "access_rules": ["$canReachColdRoom"],
         "sections": [
           //chest checks
           {
@@ -1029,7 +1032,7 @@
       {
         //rooms
         "name": "Pipe Room",
-        "access_rules": [],
+        "access_rules": ["$canReachPipe"],
         "sections": [
           //chest checks
           {

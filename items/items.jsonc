@@ -561,7 +561,7 @@
   {
     "name": "Final Boo Count",
     "type": "consumable",
-    "codes": "boo",
+    "codes": "final_boo",
     "max_quantity": 50,
     "initial_quantity": 0,
     "allow_disabled": false,

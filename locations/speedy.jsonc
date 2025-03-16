@@ -5,7 +5,7 @@
     "children": [
       {
         "name": "Wardrobe",
-        "access_rules": [],
+        "access_rules": ["$canReachWardrobe, $canReachBreaker"],
         "sections": [
           {
             "name": "Wardrobe Speedy Spirit",
@@ -25,7 +25,7 @@
       },
       {
         "name": "Study",
-        "access_rules": [],
+        "access_rules": ["$canReachStudy, $canReachBreaker"],
         "sections": [
           {
             "name": "Study Speedy Spirit",
@@ -45,7 +45,7 @@
       },
       {
         "name": "Storage Room",
-        "access_rules": [],
+        "access_rules": ["$canReachStorage, $canReachBreaker"],
         "sections": [
           {
             "name": "Storage Room Speedy Spirit",
@@ -65,7 +65,7 @@
       },
       {
         "name": "Dining Room",
-        "access_rules": [],
+        "access_rules": ["$canReachDining, $canReachBreaker"],
         "sections": [
           {
             "name": "Dining Room Speedy Spirit",
@@ -85,7 +85,7 @@
       },
       {
         "name": "Kitchen",
-        "access_rules": [],
+        "access_rules": ["$canReachKitchen, $canReachBreaker"],
         "sections": [
           {
             "name": "Kitchen Speedy Spirit",
@@ -105,7 +105,7 @@
       },
       {
         "name": "Rec Room",
-        "access_rules": [],
+        "access_rules": ["$canReachRec, $canReachBreaker"],
         "sections": [
           {
             "name": "Rec Room Speedy Spirit",
@@ -125,7 +125,7 @@
       },
       {
         "name": "Nana's Room",
-        "access_rules": [],
+        "access_rules": ["$canReachNana, $canReachBreaker"],
         "sections": [
           {
             "name": "Nana's Room Speedy Spirit",
@@ -145,7 +145,7 @@
       },
       {
         "name": "Billiards Room",
-        "access_rules": [],
+        "access_rules": ["$canReachBilliards, $canReachBreaker"],
         "sections": [
           {
             "name": "Billiards Room Speedy Spirit",
@@ -165,7 +165,7 @@
       },
       {
         "name": "Twins' Room",
-        "access_rules": [],
+        "access_rules": ["$canReachTwins, $canReachBreaker"],
         "sections": [
           {
             "name": "Twins' Room Speedy Spirit",
@@ -185,7 +185,7 @@
       },
       {
         "name": "Breaker Room",
-        "access_rules": [],
+        "access_rules": ["$canReachBreaker"],
         "sections": [
           {
             "name": "Breaker Room Speedy Spirit",
@@ -205,7 +205,7 @@
       },
       {
         "name": "Cellar",
-        "access_rules": [],
+        "access_rules": ["$canReachCellar, $canReachBreaker"],
         "sections": [
           {
             "name": "Cellar Speedy Spirit",
@@ -225,7 +225,7 @@
       },
       {
         "name": "Sealed Room",
-        "access_rules": [],
+        "access_rules": ["$canReachRoof, $canReachBreaker"],
         "sections": [
           {
             "name": "Sealed Room Speedy Spirit",
