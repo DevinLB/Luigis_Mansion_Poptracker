@@ -8,7 +8,7 @@
       {
         //Rooms
         "name": "Ballroom",
-        "access_rules": [],
+        "access_rules": ["$canReachBallRoom"],
         "sections": [
           //Portait Ghost
           {
@@ -30,7 +30,7 @@
       {
         //Rooms
         "name": "Butler's Room",
-        "access_rules": [],
+        "access_rules": ["$canReachButler, $canGrabFire"],
         "sections": [
           //Portait Ghost
           {
@@ -52,7 +52,7 @@
       {
         //Rooms
         "name": "Fortune Teller's Room",
-        "access_rules": [],
+        "access_rules": ["$canReachFortune, $canBeatClairvoya"],
         "sections": [
           //Portait Ghost
           {
@@ -74,7 +74,7 @@
       {
         //Rooms
         "name": "Conservatory",
-        "access_rules": [],
+        "access_rules": ["$canReachConservatory"],
         "sections": [
           //Portait Ghost
           {
@@ -96,7 +96,7 @@
       {
         //Rooms
         "name": "Dining Room",
-        "access_rules": [],
+        "access_rules": ["$canReachDining, $canGrabFire"],
         "sections": [
           //Portait Ghost
           {
@@ -118,7 +118,7 @@
       {
         //Rooms
         "name": "Boneyard",
-        "access_rules": [],
+        "access_rules": ["$canReachBoneyard"],
         "sections": [
           //Portait Ghost
           {
@@ -140,7 +140,7 @@
       {
         //Rooms
         "name": "Graveyard",
-        "access_rules": [],
+        "access_rules": ["$canReachGraveyard"],
         "sections": [
           //Portait Ghost
           {
@@ -162,7 +162,7 @@
       {
         //Rooms
         "name": "Rec Room",
-        "access_rules": [],
+        "access_rules": ["$canReachRec"],
         "sections": [
           //Portait Ghost
           {
@@ -184,7 +184,7 @@
       {
         //Rooms
         "name": "Billiards Room",
-        "access_rules": [],
+        "access_rules": ["$canReachBilliards"],
         "sections": [
           //Portait Ghost
           {
@@ -214,7 +214,7 @@
       {
         //Rooms
         "name": "Study",
-        "access_rules": [],
+        "access_rules": ["$canReachStudy"],
         "sections": [
           //Portait Ghost
           {
@@ -236,7 +236,7 @@
       {
         //Rooms
         "name": "Master Bedroom",
-        "access_rules": [],
+        "access_rules": ["$canReachMaster"],
         "sections": [
           //Portait Ghost
           {
@@ -258,7 +258,7 @@
       {
         //Rooms
         "name": "Nursery",
-        "access_rules": [],
+        "access_rules": ["$canReachNursery"],
         "sections": [
           //Portait Ghost
           {
@@ -280,7 +280,7 @@
       {
         //Rooms
         "name": "Twins' Room",
-        "access_rules": [],
+        "access_rules": ["$canReachTwins"],
         "sections": [
           //Portait Ghost
           {
@@ -302,7 +302,7 @@
       {
         //Rooms
         "name": "2F Bathroom",
-        "access_rules": [],
+        "access_rules": ["$canReach2FBath, $canGrabIce"],
         "sections": [
           //Portait Ghost
           {
@@ -324,7 +324,7 @@
       {
         //Rooms
         "name": "Nana's Room",
-        "access_rules": [],
+        "access_rules": ["$canReachNana"],
         "sections": [
           //Portait Ghost
           {
@@ -346,7 +346,7 @@
       {
         //Rooms
         "name": "Guest Room",
-        "access_rules": [],
+        "access_rules": ["$canReachGuest, $canGrabWater"],
         "sections": [
           //Portait Ghost
           {
@@ -368,7 +368,7 @@
       {
         //Rooms
         "name": "Wardrobe",
-        "access_rules": [],
+        "access_rules": ["$canReachWardrobe, $canReachBreaker"],
         "sections": [
           //Portait Ghost
           {
@@ -398,7 +398,7 @@
       {
         //Rooms
         "name": "Balcony",
-        "access_rules": [],
+        "access_rules": ["$canReachBalcony, $canGrabIce"],
         "sections": [
           //Portait Ghost
           {
@@ -420,7 +420,7 @@
       {
         //Rooms
         "name": "Ceramics Studio",
-        "access_rules": [],
+        "access_rules": ["$canReachCeramics, $canGrabIce"],
         "sections": [
           //Portait Ghost
           {
@@ -442,7 +442,7 @@
       {
         //Rooms
         "name": "Clockwork Room",
-        "access_rules": [],
+        "access_rules": ["$canReachClockWork"],
         "sections": [
           //Portait Ghost
           {
@@ -464,7 +464,7 @@
       {
         //Rooms
         "name": "Artist's Studio",
-        "access_rules": [],
+        "access_rules": ["$canReachArtist"],
         "sections": [
           //Portait Ghost
           {
@@ -494,7 +494,7 @@
       {
         //Rooms
         "name": "Cold Storage",
-        "access_rules": [],
+        "access_rules": ["$canReachColdRoom, $canGrabFire"],
         "sections": [
           //Portait Ghost
           {

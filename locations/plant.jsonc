@@ -8,7 +8,7 @@
       {
         //Rooms
         "name": "Courtyard",
-        "access_rules": [],
+        "access_rules": ["$canReachCourtyard, $canGrabWater"],
         "sections": [
           //Plant Checks
           {
@@ -56,7 +56,7 @@
       {
         //Rooms
         "name": "Wardrobe",
-        "access_rules": [],
+        "access_rules": ["$canReachWardrobe, $canGrabWater"],
         "sections": [
           //Plant Checks
           {
@@ -96,7 +96,7 @@
       {
         //Rooms
         "name": "Master Bedroom",
-        "access_rules": [],
+        "access_rules": ["$canReachMaster, $canGrabWater"],
         "sections": [
           //Plant Checks
           {
@@ -118,7 +118,7 @@
       {
         //Rooms
         "name": "Sitting Room",
-        "access_rules": [],
+        "access_rules": ["$canReachSitting, $canGrabWater"],
         "sections": [
           //Plant Checks
           {
@@ -140,7 +140,7 @@
       {
         //Rooms
         "name": "Guest Room",
-        "access_rules": [],
+        "access_rules": ["$canReachGuest, $canGrabWater"],
         "sections": [
           //Plant Checks
           {
@@ -170,7 +170,7 @@
       {
         //Rooms
         "name": "Balcony",
-        "access_rules": [],
+        "access_rules": ["$canReachBalcony, $canGrabWater"],
         "sections": [
           //Plant Checks
           {
