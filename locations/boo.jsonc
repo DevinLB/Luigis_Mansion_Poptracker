@@ -3,12 +3,13 @@
   {
     //Floor
     "name": "Floor 1 Boos",
+    "access_rules": ["gb_horror"],
     "visibility_rules": "boosanity_on",
     "children": [
       {
         //Rooms
         "name": "Laundry Room",
-        "access_rules": [],
+        "access_rules": ["$canReachLaundry"],
         "sections": [
           {
             //Boo Check
@@ -30,7 +31,7 @@
       {
         //Rooms
         "name": "Butler's Room",
-        "access_rules": [],
+        "access_rules": ["$canReachButler, $canGrabFire"],
         "sections": [
           {
             //Boo Check
@@ -52,7 +53,7 @@
       {
         //Rooms
         "name": "Hidden Room",
-        "access_rules": [],
+        "access_rules": ["$canReachHidden"],
         "sections": [
           {
             //Boo Check
@@ -74,7 +75,7 @@
       {
         //Rooms
         "name": "Fortune Teller's Room",
-        "access_rules": [],
+        "access_rules": ["$canReachFortune, $canBeatClairvoya"],
         "sections": [
           {
             //Boo Check
@@ -96,7 +97,7 @@
       {
         //Rooms
         "name": "Mirror Room",
-        "access_rules": [],
+        "access_rules": ["$canReachMirror"],
         "sections": [
           {
             //Boo Check
@@ -118,7 +119,7 @@
       {
         //Rooms
         "name": "Ballroom",
-        "access_rules": [],
+        "access_rules": ["$canReachBallRoom"],
         "sections": [
           {
             //Boo Check
@@ -140,7 +141,7 @@
       {
         //Rooms
         "name": "Storage Room",
-        "access_rules": [],
+        "access_rules": ["$canReachStorage"],
         "sections": [
           {
             //Boo Check
@@ -162,7 +163,7 @@
       {
         //Rooms
         "name": "Dining Room",
-        "access_rules": [],
+        "access_rules": ["$canReachDining, $canGrabFire"],
         "sections": [
           {
             //Boo Check
@@ -184,7 +185,7 @@
       {
         //Rooms
         "name": "Kitchen",
-        "access_rules": [],
+        "access_rules": ["$canReachKitchen"],
         "sections": [
           {
             //Boo Check
@@ -206,7 +207,7 @@
       {
         //Rooms
         "name": "Conservatory",
-        "access_rules": [],
+        "access_rules": ["$canReachConservatory"],
         "sections": [
           {
             //Boo Check
@@ -228,7 +229,7 @@
       {
         //Rooms
         "name": "Rec Room",
-        "access_rules": [],
+        "access_rules": ["$canReachRec"],
         "sections": [
           {
             //Boo Check
@@ -250,7 +251,7 @@
       {
         //Rooms
         "name": "Billiards Room",
-        "access_rules": [],
+        "access_rules": ["$canReachBilliards"],
         "sections": [
           {
             //Boo Check
@@ -272,7 +273,7 @@
       {
         //Rooms
         "name": "Projection Room",
-        "access_rules": [],
+        "access_rules": ["$canReachProjection"],
         "sections": [
           {
             //Boo Check
@@ -297,12 +298,13 @@
   {
     //Floor
     "name": "Floor 2 Boos",
+    "access_rules": ["gb_horror"],
     "visibility_rules": "boosanity_on",
     "children": [
       {
         //Rooms
         "name": "Parlor",
-        "access_rules": [],
+        "access_rules": ["$canReachParlor"],
         "sections": [
           {
             //Boo Check
@@ -324,7 +326,7 @@
       {
         //Rooms
         "name": "Anteroom",
-        "access_rules": [],
+        "access_rules": ["$canReachAnteroom"],
         "sections": [
           {
             //Boo Check
@@ -346,7 +348,7 @@
       {
         //Rooms
         "name": "Wardrobe",
-        "access_rules": [],
+        "access_rules": ["$canReachWardrobe"],
         "sections": [
           {
             //Boo Check
@@ -368,7 +370,7 @@
       {
         //Rooms
         "name": "Study",
-        "access_rules": [],
+        "access_rules": ["$canReachStudy"],
         "sections": [
           {
             //Boo Check
@@ -390,7 +392,7 @@
       {
         //Rooms
         "name": "Master Bedroom",
-        "access_rules": [],
+        "access_rules": ["$canReachMaster"],
         "sections": [
           {
             //Boo Check
@@ -412,7 +414,7 @@
       {
         //Rooms
         "name": "Nursery",
-        "access_rules": [],
+        "access_rules": ["$canReachNursery"],
         "sections": [
           {
             //Boo Check
@@ -434,7 +436,7 @@
       {
         //Rooms
         "name": "Twins' Room",
-        "access_rules": [],
+        "access_rules": ["$canReachTwins"],
         "sections": [
           {
             //Boo Check
@@ -456,7 +458,7 @@
       {
         //Rooms
         "name": "Tea Room",
-        "access_rules": [],
+        "access_rules": ["$canReachTea"],
         "sections": [
           {
             //Boo Check
@@ -478,7 +480,7 @@
       {
         //Rooms
         "name": "Nana's Room",
-        "access_rules": [],
+        "access_rules": ["$canReachNana"],
         "sections": [
           {
             //Boo Check
@@ -500,7 +502,7 @@
       {
         //Rooms
         "name": "Astral Hall",
-        "access_rules": [],
+        "access_rules": ["$canReachAstral, $canGrabFire"],
         "sections": [
           {
             //Boo Check
@@ -522,7 +524,7 @@
       {
         //Rooms
         "name": "Sitting Room",
-        "access_rules": [],
+        "access_rules": ["$canReachSitting, $canGrabFire"],
         "sections": [
           {
             //Boo Check
@@ -544,7 +546,7 @@
       {
         //Rooms
         "name": "Guest Room",
-        "access_rules": [],
+        "access_rules": ["$canReachGuest, $canGrabWater"],
         "sections": [
           {
             //Boo Check
@@ -569,12 +571,13 @@
   {
     //Floor
     "name": "Floor 3 Boos",
+    "access_rules": ["gb_horror"],
     "visibility_rules": "boosanity_on",
     "children": [
       {
         //Rooms
         "name": "Safari Room",
-        "access_rules": [],
+        "access_rules": ["$canReachSafari"],
         "sections": [
           {
             //Boo Check
@@ -596,7 +599,7 @@
       {
         //Rooms
         "name": "Artist's Studio",
-        "access_rules": [],
+        "access_rules": ["$canReachArtist"],
         "sections": [
           {
             //Boo Check
@@ -618,7 +621,7 @@
       {
         //Rooms
         "name": "Armory",
-        "access_rules": [],
+        "access_rules": ["$canReachArmory"],
         "sections": [
           {
             //Boo Check
@@ -640,7 +643,7 @@
       {
         //Rooms
         "name": "Ceramics Studio",
-        "access_rules": [],
+        "access_rules": ["$canReachCeramics, $canGrabIce"],
         "sections": [
           {
             //Boo Check
@@ -662,7 +665,7 @@
       {
         //Rooms
         "name": "Telephone Room",
-        "access_rules": [],
+        "access_rules": ["$canReachTelephone"],
         "sections": [
           {
             //Boo Check
@@ -684,7 +687,7 @@
       {
         //Rooms
         "name": "Clockwork Room",
-        "access_rules": [],
+        "access_rules": ["$canReachClockWork"],
         "sections": [
           {
             //Boo Check
@@ -706,7 +709,7 @@
       {
         //Rooms
         "name": "Balcony",
-        "access_rules": [],
+        "access_rules": ["$canReachBalcony, $canGrabIce"],
         "sections": [
           {
             "name": "Boolossus Boo 1",
@@ -819,7 +822,7 @@
       {
         //Rooms
         "name": "Breaker Room",
-        "access_rules": [],
+        "access_rules": ["$canReachBreaker"],
         "sections": [
           {
             //Boo Check
@@ -841,7 +844,7 @@
       {
         //Rooms
         "name": "Cellar",
-        "access_rules": [],
+        "access_rules": ["$canReachCellar"],
         "sections": [
           {
             //Boo Check
@@ -863,7 +866,7 @@
       {
         //Rooms
         "name": "Pipe Room",
-        "access_rules": [],
+        "access_rules": ["$canReachPipe"],
         "sections": [
           {
             //Boo Check
@@ -885,7 +888,7 @@
       {
         //Rooms
         "name": "Cold Storage",
-        "access_rules": [],
+        "access_rules": ["$canReachColdRoom, $canGrabFire"],
         "sections": [
           {
             //Boo Check

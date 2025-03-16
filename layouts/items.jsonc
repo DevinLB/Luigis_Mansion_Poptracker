@@ -71,7 +71,7 @@
         "mario_items",
         "washroom_boo",
         "balcony_boo",
-        "boo"
+        "final_boo"
       ]
     ]
   },
@@ -83,19 +83,19 @@
     "item_size": 64,
     "rows":[
       [
-        "key_upper2f", "key_safari", "key_balcony", "key_telephone", "key_clockwork", "key_armory", "key_ceramics", "key_artist"
+        "key_upper2f", "key_safari", "key_eastattic", "key_balcony", "key_telephone", "key_clockwork", "key_armory", "key_ceramics", "key_artist"
       ],
       [
         "key_parlor", "key_anteroom", "key_wardrobe", "key_wardrobebalcony", "key_famhall", "key_study", "key_Masterbed", "key_nursery"
       ],
       [
-        "key_twin", "key_sitting", "key_guest", "key_astral", "key_nana", "key_2fbath", "key_2fwash", "key_tea"
+        "key_twin", "key_sitting", "key_guest", "key_astral", "key_observatory", "key_nana", "key_2fbath", "key_2fwash", "key_tea"
       ],
       [
         "key_ballroom", "key_storage", "key_fortune", "key_dining", "key_kitchen", "key_boneyard", "key_conservatory", "key_1fbath"
       ],
       [
-        "key_1fwash", "key_mirror", "key_laundry", "key_butler", "key_southrec", "key_northrec", "key_billiards", "key_lower2f"
+        "key_1fwash", "key_mirror", "key_laundry", "key_butler", "key_southrec", "key_northrec", "key_billiards", "key_projection", "key_lower2f"
       ],
       [
         "key_basestair","key_basehall", "key_breaker", "key_cellar", "key_cold", "key_pipe", "key_spadehall"

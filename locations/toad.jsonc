@@ -5,7 +5,7 @@
     "children": [
       {
         "name": "Foyer",
-        "access_rules": [],
+        "access_rules": [""],
         "sections": [
           {
             "name": "Foyer Toad",
@@ -25,7 +25,7 @@
       },
       {
         "name": "Wardrobe",
-        "access_rules": [],
+        "access_rules": ["$canReachWarBalcony"],
         "sections": [
           {
             "name": "Wardrobe Balcony Toad",
@@ -45,7 +45,7 @@
       },
       {
         "name": "1F Washroom",
-        "access_rules": [],
+        "access_rules": ["$canReachFloor1Wash"],
         "sections": [
           {
             "name": "1F Washroom Toad",
@@ -65,7 +65,7 @@
       },
       {
         "name": "Courtyard",
-        "access_rules": [],
+        "access_rules": ["$canReachCourtyard"],
         "sections": [
           {
             "name": "Courtyard Toad",
