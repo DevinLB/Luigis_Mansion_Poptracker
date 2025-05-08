@@ -48,15 +48,6 @@
                 "type": "layout",
                 "key": "small_keys"
               }
-            },
-            {
-              "type": "group",
-              "header": "Settings",
-              "dock": "top",
-              "content": {
-                "type": "layout",
-                "key": "settings"
-              }
             }
           ]
         },
