@@ -1644,12 +1644,6 @@
             "item_count": 1
           },
           {
-            "name": "Wardrobe Balcony Brazier",
-            "chest_unopened_img": "images/minor checks/furniture.png",
-            "chest_opened_img": "images/minor checks/furniture_gray.png",
-            "item_count": 1
-          },
-          {
             "name": "Wardrobe Purple Dress",
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",

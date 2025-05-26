@@ -21,13 +21,39 @@ end
 
 -- Room Logic
 
-function isDoorOpen(door)
-    local door_locks = {} -- Ensure door_locks is defined
-    local door_status = door_locks[door]
-    if door_status then
-        return true
+function getDoorList()
+    ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
+    if door_locks then
+        print("NO DOORS FOUND")
     else
-        return false
+        print("FOUND DOORS")
+        return door_locks
+    end
+end
+
+function isDoorOpen(door)
+    -- print(" - - - - - START OF THE FUNCTION - - - - - ")
+    if dump_table(doors_locks) == nil then
+        getDoorList()
+    end
+    local door_doors = {} -- Ensure door_locks is defined
+    local door_doors = door_locks
+    -- print("DOOR LOCKS")
+    -- print(door)
+    if door_locks then
+        for k,v in pairs (door_doors) do
+            if door_doors[k][door] ~= nill then
+                local door_status = door_doors[k][door]
+                -- print("DOOR STATUS")
+                if door_status == "1" then
+                    -- print("Door is Open!")
+                    return true
+                else
+                    -- print("Door is Locked!")
+                    return false
+                end 
+            end
+        end
     end
 end
 

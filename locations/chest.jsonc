@@ -6,28 +6,6 @@
     "children": [
       {
         //rooms
-        "name": "Foyer",
-        "access_rules": [],
-        "sections": [
-          //chest checks
-          {
-            "name": "Ghost Foyer Key",
-            "chest_unopened_img": "images/minor checks/chest_gold.png",
-            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "f1",
-            "x": "524",
-            "y": "728",
-            "size": 14
-          }
-        ]
-      },
-      {
-        //rooms
         "name": "Fortune Teller's Room",
         "access_rules": ["$canReachFortune"],
         "sections": [

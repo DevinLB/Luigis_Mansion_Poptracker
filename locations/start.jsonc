@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Floor 1 Start",
+    "children": [
+      {
+        "name": "Start Locations",
+        "sections": [
+          {
+            "name": "E.Gadd's Gift",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Luigi's Courage",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ghost Foyer Key",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 524,
+            "y": 728,
+            "size": 14
+          }
+        ]
+      }
+    ]
+  }
+]

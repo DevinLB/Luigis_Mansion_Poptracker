@@ -1,6 +1,8 @@
 
 LOCATION_MAPPING = {
-[8713] = {"@Floor 1 Chests/Foyer/Ghost Foyer Key"},
+[8853] = {"@Floor 1 Start/Start Locations/E.Gadd's Gift"},
+[8708] = {"@Floor 1 Start/Start Locations/Luigi's Courage"},
+[8713] = {"@Floor 1 Start/Start Locations/Ghost Foyer Key"},
 [8004] = {"@Floor 1 Chests/1F Washroom/1F Washroom Toilet"},
 [8006] = {"@Floor 1 Chests/Fortune Teller's Room/Fortune Teller Candles"},
 [8007] = {"@Floor 1 Chests/Laundry Room/Laundry Washing Machine"},
