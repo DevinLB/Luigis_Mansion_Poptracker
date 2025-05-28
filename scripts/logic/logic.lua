@@ -110,7 +110,7 @@ function canReachCourtyard()
 end
 
 function canReachFloor1Bath()
-    return (has("key_1fbath") or isDoorOpen("bathroom_if")) and canReachFloor1Hall()
+    return (has("key_1fbath") or isDoorOpen("bathroom_1f")) and canReachFloor1Hall()
 end
 
 function canReachFloor1Wash()
@@ -182,7 +182,7 @@ function canReachWell()
 end
 
 function canReachTea()
-    return (has("key_tea") or isDoorOpen("tea")) and canReach2FStair()
+    return (has("key_tea") or isDoorOpen("tea")) and canReach2FStair() and canGrabFire()
 end
 
 function canReach2FHall()

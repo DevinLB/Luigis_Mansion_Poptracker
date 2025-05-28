@@ -115,7 +115,7 @@ function onClear(slot_data)
 
     if slot_data['furnisanity'] then
         local furniture = Tracker:FindObjectForCode('furnisanity')
-        furniture.CurrentStage = (slot_data['furnisanity'])
+        -- furniture.CurrentStage = (slot_data['furnisanity'])
     end
     if slot_data['clairvoya requirement'] then
         local mario = Tracker:FindObjectForCode("mario_items")
