@@ -61,7 +61,7 @@
         "washroom_boo",
         "balcony_boo",
         "final_boo",
-        "mario_items",
+        "mario_items"
       ],
       [
         "walksanity",
@@ -76,6 +76,7 @@
         "fs_decor",
         "fs_ceiling",
         "fs_candles",
+        "fs_hangables",
         "fs_seating",
         "fs_surfaces",
         "fs_storage",
@@ -99,7 +100,7 @@
         "key_clockwork", "key_armory", "key_ceramics", "key_artist", "key_parlor"
       ],
       [
-        "key_anteroom", "key_wardrobe", "key_wardrobebalcony", "key_famhall", "key_study",
+        "key_anteroom", "key_wardrobe", "key_wardrobebalcony", "key_famhall", "key_study"
       ],
       [
         "key_Masterbed", "key_nursery", "key_twin", "key_sitting", "key_guest"
