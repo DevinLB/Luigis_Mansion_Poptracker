@@ -593,29 +593,6 @@
     ]
   },
   {
-    "name": "Furniture Sanity",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "codes": "furnisanity",
-        "inherit_codes": false,
-        "img": "images/options/furniture_sanity.png"
-      },
-      {
-        "codes": "furnisanity_on, furnisanity",
-        "inherit_codes": false,
-        "img": "images/options/furniture_sanity_on.png"
-      },
-      {
-        "codes": "furnisanity_off, furnisanity",
-        "inherit_codes": false,
-        "img": "images/options/furniture_sanity_off.png"
-      }
-    ]
-  },
-  {
     "name": "SpiritSanity",
     "type": "progressive",
     "allow_disabled": false,
@@ -635,29 +612,6 @@
         "codes": "speedy_spirits_off, speedy_spirits",
         "inherit_codes": false,
         "img": "images/options/speedy_spirits_off.png"
-      }
-    ]
-  },
-  {
-    "name": "PlantSanity",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "codes": "plantsanity",
-        "inherit_codes": false,
-        "img": "images/options/plant_sanity.png"
-      },
-      {
-        "codes": "plantsanity_on, plantsanity",
-        "inherit_codes": false,
-        "img": "images/options/plant_sanity_on.png"
-      },
-      {
-        "codes": "plantsanity_on, plantsanity",
-        "inherit_codes": false,
-        "img": "images/options/plant_sanity_off.png"
       }
     ]
   },
@@ -833,6 +787,236 @@
         "codes": "portrification_off, portrification",
         "inherit_codes": false,
         "img": "images/options/portrification_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Full",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "furnisanity",
+        "inherit_codes": false,
+        "img": "images/options/furniture_sanity.png"
+      },
+      {
+        "codes": "furnisanity_on, furnisanity",
+        "inherit_codes": false,
+        "img": "images/options/furniture_sanity_on.png"
+      },
+      {
+        "codes": "furnisanity_off, furnisanity",
+        "inherit_codes": false,
+        "img": "images/options/furniture_sanity_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Decor",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_decor",
+        "inherit_codes": false,
+        "img": "images/options/fs_decor.png"
+      },
+      {
+        "codes": "fs_decor_on, fs_decor",
+        "inherit_codes": false,
+        "img": "images/options/fs_decor_on.png"
+      },
+      {
+        "codes": "fs_decor_off, fs_decor",
+        "inherit_codes": false,
+        "img": "images/options/fs_decor_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Ceiling",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_ceiling",
+        "inherit_codes": false,
+        "img": "images/options/fs_ceiling.png"
+      },
+      {
+        "codes": "fs_ceiling_on, fs_ceiling",
+        "inherit_codes": false,
+        "img": "images/options/fs_ceiling_on.png"
+      },
+      {
+        "codes": "fs_ceiling_off, fs_ceiling",
+        "inherit_codes": false,
+        "img": "images/options/fs_ceiling_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Candles",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_candles",
+        "inherit_codes": false,
+        "img": "images/options/fs_candles.png"
+      },
+      {
+        "codes": "fs_candles_on, fs_candles",
+        "inherit_codes": false,
+        "img": "images/options/fs_candles_on.png"
+      },
+      {
+        "codes": "fs_candles_off, fs_candles",
+        "inherit_codes": false,
+        "img": "images/options/fs_candles_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Seating",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_seating",
+        "inherit_codes": false,
+        "img": "images/options/fs_seating.png"
+      },
+      {
+        "codes": "fs_seating_on, fs_seating",
+        "inherit_codes": false,
+        "img": "images/options/fs_seating_on.png"
+      },
+      {
+        "codes": "fs_seating_off, fs_seating",
+        "inherit_codes": false,
+        "img": "images/options/fs_seating_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Surfaces",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_surfaces",
+        "inherit_codes": false,
+        "img": "images/options/fs_surfaces.png"
+      },
+      {
+        "codes": "fs_surfaces_on, fs_surfaces",
+        "inherit_codes": false,
+        "img": "images/options/fs_surfaces_on.png"
+      },
+      {
+        "codes": "fs_surfaces_off, fs_surfaces",
+        "inherit_codes": false,
+        "img": "images/options/fs_surfaces_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Storage",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_storage",
+        "inherit_codes": false,
+        "img": "images/options/fs_storage.png"
+      },
+      {
+        "codes": "fs_storage_on, fs_storage",
+        "inherit_codes": false,
+        "img": "images/options/fs_storage_on.png"
+      },
+      {
+        "codes": "fs_storage_off, fs_storage",
+        "inherit_codes": false,
+        "img": "images/options/fs_storage_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Plants",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_plants",
+        "inherit_codes": false,
+        "img": "images/options/fs_plants.png"
+      },
+      {
+        "codes": "fs_plants_on, fs_plants",
+        "inherit_codes": false,
+        "img": "images/options/fs_plants_on.png"
+      },
+      {
+        "codes": "fs_plants_off, fs_plants",
+        "inherit_codes": false,
+        "img": "images/options/fs_plants_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Drawers",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_drawers",
+        "inherit_codes": false,
+        "img": "images/options/fs_drawers.png"
+      },
+      {
+        "codes": "fs_drawers_on, fs_drawers",
+        "inherit_codes": false,
+        "img": "images/options/fs_drawers_on.png"
+      },
+      {
+        "codes": "fs_drawers_off, fs_drawers",
+        "inherit_codes": false,
+        "img": "images/options/fs_drawers_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Treasures",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_treasures",
+        "inherit_codes": false,
+        "img": "images/options/fs_treasures.png"
+      },
+      {
+        "codes": "fs_treasures_on, fs_treasures",
+        "inherit_codes": false,
+        "img": "images/options/fs_treasures_on.png"
+      },
+      {
+        "codes": "fs_treasures_off, fs_treasures",
+        "inherit_codes": false,
+        "img": "images/options/fs_treasures_off.png"
       }
     ]
   }

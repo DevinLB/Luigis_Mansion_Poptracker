@@ -37,7 +37,7 @@
       {
         //rooms
         "name": "Mirror Room",
-        "access_rules": ["$CanReachMirror, $canCatchGhosts|Mirror Room|"],
+        "access_rules": ["$canReachMirror, $canCatchGhosts|Mirror Room|"],
         "sections": [
           //chest checks
           {
