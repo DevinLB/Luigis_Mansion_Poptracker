@@ -35,6 +35,7 @@ Tracker:AddLocations("locations/portrait.jsonc")
 Tracker:AddLocations("locations/room.jsonc")
 Tracker:AddLocations("locations/speedy.jsonc")
 Tracker:AddLocations("locations/toad.jsonc")
+Tracker:AddLocations("locations/mouse.jsonc")
 
 
 -- Layout

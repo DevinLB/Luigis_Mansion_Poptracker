@@ -1,6 +1,7 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/door_rando_tables.lua")
+ScriptHost:LoadScript("scripts/autotracking/ghost_rando_table.lua")
 ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
 
 CUR_INDEX = -1
@@ -87,6 +88,15 @@ function onClear(slot_data)
         print(v, door_names[k], dump_table(door_locks[k][door_names[k]]))
     end
     -- print(dump_table(door_locks))
+
+    --Enemy Randomizer Logic
+    print("ENEMY LOGIC -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+    for k,v in pairs(element_rooms) do
+        print(v, dump_table(slot_data['ghost elements'][v]))
+    end
+    enemies = slot_data['ghost elements']
+    print(dump_table(enemies))
+    
 
     if slot_data == nil  then
         print("welp")

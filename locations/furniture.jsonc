@@ -661,6 +661,77 @@
       },
       {
         //rooms
+        "name": "Kitchen",
+        "access_rules": ["$canReachKitchen"],
+        "sections": [
+          //furniture checks
+          {
+            "name": "Kitchen Oven",
+            "access_rules": ["$canGrabFire"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Kitchen China Hutch",
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Kitchen L Food Shelf",
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Kitchen R Food Shelf",
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Kitchen Table",
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Kitchen Utensils Rack",
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Kitchen Dishwasher",
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Kitchen L Ceiling Light",
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Kitchen R Ceiling Light",
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "250",
+            "y": "508",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
         "name": "Boneyard",
         "access_rules": ["$canReachBoneyard"],
         "sections": [

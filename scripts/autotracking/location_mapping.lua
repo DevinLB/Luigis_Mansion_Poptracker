@@ -770,5 +770,15 @@ LOCATION_MAPPING = {
 [8789] = {"@Floor 3 Rooms/East Attic Hallway/East Attic Hallway Light On"},
 [8790] = {"@Floor 3 Rooms/West Attic Hallway/West Attic Hallway Light On"},
 [8791] = {"@Roof Rooms/Roof/Roof Light On"},
-[8851] = {"@Basement Rooms/Basement Stairwell/Basement Stairwell Light On"}
+[8851] = {"@Basement Rooms/Basement Stairwell/Basement Stairwell Light On"},
+[8659] = {"@Mouse Locations/Study/Study Cheese Gold Mouse"},
+[8660] = {"@Mouse Locations/Fortune Teller's Room/Fortune Teller Cheese Mouse"},
+[8661] = {"@Mouse Locations/Dining Room/Dining Room Cheese Mouse"},
+[8662] = {"@Mouse Locations/Tea Room/Tea Room Cheese Mouse"},
+[8663] = {"@Mouse Locations/Safari Room/Safari Room Cheese Mouse"},
+[8664] = {"@Mouse Locations/1F Hallway/1F Hallway Chance Mouse"},
+[8665] = {"@Mouse Locations/Kitchen/Kitchen Chance Mouse"},
+[8666] = {"@Mouse Locations/Tea Room/Tea Room Chance Mouse"},
+[8667] = {"@Mouse Locations/2F Rear Hallway/2F Rear Hallway Chance Mouse"},
+[8668] = {"@Mouse Locations/Sealed Room/Sealed Room Chance Mouse"},
 }

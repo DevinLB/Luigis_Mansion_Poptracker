@@ -185,7 +185,7 @@
       {
         //Rooms
         "name": "Kitchen",
-        "access_rules": ["$canReachKitchen"],
+        "access_rules": ["$canReachKitchen, $canGrabFire"],
         "sections": [
           {
             //Boo Check
@@ -577,7 +577,7 @@
       {
         //Rooms
         "name": "Safari Room",
-        "access_rules": ["$canReachSafari"],
+        "access_rules": ["$canReachSafari, $canGrabIce"],
         "sections": [
           {
             //Boo Check

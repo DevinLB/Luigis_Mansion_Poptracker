@@ -21,22 +21,9 @@ end
 
 -- Room Logic
 
-function getDoorList()
-    ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
-    if door_locks then
-        print("NO DOORS FOUND")
-    else
-        print("FOUND DOORS")
-        return door_locks
-    end
-end
-
+door_locks = {} -- Ensure door_locks is defined
 function isDoorOpen(door)
-    -- print(" - - - - - START OF THE FUNCTION - - - - - ")
-    if dump_table(doors_locks) == nil then
-        getDoorList()
-    end
-    local door_doors = {} -- Ensure door_locks is defined
+    local door_doors = {} 
     local door_doors = door_locks
     -- print("DOOR LOCKS")
     -- print(door)
@@ -53,6 +40,28 @@ function isDoorOpen(door)
                     return false
                 end 
             end
+        end
+    end
+end
+
+-- Elemental Ghost Logic
+enemies = {}
+function canCatchGhosts(room)
+    -- print("TESTING ELEMENTAL GHOST LOGIC FOR", room)
+    -- print(dump_table(enemies[room]))
+    if enemies[room] then
+        ghost_element = enemies[room]
+        if ghost_element == "No Element" then
+            return true
+        end
+        if ghost_element == "Fire" then
+            return canGrabWater()
+        end
+        if ghost_element == "Ice" then
+            return canGrabFire()
+        end
+        if ghost_element == "Water" then
+            return canGrabIce()
         end
     end
 end
@@ -182,7 +191,7 @@ function canReachWell()
 end
 
 function canReachTea()
-    return (has("key_tea") or isDoorOpen("tea")) and canReach2FStair() and canGrabFire()
+    return (has("key_tea") or isDoorOpen("tea")) and canReach2FStair() and canGrabWater()
 end
 
 function canReach2FHall()

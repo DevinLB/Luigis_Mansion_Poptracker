@@ -78,6 +78,7 @@
           {
             "name": "Laundry Room Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Laundry Room|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -137,6 +138,7 @@
           {
             "name": "Hidden Room Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Hidden Room|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -196,6 +198,7 @@
           {
             "name": "Mirror Room Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Mirror Room|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -225,6 +228,7 @@
           {
             "name": "Ballroom Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Ballroom|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -254,6 +258,7 @@
           {
             "name": "Storage Room Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Storage Room|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -313,6 +318,7 @@
           {
             "name": "Kitchen Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Kitchen|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -371,6 +377,7 @@
           {
             "name": "Graveyard Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Graveyard|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -429,6 +436,7 @@
           {
             "name": "Projection Room Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Projection Room|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -516,6 +524,7 @@
           {
             "name": "1F Bathroom Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|1F Bathroom|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -545,6 +554,7 @@
           {
             "name": "Courtyard Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Courtyard|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -639,6 +649,7 @@
           {
             "name": "Anteroom Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Anteroom|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -668,6 +679,7 @@
           {
             "name": "Wardrobe Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Wardrobe|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -919,6 +931,7 @@
           {
             "name": "Tea Room Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Tea Room|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -948,6 +961,7 @@
           {
             "name": "2F Rear Hallway Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canReachBalcony, $canGrabIce"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -977,6 +991,7 @@
           {
             "name": "2F Washroom Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|2F Washroom|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -1177,6 +1192,7 @@
           {
             "name": "Sealed Room Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Sealed Room|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -1200,7 +1216,7 @@
     "children": [
       {
         "name": "2F Attic Stairwell",
-        "access_rules": ["$canReach2FHall"],
+        "access_rules": ["$canReach2FHall, $canReachBalcony, $canGrabIce"],
         "sections": [
           //Room Checks
           {
@@ -1235,6 +1251,7 @@
           {
             "name": "Safari Room Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Safari Room|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -1293,6 +1310,7 @@
           {
             "name": "Artist's Studio Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Artist's Studio|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -1381,6 +1399,7 @@
           {
             "name": "Armory Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Armory|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -1440,6 +1459,7 @@
           {
             "name": "Telephone Room Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Telephone Room|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -1505,6 +1525,7 @@
           {
             "name": "Roof Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Roof|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -1570,6 +1591,7 @@
           {
             "name": "Basement Stairwell Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canReachBaseStair, $canReachBalcony, $canGrabIce"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -1628,6 +1650,7 @@
           {
             "name": "Cellar Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Cellar|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -1679,6 +1702,7 @@
           {
             "name": "Pipe Room Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Pipe Room|",
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
