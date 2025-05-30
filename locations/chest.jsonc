@@ -37,12 +37,11 @@
       {
         //rooms
         "name": "Mirror Room",
-        "access_rules": [],
+        "access_rules": ["$CanReachMirror, $canCatchGhosts|Mirror Room|"],
         "sections": [
           //chest checks
           {
             "name": "Mirror Room Clear Chest",
-            "access_rules": ["$canReachMirror"],
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
@@ -105,6 +104,7 @@
           },
           {
             "name": "Hidden Room Clear Chest",
+            "access_rules": ["$canCatchGhosts|Hidden Room|"],
             "chest_unopened_img": "images/minor checks/chest_green.png",
             "chest_opened_img": "images/minor checks/chest_green_gray.png",
             "item_count": 1
@@ -133,6 +133,7 @@
           },
           {
             "name": "Laundry Clear Chest",
+            "access_rules": ", $canCatchGhosts|Laundry Room|",
             "chest_unopened_img": "images/minor checks/chest_green.png",
             "chest_opened_img": "images/minor checks/chest_green_gray.png",
             "item_count": 1
@@ -150,7 +151,7 @@
       {
         //rooms
         "name": "Ballroom",
-        "access_rules": ["$canReachBallRoom"],
+        "access_rules": ["$canReachBallRoom, $canCatchGhosts|Ballroom|"],
         "sections": [
           //chest checks
           {
@@ -194,7 +195,7 @@
       {
         //rooms
         "name": "Kitchen",
-        "access_rules": ["$canReachKitchen, $canGrabFire"],
+        "access_rules": ["$canReachKitchen, $canCatchGhosts|Kitchen|"],
         "sections": [
           //chest checks
           {
@@ -216,7 +217,7 @@
       {
         //rooms
         "name": "Graveyard",
-        "access_rules": ["$canReachGraveyard"],
+        "access_rules": ["$canReachGraveyard, $canCatchGhosts|Graveyard|"],
         "sections": [
           //chest checks
           {
@@ -282,7 +283,7 @@
       {
         //rooms
         "name": "1F Bathroom",
-        "access_rules": ["$canReachFloor1Bath"],
+        "access_rules": ["$canReachFloor1Bath, $canCatchGhosts|1F Bathroom|"],
         "sections": [
           //chest checks
           {
@@ -382,7 +383,7 @@
       {
         //rooms
         "name": "Projection Room",
-        "access_rules": ["$canReachProjection"],
+        "access_rules": ["$canReachProjection, $canCatchGhosts|Projection Room|"],
         "sections": [
           //chest checks
           {
@@ -525,7 +526,15 @@
         "sections": [
           //chest checks
           {
+            "name": "Wardrobe Clear Chest",
+            "access_rules": ["$canReachBreaker"],
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          },
+          {
             "name": "Wardrobe Shelf Key",
+            "access_rules": ["$canCatchGhosts|Wardrobe|"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -543,7 +552,7 @@
       {
         //rooms
         "name": "Tea Room",
-        "access_rules": ["$canReachTea"],
+        "access_rules": ["$canReachTea, $canCatchGhosts|Tea Room|"],
         "sections": [
           //chest checks
           {
@@ -565,7 +574,7 @@
       {
         //rooms
         "name": "2F Washroom",
-        "access_rules": ["$canReach2FWash"],
+        "access_rules": ["$canReach2FWash, $canCatchGhosts|2F Washroom|"],
         "sections": [
           //chest checks
           {
@@ -722,6 +731,7 @@
           },
           {
             "name": "Sealed Room Clear Chest",
+            "access_rules": "$canCatchGhosts|Sealed Room|",
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -746,7 +756,7 @@
       {
         //rooms
         "name": "Safari Room",
-        "access_rules": ["$canReachSafari, $canGrabFire"],
+        "access_rules": ["$canReachSafari, $canCatchGhosts|Safari Room|"],
         "sections": [
           //chest checks
           {
@@ -768,7 +778,7 @@
       {
         //rooms
         "name": "Artist's Studio",
-        "access_rules": ["$canReachArtist"],
+        "access_rules": ["$canReachArtist, $canCatchGhosts|Artist's Studio|"],
         "sections": [
           //chest checks
           {
@@ -812,7 +822,7 @@
       {
         //rooms
         "name": "Armory",
-        "access_rules": ["$canReachArmory"],
+        "access_rules": ["$canReachArmory, $canCatchGhosts|Armory|"],
         "sections": [
           //chest checks
           {
@@ -885,6 +895,7 @@
           },
           {
             "name": "Telephone Room Clear Chest",
+            "access_rules": ["$canCatchGhosts|Telephone Room|"],
             "chest_unopened_img": "images/minor checks/chest_green.png",
             "chest_opened_img": "images/minor checks/chest_green_gray.png",
             "item_count": 1
@@ -909,7 +920,7 @@
       {
         //rooms
         "name": "Roof",
-        "access_rules": ["$canReachRoof, $canGrabFire"],
+        "access_rules": ["$canReachRoof, $canCatchGhosts|Roof|"],
         "sections": [
           //chest checks
           {
@@ -938,7 +949,7 @@
       {
         //rooms
         "name": "Well",
-        "access_rules": ["$canReachCourtyard"],
+        "access_rules": ["$canReachCourtyard, $canCatchGhosts|Courtyard|"],
         "sections": [
           //chest checks
           {
@@ -982,7 +993,7 @@
       {
         //rooms
         "name": "Cellar",
-        "access_rules": ["$canReachCellar"],
+        "access_rules": ["$canReachCellar, $canCatchGhosts|Cellar|"],
         "sections": [
           //chest checks
           {
@@ -1026,7 +1037,7 @@
       {
         //rooms
         "name": "Pipe Room",
-        "access_rules": ["$canReachPipe"],
+        "access_rules": ["$canReachPipe, $canCatchGhosts|Pipe Room|"],
         "sections": [
           //chest checks
           {

@@ -45,6 +45,7 @@ LOCATION_MAPPING = {
 [8003] = {"@Floor 2 Chests/Nursery/Nursery Clear Chest"},
 [8711] = {"@Floor 1 Chests/Graveyard/Graveyard Clear Chest"},
 [8050] = {"@Floor 2 Chests/Wardrobe/Wardrobe Shelf Key"},
+[8022] = {"@Floor 2 Chests/Wardrobe/Wardrobe Clear Chest"},
 [8051] = {"@Floor 1 Chests/Hidden Room/Hidden Room Clear Chest"},
 [8052] = {"@Floor 1 Chests/Mirror Room/Mirror Room Clear Chest"},
 [8053] = {"@Floor 1 Chests/Kitchen/Kitchen Clear Chest"},
