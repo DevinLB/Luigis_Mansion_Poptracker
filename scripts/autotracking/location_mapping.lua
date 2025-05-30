@@ -288,6 +288,7 @@ LOCATION_MAPPING = {
 [8291] = {"@Floor 1/Conservatory/Conservatory Cabinet"},
 [8292] = {"@Floor 1/Dining Room/Dining Room L Chair"},
 [8293] = {"@Floor 1/Dining Room/Dining Room R Chair"},
+[8852] = {"@Floor 1/Dining Room/Lugg's Stool"},
 [8295] = {"@Floor 1/Dining Room/Dining Room R China Hutch"},
 [8296] = {"@Floor 1/Dining Room/Dining Room L Brazier"},
 [8297] = {"@Floor 1/Dining Room/Dining Room R Brazier"},

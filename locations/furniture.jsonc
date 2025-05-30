@@ -3,7 +3,6 @@
   {
     //floor name
     "name": "Floor 1",
-    "visibility_rules": "furnisanity_on",
     "children": [
       {
         //rooms
@@ -13,48 +12,56 @@
           //furniture checks
           {
             "name": "Foyer Dresser",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Heart Door Lamp",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Foyer Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Foyer Mirror",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Upper Foyer R Vase",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Upper Foyer L Vase",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Foyer R Candlestick",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Foyer L Candlestick",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -77,42 +84,49 @@
           //furniture checks
           {
             "name": "1F Hallway Front Vase L",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Hallway Front Vase C",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Hallway Front Vase R",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Hallway Rear Vase L",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Hallway Rear Vase C",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Hallway Rear Vase R",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Hallway Painting",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -135,48 +149,56 @@
           //furniture checks
           {
             "name": "Laundry Room Broom",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Laundry Room Bucket",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Laundry Room Dustpan",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Laundry Room Laundry Basket",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Laundry Room Cabinet",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Laundry Room Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Laundry Room West Soap Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Laundry Room East Soap Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -199,84 +221,98 @@
           //furniture checks
           {
             "name": "Butler's Room Table",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Butler's Room Stool (candle on Top)",
+            "name": "Butler's Room Stool (candle on Top)", 
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Butler's Room Stool (near Sewing Machine)",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Butler's Room Stool (middle table, R)",
+            "name": "Butler's Room Stool (middle table, R)", 
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Butler's Room Stool (middle table, C)",
+            "name": "Butler's Room Stool (middle table, C)", 
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Butler's Room Stool (close to Left Wall)",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Butler's Room Mop Bucket",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Butler's Room Toilet Paper (near Hidden Room)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Butler's Room Toilet Paper (near Mop n Bucket)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Butler's Room Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Butler's Room Bucket",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Butler's Room Cabinet",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Butler's Room Ironing Board",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Butler's Room Sewing Machine",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -299,60 +335,70 @@
           //furniture checks
           {
             "name": "Hidden Room R Trophy",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Hidden Room L Trophy",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Hidden Room R Candlestick",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Hidden Room L Candlestick",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Hidden Room Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Hidden Room Painting Middle C",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Hidden Room Painting R",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Hidden Room Painting L",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Hidden Room Painting Middle L",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Hidden Room Painting Middle R",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -375,48 +421,56 @@
           //furniture checks
           {
             "name": "Fortune Teller's Room West Dresser",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Fortune Teller's Room East Dresser",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Fortune Teller's Room West Candlestick",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Fortune Teller's Room East Candlestick",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Fortune Teller's Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Clairvoya's Crystal Ball",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Fortune Teller's Room West Pillar",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Fortune Teller's Room East Pillar",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -439,42 +493,49 @@
           //furniture checks
           {
             "name": "Mirror Room Drawer",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Mirror Room Brazier",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Mirror Room West Candlestick",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Mirror Room East Candlestick",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Mirror Room West Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Mirror Room East Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Mirror Room Picture",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -497,84 +558,105 @@
           //furniture checks
           {
             "name": "Dining Room L Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Dining Room R Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Lugg's Stool",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Dining Room R China Hutch",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Dining Room L Brazier",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Dining Room R Brazier",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Dining Room Picture",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Dining Room Table",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Dining Room Table Mess L (furthest Left)",
+            "name": "Dining Room Table Mess L (furthest Left)", 
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Dining Room Table Mess L (near Luggs)",
+            "name": "Dining Room Table Mess L (near Luggs)", 
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Dining Room Table Mess R (near Candles)",
+            "name": "Dining Room Table Mess R (near Candles)", 
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Dining Room Table Mess R",
+            "name": "Dining Room Table Mess R", 
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Dining Room Table Mess L (underneath Table)",
+            "name": "Dining Room Table Mess L (underneath Table)", 
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Dining Room R Candles and Plates",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Dining Room L Candles",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -597,76 +679,7 @@
           //furniture checks
           {
             "name": "Kitchen Oven",
-            "chest_unopened_img": "images/minor checks/furniture.png",
-            "chest_opened_img": "images/minor checks/furniture_gray.png",
-            "item_count": 1
-          },
-          {
-            "name": "Kitchen China Hutch",
-            "chest_unopened_img": "images/minor checks/furniture.png",
-            "chest_opened_img": "images/minor checks/furniture_gray.png",
-            "item_count": 1
-          },
-          {
-            "name": "Kitchen L Food Shelf",
-            "chest_unopened_img": "images/minor checks/furniture.png",
-            "chest_opened_img": "images/minor checks/furniture_gray.png",
-            "item_count": 1
-          },
-          {
-            "name": "Kitchen R Food Shelf",
-            "chest_unopened_img": "images/minor checks/furniture.png",
-            "chest_opened_img": "images/minor checks/furniture_gray.png",
-            "item_count": 1
-          },
-          {
-            "name": "Kitchen Table",
-            "chest_unopened_img": "images/minor checks/furniture.png",
-            "chest_opened_img": "images/minor checks/furniture_gray.png",
-            "item_count": 1
-          },
-          {
-            "name": "Kitchen Utensils Rack",
-            "chest_unopened_img": "images/minor checks/furniture.png",
-            "chest_opened_img": "images/minor checks/furniture_gray.png",
-            "item_count": 1
-          },
-          {
-            "name": "Kitchen Dishwasher",
-            "chest_unopened_img": "images/minor checks/furniture.png",
-            "chest_opened_img": "images/minor checks/furniture_gray.png",
-            "item_count": 1
-          },
-          {
-            "name": "Kitchen L Ceiling Light",
-            "chest_unopened_img": "images/minor checks/furniture.png",
-            "chest_opened_img": "images/minor checks/furniture_gray.png",
-            "item_count": 1
-          },
-          {
-            "name": "Kitchen R Ceiling Light",
-            "chest_unopened_img": "images/minor checks/furniture.png",
-            "chest_opened_img": "images/minor checks/furniture_gray.png",
-            "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "f1",
-            "x": "250",
-            "y": "508",
-            "size": 14
-          }
-        ]
-      },
-      {
-        //rooms
-        "name": "Kitchen",
-        "access_rules": ["$canReachKitchen"],
-        "sections": [
-          //furniture checks
-          {
-            "name": "Kitchen Oven",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "access_rules": ["$canGrabFire"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
@@ -674,48 +687,56 @@
           },
           {
             "name": "Kitchen China Hutch",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Kitchen L Food Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Kitchen R Food Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Kitchen Table",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Kitchen Utensils Rack",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Kitchen Dishwasher",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Kitchen L Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Kitchen R Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -738,18 +759,21 @@
           //furniture checks
           {
             "name": "Spooky's Dog Bowl",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Boneyard Faucet",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Boneyard Sign",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -772,48 +796,56 @@
           //furniture checks
           {
             "name": "Bogmire's Tombstone",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Graveyard Downspout",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Graveyard L Brazier",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Graveyard R Brazier",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Graveyard Tombstone (near Tree stump)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Graveyard Tombstone (back row, right side)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Graveyard Tombstone (center, right side)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Graveyard Tombstone (far right near drain pipe)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -836,42 +868,49 @@
           //furniture checks
           {
             "name": "Ballroom West Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ballroom East Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ballroom Portrait",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ballroom Chair L (closest to Left Wall)",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ballroom Chair L (furthest from Left Wall)",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ballroom Chair R (furthest from Right Wall)",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ballroom Chair R (closest from Right Wall)",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -894,66 +933,77 @@
           //furniture checks
           {
             "name": "Storage Room Bucket",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Storage Room Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Storage Room Chair Stack",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Storage Room Crate (bottom row, L)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Storage Room Crate (bottom row, back L)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Storage Room Crate (bottom row, back R)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Storage Room Crate (bottom row, C)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Storage Room Crate (bottom row, R)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Storage Room Crate (middle row, R)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Storage Room Crate (middle row, L)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Storage Room Crate (top row)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -976,114 +1026,133 @@
           //furniture checks
           {
             "name": "Conservatory Picture L",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Picture C",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Picture R (hangs Higher)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Picture R (hangs Lower)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Harp Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Cello Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Xylophone Music Stand",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Harp Music Stand",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Melody's Piano",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Piano Bench",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Xylophone",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Cello",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Left Bongo",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Right Bongo",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Center Bongo",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Harp",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Saxophone",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Conservatory Cabinet",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -1106,90 +1175,105 @@
           //furniture checks
           {
             "name": "Slim's Pool Table",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Billiards Room Chess Table",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Billiards Room C Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Billiards Room L Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Billiards Room L Portrait (near Chest)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Billiards Room L Portrait (near Dart Board)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Billiards Room C Portrait",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Billiards Room R Portrait",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Billiards Room Dart Board",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Billiards Room End Table (near Chest)",
+            "name": "Billiards Room End Table (near Chest)", 
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Billiards Room End Table (near Dart Board)",
+            "name": "Billiards Room End Table (near Dart Board)", 
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Billiards Room Ceiling Fan",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Billiards Room Table Drinks (near Chest)",
+            "name": "Billiards Room Table Drinks (near Chest)", 
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Billiards Room Table Drinks (near Dart Board)",
+            "name": "Billiards Room Table Drinks (near Dart Board)", 
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Billiards Room R Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -1212,48 +1296,56 @@
           //furniture checks
           {
             "name": "Projection Room Cabinet",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Projection Room Projector",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Projection Room Projector Table",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Projection Room L Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Projection Room R Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Projection Room L Speaker",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Projection Room R Speaker",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Projection Room Projection Screen",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -1276,48 +1368,56 @@
           //furniture checks
           {
             "name": "1F Washroom Toilet Paper",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Washroom Sink",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Washroom Mirror",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Washroom Picture",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Washroom Radiator",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Washroom Cabinet",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Washroom Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Washroom Water Tank (above Toilet)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -1340,18 +1440,21 @@
           //furniture checks
           {
             "name": "1F Bathroom Sink",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Bathroom Bathtub",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "1F Bathroom Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -1374,36 +1477,42 @@
           //furniture checks
           {
             "name": "Courtyard Outhouse",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Courtyard Male Statue",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Courtyard Female Statue",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Courtyard R Lamppost",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Courtyard L Lamppost",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Well Lantern",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -1426,72 +1535,84 @@
           //furniture checks
           {
             "name": "Rec Room Weight Station",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Rec Room Drawer",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Rec Room Rear Bicycle",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Rec Room SW Crest",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Rec Room NW Crest",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Rec Room SE Crest",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Rec Room NE Crest",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Rec Room L Sandbag",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Rec Room R Sandbag",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Rec Room C Sandbag",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Rec Room L Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Rec Room R Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -1512,7 +1633,6 @@
   {
     //floor name
     "name": "Floor 2",
-    "visibility_rules": "furnisanity_on",
     "children": [
       {
         //rooms
@@ -1522,102 +1642,119 @@
           //furniture checks
           {
             "name": "Parlor Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Parlor Wine Table",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Parlor Couch",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Parlor Table",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Parlor Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Parlor China Cabinet",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Parlor Book Hutch",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Parlor Green Lamp",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Parlor Table Candle",
+            "name": "Parlor Table Candle", 
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Parlor West Three Candles",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Parlor East Three Candles",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Parlor End Table",
+            "name": "Parlor End Table", 
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Parlor Painting L (closer to 4th Wall)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Parlor Painting L (near China Cabinet)",
+            "name": "Parlor Painting L (near China Cabinet)", 
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Parlor Center Painting",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Parlor Painting R (near Anteroom Door)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Parlor Painting R (closer to 4th Wall)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -1639,31 +1776,36 @@
         "sections": [
           //furniture checks
           {
-            "name": "Anteroom R End Table",
+            "name": "Anteroom R End Table", 
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Anteroom C End Table",
+            "name": "Anteroom C End Table", 
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Anteroom L End Table",
+            "name": "Anteroom L End Table", 
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Anteroom R Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Anteroom L Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -1686,72 +1828,84 @@
           //furniture checks
           {
             "name": "Wardrobe Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Shoe Rack",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Hat Stand",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Mirror",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Center Dresser",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Purple Dress",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Red Dress",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Blue Shirt",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Brown Suit",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Black Shirt",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Green Jacket",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Wardrobe Yellow Dress",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -1774,6 +1928,7 @@
           //furniture checks
           {
             "name": "Wardrobe Balcony Brazier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -1796,108 +1951,126 @@
           //furniture checks
           {
             "name": "Study Lamp",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Hat Rack",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Bottled Ship",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Desk",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Book (on Desk closer to Door)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Book (on Desk closer to Bookshelves)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Painting L (closer to 4th Wall)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Painting L (near Bookshelves)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Painting R (near Bookshelves)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Painting R (closer to 4th Wall)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Bookshelf (far left)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Bookshelf (second from left)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Bookshelf (third from left)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Bookshelf (third from right)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Bookshelf (second from right)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Study Bookshelf (far right)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -1920,60 +2093,70 @@
           //furniture checks
           {
             "name": "Master Bedroom Bed",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Master Bedroom Dresser",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Master Bedroom Stool",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Lydia's Vanity",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Master Bedroom End Table",
+            "name": "Master Bedroom End Table", 
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Master Bedroom Ceiling Fan",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Master Bedroom Painting L",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Master Bedroom Painting R (near Window)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Master Bedroom Painting R (closer to 4th Wall)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Master Bedroom Lamp",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -1996,72 +2179,84 @@
           //furniture checks
           {
             "name": "Nursery Vase",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Chauncey's Crib",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nursery Heart Dresser",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nursery Chair L",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nursery Chair R",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nursery Table",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nursery Toy Blocks R (closer to Door)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nursery Toy Blocks R (closer to 4th Wall)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nursery Wall Picture",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nursery Picture R (closer to Door)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nursery Picture R (closer to 4th Wall)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nursery Ceiling Lamp",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2084,72 +2279,84 @@
           //furniture checks
           {
             "name": "Twins' Room Tennis Rackets",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Twins' Room Dartboard",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Twins' Room Star Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Twins' Room Toy Train",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Twins' Room Toy Car",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Twins' Room Desk",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Twins' Room Picture L (farthest from Globe)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Twins' Room Picture L (closest to Globe)",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Twins' Room Chair L (closest to 4th Wall)",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Twins' Room Chair L (farthest from Desk)",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Twins' Room Toy Truck",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Twins' Room Dresser",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2172,6 +2379,7 @@
           //furniture checks
           {
             "name": "2F Stairwell Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2194,42 +2402,49 @@
           //furniture checks
           {
             "name": "2F Rear Hallway Picture",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Rear Hallway Vase L",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Rear Hallway Vase R",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Rear Hallway Vase 3",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Rear Hallway Vase 4",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Rear Hallway Vase 5",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Rear Hallway Vase 6",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2252,108 +2467,126 @@
           //furniture checks
           {
             "name": "Tea Room Ice Bucket",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room L Tea Set",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room R Tea Set",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Tea Room Chair (left table, left side near Door)",
+            "name": "Tea Room Chair (left table, left side near Door)", 
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room Chair (left table, right side near Door)",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room Chair (right table, left side near Door)",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room Chair (right table, right side near Door)",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room Chair (right table, right side near Window)",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room Chair (right table, left side near Window)",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room Chair (left table, right side near Window)",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room Chair (left table, left side near Window)",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room L Stored China",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room R Stored China",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room L Drawers",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room R Drawers",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room Tea Box",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Tea Room L Candlestick",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2376,48 +2609,56 @@
           //furniture checks
           {
             "name": "2F Washroom Water Tank (above Toilet)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Washroom Mirror",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Washroom Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Washroom Radiator",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Washroom Picture",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Washroom Toilet Paper",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Washroom Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Washroom Sink",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2440,12 +2681,14 @@
           //furniture checks
           {
             "name": "Petunia's Bathtub",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "2F Bathroom Sink",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2468,78 +2711,91 @@
           //furniture checks
           {
             "name": "Nana's Room Spinning Wheel",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nana's Room Sewing Machine",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nana's Room Dresser",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nana's Room Loveseat",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nana's Room Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nana's Room Coffee Table",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nana's Room Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nana's Room Books",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nana's Room Shelf Photos",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nana's Room Shelf Clock",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nana's Room Shelf Pots",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nana's Room Painting",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Nana's Yarn Balls",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2562,48 +2818,56 @@
           //furniture checks
           {
             "name": "Astral Hall Right Dresser",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Astral Hall Left Dresser",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Astral Hall Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Astral Hall North Candlabra",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Astral Hall East Candlabra",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Astral Hall West Candlabra",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Astral Hall SW Candlabra",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Astral Hall SE Candlabra",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2626,12 +2890,14 @@
           //furniture checks
           {
             "name": "Observatory Dresser",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Observatory Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2654,36 +2920,42 @@
           //furniture checks
           {
             "name": "Sitting Room Hat Stand",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sitting Room Water Pot",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sitting Room Couch",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sitting Room Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sitting Room Table",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sitting Room Picture",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2706,30 +2978,35 @@
           //furniture checks
           {
             "name": "Guest Room Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sue Pea's Bed",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Guest Room Vanity",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Guest Room End Table",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Guest Room Painting",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2752,84 +3029,98 @@
           //furniture checks
           {
             "name": "Sealed Room Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sealed Room Mirror",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sealed Room Picture",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sealed Room Table",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sealed Room L Plate",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sealed Room R Plate",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sealed Room L Mantle Candles",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sealed Room R Mantle Candles",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Sealed Room L Table Candles",
+            "name": "Sealed Room L Table Candles", 
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
-            "name": "Sealed Room R Table Candles",
+            "name": "Sealed Room R Table Candles", 
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sealed Room L Trophy",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sealed Room R Rear Trophy",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sealed Room R Middle Trophy",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Sealed Room R Front Trophy",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2850,7 +3141,6 @@
   {
     //floor name
     "name": "Floor 3",
-    "visibility_rules": "furnisanity_on",
     "children": [
       {
         //rooms
@@ -2860,6 +3150,7 @@
           //furniture checks
           {
             "name": "3F Stairwell Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2882,48 +3173,56 @@
           //furniture checks
           {
             "name": "Safari Room Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Safari Room Top Boxes",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Safari Room Bottom Boxes",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Safari Room L Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Safari Room R Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Safari Room L Deer Head",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Safari Room R Deer Head",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Safari Room Leopard Chest Box",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2946,36 +3245,42 @@
           //furniture checks
           {
             "name": "Artist's Studio Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Artist's Studio Stools",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Artist's Studio Art Supply Shelves",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Artist's Studio Biff Bust",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Artist's Studio Brick Pile",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Artist's Studio Art Piece Shelves",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2998,24 +3303,28 @@
           //furniture checks
           {
             "name": "Balcony West Bench",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony East Bench",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony West Statue",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony East Statue",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -3038,66 +3347,77 @@
           //furniture checks
           {
             "name": "Armory Armor Suit R (top)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory Armor Suit (middle, right)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory Armor Suit (middle, left)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory Armor Suit (middle, second from left)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory Armor Suit L (right side)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory Wall Shield",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory Crates (near Ceramics Door)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory Crates (front left corner)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory Crates (middle left)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory Crates (back left corner)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -3120,84 +3440,98 @@
           //furniture checks
           {
             "name": "Ceramics Studio Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ceramics Studio Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ceramics Studio Ice Vase",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ceramics Studio Boxes (top, back Wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ceramics Studio Boxes (bottom, back Wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ceramics Studio Boxes (left corner near 4th Wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ceramics Studio Vase (bottom right)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ceramics Studio Vase (bottom middle)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ceramics Studio Vase (bottom left)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ceramics Studio Vase (bottom more left)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ceramics Studio Vase (top more left)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ceramics Studio Vase (top left)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ceramics Studio Vase (top middle)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Ceramics Studio Vase (top right)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -3220,54 +3554,63 @@
           //furniture checks
           {
             "name": "Telephone Room Table",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Telephone Room Couch",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Telephone Room L Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Telephone Room R Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Telephone Room R Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Telephone Room L Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Telephone Room C Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Telephone Room L Cabinet",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Telephone Room R Cabinet",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -3290,78 +3633,91 @@
           //furniture checks
           {
             "name": "Clockwork Room R Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Clockwork Room L Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Clockwork Room R Puppet",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Clockwork Room L Puppet",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Clockwork Room L Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Clockwork Room R Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Clockwork Room C Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Clockwork Room R Stool",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Clockwork Room L Stool",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Clockwork Room Bee-Hat Clocks",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Clockwork Room Woman-Windmill Clocks",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Clockwork Room Cuckoo Clock",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Clockwork Room Table with Head",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -3382,7 +3738,6 @@
   {
     //floor name
     "name": "Roof",
-    "visibility_rules": "furnisanity_on",
     "children": [
       {
         //rooms
@@ -3392,78 +3747,91 @@
           //furniture checks
           {
             "name": "Roof Pillar (bottom row, furthest left)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Roof Pillar (top row, furthest left)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Roof Pillar (bottom row, second from left)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Roof Pillar (top row, second from left)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Roof Pillar (bottom row, third from left)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Roof Pillar (top row, third from left)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Roof Pillar (bottom row, third from right)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Roof Pillar (top row, third from right)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Roof Pillar (bottom row, second from right)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Roof Pillar (top row, second from right)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Roof Pillar (top row, furthest right)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Roof Pillar (bottom row, furthest right)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Roof Campfire",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -3484,7 +3852,6 @@
   {
     //floor name
     "name": "Basement",
-    "visibility_rules": "furnisanity_on",
     "children": [
       {
         //rooms
@@ -3494,6 +3861,7 @@
           //furniture checks
           {
             "name": "Well Lantern",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -3516,12 +3884,14 @@
           //furniture checks
           {
             "name": "Basement Stairwell Wall Lamp",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Basement Stairwell Hanging Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -3544,84 +3914,98 @@
           //furniture checks
           {
             "name": "Breaker Room Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Breaker Room Metal Drum L",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Breaker Room Metal Drum R",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Breaker Room Barrel (bottom row, closest to back Wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Breaker Room Barrel (bottom row, second from back Wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Breaker Room Barrel (bottom row, third from back Wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Breaker Room Barrel (bottom row, third from 4th Wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Breaker Room Barrel (bottom row, second from 4th Wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Breaker Room Barrel (bottom row, closest to 4th Wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Breaker Room Barrel (top row, closest to 4th Wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Breaker Room Barrel (top row, second from 4th Wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Breaker Room Barrel (top row, middle)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Breaker Room Barrel (top row, second from back Wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Breaker Room Barrel (top row, closest to back Wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -3644,84 +4028,98 @@
           //furniture checks
           {
             "name": "Cellar Ceiling Light",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cellar Crate (along back wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cellar Center Shelf Boxes",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cellar Center High Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cellar Center Middle Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cellar Center Low Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cellar Right Shelf Boxes",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cellar Right High Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cellar Right Middle Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cellar Right Low Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cellar Back Candle",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cellar Left Candle",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cellar C Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cellar R Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -3744,48 +4142,56 @@
           //furniture checks
           {
             "name": "Cold Storage Barrel L",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cold Storage Barrel R",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cold Storage Crate (closest to Sir Weston)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cold Storage Crate (closest to 4th Wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cold Storage Rear Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cold Storage Front Shelf",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Cold Storage Gas Burner",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Weston's Camp Gear",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -3808,18 +4214,21 @@
           //furniture checks
           {
             "name": "Pipe Room Ice Barrel",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Pipe Room Crate",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Pipe Room Bucket",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -3842,30 +4251,35 @@
           //furniture checks
           {
             "name": "Secret Altar Brazier (near front, closest to 4th Wall)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Secret Altar Brazier (near front, away from 4th Wall)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Secret Altar C Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Secret Altar L Candles",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
           },
           {
             "name": "Secret Altar R Candles",
+            "visibility_rules": ["fs_candles_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1

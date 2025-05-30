@@ -883,6 +883,29 @@
     ]
   },
   {
+    "name": "FS Hangables",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_hangables",
+        "inherit_codes": false,
+        "img": "images/options/fs_hangables.png"
+      },
+      {
+        "codes": "fs_hangables_on, fs_hangables",
+        "inherit_codes": false,
+        "img": "images/options/fs_hangables_on.png"
+      },
+      {
+        "codes": "fs_hangables_off, fs_hangables",
+        "inherit_codes": false,
+        "img": "images/options/fs_hangables_off.png"
+      }
+    ]
+  },
+  {
     "name": "FS Seating",
     "type": "progressive",
     "allow_disabled": false,

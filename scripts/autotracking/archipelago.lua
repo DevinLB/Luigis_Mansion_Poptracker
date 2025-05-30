@@ -126,6 +126,10 @@ function onClear(slot_data)
                 local candles = Tracker:FindObjectForCode('fs_candles')
                 candles.CurrentStage = (1)
             end
+            if setting == "Hangables" then
+                local hangables = Tracker:FindObjectForCode('fs_hangables')
+                hangables.CurrentStage = (1)
+            end
             if setting == "Seating" then
                 local seating = Tracker:FindObjectForCode('fs_seating')
                 seating.CurrentStage = (1)
