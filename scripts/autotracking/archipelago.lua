@@ -1,6 +1,7 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/door_rando_tables.lua")
+ScriptHost:LoadScript("scripts/autotracking/ghost_rando_table.lua")
 ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
 
 CUR_INDEX = -1
@@ -88,6 +89,9 @@ function onClear(slot_data)
     end
     -- print(dump_table(door_locks))
 
+    --Enemy Randomizer Logic
+    enemies = slot_data['ghost elements']
+
     if slot_data == nil  then
         print("welp")
         return
@@ -101,21 +105,75 @@ function onClear(slot_data)
         finalboo.AcquiredCount = (slot_data['final boo count'])
     end
 
+    print("FUNITURE SETTINGS TEST =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+    if slot_data['furnisanity'] then
+        -- furniture_handler = slot_data['furnisanity']
+        for k,setting in pairs(slot_data['furnisanity']) do
+            print(setting)
+            if setting == "Full" then
+                local furniture = Tracker:FindObjectForCode('furnisanity')
+                furniture.CurrentStage = (1)
+            end
+            if setting == "Decor" then
+                local decor = Tracker:FindObjectForCode('fs_decor')
+                decor.CurrentStage = (1)
+            end
+            if setting == "Ceiling" then
+                local ceiling = Tracker:FindObjectForCode('fs_ceiling')
+                ceiling.CurrentStage = (1)
+            end
+            if setting == "Candles" then
+                local candles = Tracker:FindObjectForCode('fs_candles')
+                candles.CurrentStage = (1)
+            end
+            if setting == "Hangables" then
+                local hangables = Tracker:FindObjectForCode('fs_hangables')
+                hangables.CurrentStage = (1)
+            end
+            if setting == "Seating" then
+                local seating = Tracker:FindObjectForCode('fs_seating')
+                seating.CurrentStage = (1)
+            end
+            if setting == "Surfaces" then
+                local surfaces = Tracker:FindObjectForCode('fs_surfaces')
+                surfaces.CurrentStage = (1)
+            end
+            if setting == "Storage" then
+                local storage = Tracker:FindObjectForCode('fs_storage')
+                storage.CurrentStage = (1)
+            end
+            if setting == "Plants" then
+                local plants = Tracker:FindObjectForCode('fs_plants')
+                plants.CurrentStage = (1)
+            end
+            if setting == "Drawers" then
+                local drawers = Tracker:FindObjectForCode('fs_drawers')
+                drawers.CurrentStage = (1)
+            end
+            if setting == "Treasures" then
+                local treasures = Tracker:FindObjectForCode('fs_treasures')
+                treasures.CurrentStage = (1)
+            end
+        end
+    end
+    print("test", dump_table(slot_data['furnisanity']))
+
+    -- if slot_data['plantsanity'] then
+    --     local plant = Tracker:FindObjectForCode('fs_plants')
+    --     plant.CurrentStage = (slot_data['fs_plants'])
+    -- end
+
+    -- if slot_data['furnisanity'] then
+    --     local furniture = Tracker:FindObjectForCode('furnisanity')
+    --     -- furniture.CurrentStage = (slot_data['furnisanity'])
+    -- end
+
     if slot_data['goal'] then
         local goal = Tracker:FindObjectForCode("wincon")
         goal.CurrentStage = (slot_data['goal'])
     elseif slot_data['rank requirement'] then
         local rank = Tracker:FindObjectForCode("wincon")
         rank.CurrentStage = (slot_data['rank requirement'])
-    end
-    if slot_data['plantsanity'] then
-        local plant = Tracker:FindObjectForCode('plantsanity')
-        plant.CurrentStage = (slot_data['plantsanity'])
-    end
-
-    if slot_data['furnisanity'] then
-        local furniture = Tracker:FindObjectForCode('furnisanity')
-        furniture.CurrentStage = (slot_data['furnisanity'])
     end
     if slot_data['clairvoya requirement'] then
         local mario = Tracker:FindObjectForCode("mario_items")

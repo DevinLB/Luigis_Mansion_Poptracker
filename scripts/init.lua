@@ -26,7 +26,7 @@ Tracker:AddItems("items/booitems.json")
     -- Maps
 Tracker:AddMaps("maps/maps.jsonc")
     -- Locations
-Tracker:AddLocations("locations/locations.jsonc")
+Tracker:AddLocations("locations/start.jsonc")
 Tracker:AddLocations("locations/furniture.jsonc")
 Tracker:AddLocations("locations/chest.jsonc")
 Tracker:AddLocations("locations/boo.jsonc")
@@ -35,6 +35,7 @@ Tracker:AddLocations("locations/portrait.jsonc")
 Tracker:AddLocations("locations/room.jsonc")
 Tracker:AddLocations("locations/speedy.jsonc")
 Tracker:AddLocations("locations/toad.jsonc")
+Tracker:AddLocations("locations/mouse.jsonc")
 
 
 -- Layout

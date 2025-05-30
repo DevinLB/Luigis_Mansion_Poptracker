@@ -1,7 +1,4 @@
--- put logic functions here using the Lua API: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#lua-interface
--- don't be afraid to use custom logic functions. it will make many things a lot easier to maintain, for example by adding logging.
--- to see how this function gets called, check: locations/locations.json
--- example:
+-- Check if Luigi has an item
 function has(item, amount)
     local count = Tracker:ProviderCountForCode(item)
     amount = tonumber(amount)
@@ -19,17 +16,7 @@ function booCount()
 end
 
 
--- Room Logic
-
-function isDoorOpen(door)
-    local door_locks = {} -- Ensure door_locks is defined
-    local door_status = door_locks[door]
-    if door_status then
-        return true
-    else
-        return false
-    end
-end
+-- Access Logic
 
 function canReachParlor()
     return has("key_parlor") or isDoorOpen("parlor")
@@ -84,7 +71,7 @@ function canReachCourtyard()
 end
 
 function canReachFloor1Bath()
-    return (has("key_1fbath") or isDoorOpen("bathroom_if")) and canReachFloor1Hall()
+    return (has("key_1fbath") or isDoorOpen("bathroom_1f")) and canReachFloor1Hall()
 end
 
 function canReachFloor1Wash()
@@ -156,7 +143,7 @@ function canReachWell()
 end
 
 function canReachTea()
-    return (has("key_tea") or isDoorOpen("tea")) and canReach2FStair()
+    return (has("key_tea") or isDoorOpen("tea")) and canReach2FStair() and canGrabWater()
 end
 
 function canReach2FHall()
@@ -297,6 +284,49 @@ function canGrabIce()
         canReachTea() or
         canReachCeramics()
     )
+end
+
+-- Room Logic
+
+door_locks = {} -- Ensure door_locks is defined
+function isDoorOpen(door)
+    local door_doors = {} 
+    local door_doors = door_locks
+    -- print("DOOR LOCKS")
+    -- print(door)
+    for k,v in pairs (door_doors) do
+        if door_doors[k][door] ~= nill then
+            local door_status = door_doors[k][door]
+            -- print("DOOR STATUS")
+            if door_status == "1" then
+                -- print("Door is Open!")
+                return true
+            else
+                -- print("Door is Locked!")
+                return false
+            end
+        end
+    end
+end
+
+-- Elemental Ghost Logic
+enemies = {}
+function canCatchGhosts(room)
+    -- print("TESTING ELEMENTAL GHOST LOGIC FOR", room)
+    -- print(dump_table(enemies[room]))
+    ghost_element = enemies[room]
+    if ghost_element == "No Element" then
+        return true
+    end
+    if ghost_element == "Fire" then
+        return canGrabWater()
+    end
+    if ghost_element == "Ice" then
+        return canGrabFire()
+    end
+    if ghost_element == "Water" then
+        return canGrabIce()
+    end
 end
 
 -- Clairvoya Logic
