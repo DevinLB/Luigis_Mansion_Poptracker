@@ -76,13 +76,16 @@
         "fs_decor",
         "fs_ceiling",
         "fs_candles",
-        "fs_hangables",
+        "fs_hangables"
+      ],
+      [
         "fs_seating",
         "fs_surfaces",
         "fs_storage",
         "fs_plants",
         "fs_drawers",
         "fs_treasures"
+
       ]
     ]
   },
