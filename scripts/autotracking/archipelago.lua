@@ -90,13 +90,7 @@ function onClear(slot_data)
     -- print(dump_table(door_locks))
 
     --Enemy Randomizer Logic
-    print("ENEMY LOGIC -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
-    for k,v in pairs(element_rooms) do
-        print(v, dump_table(slot_data['ghost elements'][v]))
-    end
     enemies = slot_data['ghost elements']
-    print(dump_table(enemies))
-    
 
     if slot_data == nil  then
         print("welp")
