@@ -242,6 +242,66 @@
             "size": 14
           }
         ]
+      },
+      {
+        "name": "Nursery",
+        "access_rules": ["$canReachNursery, $canReachBreaker"],
+        "sections": [
+          {
+            "name": "Nursery Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "160",
+            "y": "634",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Conservatory",
+        "access_rules": ["$canReachConservatory, $canReachBreaker"],
+        "sections": [
+          {
+            "name": "Conservatory Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "480",
+            "y": "182",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Hidden Room",
+        "access_rules": ["$canReachHidden, $canReachBreaker"],
+        "sections": [
+          {
+            "name": "Hidden Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "273",
+            "y": "708",
+            "size": 14
+          }
+        ]
       }
     ]
   }
