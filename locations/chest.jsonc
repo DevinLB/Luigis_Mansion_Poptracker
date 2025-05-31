@@ -215,6 +215,28 @@
         ]
       },
       {
+        //Rooms
+        "name": "Boneyard",
+        "access_rules": ["$canReachBoneyard, $canGrabWater"],
+        "sections": [
+          //Portait Ghost
+          {
+            "name": "Huge Flower (Boneyard)",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "60",
+            "y": "360",
+            "size": 14
+          }
+        ]
+      },
+      {
         //rooms
         "name": "Graveyard",
         "access_rules": ["$canReachGraveyard, $canCatchGhosts|Graveyard|"],
