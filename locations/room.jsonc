@@ -683,23 +683,7 @@
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
-          },
-          {
-            "name": "Wardrobe Balcony Visited",
-            "visibility_rules": "walksanity_on",
-            "access_rules": ["$canReachWarBalcony"],
-            "chest_unopened_img": "images/minor checks/walk.png",
-            "chest_opened_img": "images/minor checks/walk_gray.png",
-            "item_count": 1
-          },
-          {
-            "name": "Wardrobe Balcony Light On",
-            "visibility_rules": "lightsanity_on",
-            "access_rules": ["$canReachWarBalcony"],
-            "chest_unopened_img": "images/minor checks/light.png",
-            "chest_opened_img": "images/minor checks/light_gray.png",
-            "item_count": 1
-          }      
+          }
         ],
         "map_locations": [
           {
@@ -1219,6 +1203,13 @@
         "access_rules": ["$canReach2FHall, $canReachBalcony, $canGrabIce"],
         "sections": [
           //Room Checks
+          {
+            "name": "2F - Attic Stairwell Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
           {
             "name": "2F - Attic Stairwell Light On",
             "visibility_rules": "lightsanity_on",
@@ -1748,12 +1739,12 @@
         ]
       },
       {
-        "name": "Spade Hallway",
+        "name": "Altar Hallway",
         "access_rules": ["$canReachSpadeHall"],
         "sections": [
           //Room Checks
           {
-            "name": "Spade Hallway Visited",
+            "name": "Altar Hallway Visited",
             "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/walk.png",
             "chest_opened_img": "images/minor checks/walk_gray.png",
