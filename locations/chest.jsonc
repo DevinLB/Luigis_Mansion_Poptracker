@@ -644,7 +644,7 @@
         "sections": [
           //chest checks
           {
-            "name": "Observatory Mario Star",
+            "name": "Observatory Shoot the Moon",
             "chest_unopened_img": "images/minor checks/chest_gold.png",
             "chest_opened_img": "images/minor checks/chest_gold_gray.png",
             "item_count": 1
