@@ -73,6 +73,35 @@
  
   //////  Suit Keys   //////
 
+  {
+    "name": "Progressive Flower",
+    "type": "progressive",
+    "codes": "huge_flower",
+    "img": "images/mario items/mario_star.png",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "huge_flower",
+        "inherit_codes": false,
+        "img": "images/options/huge_flower.png"
+      },
+      {
+        "codes": "huge_flower_1, huge_flower",
+        "inherit_codes": false,
+        "img": "images/options/huge_flower_1.png"
+      },
+      {
+        "codes": "huge_flower_2, huge_flower",
+        "inherit_codes": false,
+        "img": "images/options/huge_flower_2.png"
+      }
+    ]
+  },
+
+
+  //////  Suit Keys   //////
+
 
   {
     "name": "Heart Key",

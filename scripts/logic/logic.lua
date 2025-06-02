@@ -346,3 +346,9 @@ end
 function canBeatClairvoya()
     return marioItems() >= Tracker:ProviderCountForCode("mario_items")
 end
+
+-- Huge Flower Logic
+
+function canWaterFlower()
+    return has("huge_flower_3")
+end

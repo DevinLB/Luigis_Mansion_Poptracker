@@ -696,13 +696,12 @@
       },
       {
         "name": "Wardrobe Balcony",
-        "access_rules": ["$canReachWardrobe"],
+        "access_rules": ["$canReachWarBalcony"],
         "sections": [
           //Room Checks
           {
             "name": "Wardrobe Balcony Visited",
             "visibility_rules": "walksanity_on",
-            "access_rules": ["$canReachWarBalcony"],
             "chest_unopened_img": "images/minor checks/walk.png",
             "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
@@ -710,7 +709,6 @@
           {
             "name": "Wardrobe Balcony Light On",
             "visibility_rules": "lightsanity_on",
-            "access_rules": ["$canReachWarBalcony"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1

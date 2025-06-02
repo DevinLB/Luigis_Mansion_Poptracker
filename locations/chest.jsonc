@@ -217,7 +217,7 @@
       {
         //Rooms
         "name": "Boneyard",
-        "access_rules": ["$canReachBoneyard, $canGrabWater"],
+        "access_rules": ["$canReachBoneyard, $canWaterFlower"],
         "sections": [
           //chest checks
           {
@@ -230,8 +230,8 @@
         "map_locations": [
           {
             "map": "f1",
-            "x": "60",
-            "y": "360",
+            "x": "145",
+            "y": "357",
             "size": 14
           }
         ]
