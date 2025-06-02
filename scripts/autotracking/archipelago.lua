@@ -3,6 +3,7 @@ ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/door_rando_tables.lua")
 ScriptHost:LoadScript("scripts/autotracking/ghost_rando_table.lua")
 ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/room_connectors.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -236,6 +237,11 @@ function onClear(slot_data)
         local mario = Tracker:FindObjectForCode("balcony_boo")
         mario.AcquiredCount = (slot_data['balcony boo count'])
     end
+
+    if slot_data['spawn_region'] then
+        SPAWN_REGION = slot_data['spawn_region']
+    end
+
     if Archipelago.PlayerNumber > -1 then
         print("SUCCESS?")
         ROOM_ID = "lm_room_"..TEAM_NUMBER.."_"..PLAYER_ID
