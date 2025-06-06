@@ -77,6 +77,8 @@ function onClear(slot_data)
     end
 
     --Door Randomizer Logic
+    starting_room = slot_data['spawn_region']
+    print("SPAWNED IN:", starting_room)
     door_locks = {}
         --organizes and iterates the slot_data doors
     for k,v in pairs(door_numbers) do
@@ -106,11 +108,9 @@ function onClear(slot_data)
         finalboo.AcquiredCount = (slot_data['final boo count'])
     end
 
-    print("FUNITURE SETTINGS TEST =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
     if slot_data['furnisanity'] then
         -- furniture_handler = slot_data['furnisanity']
         for k,setting in pairs(slot_data['furnisanity']) do
-            print(setting)
             if setting == "Full" then
                 local furniture = Tracker:FindObjectForCode('furnisanity')
                 furniture.CurrentStage = (1)
@@ -157,18 +157,6 @@ function onClear(slot_data)
             end
         end
     end
-    print("test", dump_table(slot_data['furnisanity']))
-
-    -- if slot_data['plantsanity'] then
-    --     local plant = Tracker:FindObjectForCode('fs_plants')
-    --     plant.CurrentStage = (slot_data['fs_plants'])
-    -- end
-
-    -- if slot_data['furnisanity'] then
-    --     local furniture = Tracker:FindObjectForCode('furnisanity')
-    --     -- furniture.CurrentStage = (slot_data['furnisanity'])
-    -- end
-
     if slot_data['goal'] then
         local goal = Tracker:FindObjectForCode("wincon")
         goal.CurrentStage = (slot_data['goal'])

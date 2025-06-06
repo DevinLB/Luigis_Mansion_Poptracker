@@ -6,7 +6,7 @@
     "children": [
       {
         "name": "Foyer",
-        "access_rules": [""],
+        "access_rules": ["$canReachRoom|foyer|"],
         "sections": [
           //Room Checks
           {
@@ -35,7 +35,7 @@
       },
       {
         "name": "1F Hallway",
-        "access_rules": ["$canReachFloor1Hall"],
+        "access_rules": ["$canReachRoom|hallway_1f|"],
         "sections": [
           //Room Checks
           {
@@ -48,7 +48,7 @@
           {
             "name": "1F Hallway Light On",
             "visibility_rules": "lightsanity_on",
-            "access_rules": ["$canReachGraveyard"],
+            "access_rules": ["$canReachRoom|boneyard|"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -65,7 +65,7 @@
       },
       {
         "name": "Laundry Room",
-        "access_rules": ["$canReachLaundry"],
+        "access_rules": ["$canReachRoom|laundry|"],
         "sections": [
           //Room Checks
           {
@@ -95,7 +95,7 @@
       },
       {
         "name": "Butler's Room",
-        "access_rules": ["$canReachButler"],
+        "access_rules": ["$canReachRoom|butler|"],
         "sections": [
           //Room Checks
           {
@@ -108,9 +108,9 @@
           {
             "name": "Butler's Room Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canGrabFire"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
-            "access_rules": ["$canGrabFire"],
             "item_count": 1
           }
         ],
@@ -125,7 +125,7 @@
       },
       {
         "name": "Hidden Room",
-        "access_rules": ["$canReachHidden"],
+        "access_rules": ["$canReachRoom|butler|"],
         "sections": [
           //Room Checks
           {
@@ -155,7 +155,7 @@
       },
       {
         "name": "Fortune Teller's Room",
-        "access_rules": ["$canReachFortune"],
+        "access_rules": ["$canReachRoom|fortune|"],
         "sections": [
           //Room Checks
           {
@@ -185,7 +185,7 @@
       },
       {
         "name": "Mirror Room",
-        "access_rules": ["$canReachMirror"],
+        "access_rules": ["$canReachRoom|mirror|"],
         "sections": [
           //Room Checks
           {
@@ -215,7 +215,7 @@
       },
       {
         "name": "Ballroom",
-        "access_rules": ["$canReachBallRoom"],
+        "access_rules": ["$canReachRoom|ballroom|"],
         "sections": [
           //Room Checks
           {
@@ -245,7 +245,7 @@
       },
       {
         "name": "Storage Room",
-        "access_rules": ["$canReachStorage"],
+        "access_rules": ["$canReachRoom|storage|"],
         "sections": [
           //Room Checks
           {
@@ -275,7 +275,7 @@
       },
       {
         "name": "Dining Room",
-        "access_rules": ["$canReachDining"],
+        "access_rules": ["$canReachRoom|dining|"],
         "sections": [
           //Room Checks
           {
@@ -305,7 +305,7 @@
       },
       {
         "name": "Kitchen",
-        "access_rules": ["$canReachKitchen"],
+        "access_rules": ["$canReachRoom|kitchen|"],
         "sections": [
           //Room Checks
           {
@@ -335,7 +335,7 @@
       },
       {
         "name": "Boneyard",
-        "access_rules": ["$canReachBoneyard"],
+        "access_rules": ["$canReachRoom|boneyard|"],
         "sections": [
           //Room Checks
           {
@@ -364,7 +364,7 @@
       },
       {
         "name": "Graveyard",
-        "access_rules": ["$canReachGraveyard"],
+        "access_rules": ["$canReachRoom|boneyard|"],
         "sections": [
           //Room Checks
           {
@@ -394,7 +394,7 @@
       },
       {
         "name": "Billiards Room",
-        "access_rules": ["$canReachBilliards"],
+        "access_rules": ["$canReachRoom|billiards|"],
         "sections": [
           //Room Checks
           {
@@ -423,7 +423,7 @@
       },
       {
         "name": "Projection Room",
-        "access_rules": ["$canReachProjection"],
+        "access_rules": ["$canReachRoom|projection|"],
         "sections": [
           //Room Checks
           {
@@ -453,7 +453,7 @@
       },
       {
         "name": "Conservatory",
-        "access_rules": ["$canReachConservatory"],
+        "access_rules": ["$canReachRoom|conservatory|"],
         "sections": [
           //Room Checks
           {
@@ -482,7 +482,7 @@
       },
       {
         "name": "1F Washroom",
-        "access_rules": ["$canReachFloor1Wash"],
+        "access_rules": ["$canReachRoom|washroom_1f|"],
         "sections": [
           //Room Checks
           {
@@ -511,7 +511,7 @@
       },
       {
         "name": "1F Bathroom",
-        "access_rules": ["$canReachFloor1Bath"],
+        "access_rules": ["$canReachRoom|bathroom_1f|"],
         "sections": [
           //Room Checks
           {
@@ -541,7 +541,7 @@
       },
       {
         "name": "Courtyard",
-        "access_rules": ["$canReachCourtyard"],
+        "access_rules": ["$canReachRoom|courtyard|"],
         "sections": [
           //Room Checks
           {
@@ -571,7 +571,7 @@
       },
       {
         "name": "Rec Room",
-        "access_rules": ["$canReachRec"],
+        "access_rules": ["$canReachRoom|rec_room|"],
         "sections": [
           //Room Checks
           {
@@ -607,7 +607,7 @@
     "children": [
       {
         "name": "Parlor",
-        "access_rules": ["$canReachParlor"],
+        "access_rules": ["$canReachRoom|parlor|"],
         "sections": [
           //Room Checks
           {
@@ -636,7 +636,7 @@
       },
       {
         "name": "Anteroom",
-        "access_rules": ["$canReachAnteroom"],
+        "access_rules": ["$canReachRoom|anteroom|"],
         "sections": [
           //Room Checks
           {
@@ -666,7 +666,7 @@
       },
       {
         "name": "Wardrobe",
-        "access_rules": ["$canReachWardrobe"],
+        "access_rules": ["$canReachRoom|wardrobe|"],
         "sections": [
           //Room Checks
           {
@@ -696,13 +696,12 @@
       },
       {
         "name": "Wardrobe Balcony",
-        "access_rules": ["$canReachWardrobe"],
+        "access_rules": ["$canReachRoom|wardrobe_balcony|"],
         "sections": [
           //Room Checks
           {
             "name": "Wardrobe Balcony Visited",
             "visibility_rules": "walksanity_on",
-            "access_rules": ["$canReachWarBalcony"],
             "chest_unopened_img": "images/minor checks/walk.png",
             "chest_opened_img": "images/minor checks/walk_gray.png",
             "item_count": 1
@@ -710,7 +709,6 @@
           {
             "name": "Wardrobe Balcony Light On",
             "visibility_rules": "lightsanity_on",
-            "access_rules": ["$canReachWarBalcony"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -727,7 +725,7 @@
       },
       {
         "name": "Family Hallway",
-        "access_rules": ["$canReachFamHall"],
+        "access_rules": ["$canReachRoom|family_hallway|"],
         "sections": [
           //Room Checks
           {
@@ -740,6 +738,7 @@
           {
             "name": "Family Hallway Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canReachRoom|nursery|"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -756,7 +755,7 @@
       },
       {
         "name": "Study",
-        "access_rules": ["$canReachStudy"],
+        "access_rules": ["$canReachRoom|study|"],
         "sections": [
           //Room Checks
           {
@@ -785,7 +784,7 @@
       },
       {
         "name": "Master Bedroom",
-        "access_rules": ["$canReachMaster"],
+        "access_rules": ["$canReachRoom|master_bedroom|"],
         "sections": [
           //Room Checks
           {
@@ -814,7 +813,7 @@
       },
       {
         "name": "Nursery",
-        "access_rules": ["$canReachNursery"],
+        "access_rules": ["$canReachRoom|nursery|"],
         "sections": [
           //Room Checks
           {
@@ -843,7 +842,7 @@
       },
       {
         "name": "Twins' Room",
-        "access_rules": ["$canReachTwins"],
+        "access_rules": ["$canReachRoom|twins|"],
         "sections": [
           //Room Checks
           {
@@ -872,7 +871,7 @@
       },
       {
         "name": "2F Stairwell",
-        "access_rules": ["$canReach2FStair"],
+        "access_rules": ["$canReachRoom|stairwell_2f|"],
         "sections": [
           //Room Checks
           {
@@ -885,7 +884,7 @@
           {
             "name": "2F Stairwell Light On",
             "visibility_rules": "lightsanity_on",
-            "access_rules": ["$canReachBalcony, $canGrabIce"],
+            "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -902,7 +901,7 @@
       },
       {
         "name": "Tea Room",
-        "access_rules": ["$canReachTea"],
+        "access_rules": ["$canReachRoom|tea|"],
         "sections": [
           //Room Checks
           {
@@ -932,7 +931,7 @@
       },
       {
         "name": "2F Rear Hallway",
-        "access_rules": ["$canReach2FHall"],
+        "access_rules": ["$canReachRoom|rear_hallway_2f|"],
         "sections": [
           //Room Checks
           {
@@ -945,7 +944,7 @@
           {
             "name": "2F Rear Hallway Light On",
             "visibility_rules": "lightsanity_on",
-            "access_rules": ["$canReachBalcony, $canGrabIce"],
+            "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -962,7 +961,7 @@
       },
       {
         "name": "2F Washroom",
-        "access_rules": ["$canReach2FWash"],
+        "access_rules": ["$canReachRoom|washroom_2f|"],
         "sections": [
           //Room Checks
           {
@@ -992,7 +991,7 @@
       },
       {
         "name": "2F Bathroom",
-        "access_rules": ["$canReach2FBath"],
+        "access_rules": ["$canReachRoom|bathroom_2f|"],
         "sections": [
           //Room Checks
           {
@@ -1022,7 +1021,7 @@
       },
       {
         "name": "Nana's Room",
-        "access_rules": ["$canReachNana"],
+        "access_rules": ["$canReachRoom|nana|"],
         "sections": [
           //Room Checks
           {
@@ -1051,7 +1050,7 @@
       },
       {
         "name": "Sitting Room",
-        "access_rules": ["$canReachSitting"],
+        "access_rules": ["$canReachRoom|sitting|"],
         "sections": [
           //Room Checks
           {
@@ -1081,7 +1080,7 @@
       },
       {
         "name": "Astral Hall",
-        "access_rules": ["$canReachAstral"],
+        "access_rules": ["$canReachRoom|astral|"],
         "sections": [
           //Room Checks
           {
@@ -1111,7 +1110,7 @@
       },
       {
         "name": "Observatory",
-        "access_rules": ["$canReachObservatory"],
+        "access_rules": ["$canReachRoom|observatory|, $canGrabFire"],
         "sections": [
           //Room Checks
           {
@@ -1133,7 +1132,7 @@
       },
       {
         "name": "Guest Room",
-        "access_rules": ["$canReachGuest"],
+        "access_rules": ["$canReachRoom|guest|"],
         "sections": [
           //Room Checks
           {
@@ -1163,7 +1162,7 @@
       },
       {
         "name": "Sealed Room",
-        "access_rules": ["$canReachRoof, $canGrabFire"],
+        "access_rules": ["$canReachRoom|clockwork|"],
         "sections": [
           //Room Checks
           {
@@ -1200,7 +1199,7 @@
     "children": [
       {
         "name": "2F Attic Stairwell",
-        "access_rules": ["$canReach2FHall, $canReachBalcony, $canGrabIce"],
+        "access_rules": ["$canReachRoom|rear_hallway_2f|"],
         "sections": [
           //Room Checks
           {
@@ -1213,6 +1212,7 @@
           {
             "name": "2F - Attic Stairwell Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -1229,7 +1229,7 @@
       },
       {
         "name": "Safari Room",
-        "access_rules": ["$canReachSafari"],
+        "access_rules": ["$canReachRoom|safari|"],
         "sections": [
           //Room Checks
           {
@@ -1259,7 +1259,7 @@
       },
       {
         "name": "East Attic Hallway",
-        "access_rules": ["$canReachEastAttic"],
+        "access_rules": ["$canReachRoom|east_attic|"],
         "sections": [
           //Room Checks
           {
@@ -1272,6 +1272,7 @@
           {
             "name": "East Attic Hallway Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -1288,7 +1289,7 @@
       },
       {
         "name": "Artist's Studio",
-        "access_rules": ["$canReachArtist"],
+        "access_rules": ["$canReachRoom|artist|"],
         "sections": [
           //Room Checks
           {
@@ -1318,7 +1319,7 @@
       },
       {
         "name": "Balcony",
-        "access_rules": ["$canReachBalcony"],
+        "access_rules": ["$canReachRoom|balcony|"],
         "sections": [
           //Room Checks
           {
@@ -1348,7 +1349,7 @@
       },
       {
         "name": "West Attic Hallway",
-        "access_rules": ["$canReachWestAttic"],
+        "access_rules": ["$canReachRoom|west_attic|"],
         "sections": [
           //Room Checks
           {
@@ -1361,6 +1362,7 @@
           {
             "name": "West Attic Hallway Light On",
             "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -1377,7 +1379,7 @@
       },
       {
         "name": "Armory",
-        "access_rules": ["$canReachArmory"],
+        "access_rules": ["$canReachRoom|armory|"],
         "sections": [
           //Room Checks
           {
@@ -1407,7 +1409,7 @@
       },
       {
         "name": "Ceramics Studio",
-        "access_rules": ["$canReachCeramics"],
+        "access_rules": ["$canReachRoom|ceramics|"],
         "sections": [
           //Room Checks
           {
@@ -1437,7 +1439,7 @@
       },
       {
         "name": "Telephone Room",
-        "access_rules": ["$canReachTelephone"],
+        "access_rules": ["$canReachRoom|telephone|"],
         "sections": [
           //Room Checks
           {
@@ -1467,7 +1469,7 @@
       },
       {
         "name": "Clockwork Room",
-        "access_rules": ["$canReachClockWork"],
+        "access_rules": ["$canReachRoom|clockwork|"],
         "sections": [
           //Room Checks
           {
@@ -1503,7 +1505,7 @@
     "children": [
       {
         "name": "Roof",
-        "access_rules": ["$canReachRoof"],
+        "access_rules": ["$canReachRoom|clockwork|"],
         "sections": [
           //Room Checks
           {
@@ -1540,7 +1542,7 @@
     "children": [
       {
         "name": "Well",
-        "access_rules": ["$canReachCourtyard"],
+        "access_rules": ["$canReachRoom|courtyard|"],
         "sections": [
           //Room Checks
           {
@@ -1569,7 +1571,7 @@
       },
       {
         "name": "Basement Stairwell",
-        "access_rules": ["$canReachBaseStair"],
+        "access_rules": ["$canReachRoom|basement_stairwell|"],
         "sections": [
           //Room Checks
           {
@@ -1582,7 +1584,7 @@
           {
             "name": "Basement Stairwell Light On",
             "visibility_rules": "lightsanity_on",
-            "access_rules": ["$canReachBaseStair, $canReachBalcony, $canGrabIce"],
+            "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -1599,7 +1601,7 @@
       },
       {
         "name": "Breaker Room",
-        "access_rules": ["$canReachBreaker"],
+        "access_rules": ["$canReachRoom|breaker|"],
         "sections": [
           //Room Checks
           {
@@ -1628,7 +1630,7 @@
       },
       {
         "name": "Cellar",
-        "access_rules": ["$canReachCellar"],
+        "access_rules": ["$canReachRoom|cellar|"],
         "sections": [
           //Room Checks
           {
@@ -1658,7 +1660,7 @@
       },
       {
         "name": "Basement Hallway",
-        "access_rules": ["$canReachBasementHall"],
+        "access_rules": ["$canReachRoom|basement_hallway|"],
         "sections": [
           //Room Checks
           {
@@ -1680,7 +1682,7 @@
       },
       {
         "name": "Pipe Room",
-        "access_rules": ["$canReachPipe"],
+        "access_rules": ["$canReachRoom|pipe|"],
         "sections": [
           //Room Checks
           {
@@ -1710,7 +1712,7 @@
       },
       {
         "name": "Cold Storage",
-        "access_rules": ["$canReachColdRoom"],
+        "access_rules": ["$canReachRoom|cold|"],
         "sections": [
           //Room Checks
           {
@@ -1740,7 +1742,7 @@
       },
       {
         "name": "Altar Hallway",
-        "access_rules": ["$canReachSpadeHall"],
+        "access_rules": ["$canReachRoom|spade_hallway|"],
         "sections": [
           //Room Checks
           {

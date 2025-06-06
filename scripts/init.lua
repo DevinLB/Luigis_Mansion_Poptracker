@@ -17,6 +17,7 @@ ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Logic
 ScriptHost:LoadScript("scripts/logic/logic.lua")
+ScriptHost:LoadScript("scripts/autotracking/room_connectors.lua")
 
 
 -- Items

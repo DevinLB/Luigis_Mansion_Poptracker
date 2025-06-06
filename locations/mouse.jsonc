@@ -2,12 +2,12 @@
   {
     "name": "Mouse Locations",
     // "visibility_rules": "toadsanity_on",
-    "access_rules": ["$canReachBreaker"],
+    "access_rules": ["$canReachRoom|breaker|"],
     "children": [
       {
         // Room
         "name": "1F Hallway",
-        "access_rules": ["$canReachFloor1Hall"],
+        "access_rules": ["$canReachRoom|hallway_1f|"],
         "sections": [
           {
             //Mouse location
@@ -29,7 +29,7 @@
       {
         // Room
         "name": "Fortune Teller's Room",
-        "access_rules": ["$canReachFortune"],
+        "access_rules": ["$canReachRoom|fortune|"],
         "sections": [
           {
             //Mouse location
@@ -51,7 +51,7 @@
       {
         // Room
         "name": "Dining Room",
-        "access_rules": ["$canReachDining"],
+        "access_rules": ["$canReachRoom|dining|"],
         "sections": [
           {
             //Mouse location
@@ -73,7 +73,7 @@
       {
         // Room
         "name": "Kitchen",
-        "access_rules": ["$canReachKitchen"],
+        "access_rules": ["$canReachRoom|kitchen|"],
         "sections": [
           {
             //Mouse location
@@ -95,12 +95,12 @@
       {
         // Room
         "name": "Tea Room",
-        "access_rules": ["$canReachTea"],
+        "access_rules": ["$canReachRoom|tea|"],
         "sections": [
           {
             //Mouse location
             "name": "Tea Room Cheese Mouse",
-            "access_rules": ["$canReachBreaker"],
+            "access_rules": ["$canReachRoom|breaker|"],
             "chest_unopened_img": "images/minor checks/mouse.png",
             "chest_opened_img": "images/minor checks/mouse_gray.png",
             "item_count": 1
@@ -125,7 +125,7 @@
       {
         // Room
         "name": "2F Rear Hallway",
-        "access_rules": ["canReachFloor2Hall"],
+        "access_rules": ["$canReachRoom|rear_hallway_2f|"],
         "sections": [
           {
             //Mouse location
@@ -147,7 +147,7 @@
       {
         // Room
         "name": "Study",
-        "access_rules": ["$canReachStudy"],
+        "access_rules": ["$canReachRoom|study|"],
         "sections": [
           {
             //Mouse location
@@ -169,7 +169,7 @@
       {
         // Room
         "name": "Sealed Room",
-        "access_rules": ["$canReachRoof"],
+        "access_rules": ["$canReachRoom|clockwork|"],
         "sections": [
           {
             //Mouse location
@@ -191,7 +191,7 @@
       {
         // Room
         "name": "Safari Room",
-        "access_rules": ["$canReachSafari"],
+        "access_rules": ["$canReachRoom|safari|"],
         "sections": [
           {
             //Mouse location

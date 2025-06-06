@@ -9,7 +9,7 @@
       {
         //Rooms
         "name": "Laundry Room",
-        "access_rules": ["$canReachLaundry"],
+        "access_rules": ["$canReachRoom|laundry|, $canCatchGhosts|Laundry Room|"],
         "sections": [
           {
             //Boo Check
@@ -31,7 +31,7 @@
       {
         //Rooms
         "name": "Butler's Room",
-        "access_rules": ["$canReachButler, $canGrabFire"],
+        "access_rules": ["$canReachRoom|butler|, $canGrabFire"],
         "sections": [
           {
             //Boo Check
@@ -53,7 +53,7 @@
       {
         //Rooms
         "name": "Hidden Room",
-        "access_rules": ["$canReachHidden"],
+        "access_rules": ["$canReachRoom|butler|, $canCatchGhosts|Hidden Room|"],
         "sections": [
           {
             //Boo Check
@@ -75,7 +75,7 @@
       {
         //Rooms
         "name": "Fortune Teller's Room",
-        "access_rules": ["$canReachFortune, $canBeatClairvoya"],
+        "access_rules": ["$canReachRoom|fortune|"],
         "sections": [
           {
             //Boo Check
@@ -97,7 +97,7 @@
       {
         //Rooms
         "name": "Mirror Room",
-        "access_rules": ["$canReachMirror"],
+        "access_rules": ["$canReachRoom|mirror|, $canCatchGhosts|Mirror Room|"],
         "sections": [
           {
             //Boo Check
@@ -119,7 +119,7 @@
       {
         //Rooms
         "name": "Ballroom",
-        "access_rules": ["$canReachBallRoom"],
+        "access_rules": ["$canReachRoom|ballroom|, $canCatchGhosts|Ballroom|"],
         "sections": [
           {
             //Boo Check
@@ -141,7 +141,7 @@
       {
         //Rooms
         "name": "Storage Room",
-        "access_rules": ["$canReachStorage"],
+        "access_rules": ["$canReachRoom|storage|, $canCatchGhosts|Storage Room|"],
         "sections": [
           {
             //Boo Check
@@ -163,7 +163,7 @@
       {
         //Rooms
         "name": "Dining Room",
-        "access_rules": ["$canReachDining, $canGrabFire"],
+        "access_rules": ["$canReachRoom|dining|, $canGrabFire"],
         "sections": [
           {
             //Boo Check
@@ -185,7 +185,7 @@
       {
         //Rooms
         "name": "Kitchen",
-        "access_rules": ["$canReachKitchen, $canGrabFire"],
+        "access_rules": ["$canReachRoom|kitchen|, $canCatchGhosts|Kitchen|"],
         "sections": [
           {
             //Boo Check
@@ -207,7 +207,7 @@
       {
         //Rooms
         "name": "Conservatory",
-        "access_rules": ["$canReachConservatory"],
+        "access_rules": ["$canReachRoom|conservatory|"],
         "sections": [
           {
             //Boo Check
@@ -229,7 +229,7 @@
       {
         //Rooms
         "name": "Rec Room",
-        "access_rules": ["$canReachRec"],
+        "access_rules": ["$canReachRoom|rec_room|"],
         "sections": [
           {
             //Boo Check
@@ -251,7 +251,7 @@
       {
         //Rooms
         "name": "Billiards Room",
-        "access_rules": ["$canReachBilliards"],
+        "access_rules": ["$canReachRoom|billiards|"],
         "sections": [
           {
             //Boo Check
@@ -273,7 +273,7 @@
       {
         //Rooms
         "name": "Projection Room",
-        "access_rules": ["$canReachProjection"],
+        "access_rules": ["$canReachRoom|projection|, $canCatchGhosts|Projection Room|"],
         "sections": [
           {
             //Boo Check
@@ -304,7 +304,7 @@
       {
         //Rooms
         "name": "Parlor",
-        "access_rules": ["$canReachParlor"],
+        "access_rules": ["$canReachRoom|parlor|, $canCatchGhosts|Parlor|"],
         "sections": [
           {
             //Boo Check
@@ -326,7 +326,7 @@
       {
         //Rooms
         "name": "Anteroom",
-        "access_rules": ["$canReachAnteroom"],
+        "access_rules": ["$canReachRoom|anteroom|, $canCatchGhosts|Anteroom|"],
         "sections": [
           {
             //Boo Check
@@ -348,7 +348,7 @@
       {
         //Rooms
         "name": "Wardrobe",
-        "access_rules": ["$canReachWardrobe"],
+        "access_rules": ["$canReachRoom|wardrobe|, $canCatchGhosts|Wardrobe|"],
         "sections": [
           {
             //Boo Check
@@ -370,7 +370,7 @@
       {
         //Rooms
         "name": "Study",
-        "access_rules": ["$canReachStudy"],
+        "access_rules": ["$canReachRoom|study|"],
         "sections": [
           {
             //Boo Check
@@ -392,7 +392,7 @@
       {
         //Rooms
         "name": "Master Bedroom",
-        "access_rules": ["$canReachMaster"],
+        "access_rules": ["$canReachRoom|master_bedroom|"],
         "sections": [
           {
             //Boo Check
@@ -414,7 +414,7 @@
       {
         //Rooms
         "name": "Nursery",
-        "access_rules": ["$canReachNursery"],
+        "access_rules": ["$canReachRoom|nursery|"],
         "sections": [
           {
             //Boo Check
@@ -436,7 +436,7 @@
       {
         //Rooms
         "name": "Twins' Room",
-        "access_rules": ["$canReachTwins"],
+        "access_rules": ["$canReachRoom|twins|"],
         "sections": [
           {
             //Boo Check
@@ -458,7 +458,7 @@
       {
         //Rooms
         "name": "Tea Room",
-        "access_rules": ["$canReachTea"],
+        "access_rules": ["$canReachRoom|tea|, $canCatchGhosts|Tea Room|"],
         "sections": [
           {
             //Boo Check
@@ -480,7 +480,7 @@
       {
         //Rooms
         "name": "Nana's Room",
-        "access_rules": ["$canReachNana"],
+        "access_rules": ["$canReachRoom|nana|"],
         "sections": [
           {
             //Boo Check
@@ -502,7 +502,7 @@
       {
         //Rooms
         "name": "Astral Hall",
-        "access_rules": ["$canReachAstral, $canGrabFire"],
+        "access_rules": ["$canReachRoom|astral|, $canCatchGhosts|Astral Hall|"],
         "sections": [
           {
             //Boo Check
@@ -524,7 +524,7 @@
       {
         //Rooms
         "name": "Sitting Room",
-        "access_rules": ["$canReachSitting, $canGrabFire"],
+        "access_rules": ["$canReachRoom|sitting|, $canCatchGhosts|Sitting Room|"],
         "sections": [
           {
             //Boo Check
@@ -546,7 +546,7 @@
       {
         //Rooms
         "name": "Guest Room",
-        "access_rules": ["$canReachGuest, $canGrabWater"],
+        "access_rules": ["$canReachRoom|guest|"],
         "sections": [
           {
             //Boo Check
@@ -577,7 +577,7 @@
       {
         //Rooms
         "name": "Safari Room",
-        "access_rules": ["$canReachSafari, $canGrabIce"],
+        "access_rules": ["$canReachRoom|safari|, $canCatchGhosts|Safari Room|"],
         "sections": [
           {
             //Boo Check
@@ -599,7 +599,7 @@
       {
         //Rooms
         "name": "Artist's Studio",
-        "access_rules": ["$canReachArtist"],
+        "access_rules": ["$canReachRoom|artist|, $canCatchGhosts|Artist's Studio|"],
         "sections": [
           {
             //Boo Check
@@ -621,7 +621,7 @@
       {
         //Rooms
         "name": "Armory",
-        "access_rules": ["$canReachArmory"],
+        "access_rules": ["$canReachRoom|armory|, $canCatchGhosts|Armory|"],
         "sections": [
           {
             //Boo Check
@@ -643,7 +643,7 @@
       {
         //Rooms
         "name": "Ceramics Studio",
-        "access_rules": ["$canReachCeramics, $canGrabIce"],
+        "access_rules": ["$canReachRoom|ceramics|, $canGrabIce"],
         "sections": [
           {
             //Boo Check
@@ -665,7 +665,7 @@
       {
         //Rooms
         "name": "Telephone Room",
-        "access_rules": ["$canReachTelephone"],
+        "access_rules": ["$canReachRoom|telephone|, $canCatchGhosts|Telephone Room|"],
         "sections": [
           {
             //Boo Check
@@ -687,7 +687,7 @@
       {
         //Rooms
         "name": "Clockwork Room",
-        "access_rules": ["$canReachClockWork"],
+        "access_rules": ["$canReachRoom|clockwork|"],
         "sections": [
           {
             //Boo Check
@@ -709,7 +709,7 @@
       {
         //Rooms
         "name": "Balcony",
-        "access_rules": ["$canReachBalcony, $canGrabIce"],
+        "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
         "sections": [
           {
             "name": "Boolossus Boo 1",
@@ -822,7 +822,7 @@
       {
         //Rooms
         "name": "Breaker Room",
-        "access_rules": ["$canReachBreaker"],
+        "access_rules": ["$canReachRoom|breaker|"],
         "sections": [
           {
             //Boo Check
@@ -844,7 +844,7 @@
       {
         //Rooms
         "name": "Cellar",
-        "access_rules": ["$canReachCellar"],
+        "access_rules": ["$canReachRoom|cellar|, $canCatchGhosts|Cellar|"],
         "sections": [
           {
             //Boo Check
@@ -866,7 +866,7 @@
       {
         //Rooms
         "name": "Pipe Room",
-        "access_rules": ["$canReachPipe"],
+        "access_rules": ["$canReachRoom|pipe|, $canCatchGhosts|Pipe Room|"],
         "sections": [
           {
             //Boo Check
@@ -888,7 +888,7 @@
       {
         //Rooms
         "name": "Cold Storage",
-        "access_rules": ["$canReachColdRoom, $canGrabFire"],
+        "access_rules": ["$canReachRoom|cold|, $canGrabFire"],
         "sections": [
           {
             //Boo Check
