@@ -121,7 +121,7 @@
         "key_mirror", "key_laundry", "key_butler", "key_southrec", "key_northrec"
       ],
       [
-        "key_billiards", "key_projection", "key_lower2f", "key_basestair","key_basehall"
+        "key_billiards", "key_projection", "key_lower2f", "key_basementstair","key_basehall"
       ],
       [
         "key_breaker", "key_cellar", "key_cold", "key_pipe", "key_spadehall"

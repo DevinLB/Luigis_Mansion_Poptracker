@@ -421,7 +421,7 @@
   {
     "name": "Basement Stairwell Key",
     "type": "toggle",
-    "codes": "key_basestair",
+    "codes": "key_basementstair",
     "img": "images/keys/key_basement_stairwell.png"
   },
   {
