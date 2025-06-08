@@ -28,38 +28,57 @@ end
 function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     mansion = mansion_layout
     -- Convert keys list to lookup
-    -- print("STEP 3 -----", starting_room)
     local has_key = {}
     for _, key in ipairs(player_keys) do
         has_key[key] = true
-        -- print(dump_table(has_key))
     end
 
-    local door_check = {}
-    print(dump_table(door_locks))
+    -- TEMP add open doors to has_key list
     for _, door in ipairs(door_names) do
-        -- print(dump_table(door))
-        print(door)
-        print("-- door")
-        -- print(dump_table(door_locks[_][door]))
         if door_locks[_][door] == "1" then
-            -- door_check[lock] = true
-            -- door_checks = door_check
-            -- print(dump_table(door_check[lock]))
-            
-            -- print(door)
-            -- print(dump_table(mansion_layout)) 
-            -- print(dump_table(mansion_layout[door])) 
-            -- print(mansion_layout[door][1]) 
-            print(type(door))
-            print(dump_table(door_locks[_]))
-            print(mansion["secret_altar"][1].door)
-            print(mansion[door][1].door) --why the fuck does this shit not work when everything is right
-            print("check --")
+            for __, door2 in pairs(door_keys) do
+                if door2.name == door then
+                    has_key[door2.key] = true
+                end
+            end
         end
     end
 
-    -- print("STEP 3.1 -----", "graph")
+    -- Shelving open door logic as a separate entity, just tying it into the key check until the graph can successfully check the open doors
+    -- Check against door_locks to mark which doors are starting open --FIND WAY TO INCLUDE stairwell_2f AND rec_room DOORS
+    -- print(dump_table(door_locks))
+    -- for _, door in ipairs(door_names) do
+    --     if door_locks[_][door] == "1" then
+    --         if (door ~= "stairwell_2f_n" and door ~= "stairwell_2f_w" and door ~= "rec_room_n" and door ~= "rec_room_s" and door ~= "courtyard_e" and door ~= "courtyard_w") then
+    --             -- print(dump_table(mansion))
+    --             -- print(dump_table(door_locks))
+    --             for k, v in ipairs(mansion[door]) do
+    --                 if v.door_name == door then
+    --                     mansion[door][k].door = "1"
+    --                 end
+    --             end
+    --         end
+    --         if (door == "stairwell_2f_n" or door == "stairwell_2f_w" or door == "rec_room_n" or door == "rec_room_s" or door ~= "courtyard_e" or door ~= "courtyard_w") then
+    --             if (door == "stairwell_2f_w") then
+    --                 mansion["hallway_1f"][7].door = 1
+    --                 mansion["stairwell_2f"][1].door = 1
+    --             end
+    --             if (door == "stairwell_2f_n" or door == "rec_room_s") then
+    --                 mansion["rec_room"][2].door = 1
+    --                 mansion["stairwell_2f"][2].door = 1
+    --             end
+    --             if (door == "rec_room_n" or door == "courtyard_e") then
+    --                 mansion["courtyard"][2].door = 1
+    --                 mansion["rec_room"][1].door = 1
+    --             end
+    --             if (door == "courtyard_w") then
+    --                 mansion["courtyard"][1].door = 1
+    --                 mansion["hallway_1f"][12].door = 1
+    --             end
+    --         end
+    --     end
+    -- end
+
     -- Build bidirectional graph
     local graph = {}
     for from, connections in pairs(mansion) do
@@ -68,11 +87,11 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
             local to = conn.room
             local key = conn.key
             local door = conn.door
-            -- print(to, key, door)
+            local door_name = conn.door_name
             
-            table.insert(graph[from], {room = to, key = key, door = door})
+            table.insert(graph[from], {room = to, key = key, door = door, door_name = door_name})
             if not graph[to] then graph[to] = {} end
-            table.insert(graph[to], {room = from, key = key, door = door})
+            table.insert(graph[to], {room = from, key = key, door = door, door_name = door_name})
         end
     end
     
@@ -81,17 +100,23 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
         return {}
     end
     
-    -- print("STEP 3.2 -----", "visited")
     -- DFS traversal from the starting room
     local accessible = {}
     local visited = {}
     
     local function visit(room)
+        -- print("START ------------------------------------------------------------------------------------------------------------")
+        -- print(room)
         if visited[room] then return end
         visited[room] = true
         accessible[room] = true
         for _, conn in ipairs(graph[room]) do
-            if conn.key == nil or has_key[conn.key] or (conn.door == "1") then
+            -- print("Connection?: ", conn.door_name)
+            if (conn.key == nil or has_key[conn.key]) or (conn.door == "1") then
+                if has_key[conn.key] == nil then 
+                    print("Room: ", conn.door_name, " is already open")
+                end
+                -- print("CONNECTION SUCCESS: ", conn.door_name)
                 visit(conn.room)
             end
         end
@@ -99,7 +124,6 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     
     visit(starting_room)
     
-    -- print("STEP 3.3 -----", "result")
     -- Convert set to list
     local result = {}
     for room, _ in pairs(accessible) do
@@ -109,9 +133,7 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     return result
 end
 
-mansion_layout = SPAWN_CONNECTIONS
--- player_keys = list_keys
-starting_room = spawn_region
+
 
 function accesibleFromFoyer(mansion_layout, player_keys, target_room)
     local accessible_from = getAccessibleRooms(mansion_layout, player_keys, "foyer")
@@ -264,6 +286,9 @@ function accessibleFromNana(mansion_layout, player_keys, target_room)
 end
 
 -- Launch the process here. Possibly combine accessibleFrom functions with these
+list_keys = {}
+mansion_layout = full_mansion
+starting_room = spawn_region
 function canReachRoom(target_room)
     player_keys = {}
     for k, v in pairs(list_keys) do
@@ -558,44 +583,38 @@ end
 -- Medal Logic
 
 function canGrabFire()
-    -- return has("fire") and 
-    -- (
-    --     canReachFloor1Hall() or 
-    --     canReachStudy() or 
-    --     canReachButler() or 
-    --     canReachColdRoom() or 
-    --     canReachMirror() or 
-    --     canReachDining() or 
-    --     canReach2FHall() or 
-    --     canReachSitting() or 
-    --     canReachGraveyard() or 
-    --     canReachRoof()
-    -- )
-    return true
+    return has("fire") and (
+        canReachRoom("hallway_1f") or 
+        canReachRoom("study") or 
+        canReachRoom("butler") or 
+        canReachRoom("cold") or 
+        canReachRoom("mirror") or 
+        canReachRoom("dining") or 
+        canReachRoom("rear_hallway_2f") or 
+        canReachRoom("sitting") or 
+        canReachRoom("boneyard") or 
+        canReachRoom("clockwork")
+    )
 end
 
 function canGrabWater()
--- return has("water") and
--- (
-    --     canReachKitchen() or
-    --     canReachBoneyard() or
-    --     canReachCourtyard() or
-    --     canReachFloor1Bath() or
-    --     canReach2FWash() or
-    --     canReachSitting()
-    -- )
-    return true
+    return has("water") and (
+        canReachRoom("kitchen") or
+        canReachRoom("boneyard") or
+        canReachRoom("courtyard") or
+        canReachRoom("bathroom_1f") or
+        canReachRoom("washroom_2f") or
+        canReachRoom("sitting")
+    )
 end
     
 function canGrabIce()
-    -- return has("ice") and
-    -- (
-    --     canReachKitchen() or
-    --     canReachPipe() or
-    --     canReachTea() or
-    --     canReachCeramics()
-    -- )
-    return true
+    return has ("ice") and (
+        canReachRoom("kitchen") or
+        canReachRoom("pipe") or
+        canReachRoom("tea") or
+        canReachRoom("ceramics")
+    )
 end
 
 -- Room Logic
@@ -624,23 +643,18 @@ end
 -- Elemental Ghost Logic
 enemies = {}
 function canCatchGhosts(room)
-    -- print("TESTING ELEMENTAL GHOST LOGIC FOR", room)
-    -- print(dump_table(enemies[room]))
     ghost_element = enemies[room]
     if ghost_element == "No Element" then
         return true
     end
     if ghost_element == "Fire" then
-        -- return canGrabWater()
-        return true
+        return canGrabWater()
     end
     if ghost_element == "Ice" then
-        -- return canGrabFire()
-        return true
+        return canGrabFire()
     end
     if ghost_element == "Water" then
-        -- return canGrabIce()
-        return true
+        return canGrabIce()
     end
     if ghost_element == nil then
         return true
