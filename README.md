@@ -9,10 +9,11 @@ Download the .zip file and install the pack however you like for your PopTracker
 ## To-Do
 
 1. Verify functionality of code and logic accessiblity.
-2. Add Room Map version. 
+2. Add images for the separated furnisanity settings.
+3. Add Room Map version. 
 
 ## Known Issues
 
 ## Credits
 Decton 
-Umed
+UmedMuzel
