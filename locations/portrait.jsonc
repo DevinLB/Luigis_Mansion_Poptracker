@@ -494,7 +494,7 @@
       {
         //Rooms
         "name": "Cold Storage",
-        "access_rules": ["$canReachRoom|cold|"],
+        "access_rules": ["$canReachRoom|cold|, $canGrabFire"],
         "sections": [
           //Portait Ghost
           {

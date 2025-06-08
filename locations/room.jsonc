@@ -335,7 +335,7 @@
       },
       {
         "name": "Boneyard",
-        "access_rules": ["$canReachRoom|boneyard|"],
+        "access_rules": ["$canReachRoom|boneyard|, $canGrabWater"],
         "sections": [
           //Room Checks
           {
@@ -364,7 +364,7 @@
       },
       {
         "name": "Graveyard",
-        "access_rules": ["$canReachRoom|boneyard|"],
+        "access_rules": ["$canReachRoom|boneyard|, $canGrabWater"],
         "sections": [
           //Room Checks
           {
@@ -1063,7 +1063,7 @@
           {
             "name": "Sitting Room Light On",
             "visibility_rules": "lightsanity_on",
-            "access_rules": ["$canGrabFire"],
+            "access_rules": ["$canGrabFire, $canGrabWater"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1

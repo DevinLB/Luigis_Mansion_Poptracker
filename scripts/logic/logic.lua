@@ -22,44 +22,62 @@ end
 
 
 
--- NEW ACCESS LOGIC
-
+-- Acess Logic
 
 function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     mansion = mansion_layout
     -- Convert keys list to lookup
-    -- print("STEP 3 -----", starting_room)
     local has_key = {}
     for _, key in ipairs(player_keys) do
         has_key[key] = true
-        -- print(dump_table(has_key))
     end
 
-    local door_check = {}
-    print(dump_table(door_locks))
+    -- TEMP add open doors to has_key list
     for _, door in ipairs(door_names) do
-        -- print(dump_table(door))
-        print(door)
-        print("-- door")
-        -- print(dump_table(door_locks[_][door]))
         if door_locks[_][door] == "1" then
-            -- door_check[lock] = true
-            -- door_checks = door_check
-            -- print(dump_table(door_check[lock]))
-            
-            -- print(door)
-            -- print(dump_table(mansion_layout)) 
-            -- print(dump_table(mansion_layout[door])) 
-            -- print(mansion_layout[door][1]) 
-            print(type(door))
-            print(dump_table(door_locks[_]))
-            print(mansion["secret_altar"][1].door)
-            print(mansion[door][1].door) --why the fuck does this shit not work when everything is right
-            print("check --")
+            for __, door2 in pairs(door_keys) do
+                if door2.name == door then
+                    has_key[door2.key] = true
+                end
+            end
         end
     end
 
-    -- print("STEP 3.1 -----", "graph")
+    -- Shelving open door logic as a separate entity, just tying it into the key check until the graph can successfully check the open doors
+    -- Check against door_locks to mark which doors are starting open --FIND WAY TO INCLUDE stairwell_2f AND rec_room DOORS
+    -- print(dump_table(door_locks))
+    -- for _, door in ipairs(door_names) do
+    --     if door_locks[_][door] == "1" then
+    --         if (door ~= "stairwell_2f_n" and door ~= "stairwell_2f_w" and door ~= "rec_room_n" and door ~= "rec_room_s" and door ~= "courtyard_e" and door ~= "courtyard_w") then
+    --             -- print(dump_table(mansion))
+    --             -- print(dump_table(door_locks))
+    --             for k, v in ipairs(mansion[door]) do
+    --                 if v.door_name == door then
+    --                     mansion[door][k].door = "1"
+    --                 end
+    --             end
+    --         end
+    --         if (door == "stairwell_2f_n" or door == "stairwell_2f_w" or door == "rec_room_n" or door == "rec_room_s" or door ~= "courtyard_e" or door ~= "courtyard_w") then
+    --             if (door == "stairwell_2f_w") then
+    --                 mansion["hallway_1f"][7].door = 1
+    --                 mansion["stairwell_2f"][1].door = 1
+    --             end
+    --             if (door == "stairwell_2f_n" or door == "rec_room_s") then
+    --                 mansion["rec_room"][2].door = 1
+    --                 mansion["stairwell_2f"][2].door = 1
+    --             end
+    --             if (door == "rec_room_n" or door == "courtyard_e") then
+    --                 mansion["courtyard"][2].door = 1
+    --                 mansion["rec_room"][1].door = 1
+    --             end
+    --             if (door == "courtyard_w") then
+    --                 mansion["courtyard"][1].door = 1
+    --                 mansion["hallway_1f"][12].door = 1
+    --             end
+    --         end
+    --     end
+    -- end
+
     -- Build bidirectional graph
     local graph = {}
     for from, connections in pairs(mansion) do
@@ -68,11 +86,11 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
             local to = conn.room
             local key = conn.key
             local door = conn.door
-            -- print(to, key, door)
+            local door_name = conn.door_name
             
-            table.insert(graph[from], {room = to, key = key, door = door})
+            table.insert(graph[from], {room = to, key = key, door = door, door_name = door_name})
             if not graph[to] then graph[to] = {} end
-            table.insert(graph[to], {room = from, key = key, door = door})
+            table.insert(graph[to], {room = from, key = key, door = door, door_name = door_name})
         end
     end
     
@@ -81,17 +99,23 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
         return {}
     end
     
-    -- print("STEP 3.2 -----", "visited")
     -- DFS traversal from the starting room
     local accessible = {}
     local visited = {}
     
     local function visit(room)
+        -- print("START ------------------------------------------------------------------------------------------------------------")
+        -- print(room)
         if visited[room] then return end
         visited[room] = true
         accessible[room] = true
         for _, conn in ipairs(graph[room]) do
-            if conn.key == nil or has_key[conn.key] or (conn.door == "1") then
+            -- print("Connection?: ", conn.door_name)
+            if (conn.key == nil or has_key[conn.key]) or (conn.door == "1") then
+                if has_key[conn.key] == nil then 
+                    print("Room: ", conn.door_name, " is already open")
+                end
+                -- print("CONNECTION SUCCESS: ", conn.door_name)
                 visit(conn.room)
             end
         end
@@ -99,7 +123,6 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     
     visit(starting_room)
     
-    -- print("STEP 3.3 -----", "result")
     -- Convert set to list
     local result = {}
     for room, _ in pairs(accessible) do
@@ -109,9 +132,7 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     return result
 end
 
-mansion_layout = SPAWN_CONNECTIONS
--- player_keys = list_keys
-starting_room = spawn_region
+
 
 function accesibleFromFoyer(mansion_layout, player_keys, target_room)
     local accessible_from = getAccessibleRooms(mansion_layout, player_keys, "foyer")
@@ -264,6 +285,9 @@ function accessibleFromNana(mansion_layout, player_keys, target_room)
 end
 
 -- Launch the process here. Possibly combine accessibleFrom functions with these
+list_keys = {}
+mansion_layout = full_mansion
+starting_room = spawn_region
 function canReachRoom(target_room)
     player_keys = {}
     for k, v in pairs(list_keys) do
@@ -321,281 +345,41 @@ function canReachRoom(target_room)
     end
 end
 
-
-
-
-
--- Access Logic
-
--- function canReachParlor()
---     return has("key_parlor") or isDoorOpen("parlor")
--- end
-
--- function canReachAnteroom()
---     return canReachParlor() and (has("key_anteroom") or isDoorOpen("anteroom"))
--- end
-
--- function canReachWardrobe()
---     return (has("key_wardrobe") or isDoorOpen("wardrobe")) and canReachAnteroom()
--- end
-
--- function canReachWarBalcony()
---     return (has("key_wardrobebalcony") or isDoorOpen("wardrobe_balcony")) and canReachWardrobe()
--- end
-
--- function canReachFamHall()
---     return has("key_famhall") or isDoorOpen("family_hallway")
--- end
-
--- function canReachFloor1Hall()
---     return has("key_heart") or isDoorOpen("hallway_1f")
--- end
-
--- function canReachStudy()
---     return (has("key_study") or isDoorOpen("study")) and canReachFamHall()
--- end
-
--- function canReachMaster()
---     return (has("key_masterbed") or isDoorOpen("master_bedroom")) and canReachFamHall()
--- end
-
--- function canReachNursery()
---     return (has("key_nursery") or isDoorOpen("nursery")) and canReachFamHall()
--- end
-
--- function canReachTwins()
---     return (has("key_twin") or isDoorOpen("twins")) and canReachFamHall()
--- end
-
--- function canReachBaseStair()
---     return (has("key_basestair") or isDoorOpen("basement_stairwell")) and canReachFloor1Hall()
--- end
-
--- function canReach2FStair()
---     return ((has("key_lower2f") or isDoorOpen("stairwell_2f_w")) and canReachFloor1Hall()) or ((has("key_southrec") or isDoorOpen("rec_room_s")) and (has("key_northrec") or isDoorOpen("rec_room_n")) and canReachCourtyard())
--- end
-
--- function canReachCourtyard()
---     return ((has("key_club") or isDoorOpen("courtyard_w")) and canReachFloor1Hall()) or ((has("key_northrec") or isDoorOpen("rec_room_n")) and (has("key_southrec") or isDoorOpen("rec_room_s")) and canReach2FHall())
--- end
-
--- function canReachFloor1Bath()
---     return (has("key_1fbath") or isDoorOpen("bathroom_1f")) and canReachFloor1Hall()
--- end
-
--- function canReachFloor1Wash()
---     return (has("key_1fwash") or isDoorOpen("washroom_1f")) and canReachFloor1Hall() and booCount() >= Tracker:ProviderCountForCode("washroom_boo") --Fix once washroom boo count gets added
--- end
-
--- function canReachBallRoom()
---     return (has("key_ballroom") or isDoorOpen("ballroom")) and canReachFloor1Hall()
--- end
-
--- function canReachDining()
---     return (has("key_dining") or isDoorOpen("dining")) and canReachFloor1Hall()
--- end
-
--- function canReachLaundry()
---     return (has("key_laundry") or isDoorOpen("laundry")) and canReachFloor1Hall()
--- end
-
--- function canReachFortune()
---     return (has("key_fortune") or isDoorOpen("fortune")) and canReachFloor1Hall()
--- end
-
--- function canReachMirror()
---     return (has("key_mirror") or isDoorOpen("mirror")) and canReachFortune()
--- end
-
--- function canReachRec()
---     return ((has("key_northrec") or isDoorOpen("rec_room_n")) and canReachCourtyard()) or ((has("key_southrec") or isDoorOpen("rec_room_s")) and canReach2FStair())
--- end
-
--- function canReachStorage()
---     return (has("key_storage") or isDoorOpen("storage")) and canReachBallRoom()
--- end
-
--- function canReachKitchen()
---     return (has("key_kitchen") or isDoorOpen("kitchen")) and canReachDining()
--- end
-
--- function canReachBoneyard()
---     return (has("key_boneyard") or isDoorOpen("key_boneyard")) and canReachKitchen() and canGrabWater()
--- end
-
--- function canReachGraveyard()
---     return canGrabWater() and canReachBoneyard()
--- end
-
--- function canReachConservatory()
---     return (has("key_conservatory") or isDoorOpen("conservatory")) and canReachFloor1Hall()
--- end
-
--- function canReachBilliards()
---     return (has("key_billiards") or isDoorOpen("billiards")) and canReachFloor1Hall()
--- end
-
--- function canReachProjection()
---     return (has("key_projection") or isDoorOpen("projection")) and canReachBilliards()
--- end
-
--- function canReachButler()
---     return (has("key_butler") or isDoorOpen("butler")) and canReachLaundry()
--- end
-
--- function canReachHidden()
---     return canReachButler()
--- end
-
--- function canReachWell()
---     return canReachCourtyard()
--- end
-
--- function canReachTea()
---     return (has("key_tea") or isDoorOpen("tea")) and canReach2FStair() and canGrabWater()
--- end
-
--- function canReach2FHall()
---     return (has("key_upper2f") or isDoorOpen("rear_hallway_2f")) and canReach2FStair()
--- end
-
--- function canReach2FBath()
---     return (has("key_2fbath") or isDoorOpen("bathroom_2f")) and canReach2FHall()
--- end
-
--- function canReach2FWash()
---     return (has("key_2fwash") or isDoorOpen("washroom_2f")) and canReach2FHall()
--- end
-
--- function canReachNana()
---     return (has("key_nana") or isDoorOpen("nana")) and canReach2FHall()
--- end
-
--- function canReachAstral()
---     return (has("key_astral") or isDoorOpen("astral")) and canReach2FHall()
--- end
-
--- function canReachSitting()
---     return (has("key_sitting") or isDoorOpen("sitting")) and canReach2FHall()
--- end
-
--- function canReachSafari()
---     return (has("key_safari") or isDoorOpen("safari")) and canReach2FHall()
--- end
-
--- function canReachObservatory()
---     return (has("key_observatory") or isDoorOpen("observatory")) and canReachAstral() and canGrabFire()
--- end
-
--- function canReachGuest()
---     return (has("key_guest") or isDoorOpen("guest")) and canReachSitting()
--- end
-
--- function canReachEastAttic()
---     return (has("key_eastattic") or isDoorOpen("east_attic")) and canReachSafari()
--- end
-
--- function canReachArtist()
---     return (has("key_artist") or isDoorOpen("artist")) and canReachEastAttic()
--- end
-
--- function canReachBalcony()
---     return (has("key_balcony") or isDoorOpen("balcony")) and canReachEastAttic() and booCount() >= Tracker:ProviderCountForCode("balcony_boo")
--- end
-
--- function canReachWestAttic()
---     return (has("key_diamond") or isDoorOpen("west_attic")) and canReachBalcony()
--- end
-
--- function canReachArmory()
---     return (has("key_armory") or isDoorOpen("armory")) and canReachWestAttic()
--- end
-
--- function canReachTelephone()
---     return (has("key_telephone") or isDoorOpen("telephone")) and canReachWestAttic()
--- end
-
--- function canReachClockWork()
---     return (has("key_clockwork") or isDoorOpen("clockwork")) and canReachTelephone()
--- end
-
--- function canReachCeramics()
---     return (has("key_ceramics") or isDoorOpen("ceramics")) and canReachArmory()
--- end
-
--- function canReachRoof()
---     return canReachClockWork()
--- end
-
--- function canReachBreaker()
---     return (has("key_breaker") or isDoorOpen("breaker")) and canReachBaseStair()
--- end
-
--- function canReachCellar()
---     return (has("key_cellar") or isDoorOpen("cellar")) and canReachBaseStair()
--- end
-
--- function canReachBasementHall()
---     return (has("key_basehall") or isDoorOpen("basement_hallway")) and canReachCellar()
--- end
-
--- function canReachColdRoom()
---     return (has("key_cold") or isDoorOpen("cold")) and canReachBasementHall()
--- end
-
--- function canReachPipe()
---     return (has("key_pipe") or isDoorOpen("pipe")) and canReachBasementHall()
--- end
-
--- function canReachSpadeHall()
---     return (has("key_spadehall") or isDoorOpen("spade_hallway")) and canReachBasementHall()
--- end
-
--- function canReachAltar()
---     return (has("key_spade") or isDoorOpen("secret_altar")) and canReachSpadeHall() and booCount() >= Tracker:ProviderCountForCode("final_boo")
--- end
-
 -- Medal Logic
 
 function canGrabFire()
-    -- return has("fire") and 
-    -- (
-    --     canReachFloor1Hall() or 
-    --     canReachStudy() or 
-    --     canReachButler() or 
-    --     canReachColdRoom() or 
-    --     canReachMirror() or 
-    --     canReachDining() or 
-    --     canReach2FHall() or 
-    --     canReachSitting() or 
-    --     canReachGraveyard() or 
-    --     canReachRoof()
-    -- )
-    return true
+    return has("fire") and (
+        canReachRoom("hallway_1f") or 
+        canReachRoom("study") or 
+        canReachRoom("butler") or 
+        canReachRoom("cold") or 
+        canReachRoom("mirror") or 
+        canReachRoom("dining") or 
+        canReachRoom("rear_hallway_2f") or 
+        canReachRoom("sitting") or 
+        canReachRoom("boneyard") or 
+        canReachRoom("clockwork")
+    )
 end
 
 function canGrabWater()
--- return has("water") and
--- (
-    --     canReachKitchen() or
-    --     canReachBoneyard() or
-    --     canReachCourtyard() or
-    --     canReachFloor1Bath() or
-    --     canReach2FWash() or
-    --     canReachSitting()
-    -- )
-    return true
+    return has("water") and (
+        canReachRoom("kitchen") or
+        canReachRoom("boneyard") or
+        canReachRoom("courtyard") or
+        canReachRoom("bathroom_1f") or
+        canReachRoom("washroom_2f") or
+        canReachRoom("sitting")
+    )
 end
     
 function canGrabIce()
-    -- return has("ice") and
-    -- (
-    --     canReachKitchen() or
-    --     canReachPipe() or
-    --     canReachTea() or
-    --     canReachCeramics()
-    -- )
-    return true
+    return has ("ice") and (
+        canReachRoom("kitchen") or
+        canReachRoom("pipe") or
+        canReachRoom("tea") or
+        canReachRoom("ceramics")
+    )
 end
 
 -- Room Logic
@@ -624,23 +408,18 @@ end
 -- Elemental Ghost Logic
 enemies = {}
 function canCatchGhosts(room)
-    -- print("TESTING ELEMENTAL GHOST LOGIC FOR", room)
-    -- print(dump_table(enemies[room]))
     ghost_element = enemies[room]
     if ghost_element == "No Element" then
         return true
     end
     if ghost_element == "Fire" then
-        -- return canGrabWater()
-        return true
+        return canGrabWater()
     end
     if ghost_element == "Ice" then
-        -- return canGrabFire()
-        return true
+        return canGrabFire()
     end
     if ghost_element == "Water" then
-        -- return canGrabIce()
-        return true
+        return canGrabIce()
     end
     if ghost_element == nil then
         return true

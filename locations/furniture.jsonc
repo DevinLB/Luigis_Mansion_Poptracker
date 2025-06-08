@@ -754,7 +754,7 @@
       {
         //rooms
         "name": "Boneyard",
-        "access_rules": ["$canReachRoom|boneyard|"],
+        "access_rules": ["$canReachRoom|boneyard|, $canGrabWater"],
         "sections": [
           //furniture checks
           {
@@ -790,8 +790,8 @@
       },
       {
         //rooms
-        "name": "Graveyard", //DOUBLE CHECK
-        "access_rules": ["$canReachRoom|boneyard|"],
+        "name": "Graveyard",
+        "access_rules": ["$canReachRoom|boneyard|, $canGrabWater"],
         "sections": [
           //furniture checks
           {
@@ -2469,7 +2469,7 @@
       {
         //rooms
         "name": "Tea Room",
-        "access_rules": ["$canReachRoom|tea|"],
+        "access_rules": ["$canReachRoom|tea|, $canGrabWater"],
         "sections": [
           //furniture checks
           {
@@ -2906,7 +2906,7 @@
       {
         //rooms
         "name": "Observatory",
-        "access_rules": ["$canReachRoom|observatory|"],
+        "access_rules": ["$canReachRoom|observatory|, $canGrabFire"],
         "sections": [
           //furniture checks
           {
