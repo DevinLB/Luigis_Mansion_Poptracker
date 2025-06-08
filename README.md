@@ -1,19 +1,18 @@
-# Template Pack for PopTracker
+# Luigi's Mansion PopTracker 1.0.0
 
-This a template tracker package for PopTracker.
-
-Includes examples for AP and SNES memory autotracking and beginner-friendly explanations in the pack.
+This is the PopTracker pack for Luigi's Mansion Archipelago randomizer.
 
 ## Installation
 
-Just download the lastest build or source and put in your packs folder (unpacked).
+Download the .zip file and install the pack however you like for your PopTracker. On the PopTracker itself, navigate to the folder in the top left and select version of the tracker you installed.
 
-## More Info
+## To-Do
 
-Check out PopTrackers Documentation on packs [here](https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md)
+1. Verify functionality of code and logic accessiblity.
+2. Add Room Map version. 
 
-Still having trouble realizing your pack and looking for help or just want more information about everything PopTracker? Check out the ['Unofficial' PopTracker Discord Server](https://discord.com/invite/gwThqMCPgK)!
+## Known Issues
 
-## License
-
-Feel free to use this template without credit for all your PopTracker packs!
+## Credits
+Decton 
+Umed

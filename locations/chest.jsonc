@@ -574,7 +574,7 @@
       {
         //rooms
         "name": "Tea Room",
-        "access_rules": ["$canReachRoom|tea|, $canCatchGhosts|Tea Room|"],
+        "access_rules": ["$canReachRoom|tea|, $canCatchGhosts|Tea Room|, $canGrabWater"],
         "sections": [
           //chest checks
           {

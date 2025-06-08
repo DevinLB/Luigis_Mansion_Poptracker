@@ -95,7 +95,7 @@
       {
         // Room
         "name": "Tea Room",
-        "access_rules": ["$canReachRoom|tea|"],
+        "access_rules": ["$canReachRoom|tea|, $canGrabWater"],
         "sections": [
           {
             //Mouse location
