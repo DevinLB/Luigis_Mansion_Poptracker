@@ -1,4 +1,4 @@
-# Luigi's Mansion PopTracker 1.0.0
+# Luigi's Mansion PopTracker 0.0.1
 
 This is the PopTracker pack for Luigi's Mansion Archipelago randomizer.
 
