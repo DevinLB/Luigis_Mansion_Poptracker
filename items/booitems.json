@@ -1,0 +1,261 @@
+[
+    {
+        "name": "Boo",
+        "type": "consumable",
+        "increment": 1,
+        "max_quantity": 50,
+        "overlay_background": "#000000",
+        "img": "images/minor checks/boo.png",
+        "codes": "booCount"
+    },
+    {
+        "name": "Butler's Room Boo (PeekaBoo)",
+        "type": "toggle",
+        "codes": "Boo"
+    },
+    {
+        "name": "Hidden Room Boo (GumBoo)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Fortune Teller Boo (Booigi)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Mirror Room Boo (Kung Boo)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Laundry Room Boo (Boogie)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Kitchen Boo (Booligan)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Dining Room Boo (Boodacious)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Ball Room Boo (Boo La La)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Billiards Boo (Boohoo)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Projection Room Boo (ShamBoo)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Storage Room Boo (Game Boo)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Conservatory Boo (Boomeo)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Rec Room Boo (Booregard)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Nursery Boo (TurBoo)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Twin's Room Boo (Booris)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Sitting Room Boo (Boolivia)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Guest Room Boo (Boonita)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Master Bedroom Boo (Boolicious)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Study Boo (TaBoo)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Parlor Boo (BamBoo)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Wardrobe Boo (GameBoo Advance)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Anteroom Boo (Bootha)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Astral Boo (Boonswoggle)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Nana's Room (LamBooger)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Tea Room Boo (Mr. Boojangles)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Armory Boo (Underboo)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Telephone Room Boo (Boomerang)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Safari Room Boo (Little Boo Peep)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Ceramics Studio Boo (TamBoorine)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Clockwork Room Boo (Booscaster)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Artist's Studio Boo (Bootique)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Cold Storage Boo (Boolderdash)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Cellar Boo (Booripedes)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Pipe Room Boo (Booffant)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Breaker Room Boo (Boo B. Hatch)",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Boolossus Boo 1",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Boolossus Boo 2",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Boolossus Boo 3",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Boolossus Boo 4",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Boolossus Boo 5",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Boolossus Boo 6",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Boolossus Boo 7",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Boolossus Boo 8",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Boolossus Boo 9",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Boolossus Boo 10",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Boolossus Boo 11",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Boolossus Boo 12",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Boolossus Boo 13",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Boolossus Boo 14",
+        "type": "static",
+        "codes": "Boo"
+    },
+    {
+        "name": "Boolossus Boo 15",
+        "type": "static",
+        "codes": "Boo"
+    }
+]

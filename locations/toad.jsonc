@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Toad Locations",
+    "visibility_rules": "toadsanity_on",
+    "children": [
+      {
+        "name": "Foyer",
+        "access_rules": ["$canReachRoom|foyer|"],
+        "sections": [
+          {
+            "name": "Foyer Toad",
+            "chest_unopened_img": "images/minor checks/toad.png",
+            "chest_opened_img": "images/minor checks/toad_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 476,
+            "y": 722,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Wardrobe",
+        "access_rules": ["$canReachRoom|wardrobe_balcony|"],
+        "sections": [
+          {
+            "name": "Wardrobe Balcony Toad",
+            "chest_unopened_img": "images/minor checks/toad.png",
+            "chest_opened_img": "images/minor checks/toad_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 147,
+            "y": 275,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "1F Washroom",
+        "access_rules": ["$canReachRoom|washroom_1f|"],
+        "sections": [
+          {
+            "name": "1F Washroom Toad",
+            "chest_unopened_img": "images/minor checks/toad.png",
+            "chest_opened_img": "images/minor checks/toad_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 268,
+            "y": 259,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Courtyard",
+        "access_rules": ["$canReachRoom|courtyard|"],
+        "sections": [
+          {
+            "name": "Courtyard Toad",
+            "chest_unopened_img": "images/minor checks/toad.png",
+            "chest_opened_img": "images/minor checks/toad_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 915,
+            "y": 43,
+            "size": 14
+          }
+        ]
+      }
+    ]
+  }
+]

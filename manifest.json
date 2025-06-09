@@ -1,12 +1,12 @@
 {
   "name": "Luigi's Mansion",
   "game_name": "Luigi's Mansion",
-  "package_version": "0.1",
+  "package_version": "1.0.0",
   "package_uid": "lm_poptracker",
   "platform": "Game Cube",
-  "author": "Run_In_A_Week, Decton, UmedMuzl",
+  "author": "Decton, UmedMuzl",
   "min_poptracker_version": "0.25.9",
-  "target_poptracker_version": "0.28.0",
+  "target_poptracker_version": "0.31.0",
   "variants": {
     "standard": {
       "display_name": "Map Tracker",

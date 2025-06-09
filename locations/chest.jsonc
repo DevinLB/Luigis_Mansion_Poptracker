@@ -1,0 +1,1083 @@
+[
+  //=-=-=-=-=-=-=-=-=-=-= Floor 1 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //floor name
+    "name": "Floor 1 Chests",
+    "children": [
+      {
+        //rooms
+        "name": "Fortune Teller's Room",
+        "access_rules": ["$canReachRoom|fortune|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Fortune Teller Candles",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "access_rules": ["$canGrabFire"],
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Fortune Teller Clear Chest",
+            "access_rules": ["$canBeatClairvoya"],
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "697",
+            "y": "728",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Mirror Room",
+        "access_rules": ["$canReachRoom|mirror|, $canCatchGhosts|Mirror Room|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Mirror Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "927",
+            "y": "731",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Butler's Room",
+        "access_rules": ["$canReachRoom|butler|, $canGrabFire"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Butler Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "89",
+            "y": "740",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Hidden Room",
+        "access_rules": ["$canReachRoom|butler|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Hidden Room Large Chest R",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Hidden Room Small Chest R Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Hidden Room Small Chest L Floor",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Hidden Room Clear Chest",
+            "access_rules": ["$canCatchGhosts|Hidden Room|"],
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "302",
+            "y": "731",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Laundry Room",
+        "access_rules": ["$canReachRoom|laundry|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Laundry Washing Machine",
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Laundry Clear Chest",
+            "access_rules": "$canCatchGhosts|Laundry Room|",
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "114",
+            "y": "625",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Ballroom",
+        "access_rules": ["$canReachRoom|ballroom|, $canCatchGhosts|Ballroom|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Ballroom Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "893",
+            "y": "479",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Dining Room",
+        "access_rules": ["$canReachRoom|dining|, $canGrabFire"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Dining Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "569",
+            "y": "538",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Kitchen",
+        "access_rules": ["$canReachRoom|kitchen|, $canCatchGhosts|Kitchen|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Kitchen Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "118",
+            "y": "536",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Boneyard",
+        "access_rules": ["$canReachRoom|boneyard|, $canWaterFlower"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Huge Flower (Boneyard)", // Need an accessibility check for 3 progressive flowers as well.
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "145",
+            "y": "357",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Graveyard",
+        "access_rules": ["$canReachRoom|boneyard|, $canGrabWater, $canCatchGhosts|Graveyard|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Graveyard Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "107",
+            "y": "126",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Conservatory",
+        "access_rules": ["$canReachRoom|conservatory|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Conservatory Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "591",
+            "y": "169",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "1F Washroom",
+        "access_rules": ["$canReachRoom|washroom_1f|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "1F Washroom Toilet",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "242",
+            "y": "270",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "1F Bathroom",
+        "access_rules": ["$canReachRoom|bathroom_1f|, $canCatchGhosts|1F Bathroom|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "1F Bathroom Shelf Key",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "218",
+            "y": "196",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Courtyard",
+        "access_rules": ["$canReachRoom|courtyard|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Courtyard Birdhouse",
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Courtyard Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "662",
+            "y": "66",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Rec Room",
+        "access_rules": ["$canReachRoom|rec_room|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Rec Room Treadmill Key",
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Rec Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "984",
+            "y": "176",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Billiards Room",
+        "access_rules": ["$canReachRoom|billiards|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Billiards Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "266",
+            "y": "403",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Projection Room",
+        "access_rules": ["$canReachRoom|projection|, $canCatchGhosts|Projection Room|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Projection Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "515",
+            "y": "381",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Floor 2 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //floor name
+    "name": "Floor 2 Chests",
+    "children": [
+      {
+        //rooms
+        "name": "Study",
+        "access_rules": ["$canReachRoom|study|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Study Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "292",
+            "y": "394",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Master Bedroom",
+        "access_rules": ["$canReachRoom|master_bedroom|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Master Bedroom Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "111",
+            "y": "398",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Twins' Room",
+        "access_rules": ["$canReachRoom|twins|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Twins' Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "299",
+            "y": "636",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Nursery",
+        "access_rules": ["$canReachRoom|nursery|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Nursery Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "107",
+            "y": "636",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Parlor",
+        "access_rules": ["$canReachRoom|parlor|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Parlor Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "521",
+            "y": "389",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Wardrobe",
+        "access_rules": ["$canReachRoom|wardrobe|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Wardrobe Clear Chest",
+            "access_rules": ["$canReachRoom|breaker|"],
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Shelf Key",
+            "access_rules": ["$canCatchGhosts|Wardrobe|"],
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "257",
+            "y": "255",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Tea Room",
+        "access_rules": ["$canReachRoom|tea|, $canCatchGhosts|Tea Room|, $canGrabWater"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Tea Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_white.png",
+            "chest_opened_img": "images/minor checks/chest_white_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "841",
+            "y": "55",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "2F Washroom",
+        "access_rules": ["$canReachRoom|washroom_2f|, $canCatchGhosts|2F Washroom|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "2F Washroom Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "274",
+            "y": "174",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "2F Bathroom",
+        "access_rules": ["$canReachRoom|bathroom_2f|, $canGrabIce"],
+        "sections": [
+          //chest checks
+          {
+            "name": "2F Bathroom Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "268",
+            "y": "78",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Nana's Room",
+        "access_rules": ["$canReachRoom|nana|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Nana's Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "540",
+            "y": "44",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Observatory",
+        "access_rules": ["$canReachRoom|observatory|, $canGrabFire"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Observatory Shoot the Moon",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "987",
+            "y": "244",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Guest Room",
+        "access_rules": ["$canReachRoom|guest|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Guest Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "921",
+            "y": "658",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Sealed Room",
+        "access_rules": ["$canReachRoom|clockwork|, $canGrabFire"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Sealed Room NW Shelf Chest",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room NE Shelf Chest",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room SW Shelf Chest",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room SE Shelf Chest",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room Table Chest",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room Upper L Big Chest",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room Upper R Big Chest",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room Clear Chest",
+            "access_rules": "$canCatchGhosts|Sealed Room|",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "875",
+            "y": "385",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Floor 3 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //floor name
+    "name": "Floor 3 Chests",
+    "children": [
+      {
+        //rooms
+        "name": "Safari Room",
+        "access_rules": ["$canReachRoom|safari|, $canCatchGhosts|Safari Room|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Safari Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "878",
+            "y": "683",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Artist's Studio",
+        "access_rules": ["$canReachRoom|artist|, $canCatchGhosts|Artist's Studio|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Artist's Studio Chest Painting",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "1003",
+            "y": "484",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Balcony",
+        "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Balcony Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_gold.png",
+            "chest_opened_img": "images/minor checks/chest_gold_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "507",
+            "y": "143",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Armory",
+        "access_rules": ["$canReachRoom|armory|, $canCatchGhosts|Armory|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Armory Gray Chest (left, back Wall)",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Gray Chest (middle, back Wall)",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Gray Chest (right, back Wall)",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "145",
+            "y": "686",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Ceramics Studio",
+        "access_rules": ["$canReachRoom|ceramics|, $canGrabIce"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Ceramics Studio Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "69",
+            "y": "442",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Telephone Room",
+        "access_rules": ["$canReachRoom|telephone|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Telephone Room R2 Chest",
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Telephone Room Clear Chest",
+            "access_rules": ["$canCatchGhosts|Telephone Room|"],
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "613",
+            "y": "627",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Roof -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //floor name
+    "name": "Roof Chests",
+    "children": [
+      {
+        //rooms
+        "name": "Roof",
+        "access_rules": ["$canReachRoom|clockwork|, $canCatchGhosts|Roof|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Roof Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "roof",
+            "x": "170",
+            "y": "51",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Basement -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //floor name
+    "name": "Basement Chests",
+    "children": [
+      {
+        //rooms
+        "name": "Well",
+        "access_rules": ["$canReachRoom|courtyard|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "The Well Key",
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "55",
+            "y": "197",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Breaker Room",
+        "access_rules": ["$canReachRoom|breaker|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Breaker Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "395",
+            "y": "603",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Cellar",
+        "access_rules": ["$canReachRoom|cellar|, $canCatchGhosts|Cellar|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Cellar Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "466",
+            "y": "847",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Cold Storage",
+        "access_rules": ["$canReachRoom|cold|, $canGrabFire"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Cold Storage Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "148",
+            "y": "751",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //rooms
+        "name": "Pipe Room",
+        "access_rules": ["$canReachRoom|pipe|, $canCatchGhosts|Pipe Room|"],
+        "sections": [
+          //chest checks
+          {
+            "name": "Pipe Room Clear Chest",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "200",
+            "y": "592",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  }
+]

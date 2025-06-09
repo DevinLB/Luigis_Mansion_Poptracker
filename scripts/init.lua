@@ -6,7 +6,7 @@ local variant = Tracker.ActiveVariantUID
 -- check variant info
 IS_ITEMS_ONLY = variant:find("itemsonly")
 
-print("-- Example Tracker --")
+print("-- Luigi Mansion PopTracker --")
 print("Loaded variant: ", variant)
 if ENABLE_DEBUG_LOG then
     print("Debug logging is enabled!")
@@ -17,21 +17,27 @@ ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Logic
 ScriptHost:LoadScript("scripts/logic/logic.lua")
+ScriptHost:LoadScript("scripts/autotracking/room_connectors.lua")
 
--- Custom Items
-ScriptHost:LoadScript("scripts/custom_items/class.lua")
-ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
-ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 
 -- Items
 Tracker:AddItems("items/items.jsonc")
+Tracker:AddItems("items/booitems.json")
 
-if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps
-    Tracker:AddMaps("maps/maps.jsonc")
+Tracker:AddMaps("maps/maps.jsonc")
     -- Locations
-    Tracker:AddLocations("locations/locations.jsonc")
-end
+Tracker:AddLocations("locations/start.jsonc")
+Tracker:AddLocations("locations/furniture.jsonc")
+Tracker:AddLocations("locations/chest.jsonc")
+Tracker:AddLocations("locations/boo.jsonc")
+Tracker:AddLocations("locations/plant.jsonc")
+Tracker:AddLocations("locations/portrait.jsonc")
+Tracker:AddLocations("locations/room.jsonc")
+Tracker:AddLocations("locations/speedy.jsonc")
+Tracker:AddLocations("locations/toad.jsonc")
+Tracker:AddLocations("locations/mouse.jsonc")
+
 
 -- Layout
 Tracker:AddLayouts("layouts/items.jsonc")

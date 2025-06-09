@@ -1,0 +1,912 @@
+[
+  //=-=-=-=-=-=-=-=-=-=-= Floor 1 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //Floor
+    "name": "Floor 1 Boos",
+    "access_rules": ["gb_horror"],
+    "visibility_rules": "boosanity_on",
+    "children": [
+      {
+        //Rooms
+        "name": "Laundry Room",
+        "access_rules": ["$canReachRoom|laundry|, $canCatchGhosts|Laundry Room|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Laundry Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "67",
+            "y": "625",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Butler's Room",
+        "access_rules": ["$canReachRoom|butler|, $canGrabFire"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Butler's Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "116",
+            "y": "719",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Hidden Room",
+        "access_rules": ["$canReachRoom|butler|, $canCatchGhosts|Hidden Room|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Hidden Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "330",
+            "y": "710",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Fortune Teller's Room",
+        "access_rules": ["$canReachRoom|fortune|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Fortune-Teller's Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "746",
+            "y": "757",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Mirror Room",
+        "access_rules": ["$canReachRoom|mirror|, $canCatchGhosts|Mirror Room|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Mirror Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "967",
+            "y": "730",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Ballroom",
+        "access_rules": ["$canReachRoom|ballroom|, $canCatchGhosts|Ballroom|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Ballroom Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "891",
+            "y": "514",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Storage Room",
+        "access_rules": ["$canReachRoom|storage|, $canCatchGhosts|Storage Room|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Storage Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "884",
+            "y": "369",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Dining Room",
+        "access_rules": ["$canReachRoom|dining|, $canGrabFire"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Dining Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "470",
+            "y": "551",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Kitchen",
+        "access_rules": ["$canReachRoom|kitchen|, $canCatchGhosts|Kitchen|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Kitchen Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "160",
+            "y": "536",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Conservatory",
+        "access_rules": ["$canReachRoom|conservatory|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Conservatory Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "550",
+            "y": "180",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Rec Room",
+        "access_rules": ["$canReachRoom|rec_room|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Rec Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "830",
+            "y": "180",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Billiards Room",
+        "access_rules": ["$canReachRoom|billiards|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Billiards Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "330",
+            "y": "400",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Projection Room",
+        "access_rules": ["$canReachRoom|projection|, $canCatchGhosts|Projection Room|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Projection Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "546",
+            "y": "392",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Floor 2 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //Floor
+    "name": "Floor 2 Boos",
+    "access_rules": ["gb_horror"],
+    "visibility_rules": "boosanity_on",
+    "children": [
+      {
+        //Rooms
+        "name": "Parlor",
+        "access_rules": ["$canReachRoom|parlor|, $canCatchGhosts|Parlor|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Parlor Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "522",
+            "y": "428",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Anteroom",
+        "access_rules": ["$canReachRoom|anteroom|, $canCatchGhosts|Anteroom|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Anteroom Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "520",
+            "y": "270",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Wardrobe",
+        "access_rules": ["$canReachRoom|wardrobe|, $canCatchGhosts|Wardrobe|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Wardrobe Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "295",
+            "y": "281",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Study",
+        "access_rules": ["$canReachRoom|study|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Study Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "294",
+            "y": "442",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Master Bedroom",
+        "access_rules": ["$canReachRoom|master_bedroom|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Master Bedroom Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "95",
+            "y": "441",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Nursery",
+        "access_rules": ["$canReachRoom|nursery|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Nursery Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "104",
+            "y": "673",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Twins' Room",
+        "access_rules": ["$canReachRoom|twins|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Twins' Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "300",
+            "y": "675",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Tea Room",
+        "access_rules": ["$canReachRoom|tea|, $canCatchGhosts|Tea Room|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Tea Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "878",
+            "y": "63",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Nana's Room",
+        "access_rules": ["$canReachRoom|nana|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Nana's Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "556",
+            "y": "74",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Astral Hall",
+        "access_rules": ["$canReachRoom|astral|, $canCatchGhosts|Astral Hall|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Astral Hall Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "820",
+            "y": "270",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Sitting Room",
+        "access_rules": ["$canReachRoom|sitting|, $canGrabFire, $canGrabWater"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Sitting Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "778",
+            "y": "666",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Guest Room",
+        "access_rules": ["$canReachRoom|guest|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Guest Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "944",
+            "y": "681",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Floor 3 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //Floor
+    "name": "Floor 3 Boos",
+    "access_rules": ["gb_horror"],
+    "visibility_rules": "boosanity_on",
+    "children": [
+      {
+        //Rooms
+        "name": "Safari Room",
+        "access_rules": ["$canReachRoom|safari|, $canCatchGhosts|Safari Room|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Safari Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "911",
+            "y": "687",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Artist's Studio",
+        "access_rules": ["$canReachRoom|artist|, $canCatchGhosts|Artist's Studio|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Artist's Studio Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "917",
+            "y": "467",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Armory",
+        "access_rules": ["$canReachRoom|armory|, $canCatchGhosts|Armory|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Armory Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "118",
+            "y": "639",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Ceramics Studio",
+        "access_rules": ["$canReachRoom|ceramics|, $canGrabIce"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Ceramics Studio Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "112",
+            "y": "454",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Telephone Room",
+        "access_rules": ["$canReachRoom|telephone|, $canCatchGhosts|Telephone Room|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Telephone Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "512",
+            "y": "651",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Clockwork Room",
+        "access_rules": ["$canReachRoom|clockwork|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Clockwork Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "515",
+            "y": "485",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Balcony",
+        "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
+        "sections": [
+          {
+            "name": "Boolossus Boo 1",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Boolossus Boo 2",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Boolossus Boo 3",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Boolossus Boo 4",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Boolossus Boo 5",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Boolossus Boo 6",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Boolossus Boo 7",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Boolossus Boo 8",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Boolossus Boo 9",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Boolossus Boo 10",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Boolossus Boo 11",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Boolossus Boo 12",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Boolossus Boo 13",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Boolossus Boo 14",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Boolossus Boo 15",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "595",
+            "y": "209",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Basement Boos -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //Floor
+    "name": "Basement Boos",
+    "visibility_rules": "boosanity_on",
+    "children": [
+      {
+        //Rooms
+        "name": "Breaker Room",
+        "access_rules": ["$canReachRoom|breaker|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Breaker Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "416",
+            "y": "635",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Cellar",
+        "access_rules": ["$canReachRoom|cellar|, $canCatchGhosts|Cellar|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Cellar Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "418",
+            "y": "841",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Pipe Room",
+        "access_rules": ["$canReachRoom|pipe|, $canCatchGhosts|Pipe Room|"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Pipe Room Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "136",
+            "y": "630",
+            "size": 14
+          }
+        ]
+      },
+      {
+        //Rooms
+        "name": "Cold Storage",
+        "access_rules": ["$canReachRoom|cold|, $canGrabFire"],
+        "sections": [
+          {
+            //Boo Check
+            "name": "Cold Storage Boo",
+            "chest_unopened_img": "images/minor checks/boo1.png",
+            "chest_opened_img": "images/minor checks/boo1_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "138",
+            "y": "803",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -30,7 +30,12 @@
     "img": "images/items/gb_horror.png"
   },
 
-
+  {
+    "name": "Poltergust 4000",
+    "type": "toggle",
+    "codes": "poltergust",
+    "img": "images/keys/poltergust.png"
+  },
 
   //////   Mario Items   //////
  
@@ -66,45 +71,369 @@
     "img": "images/mario items/mario_star.png"
   },
  
-  //////   Keys   //////
+  //////  Huge Flower   //////
+
+  {
+    "name": "Progressive Flower",
+    "type": "progressive",
+    "codes": "huge_flower",
+    "img": "images/items/huge_flower.png",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "huge_flower_1, huge_flower",
+        "inherit_codes": false,
+        "img": "images/items/huge_flower.png"
+      },
+      {
+        "codes": "huge_flower_2, huge_flower",
+        "inherit_codes": false,
+        "img": "images/items/huge_flower_1.png"
+      },
+      {
+        "codes": "huge_flower_3, huge_flower",
+        "inherit_codes": false,
+        "img": "images/items/huge_flower_2.png"
+      }
+    ]
+  },
+
+
+  //////  Suit Keys   //////
 
 
   {
     "name": "Heart Key",
     "type": "toggle",
     "codes": "key_heart",
-    "img": "images/items/key_heart.png"
+    "img": "images/keys/key_heart.png"
   },
   {
     "name": "Spade Key",
     "type": "toggle",
     "codes": "key_spade",
-    "img": "images/items/key_spade.png"
+    "img": "images/keys/key_spade.png"
   },
   {
     "name": "Club Key",
     "type": "toggle",
     "codes": "key_club",
-    "img": "images/items/key_club.png"
+    "img": "images/keys/key_club.png"
   },
   {
     "name": "Diamond Key",
     "type": "toggle",
     "codes": "key_diamond",
-    "img": "images/items/key_diamond.png"
+    "img": "images/keys/key_diamond.png"
+  },
+
+  //////  Room Keys   //////
+
+  {
+    "name": "Parlor Key",
+    "type": "toggle",
+    "codes": "key_parlor",
+    "img": "images/keys/key_parlor.png"
   },
   {
-    "name": "Small Key",
+    "name": "Anteroom Key",
     "type": "toggle",
-    "codes": "key_small",
-    "img": "images/items/key_small.png"
+    "codes": "key_anteroom",
+    "img": "images/keys/key_anteroom.png"
   },
-
-
-
+  {
+    "name": "Wardrobe Key",
+    "type": "toggle",
+    "codes": "key_wardrobe",
+    "img": "images/keys/key_wardrobe.png"
+  },
+  {
+    "name": "Family Hallway Key",
+    "type": "toggle",
+    "codes": "key_famhall",
+    "img": "images/keys/key_family_hallway.png"
+  },
+    {
+    "name": "Master Bedroom Key",
+    "type": "toggle",
+    "codes": "key_Masterbed",
+    "img": "images/keys/key_master_bedroom.png"
+  },
+  {
+    "name": "Nursery Key",
+    "type": "toggle",
+    "codes": "key_nursery",
+    "img": "images/keys/key_nursery.png"
+  },
+  {
+    "name": "Twins Bedroom Key",
+    "type": "toggle",
+    "codes": "key_twin",
+    "img": "images/keys/key_twins.png"
+  },
+  {
+    "name": "Ballroom Key",
+    "type": "toggle",
+    "codes": "key_ballroom",
+    "img": "images/keys/key_ballroom.png"
+  },
+  {
+    "name": "Storage Room Key",
+    "type": "toggle",
+    "codes": "key_storage",
+    "img": "images/keys/key_storage.png"
+  },
+  {
+    "name": "Fortune Teller Key",
+    "type": "toggle",
+    "codes": "key_fortune",
+    "img": "images/keys/key_fortune_teller.png"
+  },
+  {
+    "name": "Laundry Key",
+    "type": "toggle",
+    "codes": "key_laundry",
+    "img": "images/keys/key_laundry.png"
+  },
+  {
+    "name": "Lower 2F Stairwell Key",
+    "type": "toggle",
+    "codes": "key_lower2f",
+    "img": "images/keys/key_lower_2f_stairwell.png"
+  },
+  {
+    "name": "Conservatory Key",
+    "type": "toggle",
+    "codes": "key_conservatory",
+    "img": "images/keys/key_conservatory.png"
+  },
+  {
+    "name": "Dining Room Key",
+    "type": "toggle",
+    "codes": "key_dining",
+    "img": "images/keys/key_dining_room.png"
+  },
+  {
+    "name": "North Rec Room Key",
+    "type": "toggle",
+    "codes": "key_northrec",
+    "img": "images/keys/key_north_rec.png"
+  },
+  {
+    "name": "Billiards Key",
+    "type": "toggle",
+    "codes": "key_billiards",
+    "img": "images/keys/key_billiards.png"
+  },
+  {
+    "name": "Safari Key",
+    "type": "toggle",
+    "codes": "key_safari",
+    "img": "images/keys/key_safari.png"
+  },
+  {
+    "name": "Balcony Key",
+    "type": "toggle",
+    "codes": "key_balcony",
+    "img": "images/keys/key_balcony.png"
+  },
+  {
+    "name": "Cellar Key",
+    "type": "toggle",
+    "codes": "key_Cellar",
+    "img": "images/keys/key_cellar.png"
+  },
+  {
+    "name": "Clockwork Key",
+    "type": "toggle",
+    "codes": "key_clockwork",
+    "img": "images/keys/key_clockwork.png"
+  },
+  {
+    "name": "Armory Key",
+    "type": "toggle",
+    "codes": "key_armory",
+    "img": "images/keys/key_armory.png"
+  },
+  {
+    "name": "Sitting Room Key",
+    "type": "toggle",
+    "codes": "key_sitting",
+    "img": "images/keys/key_sitting_room.png"
+  },
+  {
+    "name": "Pipe Room Key",
+    "type": "toggle",
+    "codes": "key_pipe",
+    "img": "images/keys/key_pipe.png"
+  },
+  {
+    "name": "Cold Storage Key",
+    "type": "toggle",
+    "codes": "key_cold",
+    "img": "images/keys/key_cold_storage.png"
+  },
+  {
+    "name": "Artist's Studio Key",
+    "type": "toggle",
+    "codes": "key_artist",
+    "img": "images/keys/key_art_studio.png"
+  },
+  {
+    "name": "Wardrobe Balcony Key",
+    "type": "toggle",
+    "codes": "key_wardrobebalcony",
+    "img": "images/keys/key_wardrobe_balcony.png"
+  },
+  {
+    "name": "Study Key",
+    "type": "toggle",
+    "codes": "key_study",
+    "img": "images/keys/key_study.png"
+  },
+  {
+    "name": "1F Bathroom Key",
+    "type": "toggle",
+    "codes": "key_1fbath",
+    "img": "images/keys/key_1f_bathroom.png"
+  },
+  {
+    "name": "1F Washroom Key",
+    "type": "toggle",
+    "codes": "key_1fwash",
+    "img": "images/keys/key_1f_washroom.png"
+  },
+  {
+    "name": "Kitchen Key",
+    "type": "toggle",
+    "codes": "key_kitchen",
+    "img": "images/keys/key_kitchen.png"
+  },
+  {
+    "name": "Boneyard Key",
+    "type": "toggle",
+    "codes": "key_boneyard",
+    "img": "images/keys/key_boneyard.png"
+  },
+  {
+    "name": "Projection Room Key",
+    "type": "toggle",
+    "codes": "key_projection",
+    "img": "images/keys/key_projection.png"
+  },
+  {
+    "name": "Mirror Room Key",
+    "type": "toggle",
+    "codes": "key_mirror",
+    "img": "images/keys/key_mirror_room.png"
+  },
+  {
+    "name": "Butler's Room Key",
+    "type": "toggle",
+    "codes": "key_butler",
+    "img": "images/keys/key_butler.png"
+  },
+  {
+    "name": "Tea Room Key",
+    "type": "toggle",
+    "codes": "key_tea",
+    "img": "images/keys/key_tea.png"
+  },
+  {
+    "name": "South Rec Room Key",
+    "type": "toggle",
+    "codes": "key_southrec",
+    "img": "images/keys/key_south_rec.png"
+  },
+  {
+    "name": "Upper 2F Stairwell Key",
+    "type": "toggle",
+    "codes": "key_upper2f",
+    "img": "images/keys/key_upper_2f_stairwell.png"
+  },
+  {
+    "name": "2F Bathroom Key",
+    "type": "toggle",
+    "codes": "key_2fbath",
+    "img": "images/keys/key_2f_bathroom.png"
+  },
+  {
+    "name": "2F Washroom Key",
+    "type": "toggle",
+    "codes": "key_2fwash",
+    "img": "images/keys/key_2f_washroom.png"
+  },
+  {
+    "name": "Nana's Room Key",
+    "type": "toggle",
+    "codes": "key_nana",
+    "img": "images/keys/key_nana.png"
+  },
+  {
+    "name": "Astral Hall Key",
+    "type": "toggle",
+    "codes": "key_astral",
+    "img": "images/keys/key_astral.png"
+  },
+  {
+    "name": "Observatory Key",
+    "type": "toggle",
+    "codes": "key_observatory",
+    "img": "images/keys/key_observatory.png"
+  },
+  {
+    "name": "Guest Room Key",
+    "type": "toggle",
+    "codes": "key_guest",
+    "img": "images/keys/key_guest.png"
+  },
+  {
+    "name": "East Attic Hallway Key",
+    "type": "toggle",
+    "codes": "key_eastattic",
+    "img": "images/keys/key_east_attic.png"
+  },
+  {
+    "name": "Telephone Room Key",
+    "type": "toggle",
+    "codes": "key_telephone",
+    "img": "images/keys/key_telephone.png"
+  },
+  {
+    "name": "Ceramics Studio Key",
+    "type": "toggle",
+    "codes": "key_ceramics",
+    "img": "images/keys/key_ceramics.png"
+  },
+  {
+    "name": "Breaker Room Key",
+    "type": "toggle",
+    "codes": "key_breaker",
+    "img": "images/keys/key_breaker.png"
+  },
+  {
+    "name": "Basement Hallway Key",
+    "type": "toggle",
+    "codes": "key_basehall",
+    "img": "images/keys/key_basement_hallway.png"
+  },
+  {
+    "name": "Basement Stairwell Key",
+    "type": "toggle",
+    "codes": "key_basementstair",
+    "img": "images/keys/key_basement_stairwell.png"
+  },
+  {
+    "name": "Spade Hallway Key",
+    "type": "toggle",
+    "codes": "key_spadehall",
+    "img": "images/keys/key_spade_hallway.png"
+  },
+  
 
   //////   Ghosts   ////// 
- 
+
   
   {
     "name": "Nevil",
@@ -248,7 +577,7 @@
   //////   Options   //////
   
   {
-    "name": "Required Mario Items",
+    "name": "Clairvoya Requirement",
     "type": "consumable",
     "codes": "mario_items",
     "max_quantity": 5,
@@ -259,9 +588,9 @@
     "img": "images/mario items/mario_items.png"
   },
   {
-    "name": "Total Boos",
+    "name": "Final Boo Count",
     "type": "consumable",
-    "codes": "boo",
+    "codes": "final_boo",
     "max_quantity": 50,
     "initial_quantity": 0,
     "allow_disabled": false,
@@ -270,105 +599,476 @@
     "img": "images/minor checks/boo.png"
   },
   {
-    "name": "Required Boos",
+    "name": "ToadSanity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "toadsanity",
+        "inherit_codes": false,
+        "img": "images/options/toad_sanity.png"
+      }, 
+      {
+        "codes": "toadsanity_on, toadsanity",
+        "inherit_codes": false,
+        "img": "images/options/toad_sanity_on.png"
+      },
+      {
+        "codes": "toadsanity_off, toadsanity",
+        "inherit_codes": false,
+        "img": "images/options/toad_sanity_off.png"
+      }
+    ]
+  },
+  {
+    "name": "SpiritSanity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "speedy_spirits",
+        "inherit_codes": false,
+        "img": "images/options/speedy_spirits.png"
+      },
+      {
+        "codes": "speedy_spirits_on, speedy_spirits",
+        "inherit_codes": false,
+        "img": "images/options/speedy_spirits_on.png"
+      },
+      {
+        "codes": "speedy_spirits_off, speedy_spirits",
+        "inherit_codes": false,
+        "img": "images/options/speedy_spirits_off.png"
+      }
+    ]
+  },
+  {
+    "name": "Win Condition",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages":[
+      {
+        "codes": "king_boo, wincon",
+        "inherit_codes": false,
+        "img": "images/ghosts/king_boo.png"
+      },
+      {
+        "codes": "a_rank, wincon",
+        "name": "A Rank",
+        "inherit_codes": false,
+        "img": "images/options/ranka.png"
+      },
+      {
+        "codes": "b_Rank, wincon",
+        "name": "B Rank",
+        "inherit_codes": false,
+        "img": "images/options/rankb.png"
+      },
+      {
+        "codes": "c_rank, wincon",
+        "name": "C Rank",
+        "inherit_codes": false,
+        "img": "images/options/rankc.png"
+      },
+      {
+        "codes": "d_rank, wincon",
+        "name": "D Rank",
+        "inherit_codes": false,
+        "img": "images/options/rankd.png"
+      },
+      {
+        "codes": "e_rank, wincon",
+        "name": "E Rank",
+        "inherit_codes": false,
+        "img": "images/options/ranke.png"
+      },
+      {
+        "codes": "f_rank, wincon",
+        "name": "F Rank",
+        "inherit_codes": false,
+        "img": "images/options/rankf.png"
+      },
+      {
+        "codes": "g_rank, wincon",
+        "name": "G Rank",
+        "inherit_codes": false,
+        "img": "images/options/rankg.png"
+      },
+      {
+        "codes": "h_Rank, wincon",
+        "name": "H Rank",
+        "inherit_codes": false,
+        "img": "images/options/rankh.png"
+      }
+    ]
+  },
+  {
+    "name": "Washroom Boo Count",
     "type": "consumable",
-    "codes": "king_boo",
+    "codes": "washroom_boo",
     "max_quantity": 50,
     "initial_quantity": 0,
     "allow_disabled": false,
     "overlay_font_size": 55,
     "overlay_align": "center",
-    "img": "images/ghosts/king_boo.png"
+    "img": "images/options/washroom_boo_count.png"
   },
   {
-    "name": "Toad Shuffle?",
-    "type": "progressive",
+    "name": "Balcony Boo Count",
+    "type": "consumable",
+    "codes": "balcony_boo",
+    "max_quantity": 50,
+    "initial_quantity": 0,
+    "allow_disabled": false,
+    "overlay_font_size": 55,
+    "overlay_align": "center",
+    "img": "images/options/balcony_boo_count.png"
+  },
+  {
+    "name": "Walk Sanity",
+    "type":"progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages": [
+    "stages":[
       {
-        "codes": "toad",
+        "codes": "walksanity",
         "inherit_codes": false,
-        "img": "images/options/toad_shuffle.png"
-      }, 
-      {
-        "codes": "toad_off, toad",
-        "inherit_codes": false,
-        "img": "images/options/toad_shuffle_off.png"
+        "img": "images/options/walk_sanity.png"
       },
       {
-        "codes": "toad_on, toad",
+        "codes": "walksanity_on, walksanity",
         "inherit_codes": false,
-        "img": "images/options/toad_shuffle_on.png"
+        "img": "images/options/walk_sanity_on.png"
+      },
+      {
+        "codes": "walksanity_off, walksanity",
+        "inherit_codes": false,
+        "img": "images/options/walk_sanity_off.png"
       }
     ]
   },
   {
-    "name": "Object Shuffle?",
-    "type": "progressive",
+    "name": "Boo Sanity",
+    "type":"progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages": [
+    "stages":[
       {
-        "codes": "object",
+        "codes": "boosanity",
         "inherit_codes": false,
-        "img": "images/options/object_shuffle.png"
+        "img": "images/options/boo_sanity.png"
       },
       {
-        "codes": "object_off, object",
+        "codes": "boosanity_on, boosanity",
         "inherit_codes": false,
-        "img": "images/options/object_shuffle_off.png"
+        "img": "images/options/boo_sanity_on.png"
       },
       {
-        "codes": "object_on, object",
+        "codes": "boosanity_off, boosanity",
         "inherit_codes": false,
-        "img": "images/options/object_shuffle_on.png"
+        "img": "images/options/boo_sanity_off.png"
       }
     ]
   },
   {
-    "name": "Speedy Sirits?",
-    "type": "progressive",
+    "name": "Light Sanity",
+    "type":"progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages": [
+    "stages":[
       {
-        "codes": "speedy",
+        "codes": "lightsanity",
         "inherit_codes": false,
-        "img": "images/options/speedy.png"
+        "img": "images/options/light_sanity.png"
       },
       {
-        "codes": "speedy_off, speedy",
+        "codes": "lightsanity_on, lightsanity",
         "inherit_codes": false,
-        "img": "images/options/speedy_off.png"
+        "img": "images/options/light_sanity_on.png"
       },
       {
-        "codes": "speedy_on, speedy",
+        "codes": "lightsanity_off, lightsanity",
         "inherit_codes": false,
-        "img": "images/options/speedy_on.png"
+        "img": "images/options/light_sanity_off.png"
       }
     ]
   },
   {
-    "name": "Plant Shuffle?",
+    "name": "Portrification",
+    "type":"progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages":[
+      {
+        "codes": "portrification",
+        "inherit_codes": false,
+        "img": "images/options/portrification.png"
+      },
+      {
+        "codes": "portrification_on, portrification",
+        "inherit_codes": false,
+        "img": "images/options/portrification_on.png"
+      },
+      {
+        "codes": "portrification_off, portrification",
+        "inherit_codes": false,
+        "img": "images/options/portrification_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Full",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
     "stages": [
       {
-        "codes": "plant",
+        "codes": "furnisanity",
         "inherit_codes": false,
-        "img": "images/options/plant_shuffle.png"
+        "img": "images/options/furniture_sanity.png"
       },
       {
-        "codes": "plant_off, plant",
+        "codes": "furnisanity_on, furnisanity",
         "inherit_codes": false,
-        "img": "images/options/plant_shuffle_off.png"
+        "img": "images/options/furniture_sanity_on.png"
       },
       {
-        "codes": "plant_on, plant",
+        "codes": "furnisanity_off, furnisanity",
         "inherit_codes": false,
-        "img": "images/options/plant_shuffle_on.png"
+        "img": "images/options/furniture_sanity_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Decor",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_decor",
+        "inherit_codes": false,
+        "img": "images/options/fs_decor.png"
+      },
+      {
+        "codes": "fs_decor_on, fs_decor",
+        "inherit_codes": false,
+        "img": "images/options/fs_decor_on.png"
+      },
+      {
+        "codes": "fs_decor_off, fs_decor",
+        "inherit_codes": false,
+        "img": "images/options/fs_decor_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Ceiling",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_ceiling",
+        "inherit_codes": false,
+        "img": "images/options/fs_ceiling.png"
+      },
+      {
+        "codes": "fs_ceiling_on, fs_ceiling",
+        "inherit_codes": false,
+        "img": "images/options/fs_ceiling_on.png"
+      },
+      {
+        "codes": "fs_ceiling_off, fs_ceiling",
+        "inherit_codes": false,
+        "img": "images/options/fs_ceiling_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Candles",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_candles",
+        "inherit_codes": false,
+        "img": "images/options/fs_candles.png"
+      },
+      {
+        "codes": "fs_candles_on, fs_candles",
+        "inherit_codes": false,
+        "img": "images/options/fs_candles_on.png"
+      },
+      {
+        "codes": "fs_candles_off, fs_candles",
+        "inherit_codes": false,
+        "img": "images/options/fs_candles_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Hangables",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_hangables",
+        "inherit_codes": false,
+        "img": "images/options/fs_hangables.png"
+      },
+      {
+        "codes": "fs_hangables_on, fs_hangables",
+        "inherit_codes": false,
+        "img": "images/options/fs_hangables_on.png"
+      },
+      {
+        "codes": "fs_hangables_off, fs_hangables",
+        "inherit_codes": false,
+        "img": "images/options/fs_hangables_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Seating",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_seating",
+        "inherit_codes": false,
+        "img": "images/options/fs_seating.png"
+      },
+      {
+        "codes": "fs_seating_on, fs_seating",
+        "inherit_codes": false,
+        "img": "images/options/fs_seating_on.png"
+      },
+      {
+        "codes": "fs_seating_off, fs_seating",
+        "inherit_codes": false,
+        "img": "images/options/fs_seating_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Surfaces",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_surfaces",
+        "inherit_codes": false,
+        "img": "images/options/fs_surfaces.png"
+      },
+      {
+        "codes": "fs_surfaces_on, fs_surfaces",
+        "inherit_codes": false,
+        "img": "images/options/fs_surfaces_on.png"
+      },
+      {
+        "codes": "fs_surfaces_off, fs_surfaces",
+        "inherit_codes": false,
+        "img": "images/options/fs_surfaces_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Storage",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_storage",
+        "inherit_codes": false,
+        "img": "images/options/fs_storage.png"
+      },
+      {
+        "codes": "fs_storage_on, fs_storage",
+        "inherit_codes": false,
+        "img": "images/options/fs_storage_on.png"
+      },
+      {
+        "codes": "fs_storage_off, fs_storage",
+        "inherit_codes": false,
+        "img": "images/options/fs_storage_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Plants",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_plants",
+        "inherit_codes": false,
+        "img": "images/options/fs_plants.png"
+      },
+      {
+        "codes": "fs_plants_on, fs_plants",
+        "inherit_codes": false,
+        "img": "images/options/fs_plants_on.png"
+      },
+      {
+        "codes": "fs_plants_off, fs_plants",
+        "inherit_codes": false,
+        "img": "images/options/fs_plants_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Drawers",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_drawers",
+        "inherit_codes": false,
+        "img": "images/options/fs_drawers.png"
+      },
+      {
+        "codes": "fs_drawers_on, fs_drawers",
+        "inherit_codes": false,
+        "img": "images/options/fs_drawers_on.png"
+      },
+      {
+        "codes": "fs_drawers_off, fs_drawers",
+        "inherit_codes": false,
+        "img": "images/options/fs_drawers_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Treasures",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_treasures",
+        "inherit_codes": false,
+        "img": "images/options/fs_treasures.png"
+      },
+      {
+        "codes": "fs_treasures_on, fs_treasures",
+        "inherit_codes": false,
+        "img": "images/options/fs_treasures_on.png"
+      },
+      {
+        "codes": "fs_treasures_off, fs_treasures",
+        "inherit_codes": false,
+        "img": "images/options/fs_treasures_off.png"
       }
     ]
   }

@@ -1,0 +1,1767 @@
+[
+  //=-=-=-=-=-=-=-=-=-=-= Floor 1 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //Floors
+    "name": "Floor 1 Rooms",
+    "children": [
+      {
+        "name": "Foyer",
+        "access_rules": ["$canReachRoom|foyer|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Foyer Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Foyer Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "525",
+            "y": "762",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "1F Hallway",
+        "access_rules": ["$canReachRoom|hallway_1f|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "1F Hallway Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "1F Hallway Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canReachRoom|boneyard|"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "525",
+            "y": "667",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Laundry Room",
+        "access_rules": ["$canReachRoom|laundry|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Laundry Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Laundry Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Laundry Room|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "202",
+            "y": "628",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Butler's Room",
+        "access_rules": ["$canReachRoom|butler|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Butler's Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Butler's Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canGrabFire"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "115",
+            "y": "665",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Hidden Room",
+        "access_rules": ["$canReachRoom|butler|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Hidden Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Hidden Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Hidden Room|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "246",
+            "y": "707",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Fortune Teller's Room",
+        "access_rules": ["$canReachRoom|fortune|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Fortune-Teller's Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Fortune-Teller's Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canBeatClairvoya"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "788",
+            "y": "667",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Mirror Room",
+        "access_rules": ["$canReachRoom|mirror|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Mirror Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Mirror Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Mirror Room|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "847",
+            "y": "729",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Ballroom",
+        "access_rules": ["$canReachRoom|ballroom|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Ballroom Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ballroom Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Ballroom|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "723",
+            "y": "534",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Storage Room",
+        "access_rules": ["$canReachRoom|storage|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Storage Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Storage Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Storage Room|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "996",
+            "y": "430",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Dining Room",
+        "access_rules": ["$canReachRoom|dining|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Dining Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Dining Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canGrabFire"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "644",
+            "y": "534",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Kitchen",
+        "access_rules": ["$canReachRoom|kitchen|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Kitchen Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Kitchen Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Kitchen|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "295",
+            "y": "534",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Boneyard",
+        "access_rules": ["$canReachRoom|boneyard|, $canGrabWater"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Boneyard Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Boneyard Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "55",
+            "y": "471",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Graveyard",
+        "access_rules": ["$canReachRoom|boneyard|, $canGrabWater"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Graveyard Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Graveyard Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Graveyard|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "50",
+            "y": "250",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Billiards Room",
+        "access_rules": ["$canReachRoom|billiards|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Billiards Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Billiards Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "392",
+            "y": "306",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Projection Room",
+        "access_rules": ["$canReachRoom|projection|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Projection Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Projection Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Projection Room|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "441",
+            "y": "379",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Conservatory",
+        "access_rules": ["$canReachRoom|conservatory|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Conservatory Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Conservatory Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "477",
+            "y": "232",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "1F Washroom",
+        "access_rules": ["$canReachRoom|washroom_1f|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "1F Washroom Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "1F Washroom Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "332",
+            "y": "270",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "1F Bathroom",
+        "access_rules": ["$canReachRoom|bathroom_1f|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "1F Bathroom Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "1F Bathroom Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|1F Bathroom|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "333",
+            "y": "174",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Courtyard",
+        "access_rules": ["$canReachRoom|courtyard|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Courtyard Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Courtyard Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Courtyard|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "372",
+            "y": "114",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Rec Room",
+        "access_rules": ["$canReachRoom|rec_room|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Rec Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Rec Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "998",
+            "y": "115",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Floor 2 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //Floors
+    "name": "Floor 2 Rooms",
+    "children": [
+      {
+        "name": "Parlor",
+        "access_rules": ["$canReachRoom|parlor|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Parlor Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Parlor Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "521",
+            "y": "515",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Anteroom",
+        "access_rules": ["$canReachRoom|anteroom|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Anteroom Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Anteroom Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Anteroom|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "584",
+            "y": "334",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Wardrobe",
+        "access_rules": ["$canReachRoom|wardrobe|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Wardrobe Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Wardrobe|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "398",
+            "y": "270",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Wardrobe Balcony",
+        "access_rules": ["$canReachRoom|wardrobe_balcony|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Wardrobe Balcony Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Balcony Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }      
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "196",
+            "y": "290",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Family Hallway",
+        "access_rules": ["$canReachRoom|family_hallway|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Family Hallway Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Family Hallway Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canReachRoom|nursery|"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "399",
+            "y": "555",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Study",
+        "access_rules": ["$canReachRoom|study|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Study Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Study Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "338",
+            "y": "515",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Master Bedroom",
+        "access_rules": ["$canReachRoom|master_bedroom|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Master Bedroom Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Master Bedroom Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "52",
+            "y": "516",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Nursery",
+        "access_rules": ["$canReachRoom|nursery|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Nursery Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nursery Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "147",
+            "y": "596",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Twins' Room",
+        "access_rules": ["$canReachRoom|twins|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Twins' Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Twins' Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "245",
+            "y": "595",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "2F Stairwell",
+        "access_rules": ["$canReachRoom|stairwell_2f|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "2F Stairwell Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Stairwell Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "784",
+            "y": "271",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Tea Room",
+        "access_rules": ["$canReachRoom|tea|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Tea Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Tea Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Tea Room|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "870",
+            "y": "125",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "2F Rear Hallway",
+        "access_rules": ["$canReachRoom|rear_hallway_2f|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "2F Rear Hallway Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Rear Hallway Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "785",
+            "y": "165",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "2F Washroom",
+        "access_rules": ["$canReachRoom|washroom_2f|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "2F Washroom Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Washroom Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|2F Washroom|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "317",
+            "y": "168",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "2F Bathroom",
+        "access_rules": ["$canReachRoom|bathroom_2f|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "2F Bathroom Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F Bathroom Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canGrabIce"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "318",
+            "y": "61",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Nana's Room",
+        "access_rules": ["$canReachRoom|nana|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Nana's Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Nana's Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "397",
+            "y": "61",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Sitting Room",
+        "access_rules": ["$canReachRoom|sitting|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Sitting Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sitting Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canGrabFire, $canGrabWater"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }      
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "798",
+            "y": "594",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Astral Hall",
+        "access_rules": ["$canReachRoom|astral|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Astral Hall Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Astral Hall Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canGrabFire"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "721",
+            "y": "270",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Observatory",
+        "access_rules": ["$canReachRoom|observatory|, $canGrabFire"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Observatory Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "916",
+            "y": "268",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Guest Room",
+        "access_rules": ["$canReachRoom|guest|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Guest Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Guest Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canGrabWater"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "851",
+            "y": "658",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Sealed Room",
+        "access_rules": ["$canReachRoom|clockwork|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Sealed Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Sealed Room|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "791",
+            "y": "374",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Floor 3 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //Floors
+    "name": "Floor 3 Rooms",
+    "children": [
+      {
+        "name": "2F Attic Stairwell",
+        "access_rules": ["$canReachRoom|rear_hallway_2f|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "2F - Attic Stairwell Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "2F - Attic Stairwell Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "947",
+            "y": "568",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Safari Room",
+        "access_rules": ["$canReachRoom|safari|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Safari Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Safari Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Safari Room|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "846",
+            "y": "619",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "East Attic Hallway",
+        "access_rules": ["$canReachRoom|east_attic|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "East Attic Hallway Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "East Attic Hallway Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "789",
+            "y": "688",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Artist's Studio",
+        "access_rules": ["$canReachRoom|artist|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Artist's Studio Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Artist's Studio Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Artist's Studio|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "790",
+            "y": "479",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Balcony",
+        "access_rules": ["$canReachRoom|balcony|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Balcony Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Balcony Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "access_rules": ["$canGrabIce"],
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }      
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "749",
+            "y": "351",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "West Attic Hallway",
+        "access_rules": ["$canReachRoom|west_attic|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "West Attic Hallway Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "West Attic Hallway Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }      
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "281",
+            "y": "348",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Armory",
+        "access_rules": ["$canReachRoom|armory|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Armory Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Armory|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "239",
+            "y": "692",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Ceramics Studio",
+        "access_rules": ["$canReachRoom|ceramics|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Ceramics Studio Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Ceramics Studio Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canGrabIce"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "176",
+            "y": "550",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Telephone Room",
+        "access_rules": ["$canReachRoom|telephone|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Telephone Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Telephone Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Telephone Room|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "321",
+            "y": "693",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Clockwork Room",
+        "access_rules": ["$canReachRoom|clockwork|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Clockwork Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Clockwork Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": "648",
+            "y": "553",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Roof -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //Floors
+    "name": "Roof Rooms",
+    "children": [
+      {
+        "name": "Roof",
+        "access_rules": ["$canReachRoom|clockwork|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Roof Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Roof Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Roof|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }      
+        ],
+        "map_locations": [
+          {
+            "map": "roof",
+            "x": "520",
+            "y": "148",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  },
+  //=-=-=-=-=-=-=-=-=-=-= Basement -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+  {
+    //Floors
+    "name": "Basement Rooms",
+    "children": [
+      {
+        "name": "Well",
+        "access_rules": ["$canReachRoom|courtyard|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Well Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Well Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "48",
+            "y": "167",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Basement Stairwell",
+        "access_rules": ["$canReachRoom|basement_stairwell|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Basement Stairwell Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Basement Stairwell Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "849",
+            "y": "630",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Breaker Room",
+        "access_rules": ["$canReachRoom|breaker|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Breaker Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Breaker Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "366",
+            "y": "691",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Cellar",
+        "access_rules": ["$canReachRoom|cellar|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Cellar Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Cellar|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "366",
+            "y": "768",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Basement Hallway",
+        "access_rules": ["$canReachRoom|basement_hallway|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Basement Hallway Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "314",
+            "y": "849",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Pipe Room",
+        "access_rules": ["$canReachRoom|pipe|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Pipe Room Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Pipe Room Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": "$canCatchGhosts|Pipe Room|",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "238",
+            "y": "625",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Cold Storage",
+        "access_rules": ["$canReachRoom|cold|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Cold Storage Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cold Storage Light On",
+            "visibility_rules": "lightsanity_on",
+            "access_rules": ["$canGrabFire"],
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "238",
+            "y": "849",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Altar Hallway",
+        "access_rules": ["$canReachRoom|spade_hallway|"],
+        "sections": [
+          //Room Checks
+          {
+            "name": "Altar Hallway Visited",
+            "visibility_rules": "walksanity_on",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          }      
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": "276",
+            "y": "555",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  }
+]

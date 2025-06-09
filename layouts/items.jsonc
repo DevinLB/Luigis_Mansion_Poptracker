@@ -1,57 +1,14 @@
 {
   // sets layouts for shadred items grids
   // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
- 
-  "ghosts": {
-    "type": "itemgrid",
-    "h_alignment": "center",
-    "margin": "0,0,0,0",
-    "item_margin": "5,5",
-    "item_size": 75,
-    "rows": [
-      [
-        "nevil",
-        "lydia",
-        "chauncey",
-        "whirlindas",
-        "shivers"
-      ],      
-      [
-        "melody",
-        "luggs",
-        "spooky",
-        "bogmire",
-        "biff"
-      ],
-      [
-        "petunia",
-        "nana",
-        "slim",
-        "twins",
-        "clairvoya"
-      ],
-      [
-        "boolossus",
-        "grimmly",
-        "soldiers",
-        "sue",
-        "jarvis"
-      ],
-      [
-        "weston",
-        "van_gore"
-      ]
-    ]
-  },
   "keys": {
     "type": "itemgrid",
     "h_alignment": "left",
     "margin": "0,0,0,0",
     "item_margin": "10,0",
-    "item_size": 65,
+    "item_size": 50,
     "rows": [
       [
-        "key_small",
         "key_heart",
         "key_club",
         "key_diamond",
@@ -64,14 +21,15 @@
     "h_alignment": "left",
     "margin": "0,0,0,0",
     "item_margin": "12,0",
-    "item_size": 60,
+    "item_size": 30,
     "rows": [
       [
         "fire",
         "water",
         "ice",
-        "",
-        "gb_horror"
+        "booCount",
+        "gb_horror",
+        "poltergust"
       ]
     ]
   },
@@ -80,32 +38,94 @@
     "h_alignment": "center",
     "margin": "0,0,0,0",
     "item_margin": "12,0",
-    "item_size": 60,
+    "item_size": 30,
     "rows": [
       [
         "cap",
         "glove",
         "letter",
         "shoe",
-        "star"
+        "star",
+        "huge_flower"
       ]
     ]
   },
-  "settings": {
+  "settings_popup": {
     "type": "itemgrid",
     "h_alignment": "left",
     "margin": "0,0,0,0",
-    "item_margin": "20,0",
-    "item_size": 100,
+    "item_margin": "10,0",
+    "item_size": 75,
     "rows": [
       [
-        "mario_items",
-        "toad",
-        "plant",
-        "object",
-        "speedy",
-        "boo",
-        "king_boo"
+        "wincon",
+        "washroom_boo",
+        "balcony_boo",
+        "final_boo",
+        "mario_items"
+      ],
+      [
+        "walksanity",
+        "lightsanity",
+        "speedy_spirits",
+        "toadsanity",
+        "boosanity",
+        "portrification"
+      ],
+      [
+        "furnisanity",
+        "fs_decor",
+        "fs_ceiling",
+        "fs_candles",
+        "fs_hangables"
+      ],
+      [
+        "fs_seating",
+        "fs_surfaces",
+        "fs_storage",
+        "fs_plants",
+        "fs_drawers",
+        "fs_treasures"
+
+      ]
+    ]
+  },
+  "small_keys": {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "margin": "0,0,0,0",
+    "item_margin": "0,0",
+    "item_size": 72,
+    "rows":[
+      [
+        "key_upper2f", "key_safari", "key_eastattic", "key_balcony", "key_telephone"
+      ],
+      [
+        "key_clockwork", "key_armory", "key_ceramics", "key_artist", "key_parlor"
+      ],
+      [
+        "key_anteroom", "key_wardrobe", "key_wardrobebalcony", "key_famhall", "key_study"
+      ],
+      [
+        "key_Masterbed", "key_nursery", "key_twin", "key_sitting", "key_guest"
+      ],
+      [
+        "key_astral", "key_observatory", "key_nana", "key_2fbath", "key_2fwash"
+      ],
+      [
+        "key_tea", "key_ballroom", "key_storage", "key_fortune", "key_dining"
+      ],
+      [
+        "key_kitchen", "key_boneyard", "key_conservatory", "key_1fbath", "key_1fwash"
+      ],
+      [
+        "key_mirror", "key_laundry", "key_butler", "key_southrec", "key_northrec"
+      ],
+      [
+        "key_billiards", "key_projection", "key_lower2f", "key_basementstair","key_basehall"
+      ],
+      [
+        "key_breaker", "key_cellar", "key_cold", "key_pipe", "key_spadehall"
       ]
     ]
   }

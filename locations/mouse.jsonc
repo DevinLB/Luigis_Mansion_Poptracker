@@ -1,0 +1,215 @@
+[
+  {
+    "name": "Mouse Locations",
+    // "visibility_rules": "toadsanity_on",
+    "access_rules": ["$canReachRoom|breaker|"],
+    "children": [
+      {
+        // Room
+        "name": "1F Hallway",
+        "access_rules": ["$canReachRoom|hallway_1f|"],
+        "sections": [
+          {
+            //Mouse location
+            "name": "1F Hallway Chance Mouse",
+            "chest_unopened_img": "images/minor checks/mouse.png",
+            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 682,
+            "y": 648,
+            "size": 14
+          }
+        ]
+      },
+      {
+        // Room
+        "name": "Fortune Teller's Room",
+        "access_rules": ["$canReachRoom|fortune|"],
+        "sections": [
+          {
+            //Mouse location
+            "name": "Fortune Teller Cheese Mouse",
+            "chest_unopened_img": "images/minor checks/mouse.png",
+            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 746,
+            "y": 698,
+            "size": 14
+          }
+        ]
+      },
+      {
+        // Room
+        "name": "Dining Room",
+        "access_rules": ["$canReachRoom|dining|"],
+        "sections": [
+          {
+            //Mouse location
+            "name": "Dining Room Cheese Mouse",
+            "chest_unopened_img": "images/minor checks/mouse.png",
+            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 502,
+            "y": 524,
+            "size": 14
+          }
+        ]
+      },
+      {
+        // Room
+        "name": "Kitchen",
+        "access_rules": ["$canReachRoom|kitchen|"],
+        "sections": [
+          {
+            //Mouse location
+            "name": "Kitchen Chance Mouse",
+            "chest_unopened_img": "images/minor checks/mouse.png",
+            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 257,
+            "y": 558,
+            "size": 14
+          }
+        ]
+      },
+      {
+        // Room
+        "name": "Tea Room",
+        "access_rules": ["$canReachRoom|tea|, $canGrabWater"],
+        "sections": [
+          {
+            //Mouse location
+            "name": "Tea Room Cheese Mouse",
+            "access_rules": ["$canReachRoom|breaker|"],
+            "chest_unopened_img": "images/minor checks/mouse.png",
+            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "item_count": 1
+          },
+          {
+            //Mouse location
+            "name": "Tea Room Chance Mouse",
+            "chest_unopened_img": "images/minor checks/mouse.png",
+            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 813,
+            "y": 42,
+            "size": 14
+          }
+        ]
+      },
+      {
+        // Room
+        "name": "2F Rear Hallway",
+        "access_rules": ["$canReachRoom|rear_hallway_2f|"],
+        "sections": [
+          {
+            //Mouse location
+            "name": "2F Rear Hallway Chance Mouse",
+            "chest_unopened_img": "images/minor checks/mouse.png",
+            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 681,
+            "y": 575,
+            "size": 14
+          }
+        ]
+      },
+      {
+        // Room
+        "name": "Study",
+        "access_rules": ["$canReachRoom|study|"],
+        "sections": [
+          {
+            //Mouse location
+            "name": "Study Cheese Gold Mouse",
+            "chest_unopened_img": "images/minor checks/mouse.png",
+            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 319,
+            "y": 377,
+            "size": 14
+          }
+        ]
+      },
+      {
+        // Room
+        "name": "Sealed Room",
+        "access_rules": ["$canReachRoom|clockwork|"],
+        "sections": [
+          {
+            //Mouse location
+            "name": "Sealed Room Chance Mouse",
+            "chest_unopened_img": "images/minor checks/mouse.png",
+            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 786,
+            "y": 467,
+            "size": 14
+          }
+        ]
+      },
+      {
+        // Room
+        "name": "Safari Room",
+        "access_rules": ["$canReachRoom|safari|"],
+        "sections": [
+          {
+            //Mouse location
+            "name": "Safari Room Cheese Mouse",
+            "chest_unopened_img": "images/minor checks/mouse.png",
+            "chest_opened_img": "images/minor checks/mouse_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": 994,
+            "y": 689,
+            "size": 14
+          }
+        ]
+      }
+    ]
+  }
+]

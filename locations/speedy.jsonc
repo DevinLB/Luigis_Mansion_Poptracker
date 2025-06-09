@@ -1,0 +1,308 @@
+[
+  {
+    "name": "Speedy Spirits",
+    "visibility_rules": "speedy_spirits_on",
+    "children": [
+      {
+        "name": "Wardrobe",
+        "access_rules": ["$canReachRoom|wardrobe|, $canReachRoom|breaker|"],
+        "sections": [
+          {
+            "name": "Wardrobe Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 344,
+            "y": 238,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Study",
+        "access_rules": ["$canReachRoom|study|, $canReachRoom|breaker|"],
+        "sections": [
+          {
+            "name": "Study Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 341,
+            "y": 386,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Storage Room",
+        "access_rules": ["$canReachRoom|storage|, $canReachRoom|breaker|"],
+        "sections": [
+          {
+            "name": "Storage Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 1008,
+            "y": 381,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Dining Room",
+        "access_rules": ["$canReachRoom|dining|, $canReachRoom|breaker|"],
+        "sections": [
+          {
+            "name": "Dining Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 380,
+            "y": 504,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Kitchen",
+        "access_rules": ["$canReachRoom|kitchen|, $canReachRoom|breaker|"],
+        "sections": [
+          {
+            "name": "Kitchen Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 89,
+            "y": 508,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Rec Room",
+        "access_rules": ["$canReachRoom|rec_room|, $canReachRoom|breaker|"],
+        "sections": [
+          {
+            "name": "Rec Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 1020,
+            "y": 190,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Nana's Room",
+        "access_rules": ["$canReachRoom|nana|, $canReachRoom|breaker|"],
+        "sections": [
+          {
+            "name": "Nana's Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 637,
+            "y": 57,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Billiards Room",
+        "access_rules": ["$canReachRoom|billiards|, $canReachRoom|breaker|"],
+        "sections": [
+          {
+            "name": "Billiards Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 402,
+            "y": 434,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Twins' Room",
+        "access_rules": ["$canReachRoom|twins|, $canReachRoom|breaker|"],
+        "sections": [
+          {
+            "name": "Twins' Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 351,
+            "y": 635,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Breaker Room",
+        "access_rules": ["$canReachRoom|breaker|"],
+        "sections": [
+          {
+            "name": "Breaker Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": 349,
+            "y": 631,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Cellar",
+        "access_rules": ["$canReachRoom|cellar|, $canReachRoom|breaker|"],
+        "sections": [
+          {
+            "name": "Cellar Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "b1",
+            "x": 343,
+            "y": 815,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Sealed Room",
+        "access_rules": ["$canReachRoom|clockwork|, $canReachRoom|breaker|"],
+        "sections": [
+          {
+            "name": "Sealed Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 929,
+            "y": 461,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Nursery",
+        "access_rules": ["$canReachRoom|nursery|, $canReachRoom|breaker|"],
+        "sections": [
+          {
+            "name": "Nursery Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": "9",
+            "y": "634",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Conservatory",
+        "access_rules": ["$canReachRoom|conservatory|, $canReachRoom|breaker|"],
+        "sections": [
+          {
+            "name": "Conservatory Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "639",
+            "y": "208",
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Hidden Room",
+        "access_rules": ["$canReachRoom|butler|, $canReachRoom|breaker|"],
+        "sections": [
+          {
+            "name": "Hidden Room Speedy Spirit",
+            "chest_unopened_img": "images/minor checks/speedy.png",
+            "chest_opened_img": "images/minor checks/speedy_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": "328",
+            "y": "733",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  }
+]
