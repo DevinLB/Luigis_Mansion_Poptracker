@@ -3,7 +3,7 @@
   {
     //Floors
     "name": "Floor 1 Plants",
-    "visibility_rules": ["fs_plants_on", "fs_treasures_on"],
+    "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
     "access_rules": "$canGrabWater",
     "children": [
       {
@@ -52,7 +52,7 @@
   {
     //Floors
     "name": "Floor 2 Plants",
-    "visibility_rules": ["fs_plants_on", "fs_treasures_on"],
+    "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
     "access_rules": "$canGrabWater",
     "children": [
       {
@@ -167,7 +167,7 @@
   {
     //Floors
     "name": "Floor 3 Plants",
-    "visibility_rules": ["fs_plants_on", "fs_treasures_on"],
+    "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
     "access_rules": "$canGrabWater",
     "children": [
       {
