@@ -1,0 +1,12 @@
+{
+    "versions": [
+        {
+            "package_version": "0.0.1",
+            "download_url": "https://github.com/DevinLB/Luigis_Mansion_Poptracker/releases/download/v0.0.1/lmpt.zip",
+            "sha256": "C1D6449D0A952465FCDA04F7BF79687042D6FF4F3FE9FB3D7235E3A6F3A6C867",
+            "changelog": [
+                "Check Github for the full changelog."
+            ]
+        }
+    ]
+}
