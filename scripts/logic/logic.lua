@@ -134,7 +134,7 @@ end
 
 
 
-function accesibleFromFoyer(mansion_layout, player_keys, target_room)
+function accessibleFromFoyer(mansion_layout, player_keys, target_room)
     local accessible_from = getAccessibleRooms(mansion_layout, player_keys, "foyer")
     for _, room in ipairs(accessible_from) do
         if room == target_room then 
@@ -287,7 +287,7 @@ end
 -- Launch the process here. Possibly combine accessibleFrom functions with these
 list_keys = {}
 mansion_layout = full_mansion
-starting_room = spawn_region
+starting_room = SPAWN_REGION
 function canReachRoom(target_room)
     player_keys = {}
     for k, v in pairs(list_keys) do
@@ -391,7 +391,7 @@ function isDoorOpen(door)
     -- print("DOOR LOCKS")
     -- print(door)
     for k,v in pairs (door_doors) do
-        if door_doors[k][door] ~= nill then
+        if door_doors[k][door] ~= nil then
             local door_status = door_doors[k][door]
             -- print("DOOR STATUS")
             if door_status == "1" then
