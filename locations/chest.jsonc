@@ -706,7 +706,7 @@
       {
         //rooms
         "name": "Sealed Room",
-        "access_rules": ["$canReachRoom|clockwork|, $canGrabFire"],
+        "access_rules": ["$canReachRoom|clockwork|"],
         "sections": [
           //chest checks
           {

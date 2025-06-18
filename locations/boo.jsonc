@@ -458,7 +458,7 @@
       {
         //Rooms
         "name": "Tea Room",
-        "access_rules": ["$canReachRoom|tea|, $canCatchGhosts|Tea Room|"],
+        "access_rules": ["$canReachRoom|tea|, $canCatchGhosts|Tea Room|, $canGrabWater"],
         "sections": [
           {
             //Boo Check
