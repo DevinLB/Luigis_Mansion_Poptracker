@@ -134,7 +134,7 @@ end
 
 
 
-function accesibleFromFoyer(mansion_layout, player_keys, target_room)
+function accessibleFromFoyer(mansion_layout, player_keys, target_room)
     local accessible_from = getAccessibleRooms(mansion_layout, player_keys, "foyer")
     for _, room in ipairs(accessible_from) do
         if room == target_room then 
