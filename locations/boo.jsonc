@@ -546,7 +546,7 @@
       {
         //Rooms
         "name": "Guest Room",
-        "access_rules": ["$canReachRoom|guest|"],
+        "access_rules": ["$canReachRoom|guest|, $canGrabWater"],
         "sections": [
           {
             //Boo Check
