@@ -31,7 +31,7 @@
       {
         //Rooms
         "name": "Butler's Room",
-        "access_rules": ["$canReachRoom|butler|, $canGrabFire"],
+        "access_rules": ["$canReachRoom|butler|, $canGrabFire, $canReachRoom|hallway_1f|"],
         "sections": [
           {
             //Boo Check
@@ -817,6 +817,7 @@
   {
     //Floor
     "name": "Basement Boos",
+    "access_rules": ["gb_horror"],
     "visibility_rules": "boosanity_on",
     "children": [
       {

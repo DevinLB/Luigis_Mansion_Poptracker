@@ -382,30 +382,8 @@ function canGrabIce()
     )
 end
 
--- Room Logic
-
-door_locks = {} -- Ensure door_locks is defined
-function isDoorOpen(door)
-    local door_doors = {} 
-    local door_doors = door_locks
-    -- print("DOOR LOCKS")
-    -- print(door)
-    for k,v in pairs (door_doors) do
-        if door_doors[k][door] ~= nil then
-            local door_status = door_doors[k][door]
-            -- print("DOOR STATUS")
-            if door_status == "1" then
-                -- print("Door is Open!")
-                return true
-            else
-                -- print("Door is Locked!")
-                return false
-            end
-        end
-    end
-end
-
 -- Elemental Ghost Logic
+
 enemies = {}
 function canCatchGhosts(room)
     ghost_element = enemies[room]

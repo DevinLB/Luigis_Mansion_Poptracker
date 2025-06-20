@@ -108,7 +108,7 @@
           {
             "name": "Butler's Room Light On",
             "visibility_rules": "lightsanity_on",
-            "access_rules": ["$canGrabFire"],
+            "access_rules": ["$canGrabFire, $canReachRoom|hallway_1f|"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1

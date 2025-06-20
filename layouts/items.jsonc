@@ -9,6 +9,7 @@
     "item_size": 50,
     "rows": [
       [
+        "key_count",
         "key_heart",
         "key_club",
         "key_diamond",
@@ -29,7 +30,8 @@
         "ice",
         "booCount",
         "gb_horror",
-        "poltergust"
+        "poltergust",
+        "huge_flower"
       ]
     ]
   },
@@ -45,8 +47,7 @@
         "glove",
         "letter",
         "shoe",
-        "star",
-        "huge_flower"
+        "star"
       ]
     ]
   },
@@ -55,7 +56,7 @@
     "h_alignment": "left",
     "margin": "0,0,0,0",
     "item_margin": "10,0",
-    "item_size": 75,
+    "item_size": 70,
     "rows": [
       [
         "wincon",
@@ -73,6 +74,7 @@
         "portrification"
       ],
       [
+        "mouse",
         "furnisanity",
         "fs_decor",
         "fs_ceiling",

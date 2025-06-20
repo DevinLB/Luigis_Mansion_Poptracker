@@ -82,19 +82,24 @@
     "loop": true,
     "stages": [
       {
-        "codes": "huge_flower_1, huge_flower",
+        "codes": "huge_flower_0, huge_flower",
         "inherit_codes": false,
-        "img": "images/items/huge_flower.png"
+        "img": "images/items/huge_flower_0.png"
       },
       {
-        "codes": "huge_flower_2, huge_flower",
+        "codes": "huge_flower_1, huge_flower",
         "inherit_codes": false,
         "img": "images/items/huge_flower_1.png"
       },
       {
-        "codes": "huge_flower_3, huge_flower",
+        "codes": "huge_flower_2, huge_flower",
         "inherit_codes": false,
         "img": "images/items/huge_flower_2.png"
+      },
+      {
+        "codes": "huge_flower_3, huge_flower",
+        "inherit_codes": false,
+        "img": "images/items/huge_flower_3.png"
       }
     ]
   },
@@ -102,7 +107,16 @@
 
   //////  Suit Keys   //////
 
-
+  {
+    "name": "Keys",
+    "type": "consumable",
+    "increment": 1,
+    "max_quantity": 54,
+    "overlay_background": "#000000",
+    "overlay_font_size": "20",
+    "img": "images/keys/key_gray.png",
+    "codes": "key_count"
+  },
   {
     "name": "Heart Key",
     "type": "toggle",
@@ -645,51 +659,40 @@
     ]
   },
   {
+    "name": "MouseSanity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "mouse",
+        "inherit_codes": false,
+        "img": "images/options/mouse.png"
+      },
+      {
+        "codes": "mouse_on, mouse",
+        "inherit_codes": false,
+        "img": "images/options/mouse_on.png"
+      },
+      {
+        "codes": "mouse_off, mouse",
+        "inherit_codes": false,
+        "img": "images/options/mouse_off.png"
+      }
+    ]
+  },
+  {
     "name": "Win Condition",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
+    "initial_active_state": "h_rank",
     "stages":[
       {
-        "codes": "king_boo, wincon",
+        "codes": "h_Rank, wincon",
+        "name": "H Rank",
         "inherit_codes": false,
-        "img": "images/ghosts/king_boo.png"
-      },
-      {
-        "codes": "a_rank, wincon",
-        "name": "A Rank",
-        "inherit_codes": false,
-        "img": "images/options/ranka.png"
-      },
-      {
-        "codes": "b_Rank, wincon",
-        "name": "B Rank",
-        "inherit_codes": false,
-        "img": "images/options/rankb.png"
-      },
-      {
-        "codes": "c_rank, wincon",
-        "name": "C Rank",
-        "inherit_codes": false,
-        "img": "images/options/rankc.png"
-      },
-      {
-        "codes": "d_rank, wincon",
-        "name": "D Rank",
-        "inherit_codes": false,
-        "img": "images/options/rankd.png"
-      },
-      {
-        "codes": "e_rank, wincon",
-        "name": "E Rank",
-        "inherit_codes": false,
-        "img": "images/options/ranke.png"
-      },
-      {
-        "codes": "f_rank, wincon",
-        "name": "F Rank",
-        "inherit_codes": false,
-        "img": "images/options/rankf.png"
+        "img": "images/options/rankh.png"
       },
       {
         "codes": "g_rank, wincon",
@@ -698,10 +701,40 @@
         "img": "images/options/rankg.png"
       },
       {
-        "codes": "h_Rank, wincon",
-        "name": "H Rank",
+        "codes": "f_rank, wincon",
+        "name": "F Rank",
         "inherit_codes": false,
-        "img": "images/options/rankh.png"
+        "img": "images/options/rankf.png"
+      },
+      {
+        "codes": "e_rank, wincon",
+        "name": "E Rank",
+        "inherit_codes": false,
+        "img": "images/options/ranke.png"
+      },
+      {
+        "codes": "d_rank, wincon",
+        "name": "D Rank",
+        "inherit_codes": false,
+        "img": "images/options/rankd.png"
+      },
+      {
+        "codes": "c_rank, wincon",
+        "name": "C Rank",
+        "inherit_codes": false,
+        "img": "images/options/rankc.png"
+      },
+      {
+        "codes": "b_Rank, wincon",
+        "name": "B Rank",
+        "inherit_codes": false,
+        "img": "images/options/rankb.png"
+      },
+      {
+        "codes": "a_rank, wincon",
+        "name": "A Rank",
+        "inherit_codes": false,
+        "img": "images/options/ranka.png"
       }
     ]
   },
