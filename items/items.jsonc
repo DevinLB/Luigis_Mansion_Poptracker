@@ -419,6 +419,7 @@
     "type": "consumable",
     "initial_quantity": 0,
     "max_quantity": 54,
+    "overlay_font_size": 18,
     "img": "images/keys/key_gray.png",
     "codes": "key"
   },

@@ -13,16 +13,13 @@ function has(item, amount)
     end
 end
 
---counter
+-- boo counter
 
 function booCount()
     return Tracker:ProviderCountForCode("booCount")
 end
 
-
-
-
--- Acess Logic
+-- Access Logic
 
 function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     mansion = mansion_layout
@@ -269,12 +266,10 @@ starting_room = SPAWN_REGION
 function canReachRoom(target_room)
     player_keys = {}
     for k, v in pairs(list_keys) do
-        -- print(v)
         if has(v) then 
             table.insert(player_keys, v)
         end
     end
-    -- print(dump_table(player_keys))
 
     if starting_room == "Foyer" then
         return accessibleFromFoyer(mansion_layout, player_keys, target_room)

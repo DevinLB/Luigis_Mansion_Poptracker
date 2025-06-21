@@ -12,7 +12,8 @@
         "key_heart",
         "key_club",
         "key_diamond",
-        "key_spade"
+        "key_spade",
+        "key"
       ]
     ]
   },
@@ -24,7 +25,6 @@
     "item_size": 30,
     "rows": [
       [
-        "key",
         "fire",
         "water",
         "ice",
