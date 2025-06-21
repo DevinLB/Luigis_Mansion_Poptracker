@@ -684,7 +684,7 @@
       {
         //rooms
         "name": "Guest Room",
-        "access_rules": ["$canReachRoom|guest|"],
+        "access_rules": ["$canReachRoom|guest|, $canGrabWater"],
         "sections": [
           //chest checks
           {
@@ -706,7 +706,7 @@
       {
         //rooms
         "name": "Sealed Room",
-        "access_rules": ["$canReachRoom|clockwork|, $canGrabFire"],
+        "access_rules": ["$canReachRoom|clockwork|"],
         "sections": [
           //chest checks
           {
@@ -721,12 +721,12 @@
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {
-            "name": "Sealed Room SW Shelf Chest",
-            "chest_unopened_img": "images/minor checks/chest_red.png",
-            "chest_opened_img": "images/minor checks/chest_red_gray.png",
-            "item_count": 1
-          },
+          // {
+          //   "name": "Sealed Room SW Shelf Chest",
+          //   "chest_unopened_img": "images/minor checks/chest_red.png",
+          //   "chest_opened_img": "images/minor checks/chest_red_gray.png",
+          //   "item_count": 1
+          // },
           {
             "name": "Sealed Room SE Shelf Chest",
             "chest_unopened_img": "images/minor checks/chest_red.png",
