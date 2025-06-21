@@ -75,7 +75,7 @@
       {
         //Rooms
         "name": "Fortune Teller's Room",
-        "access_rules": ["$canReachRoom|fortune|"],
+        "access_rules": ["$canReachRoom|fortune|, $canBeatClairvoya"],
         "sections": [
           {
             //Boo Check
