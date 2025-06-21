@@ -38,7 +38,7 @@
   },
 
   //////   Mario Items   //////
- 
+
   
   {
     "name": "Mario's Cap",
@@ -75,35 +75,15 @@
 
   {
     "name": "Progressive Flower",
-    "type": "progressive",
+    "type": "consumable",
     "codes": "huge_flower",
-    "img": "images/items/huge_flower.png",
+    "max_quantity": 3,
+    "initial_quantity": 0,
     "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "codes": "huge_flower_0, huge_flower",
-        "inherit_codes": false,
-        "img": "images/items/huge_flower.png"
-      },
-      {
-        "codes": "huge_flower_1, huge_flower",
-        "inherit_codes": false,
-        "img": "images/items/huge_flower_1.png"
-      },
-      {
-        "codes": "huge_flower_2, huge_flower",
-        "inherit_codes": false,
-        "img": "images/items/huge_flower_2.png"
-      },
-      {
-        "codes": "huge_flower_3, huge_flower",
-        "inherit_codes": false,
-        "img": "images/items/huge_flower_3.png"
-      }
-    ]
+    "overlay_font_size": 25,
+    "overlay_align": "center",
+    "img": "images/minor checks/plant.png"
   },
-
 
   //////  Suit Keys   //////
 

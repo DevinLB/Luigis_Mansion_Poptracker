@@ -32,7 +32,7 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
         has_key[key] = true
     end
 
-    -- TEMP add open doors to has_key list
+    -- Add Open Doors to the key list
     for _, door in ipairs(door_names) do
         if door_locks[_][door] == "1" then
             for __, door2 in pairs(door_keys) do
@@ -43,7 +43,7 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
         end
     end
 
-    -- Boo Gate Logic
+    -- Boo Gate Logic - remove keys until there is enough boos
     if WASHROOM_GATE then
         current_boo_count = booCount()
         if WASHROOM_GATE > current_boo_count then 
@@ -62,41 +62,6 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
             end
         end
     end
-    
-    -- Shelving open door logic as a separate entity, just tying it into the key check until the graph can successfully check the open doors
-    -- Check against door_locks to mark which doors are starting open --FIND WAY TO INCLUDE stairwell_2f AND rec_room DOORS
-    -- print(dump_table(door_locks))
-    -- for _, door in ipairs(door_names) do
-    --     if door_locks[_][door] == "1" then
-    --         if (door ~= "stairwell_2f_n" and door ~= "stairwell_2f_w" and door ~= "rec_room_n" and door ~= "rec_room_s" and door ~= "courtyard_e" and door ~= "courtyard_w") then
-    --             -- print(dump_table(mansion))
-    --             -- print(dump_table(door_locks))
-    --             for k, v in ipairs(mansion[door]) do
-    --                 if v.door_name == door then
-    --                     mansion[door][k].door = "1"
-    --                 end
-    --             end
-    --         end
-    --         if (door == "stairwell_2f_n" or door == "stairwell_2f_w" or door == "rec_room_n" or door == "rec_room_s" or door ~= "courtyard_e" or door ~= "courtyard_w") then
-    --             if (door == "stairwell_2f_w") then
-    --                 mansion["hallway_1f"][7].door = 1
-    --                 mansion["stairwell_2f"][1].door = 1
-    --             end
-    --             if (door == "stairwell_2f_n" or door == "rec_room_s") then
-    --                 mansion["rec_room"][2].door = 1
-    --                 mansion["stairwell_2f"][2].door = 1
-    --             end
-    --             if (door == "rec_room_n" or door == "courtyard_e") then
-    --                 mansion["courtyard"][2].door = 1
-    --                 mansion["rec_room"][1].door = 1
-    --             end
-    --             if (door == "courtyard_w") then
-    --                 mansion["courtyard"][1].door = 1
-    --                 mansion["hallway_1f"][12].door = 1
-    --             end
-    --         end
-    --     end
-    -- end
 
     -- Build bidirectional graph
     local graph = {}
@@ -124,18 +89,11 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     local visited = {}
     
     local function visit(room)
-        -- print("START ------------------------------------------------------------------------------------------------------------")
-        -- print(room)
         if visited[room] then return end
         visited[room] = true
         accessible[room] = true
         for _, conn in ipairs(graph[room]) do
-            -- print("Connection?: ", conn.door_name)
-            if (conn.key == nil or has_key[conn.key]) or (conn.door == "1") then
-                if has_key[conn.key] == nil then 
-                    print("Room: ", conn.door_name, " is already open")
-                end
-                -- print("CONNECTION SUCCESS: ", conn.door_name)
+            if conn.key == nil or has_key[conn.key] then
                 visit(conn.room)
             end
         end
@@ -445,5 +403,5 @@ end
 -- Huge Flower Logic
 
 function canWaterFlower()
-    return has("huge_flower_3") and canGrabWater()
+    return (Tracker:ProviderCountForCode("huge_flower") == 3 and canGrabWater())
 end
