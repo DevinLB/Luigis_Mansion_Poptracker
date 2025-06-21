@@ -43,6 +43,26 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
         end
     end
 
+    -- Boo Gate Logic
+    if WASHROOM_GATE then
+        current_boo_count = booCount()
+        if WASHROOM_GATE > current_boo_count then 
+            if has_key["key_1fwash"] then 
+                has_key["key_1fwash"] = false
+            end
+        end
+        if BALCONY_GATE > current_boo_count then 
+            if has_key["key_balcony"] then 
+                has_key["key_balcony"] = false
+            end
+        end
+        if FINAL_GATE > current_boo_count then 
+            if has_key["key_spade"] then 
+                has_key["key_spade"] = false
+            end
+        end
+    end
+    
     -- Shelving open door logic as a separate entity, just tying it into the key check until the graph can successfully check the open doors
     -- Check against door_locks to mark which doors are starting open --FIND WAY TO INCLUDE stairwell_2f AND rec_room DOORS
     -- print(dump_table(door_locks))

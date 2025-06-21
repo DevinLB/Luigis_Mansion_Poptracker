@@ -48,7 +48,7 @@
           {
             "name": "1F Hallway Light On",
             "visibility_rules": "lightsanity_on",
-            "access_rules": ["$canReachRoom|boneyard|"],
+            "access_rules": ["$canReachRoom|boneyard|, $canGrabWater"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1

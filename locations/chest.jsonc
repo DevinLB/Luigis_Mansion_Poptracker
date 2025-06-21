@@ -721,12 +721,12 @@
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          {
-            "name": "Sealed Room SW Shelf Chest",
-            "chest_unopened_img": "images/minor checks/chest_red.png",
-            "chest_opened_img": "images/minor checks/chest_red_gray.png",
-            "item_count": 1
-          },
+          // {
+          //   "name": "Sealed Room SW Shelf Chest",
+          //   "chest_unopened_img": "images/minor checks/chest_red.png",
+          //   "chest_opened_img": "images/minor checks/chest_red_gray.png",
+          //   "item_count": 1
+          // },
           {
             "name": "Sealed Room SE Shelf Chest",
             "chest_unopened_img": "images/minor checks/chest_red.png",

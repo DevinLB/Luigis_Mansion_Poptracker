@@ -108,16 +108,6 @@
   //////  Suit Keys   //////
 
   {
-    "name": "Keys",
-    "type": "consumable",
-    "increment": 1,
-    "max_quantity": 54,
-    "overlay_background": "#000000",
-    "overlay_font_size": "20",
-    "img": "images/keys/key_gray.png",
-    "codes": "key_count"
-  },
-  {
     "name": "Heart Key",
     "type": "toggle",
     "codes": "key_heart",
