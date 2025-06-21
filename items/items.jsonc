@@ -414,6 +414,14 @@
     "codes": "key_spadehall",
     "img": "images/keys/key_spade_hallway.png"
   },
+  {
+    "name": "Key Count",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "max_quantity": 54,
+    "img": "images/keys/key_gray.png",
+    "codes": "key"
+  },
   
 
   //////   Ghosts   ////// 

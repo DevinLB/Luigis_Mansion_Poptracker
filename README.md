@@ -18,4 +18,4 @@ Download the lmpt.zip file and install the pack to your PopTracker. On the PopTr
 
 ## Credits
 Decton 
-UmedMuzel
+UmedMuzl
