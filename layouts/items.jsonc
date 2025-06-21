@@ -24,6 +24,7 @@
     "item_size": 30,
     "rows": [
       [
+        "key",
         "fire",
         "water",
         "ice",
