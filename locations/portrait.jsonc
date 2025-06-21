@@ -30,7 +30,7 @@
       {
         //Rooms
         "name": "Butler's Room",
-        "access_rules": ["$canReachRoom|butler|, $canGrabFire"],
+        "access_rules": ["$canReachRoom|butler|, $canGrabFire, $canReachRoom|hallway_1f|"],
         "sections": [
           //Portait Ghost
           {

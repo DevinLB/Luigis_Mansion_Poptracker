@@ -158,8 +158,9 @@ function onClear(slot_data)
     TEAM_NUMBER = Archipelago.TeamNumber or 0
 
     if slot_data['final boo count'] then
-        local finalboo = Tracker:FindObjectForCode("boo")
+        local finalboo = Tracker:FindObjectForCode("final_boo")
         finalboo.AcquiredCount = (slot_data['final boo count'])
+        FINAL_GATE = slot_data['final boo count']
     end
 
     if slot_data['furnisanity'] then
@@ -211,12 +212,9 @@ function onClear(slot_data)
             end
         end
     end
-    if slot_data['goal'] then
+    if slot_data['rank requirement'] then
         local goal = Tracker:FindObjectForCode("wincon")
-        goal.CurrentStage = (slot_data['goal'])
-    elseif slot_data['rank requirement'] then
-        local rank = Tracker:FindObjectForCode("wincon")
-        rank.CurrentStage = (slot_data['rank requirement'])
+        goal.CurrentStage = (slot_data['rank requirement'])
     end
     if slot_data['clairvoya requirement'] then
         local mario = Tracker:FindObjectForCode("mario_items")
@@ -274,10 +272,12 @@ function onClear(slot_data)
     if slot_data['washroom boo count'] then
         local mario = Tracker:FindObjectForCode("washroom_boo")
         mario.AcquiredCount = (slot_data['washroom boo count'])
+        WASHROOM_GATE = slot_data['washroom boo count']
     end
     if slot_data['balcony boo count'] then
         local mario = Tracker:FindObjectForCode("balcony_boo")
         mario.AcquiredCount = (slot_data['balcony boo count'])
+        BALCONY_GATE = slot_data['balcony boo count']
     end
 
     if slot_data['spawn_region'] then

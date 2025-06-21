@@ -1,7 +1,7 @@
 [
   {
     "name": "Mouse Locations",
-    // "visibility_rules": "toadsanity_on",
+    "visibility_rules": "mouse_on",
     "access_rules": ["$canReachRoom|breaker|"],
     "children": [
       {

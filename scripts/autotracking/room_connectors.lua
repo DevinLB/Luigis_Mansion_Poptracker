@@ -38,7 +38,6 @@ list_keys = {
     "key_boneyard", 
     "key_projection", 
     "key_mirror", 
-    "key_mirror", 
     "key_tea", 
     "key_southrec", 
     "key_upper2f", 
