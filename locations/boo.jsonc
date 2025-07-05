@@ -502,7 +502,7 @@
       {
         //Rooms
         "name": "Astral Hall",
-        "access_rules": ["$canReachRoom|astral|, $canCatchGhosts|Astral Hall|"],
+        "access_rules": ["$canReachRoom|astral|, $canCatchGhosts|Astral Hall|, $canGrabFire"],
         "sections": [
           {
             //Boo Check

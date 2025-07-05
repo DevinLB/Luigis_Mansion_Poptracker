@@ -1059,7 +1059,7 @@
       {
         //rooms
         "name": "Pipe Room",
-        "access_rules": ["$canReachRoom|pipe|, $canCatchGhosts|Pipe Room|"],
+        "access_rules": ["$canReachRoom|pipe|, $canCatchGhosts|Pipe Room|, $canGrabIce"],
         "sections": [
           //chest checks
           {
