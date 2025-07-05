@@ -3,7 +3,6 @@
   {
     //Floors
     "name": "Floor 1 Plants",
-    "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
     "access_rules": "$canGrabWater",
     "children": [
       {
@@ -14,24 +13,28 @@
           //Plant Checks
           {
             "name": "Courtyard SW Plant",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Courtyard NW Plant",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Courtyard NE Plant",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Courtyard SE Plant",
+            "visibility_rules": ["fs_plants_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
@@ -167,7 +170,6 @@
   {
     //Floors
     "name": "Floor 3 Plants",
-    "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
     "access_rules": "$canGrabWater",
     "children": [
       {
@@ -178,90 +180,105 @@
           //Plant Checks
           {
             "name": "Balcony Plant NW Not Near Bench",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant E Railing",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant NE Near Bench",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant NW Corner Near Bench",
+            "visibility_rules": ["fs_plants_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant SW Corner",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant NW Corner",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony West Double Plant",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant Center R",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant Directly in NE Corner",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant SE Corner",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant Second from Right Plant near NW Bench",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant Furthest Right Plant near NW Bench",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant Second from Right in NE Corner",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant Third from Right in NE Corner",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1
           },
           {
             "name": "Balcony Plant Center L",
+            "visibility_rules": ["fs_plants_on", "fs_treasures_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/plant.png",
             "chest_opened_img": "images/minor checks/plant_gray.png",
             "item_count": 1

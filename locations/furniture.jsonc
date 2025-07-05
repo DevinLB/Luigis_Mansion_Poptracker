@@ -2987,7 +2987,7 @@
       {
         //rooms
         "name": "Guest Room",
-        "access_rules": ["$canReachRoom|guest|"],
+        "access_rules": ["$canReachRoom|guest|, $canGrabWater"],
         "sections": [
           //furniture checks
           {

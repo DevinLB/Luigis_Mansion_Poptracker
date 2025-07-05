@@ -104,24 +104,25 @@ function onClear(slot_data)
         end
     end
     -- reset items
+    Tracker:FindObjectForCode("key").AcquiredCount = 0
     for _, v in pairs(ITEM_MAPPING) do
-        if v[1] and v[2] then
-            local item_code = safeGetCode(v[1])
+        if v[1][1] and v[1][2] then
+            local item_code = safeGetCode(v[1][1])
             if item_code then
                 if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                    print(string.format("onClear: clearing item %s of type %s", item_code, v[2]))
+                    print(string.format("onClear: clearing item %s of type %s", item_code, v[1][2]))
                 end
                 local obj = Tracker:FindObjectForCode(item_code)
                 if obj then
-                    if v[2] == "toggle" then
+                    if v[1][2] == "toggle" then
                         obj.Active = false
-                    elseif v[2] == "progressive" then
+                    elseif v[1][2] == "progressive" then
                         obj.CurrentStage = 0
                         obj.Active = false
-                    elseif v[2] == "consumable" then
+                    elseif v[1][2] == "consumable" then
                         obj.AcquiredCount = 0
                     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                        print(string.format("onClear: unknown item type %s for code %s", v[2], item_code))
+                        print(string.format("onClear: unknown item type %s for code %s", v[1][2], item_code))
                     end
                 elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                     print(string.format("onClear: could not find object for code %s", item_code))
@@ -263,6 +264,15 @@ function onClear(slot_data)
     if slot_data['lightsanity'] then
         local obj = Tracker:FindObjectForCode("lightsanity")
         local stage = slot_data['lightsanity']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        elseif stage == 0 then
+            obj.CurrentStage = 2
+        end
+    end
+    if slot_data['gold_mice'] then
+        local obj = Tracker:FindObjectForCode("mouse")
+        local stage = slot_data['gold_mice']
         if stage == 1 then
             obj.CurrentStage = 1
         elseif stage == 0 then
