@@ -8,7 +8,7 @@
       {
         //Rooms
         "name": "Ballroom",
-        "access_rules": ["$canReachRoom|ballroom|"],
+        "access_rules": ["$canReachRoom|ballroom|, $canCatchGhosts|Ballroom|"],
         "sections": [
           //Portait Ghost
           {
