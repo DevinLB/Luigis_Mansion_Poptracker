@@ -262,7 +262,7 @@ function onClear(slot_data)
         end
     end
     if slot_data['lightsanity'] then
-        local obj = Tracker:FindObjectForCode("mouse")
+        local obj = Tracker:FindObjectForCode("lightsanity")
         local stage = slot_data['lightsanity']
         if stage == 1 then
             obj.CurrentStage = 1
@@ -271,7 +271,7 @@ function onClear(slot_data)
         end
     end
     if slot_data['gold_mice'] then
-        local obj = Tracker:FindObjectForCode("gold_mice")
+        local obj = Tracker:FindObjectForCode("mouse")
         local stage = slot_data['gold_mice']
         if stage == 1 then
             obj.CurrentStage = 1
