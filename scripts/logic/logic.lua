@@ -151,7 +151,7 @@ function accessibleFromClockwork(mansion_layout, player_keys, target_room)
 end
 
 function accessibleFromHidden(mansion_layout, player_keys, target_room)
-    local accessible_from = getAccessibleRooms(mansion_layout, player_keys, "hidden")
+    local accessible_from = getAccessibleRooms(mansion_layout, player_keys, "butler")
     for _, room in ipairs(accessible_from) do
         if room == target_room then 
             -- print(room, " is ", target_room)

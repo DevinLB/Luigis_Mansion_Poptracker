@@ -391,6 +391,9 @@ function onNotifyLaunch(key, value)
 end
 
 function onMapChange(key, value, old)
+    -- print("key", key)
+    -- print("old", old)
+    -- print("value", value)
     print("got  " .. key .. " = " .. tostring(value) .. " (was " .. tostring(old) .. ")")
     print(dump_table(MAP_MAPPING[tostring(value)]))
 
