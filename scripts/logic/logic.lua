@@ -22,7 +22,6 @@ end
 -- Access Logic
 
 function getAccessibleRooms(mansion_layout, player_keys, starting_room)
-    -- starting_room = "billiards"
     mansion = mansion_layout
     -- Convert keys list to lookup
     local has_key = {}

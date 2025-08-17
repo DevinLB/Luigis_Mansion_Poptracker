@@ -844,7 +844,7 @@
       {
         //rooms
         "name": "Armory",
-        "access_rules": ["$canReachRoom|armory|, $canCatchGhosts|Armory|"],
+        "access_rules": "$canReachRoom|armory|",
         "sections": [
           //chest checks
           {
@@ -867,6 +867,7 @@
           },
           {
             "name": "Armory Clear Chest",
+            "access_rules": "$canCatchGhosts|Armory|",
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
