@@ -338,6 +338,7 @@
           },
           {
             "name": "Courtyard Clear Chest",
+            "access_rules": ["$canCatchGhosts|Courtyard|"],
             "chest_unopened_img": "images/minor checks/chest_green.png",
             "chest_opened_img": "images/minor checks/chest_green_gray.png",
             "item_count": 1
@@ -478,7 +479,7 @@
       {
         //rooms
         "name": "Twins' Room",
-        "access_rules": ["$canReachRoom|twins|"],
+        "access_rules": ["$canReachRoom|twins|, $hasTwinsRoomKey"],
         "sections": [
           //chest checks
           {

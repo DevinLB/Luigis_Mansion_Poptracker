@@ -279,11 +279,11 @@ function onClear(slot_data)
             obj.CurrentStage = 2
         end
     end
-    if slot_data['washroom boo count'] then
-        local mario = Tracker:FindObjectForCode("washroom_boo")
-        mario.AcquiredCount = (slot_data['washroom boo count'])
-        WASHROOM_GATE = slot_data['washroom boo count']
-    end
+    -- if slot_data['washroom boo count'] then
+    --     local mario = Tracker:FindObjectForCode("washroom_boo")
+    --     mario.AcquiredCount = (slot_data['washroom boo count'])
+    --     WASHROOM_GATE = slot_data['washroom boo count']
+    -- end
     if slot_data['balcony boo count'] then
         local mario = Tracker:FindObjectForCode("balcony_boo")
         mario.AcquiredCount = (slot_data['balcony boo count'])

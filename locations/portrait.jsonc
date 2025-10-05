@@ -280,7 +280,7 @@
       {
         //Rooms
         "name": "Twins' Room",
-        "access_rules": ["$canReachRoom|twins|"],
+        "access_rules": ["$canReachRoom|twins|, $hasTwinsRoomKey"],
         "sections": [
           //Portait Ghost
           {
