@@ -202,12 +202,6 @@ function canBeatClairvoya()
     return marioItems() >= Tracker:ProviderCountForCode("mario_items")
 end
 
--- Game Boy Horror Logic
-
-function hasGameBoy()
-    return has("gb_horror")
-end
-
 -- Huge Flower Logic
 
 function canWaterFlower()

@@ -32,8 +32,13 @@
 
   {
     "name": "Poltergust 4000",
-    "type": "toggle",
+    "type": "consumable",
     "codes": "poltergust",
+    "max_quantity": 2,
+    "initial_quantity": 0,
+    "allow_disabled": false,
+    "overlay_font_size": 25,
+    "overlay_align": "center",
     "img": "images/keys/poltergust.png"
   },
 
