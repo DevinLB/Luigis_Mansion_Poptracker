@@ -165,7 +165,7 @@ function onClear(slot_data)
         --Prints out door number, door name, and locked status
         print(v, door_names[k], dump_table(door_locks[k][door_names[k]]))
     end
-    -- print(dump_table(door_locks))
+    print(dump_table(door_locks))
 
     --Enemy Randomizer Logic
     enemies = slot_data['ghost elements']

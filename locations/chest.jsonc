@@ -7,7 +7,7 @@
       {
         //rooms
         "name": "Fortune Teller's Room",
-        "access_rules": ["$canReachRoom|fortune|"],
+        "access_rules": ["$canReachRoom|fortune|, poltergust"],
         "sections": [
           //chest checks
           {
@@ -19,7 +19,7 @@
           },
           {
             "name": "Fortune Teller Clear Chest",
-            "access_rules": ["$canBeatClairvoya"],
+            "access_rules": ["$canBeatClairvoya, poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -42,6 +42,7 @@
           //chest checks
           {
             "name": "Mirror Room Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
@@ -64,6 +65,7 @@
           //chest checks
           {
             "name": "Butler Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -81,7 +83,7 @@
       {
         //rooms
         "name": "Hidden Room",
-        "access_rules": ["$canReachRoom|butler|"],
+        "access_rules": ["$canReachRoom|butler|, poltergust"],
         "sections": [
           //chest checks
           {
@@ -156,6 +158,7 @@
           //chest checks
           {
             "name": "Ballroom Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -178,6 +181,7 @@
           //chest checks
           {
             "name": "Dining Room Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_green.png",
             "chest_opened_img": "images/minor checks/chest_green_gray.png",
             "item_count": 1
@@ -200,6 +204,7 @@
           //chest checks
           {
             "name": "Kitchen Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -244,6 +249,7 @@
           //chest checks
           {
             "name": "Graveyard Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_gold.png",
             "chest_opened_img": "images/minor checks/chest_gold_gray.png",
             "item_count": 1
@@ -266,6 +272,7 @@
           //chest checks
           {
             "name": "Conservatory Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -367,6 +374,7 @@
           },
           {
             "name": "Rec Room Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_green.png",
             "chest_opened_img": "images/minor checks/chest_green_gray.png",
             "item_count": 1
@@ -389,6 +397,7 @@
           //chest checks
           {
             "name": "Billiards Room Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_green.png",
             "chest_opened_img": "images/minor checks/chest_green_gray.png",
             "item_count": 1
@@ -411,6 +420,7 @@
           //chest checks
           {
             "name": "Projection Room Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
@@ -440,6 +450,7 @@
           //chest checks
           {
             "name": "Study Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -462,6 +473,7 @@
           //chest checks
           {
             "name": "Master Bedroom Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -484,6 +496,7 @@
           //chest checks
           {
             "name": "Twins' Room Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
@@ -506,6 +519,7 @@
           //chest checks
           {
             "name": "Nursery Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_gold.png",
             "chest_opened_img": "images/minor checks/chest_gold_gray.png",
             "item_count": 1
@@ -528,6 +542,7 @@
           //chest checks
           {
             "name": "Parlor Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -550,7 +565,7 @@
           //chest checks
           {
             "name": "Wardrobe Clear Chest",
-            "access_rules": ["$canReachRoom|breaker|"],
+            "access_rules": ["$canReachRoom|breaker|, poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -580,6 +595,7 @@
           //chest checks
           {
             "name": "Tea Room Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_white.png",
             "chest_opened_img": "images/minor checks/chest_white_gray.png",
             "item_count": 1
@@ -602,6 +618,7 @@
           //chest checks
           {
             "name": "2F Washroom Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_green.png",
             "chest_opened_img": "images/minor checks/chest_green_gray.png",
             "item_count": 1
@@ -624,6 +641,7 @@
           //chest checks
           {
             "name": "2F Bathroom Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -646,6 +664,7 @@
           //chest checks
           {
             "name": "Nana's Room Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -690,6 +709,7 @@
           //chest checks
           {
             "name": "Guest Room Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_green.png",
             "chest_opened_img": "images/minor checks/chest_green_gray.png",
             "item_count": 1
@@ -707,7 +727,7 @@
       {
         //rooms
         "name": "Sealed Room",
-        "access_rules": ["$canReachRoom|clockwork|"],
+        "access_rules": ["$canReachRoom|clockwork|, poltergust"],
         "sections": [
           //chest checks
           {
@@ -784,6 +804,7 @@
           //chest checks
           {
             "name": "Safari Room Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -828,6 +849,7 @@
           //chest checks
           {
             "name": "Balcony Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_gold.png",
             "chest_opened_img": "images/minor checks/chest_gold_gray.png",
             "item_count": 1
@@ -891,6 +913,7 @@
           //chest checks
           {
             "name": "Ceramics Studio Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_green.png",
             "chest_opened_img": "images/minor checks/chest_green_gray.png",
             "item_count": 1
@@ -949,6 +972,7 @@
           //chest checks
           {
             "name": "Roof Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -973,7 +997,7 @@
       {
         //rooms
         "name": "Well",
-        "access_rules": ["$canReachRoom|courtyard|"],
+        "access_rules": ["$canReachRoom|courtyard|, poltergust"],
         "sections": [
           //chest checks
           {
@@ -1000,6 +1024,7 @@
           //chest checks
           {
             "name": "Breaker Room Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -1022,6 +1047,7 @@
           //chest checks
           {
             "name": "Cellar Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -1044,6 +1070,7 @@
           //chest checks
           {
             "name": "Cold Storage Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1
@@ -1066,6 +1093,7 @@
           //chest checks
           {
             "name": "Pipe Room Clear Chest",
+            "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/chest_blue.png",
             "chest_opened_img": "images/minor checks/chest_blue_gray.png",
             "item_count": 1

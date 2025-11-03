@@ -30,6 +30,10 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     end
 
     -- Add Open Doors to the key list
+    -- if door_locks = nil then 
+    --     door_locks = {}
+    -- end
+
     for _, door in ipairs(door_names) do
         if door_locks[_][door] == "1" then
             for __, door2 in pairs(door_keys) do
@@ -128,7 +132,8 @@ end
 -- Medal Logic
 
 function canGrabFire()
-    return has("fire") and (
+    return has("fire") 
+    and (
         canReachRoom("hallway_1f") or 
         canReachRoom("study") or 
         canReachRoom("butler") or 
@@ -139,26 +144,37 @@ function canGrabFire()
         canReachRoom("sitting") or 
         canReachRoom("boneyard") or 
         canReachRoom("clockwork")
+    ) 
+    and (
+        has("poltergust")
     )
 end
 
 function canGrabWater()
-    return has("water") and (
+    return has("water") 
+    and (
         canReachRoom("kitchen") or
         canReachRoom("boneyard") or
         canReachRoom("courtyard") or
         canReachRoom("bathroom_1f") or
         canReachRoom("washroom_2f") or
         canReachRoom("sitting")
+    ) 
+    and (
+        has("poltergust")
     )
 end
     
 function canGrabIce()
-    return has ("ice") and (
+    return has ("ice") 
+    and (
         canReachRoom("kitchen") or
         canReachRoom("pipe") or
         canReachRoom("tea") or
         canReachRoom("ceramics")
+    ) 
+    and (
+        has("poltergust")
     )
 end
 
@@ -167,20 +183,24 @@ end
 enemies = {}
 function canCatchGhosts(room)
     ghost_element = enemies[room]
-    if ghost_element == "No Element" then
-        return true
-    end
-    if ghost_element == "Fire" then
-        return canGrabWater()
-    end
-    if ghost_element == "Ice" then
-        return canGrabFire()
-    end
-    if ghost_element == "Water" then
-        return canGrabIce()
-    end
-    if ghost_element == nil then
-        return true
+    if has("poltergust") then
+        if ghost_element == "No Element" then
+            return true
+        end
+        if ghost_element == "Fire" then
+            return canGrabWater()
+        end
+        if ghost_element == "Ice" then
+            return canGrabFire()
+        end
+        if ghost_element == "Water" then
+            return canGrabIce()
+        end
+        if ghost_element == nil then
+            return true
+        end
+    else
+        return false
     end
 end
 

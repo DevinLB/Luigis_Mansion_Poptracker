@@ -2,10 +2,11 @@
   {
     "name": "Speedy Spirits",
     "visibility_rules": "speedy_spirits_on",
+    "access_rules": ["$canReachRoom|breaker|, poltergust"],
     "children": [
       {
         "name": "Wardrobe",
-        "access_rules": ["$canReachRoom|wardrobe|, $canReachRoom|breaker|"],
+        "access_rules": ["$canReachRoom|wardrobe|"],
         "sections": [
           {
             "name": "Wardrobe Speedy Spirit",
@@ -25,7 +26,7 @@
       },
       {
         "name": "Study",
-        "access_rules": ["$canReachRoom|study|, $canReachRoom|breaker|"],
+        "access_rules": ["$canReachRoom|study|"],
         "sections": [
           {
             "name": "Study Speedy Spirit",
@@ -45,7 +46,7 @@
       },
       {
         "name": "Storage Room",
-        "access_rules": ["$canReachRoom|storage|, $canReachRoom|breaker|"],
+        "access_rules": ["$canReachRoom|storage|"],
         "sections": [
           {
             "name": "Storage Room Speedy Spirit",
@@ -65,7 +66,7 @@
       },
       {
         "name": "Dining Room",
-        "access_rules": ["$canReachRoom|dining|, $canReachRoom|breaker|"],
+        "access_rules": ["$canReachRoom|dining|"],
         "sections": [
           {
             "name": "Dining Room Speedy Spirit",
@@ -85,7 +86,7 @@
       },
       {
         "name": "Kitchen",
-        "access_rules": ["$canReachRoom|kitchen|, $canReachRoom|breaker|"],
+        "access_rules": ["$canReachRoom|kitchen|"],
         "sections": [
           {
             "name": "Kitchen Speedy Spirit",
@@ -105,7 +106,7 @@
       },
       {
         "name": "Rec Room",
-        "access_rules": ["$canReachRoom|rec_room|, $canReachRoom|breaker|"],
+        "access_rules": ["$canReachRoom|rec_room|"],
         "sections": [
           {
             "name": "Rec Room Speedy Spirit",
@@ -125,7 +126,7 @@
       },
       {
         "name": "Nana's Room",
-        "access_rules": ["$canReachRoom|nana|, $canReachRoom|breaker|"],
+        "access_rules": ["$canReachRoom|nana|"],
         "sections": [
           {
             "name": "Nana's Room Speedy Spirit",
@@ -145,7 +146,7 @@
       },
       {
         "name": "Billiards Room",
-        "access_rules": ["$canReachRoom|billiards|, $canReachRoom|breaker|"],
+        "access_rules": ["$canReachRoom|billiards|"],
         "sections": [
           {
             "name": "Billiards Room Speedy Spirit",
@@ -165,7 +166,7 @@
       },
       {
         "name": "Twins' Room",
-        "access_rules": ["$canReachRoom|twins|, $canReachRoom|breaker|"],
+        "access_rules": ["$canReachRoom|twins|"],
         "sections": [
           {
             "name": "Twins' Room Speedy Spirit",
@@ -205,7 +206,7 @@
       },
       {
         "name": "Cellar",
-        "access_rules": ["$canReachRoom|cellar|, $canReachRoom|breaker|"],
+        "access_rules": ["$canReachRoom|cellar|"],
         "sections": [
           {
             "name": "Cellar Speedy Spirit",
@@ -225,7 +226,7 @@
       },
       {
         "name": "Sealed Room",
-        "access_rules": ["$canReachRoom|clockwork|, $canReachRoom|breaker|"],
+        "access_rules": ["$canReachRoom|clockwork|"],
         "sections": [
           {
             "name": "Sealed Room Speedy Spirit",
@@ -245,7 +246,7 @@
       },
       {
         "name": "Nursery",
-        "access_rules": ["$canReachRoom|nursery|, $canReachRoom|breaker|"],
+        "access_rules": ["$canReachRoom|nursery|"],
         "sections": [
           {
             "name": "Nursery Speedy Spirit",
@@ -265,7 +266,7 @@
       },
       {
         "name": "Conservatory",
-        "access_rules": ["$canReachRoom|conservatory|, $canReachRoom|breaker|"],
+        "access_rules": ["$canReachRoom|conservatory|"],
         "sections": [
           {
             "name": "Conservatory Speedy Spirit",
@@ -285,7 +286,7 @@
       },
       {
         "name": "Hidden Room",
-        "access_rules": ["$canReachRoom|butler|, $canReachRoom|breaker|"],
+        "access_rules": ["$canReachRoom|butler|"],
         "sections": [
           {
             "name": "Hidden Room Speedy Spirit",
