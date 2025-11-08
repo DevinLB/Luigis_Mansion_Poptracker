@@ -31,7 +31,7 @@
         "booCount",
         "gb_horror",
         "poltergust",
-        "huge_flower"
+        "vacuum_upgrade"
       ]
     ]
   },
@@ -47,7 +47,8 @@
         "glove",
         "letter",
         "shoe",
-        "star"
+        "star",
+        "huge_flower"
       ]
     ]
   },

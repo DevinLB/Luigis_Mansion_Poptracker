@@ -165,7 +165,7 @@ function onClear(slot_data)
         --Prints out door number, door name, and locked status
         print(v, door_names[k], dump_table(door_locks[k][door_names[k]]))
     end
-    -- print(dump_table(door_locks))
+    print(dump_table(door_locks))
 
     --Enemy Randomizer Logic
     enemies = slot_data['ghost elements']
@@ -299,11 +299,11 @@ function onClear(slot_data)
             obj.CurrentStage = 2
         end
     end
-    if slot_data['washroom boo count'] then
-        local mario = Tracker:FindObjectForCode("washroom_boo")
-        mario.AcquiredCount = (slot_data['washroom boo count'])
-        WASHROOM_GATE = slot_data['washroom boo count']
-    end
+    -- if slot_data['washroom boo count'] then
+    --     local mario = Tracker:FindObjectForCode("washroom_boo")
+    --     mario.AcquiredCount = (slot_data['washroom boo count'])
+    --     WASHROOM_GATE = slot_data['washroom boo count']
+    -- end
     if slot_data['balcony boo count'] then
         local mario = Tracker:FindObjectForCode("balcony_boo")
         mario.AcquiredCount = (slot_data['balcony boo count'])

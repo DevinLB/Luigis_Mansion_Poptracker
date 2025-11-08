@@ -2,7 +2,7 @@
   {
     "name": "Mouse Locations",
     "visibility_rules": "mouse_on",
-    "access_rules": ["$canReachRoom|breaker|"],
+    "access_rules": ["$canReachRoom|breaker|, poltergust"],
     "children": [
       {
         // Room
