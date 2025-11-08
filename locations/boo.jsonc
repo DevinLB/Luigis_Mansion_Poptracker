@@ -3,7 +3,7 @@
   {
     //Floor
     "name": "Floor 1 Boos",
-    "access_rules": ["gb_horror"],
+    "access_rules": ["gb_horror, poltergust"],
     "visibility_rules": "boosanity_on",
     "children": [
       {
@@ -298,7 +298,7 @@
   {
     //Floor
     "name": "Floor 2 Boos",
-    "access_rules": ["gb_horror"],
+    "access_rules": ["gb_horror, poltergust"],
     "visibility_rules": "boosanity_on",
     "children": [
       {
@@ -571,7 +571,7 @@
   {
     //Floor
     "name": "Floor 3 Boos",
-    "access_rules": ["gb_horror"],
+    "access_rules": ["gb_horror, poltergust"],
     "visibility_rules": "boosanity_on",
     "children": [
       {
@@ -817,7 +817,7 @@
   {
     //Floor
     "name": "Basement Boos",
-    "access_rules": ["gb_horror"],
+    "access_rules": ["gb_horror, poltergust"],
     "visibility_rules": "boosanity_on",
     "children": [
       {

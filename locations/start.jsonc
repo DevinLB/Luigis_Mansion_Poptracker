@@ -35,5 +35,68 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Boss Locations",
+    "access_rules": "poltergust",
+    "children": [
+      {
+        "name": "Chauncey",
+        "sections": [
+          {
+            "name": "Defeat Chauncey (Nursery)",
+            "chest_unopened_img": "images/ghosts/chauncey.png",
+            "chest_opened_img": "images/ghosts/chauncey_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f2",
+            "x": 50,
+            "y": 610,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Bogmire",
+        "sections": [
+          {
+            "name": "Defeat Bogmire (Graveyard)",
+            "chest_unopened_img": "images/ghosts/bogmire.png",
+            "chest_opened_img": "images/ghosts/bogmire_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 120,
+            "y": 45,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Boolossus",
+        "sections": [
+          {
+            "name": "Defeat Boolossus (Balcony)",
+            "chest_unopened_img": "images/ghosts/boolossus.png",
+            "chest_opened_img": "images/ghosts/boolossus_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f3",
+            "x": 590,
+            "y": 100,
+            "size": 14
+          }
+        ]
+      }
+    ]
   }
 ]

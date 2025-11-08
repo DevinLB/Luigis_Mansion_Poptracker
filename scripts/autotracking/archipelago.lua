@@ -11,6 +11,18 @@ LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
 -- Fix for FindObjectForCode error - handle cases where item codes are tables
+
+HINT_STATUS_MAPPING = {}
+if Highlight then
+	HINT_STATUS_MAPPING = {
+		[20] = Highlight.Avoid,
+		[40] = Highlight.None,
+		[10] = Highlight.NoPriority,
+		[0] = Highlight.Unspecified,
+		[30] = Highlight.Priority,
+	}
+end
+
 function safeGetCode(item)
     if type(item) == "table" then
         return item[1] -- Return first element if it's a table
@@ -46,6 +58,14 @@ function dump_table(o, depth)
     else
         return tostring(o)
     end
+end
+
+function getHintDataStorageKey()
+    if AutoTracker:GetConnectionState("AP") ~= 3 or Archipelago.TeamNumber == nil or Archipelago.TeamNumber == -1 or Archipelago.PlayerNumber == nil or Archipelago.PlayerNumber == -1 then
+        print("Tried to call getHintDataStorageKey while not connected to AP server")
+        return nil
+    end
+    return string.format("_read_hints_%s_%s", Archipelago.TeamNumber, Archipelago.PlayerNumber)
 end
 
 function incrementItem(item_code, item_type, multiplier)
@@ -145,7 +165,7 @@ function onClear(slot_data)
         --Prints out door number, door name, and locked status
         print(v, door_names[k], dump_table(door_locks[k][door_names[k]]))
     end
-    -- print(dump_table(door_locks))
+    print(dump_table(door_locks))
 
     --Enemy Randomizer Logic
     enemies = slot_data['ghost elements']
@@ -279,11 +299,11 @@ function onClear(slot_data)
             obj.CurrentStage = 2
         end
     end
-    if slot_data['washroom boo count'] then
-        local mario = Tracker:FindObjectForCode("washroom_boo")
-        mario.AcquiredCount = (slot_data['washroom boo count'])
-        WASHROOM_GATE = slot_data['washroom boo count']
-    end
+    -- if slot_data['washroom boo count'] then
+    --     local mario = Tracker:FindObjectForCode("washroom_boo")
+    --     mario.AcquiredCount = (slot_data['washroom boo count'])
+    --     WASHROOM_GATE = slot_data['washroom boo count']
+    -- end
     if slot_data['balcony boo count'] then
         local mario = Tracker:FindObjectForCode("balcony_boo")
         mario.AcquiredCount = (slot_data['balcony boo count'])
@@ -295,6 +315,8 @@ function onClear(slot_data)
     end
 
     if Archipelago.PlayerNumber > -1 then
+        HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({HINTS_ID})
         print("SUCCESS?")
         ROOM_ID = "lm_room_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({ROOM_ID})
@@ -375,19 +397,74 @@ function onLocation(location_id, location_name)
     end
 end
 
-function onNotify(key, value, old_value)
-	if value ~= old_value then
-		if key == ROOM_ID then
-            print("room: "..value)
-        end
+function onDataStorageUpdate(key, value, oldValue)
+	--if you plan to only use the hints key, you can remove this if
+	if key == getHintDataStorageKey() then
+		onHintsUpdate(value)
 	end
 end
 
-function onNotifyLaunch(key, value)
-    Tracker.BulkUpdate = false
-    if key == ROOM_ID then
-        print("room: "..value)
+-- called whenever the hints key in data storage updated
+-- NOTE: this should correctly handle having multiple mapped locations in a section.
+--       if you only map sections 1 to 1 you can simplify this. for an example see
+--       https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/archipelago.lua
+function onHintsUpdate(hints)
+	-- Highlight is only supported since version 0.32.0
+	if PopVersion < "0.32.0" or not AUTOTRACKER_ENABLE_LOCATION_TRACKING then return end
+	local player_number = Archipelago.PlayerNumber
+	-- get all new highlight values per section
+	local sections_to_update = {}
+	for _, hint in ipairs(hints) do
+		-- we only care about hints in our world
+		if hint.finding_player == player_number then
+			updateHint(hint, sections_to_update)
+		end
+	end
+end
+
+-- update section highlight based on the hint
+function updateHint(hint, sections_to_update)
+	-- get the highlight enum value for the hint status
+	local hint_status = hint.status
+	local highlight_code = nil
+	if hint_status then
+		highlight_code = HINT_STATUS_MAPPING[hint_status]
+	end
+	if not highlight_code then
+		if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+			print(string.format("updateHint: unknown hint status %s for hint on location id %s", hint.status,
+				hint.location))
+		end
+		-- try to "recover" by checking hint.found (older AP versions without hint.status)
+		if hint.found == true then
+			highlight_code = Highlight.None
+		elseif hint.found == false then
+			highlight_code = Highlight.Unspecified
+		else
+			return
+		end
+	end
+	-- get the location mapping for the location id
+	local mapping_entry = LOCATION_MAPPING[hint.location]
+	if not mapping_entry then
+		if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+			print(string.format("updateHint: could not find location mapping for id %s", hint.location))
+		end
+		return
+	end
+  for _, location_code in pairs(mapping_entry) do
+    -- skip hosted items, they don't support Highlight
+    if location_code and location_code:sub(1, 1) == "@" then
+      -- find the location object
+      local obj = Tracker:FindObjectForCode(location_code)
+      -- check if we got the location and if it supports Highlight
+      if obj and obj.Highlight then
+          obj.Highlight = highlight_code
+      elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+          print(string.format("updateHint: could update section %s (obj doesn't support Highlight)", location_code))
+      end
     end
+  end
 end
 
 function onMapChange(key, value, old)
@@ -408,8 +485,8 @@ end
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
-Archipelago:AddSetReplyHandler("notify handler", onNotify)
-Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+Archipelago:AddSetReplyHandler("notify handler", onDataStorageUpdate)
+Archipelago:AddRetrievedHandler("notify launch handler", onDataStorageUpdate)
 Archipelago:AddSetReplyHandler("map_key", onMapChange)
 Archipelago:AddRetrievedHandler("map_key", onMapChange)
 
