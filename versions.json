@@ -1,8 +1,8 @@
 {
     "versions": [
         {
-            "package_version": "0.0.3-hotfix",
-            "download_url": "https://github.com/DevinLB/Luigis_Mansion_Poptracker/releases/download/v0.0.3-hotfix/lmpt.zip",
+            "package_version": "0.0.4",
+            "download_url": "https://github.com/DevinLB/Luigis_Mansion_Poptracker/releases/download/v0.0.4/lmpt.zip",
             "sha256": "C763497C1A517C3C288CC556A1241941021251263301F8D304B2378FAC9CE82B",
             "changelog": [
                 "Check Github for the full changelog."
