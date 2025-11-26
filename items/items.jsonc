@@ -41,7 +41,7 @@
     "name": "Vacuum Upgrade",
     "type": "consumable",
     "codes": "vacuum_upgrade",
-    "max_quantity": 6,
+    "max_quantity": 5,
     "initial_quantity": 0,
     // "allow_disabled": false,
     "overlay_font_size": 25,

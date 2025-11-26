@@ -59,6 +59,16 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
         end
     end
 
+    -- Cellar Dust Pile Logic - remove cellar keys if luigi doesn't have a vacuum
+    if not has("poltergust") then
+        if has_key["key_cellar"] then
+            has["key_cellar"] = false
+        end
+        if has_key["key_basehall"] then
+            has["key_basehall"] = false
+        end
+    end
+
     -- Build bidirectional graph
     local graph = {}
     for from, connections in pairs(mansion) do
