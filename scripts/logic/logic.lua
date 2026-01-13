@@ -60,24 +60,24 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     end
 
     -- Cellar Dust Pile Logic - remove cellar keys if luigi doesn't have a vacuum
-    if not has("poltergust") then
+    if has("poltergust") == false then
         if has_key["key_cellar"] then
-            has["key_cellar"] = false
+            has_key["key_cellar"] = false
         end
         if has_key["key_basehall"] then
-            has["key_basehall"] = false
+            has_key["key_basehall"] = false
         end
     end
     
     -- Fire Door Logic - remove tea room and boneyard keys if luigi doesn't start in the room and doesn't have water
     if (starting_room ~= "tea" and canGrabWater == false) then
         if has_key["key_tea"] then
-            has["key_tea"] = false
+            has_key["key_tea"] = false
         end
     end
     if ((starting_room ~= "boneyard" or starting_room ~= "graveyard") and canGrabWater == false) then
         if has_key["key_boneyard"] then
-            has["key_boneyard"] = false
+            has_key["key_boneyard"] = false
         end
     end
 
@@ -144,7 +144,7 @@ function canReachRoom(target_room)
     for _, room in ipairs(accessible_from) do
         -- print("room is ", room)
         if room == target_room then
-            print(room, " is ", target_room)
+            -- print(room, " is ", target_room)
             return true
         end
     end

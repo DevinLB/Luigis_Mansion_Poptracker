@@ -380,11 +380,12 @@ end
 
 function onLocation(location_id, location_name)
     local loc_list = LOCATION_MAPPING[location_id]
-
+    print (location_id, location_name)
     for i, loc in ipairs(loc_list) do
         if not loc then
             return
         end
+        -- print(location_id, location_name)
         print(loc)
         local obj = Tracker:FindObjectForCode(loc)
         if obj then
