@@ -1093,5 +1093,26 @@
         "img": "images/options/fs_treasures_off.png"
       }
     ]
+  },
+  {
+    "name": "Automatic Map Tab",
+    "type":"progressive",
+    "allow_disabled": false,
+    "initial_active_state": "auto_tab_on",
+    "loop": true,
+    "stages":[
+      {
+        "codes": "auto_tab_on, auto_tab",
+        "inherit_codes": false,
+        // "img": "images/options/auto_tab_on.png"
+        "img": "images/options/fs_treasures_on.png"
+      },
+      {
+        "codes": "auto_tab_off, auto_tab",
+        "inherit_codes": false,
+        // "img": "images/options/auto_tab_off.png"
+        "img": "images/options/fs_treasures_off.png"
+      }
+    ]
   }
 ]

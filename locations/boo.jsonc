@@ -524,7 +524,7 @@
       {
         //Rooms
         "name": "Sitting Room",
-        "access_rules": ["$canReachRoom|sitting|, $canGrabFire, $canGrabWater"],
+        "access_rules": ["$canReachRoom|sitting|, $canGrabFire, $canCatchGhosts|Sitting Room|"],
         "sections": [
           {
             //Boo Check

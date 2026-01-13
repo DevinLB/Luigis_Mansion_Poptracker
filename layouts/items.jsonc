@@ -64,7 +64,8 @@
         "washroom_boo",
         "balcony_boo",
         "final_boo",
-        "mario_items"
+        "mario_items",
+        "auto_tab_swapping"
       ],
       [
         "walksanity",

@@ -30,7 +30,7 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     end
 
     -- Add Open Doors to the key list
-    -- if door_locks = nil then 
+    -- if door_locks == nil then 
     --     door_locks = {}
     -- end
 
@@ -66,6 +66,18 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
         end
         if has_key["key_basehall"] then
             has["key_basehall"] = false
+        end
+    end
+    
+    -- Fire Door Logic - remove tea room and boneyard keys if luigi doesn't start in the room and doesn't have water
+    if (starting_room ~= "tea" and canGrabWater == false) then
+        if has_key["key_tea"] then
+            has["key_tea"] = false
+        end
+    end
+    if ((starting_room ~= "boneyard" or starting_room ~= "graveyard") and canGrabWater == false) then
+        if has_key["key_boneyard"] then
+            has["key_boneyard"] = false
         end
     end
 
@@ -180,7 +192,7 @@ function canGrabIce()
     and (
         canReachRoom("kitchen") or
         canReachRoom("pipe") or
-        canReachRoom("tea") or
+        (canReachRoom("tea") and canGrabWater()) or
         canReachRoom("ceramics")
     ) 
     and (

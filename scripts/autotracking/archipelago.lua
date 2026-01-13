@@ -475,8 +475,11 @@ function onMapChange(key, value, old)
     print(dump_table(MAP_MAPPING[tostring(value)]))
 
     tabs = MAP_MAPPING[tostring(value)]
+    local auto_tab = Tracker:FindObjectForCode("auto_tab")
     for i, tab in ipairs(tabs) do
-        Tracker:UiHint("ActivateTab", tab)
+        if auto_tab.CurrentStage == "1" then
+            Tracker:UiHint("ActivateTab", tab)
+        end
     end
 end
 

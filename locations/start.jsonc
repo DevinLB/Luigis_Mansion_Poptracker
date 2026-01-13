@@ -33,6 +33,33 @@
             "size": 14
           }
         ]
+      },
+      {
+        "name": "Training",
+        "sections": [
+          {
+            "name": "Complete Training",
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/training_complete.png",
+            "chest_opened_img": "images/minor checks/training_complete_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Catch 9 Ghosts in Training",
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/training_catch_nine.png",
+            "chest_opened_img": "images/minor checks/training_catch_nine_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lab",
+            "x": 530,
+            "y": 460,
+            "size": 14
+          }
+        ]
       }
     ]
   },

@@ -3501,6 +3501,62 @@
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
+          },
+          {
+            "name": "Artist's Studio Gold Ghost Easel",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Artist's Studio Pink Ghost Easel",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Artist's Studio Blue Ghost Easel",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Artist's Studio Red Ghost Easel",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Artist's Studio Shy Guy Ghost Easel",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Artist's Studio Green Ghost Easel",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Artist's Studio Purple Ghost Easel",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
           }
         ],
         "map_locations": [
