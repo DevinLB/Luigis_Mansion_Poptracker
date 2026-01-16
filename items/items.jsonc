@@ -671,6 +671,29 @@
     ]
   },
   {
+    "name": "GrassSanity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "grass",
+        "inherit_codes": false,
+        "img": "images/options/grass_sanity.png"
+      },
+      {
+        "codes": "grass_on, grass",
+        "inherit_codes": false,
+        "img": "images/options/grass_sanity_on.png"
+      },
+      {
+        "codes": "grass_off, grass",
+        "inherit_codes": false,
+        "img": "images/options/grass_sanity_off.png"
+      }
+    ]
+  },
+  {
     "name": "Win Condition",
     "type": "progressive",
     "allow_disabled": false,
@@ -1104,14 +1127,12 @@
       {
         "codes": "auto_tab_on, auto_tab",
         "inherit_codes": false,
-        // "img": "images/options/auto_tab_on.png"
-        "img": "images/options/fs_treasures_on.png"
+        "img": "images/options/auto_tab_on.png"
       },
       {
         "codes": "auto_tab_off, auto_tab",
         "inherit_codes": false,
-        // "img": "images/options/auto_tab_off.png"
-        "img": "images/options/fs_treasures_off.png"
+        "img": "images/options/auto_tab_off.png"
       }
     ]
   }

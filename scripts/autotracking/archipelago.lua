@@ -165,7 +165,7 @@ function onClear(slot_data)
         --Prints out door number, door name, and locked status
         print(v, door_names[k], dump_table(door_locks[k][door_names[k]]))
     end
-    print(dump_table(door_locks))
+    -- print(dump_table(door_locks))
 
     --Enemy Randomizer Logic
     enemies = slot_data['ghost elements']
@@ -293,6 +293,15 @@ function onClear(slot_data)
     if slot_data['gold_mice'] then
         local obj = Tracker:FindObjectForCode("mouse")
         local stage = slot_data['gold_mice']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        elseif stage == 0 then
+            obj.CurrentStage = 2
+        end
+    end
+    if slot_data['grassanity'] then
+        local obj = Tracker:FindObjectForCode("grass")
+        local stage = slot_data['grassanity']
         if stage == 1 then
             obj.CurrentStage = 1
         elseif stage == 0 then
@@ -469,16 +478,14 @@ function updateHint(hint, sections_to_update)
 end
 
 function onMapChange(key, value, old)
-    -- print("key", key)
-    -- print("old", old)
-    -- print("value", value)
-    print("got  " .. key .. " = " .. tostring(value) .. " (was " .. tostring(old) .. ")")
-    print(dump_table(MAP_MAPPING[tostring(value)]))
+
+    -- print("got  " .. key .. " = " .. tostring(value) .. " (was " .. tostring(old) .. ")")
+    -- print(dump_table(MAP_MAPPING[tostring(value)]))
 
     tabs = MAP_MAPPING[tostring(value)]
     local auto_tab = Tracker:FindObjectForCode("auto_tab")
     for i, tab in ipairs(tabs) do
-        if auto_tab.CurrentStage == "1" then
+        if auto_tab.CurrentStage == 0 then
             Tracker:UiHint("ActivateTab", tab)
         end
     end

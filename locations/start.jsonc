@@ -134,20 +134,21 @@
     "children": [
       {
         "name": "Grass",
+        "visibility_rules": "grass_on",
         "sections": [
           {
             "name": "Touch Courtyard Grass",
             "access_rules": ["$canReachRoom|courtyard|"],
-            "chest_unopened_img": "images/ghosts/touch_grass.png",
-            "chest_opened_img": "images/ghosts/touch_grass_gray.png",
+            "chest_unopened_img": "images/minor checks/touch_grass.png",
+            "chest_opened_img": "images/minor checks/touch_grass_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f1",
-            "x": 705,
-            "y": 134,
+            "x": 333,
+            "y": 75,
             "size": 14
           }
         ]
@@ -156,18 +157,18 @@
         "name": "Grass",
         "sections": [
           {
-            "name": "Tourch Boneyard Grass",
+            "name": "Touch Boneyard Grass",
             "access_rules": ["$canReachRoom|boneyard|"],
-            "chest_unopened_img": "images/ghosts/touch_grass.png",
-            "chest_opened_img": "images/ghosts/touch_grass_gray.png",
+            "chest_unopened_img": "images/minor checks/touch_grass.png",
+            "chest_opened_img": "images/minor checks/touch_grass_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f1",
-            "x": 125,
-            "y": 780,
+            "x": 115,
+            "y": 425,
             "size": 14
           }
         ]
@@ -178,16 +179,16 @@
           {
             "name": "Touch Graveyard Grass",
             "access_rules": ["$canReachRoom|graveyard|"],
-            "chest_unopened_img": "images/ghosts/touch_grass.png",
-            "chest_opened_img": "images/ghosts/touch_grass_gray.png",
+            "chest_unopened_img": "images/minor checks/touch_grass.png",
+            "chest_opened_img": "images/minor checks/touch_grass_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
             "map": "f1",
-            "x": 180,
-            "y": 470,
+            "x": 105,
+            "y": 190,
             "size": 14
           }
         ]
