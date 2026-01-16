@@ -1121,7 +1121,7 @@
       },
       {
         "name": "Observatory",
-        "access_rules": ["$canReachRoom|observatory|, $canGrabFire"],
+        "access_rules": ["$canReachRoom|observatory|"],
         "sections": [
           //Room Checks
           {
@@ -1129,6 +1129,13 @@
             "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/walk.png",
             "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Observatory Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],

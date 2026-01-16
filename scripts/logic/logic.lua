@@ -81,6 +81,33 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
         end
     end
 
+    -- Observatory Access Logic - remove observatory key if luigi doesn't have fire
+    if canGrabFire == false then
+        if has_key["key_observatory"] then
+            has_key["key_observatory"] = false
+        end
+    end
+
+    -- Mouse Hole Camera Logic - remove hidden room and graveyard keys if luigi doesn't have the camera function via having the vacuum
+    if has("poltergust") == false then 
+        if has_key["key_hidden"] then
+            has_key["key_hidden"] = false
+        end
+        if has_key["key_graveyard"] then
+            has_key["key_graveyard"] = false
+        end
+    end
+    if has("poltergust") then 
+        if has_key["key_hidden"] == false then
+            has_key["key_hidden"] = true
+        end
+        if has_key["key_graveyard"] == false then
+            has_key["key_graveyard"] = true
+        end
+    end
+
+
+
     -- Build bidirectional graph
     local graph = {}
     for from, connections in pairs(mansion) do

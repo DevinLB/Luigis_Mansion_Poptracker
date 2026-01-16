@@ -15,6 +15,7 @@ list_keys = {
     "key_fortune", 
     "key_laundry", 
     "key_butler", 
+    "key_hidden", 
     "key_lower2f", 
     "key_conservatory", 
     "key_dining", 
@@ -36,6 +37,7 @@ list_keys = {
     "key_1fwash", 
     "key_kitchen", 
     "key_boneyard", 
+    "key_graveyard", 
     "key_projection", 
     "key_mirror", 
     "key_tea", 
@@ -115,7 +117,11 @@ full_mansion = {
         {room = "butler", door_name = "butler", key = "key_butler", door = "0"}
     }, 
     ["butler"] = {
-        {room = "laundry", door_name = "butler", key = "key_butler", door = "0"}
+        {room = "laundry", door_name = "butler", key = "key_butler", door = "0"},
+        {room = "hidden", door_name = "hidden", key = "key_hidden", door = "0"}
+    },
+    ["hidden"] = {
+        {room = "butler", door_name = "hidden", key = "key_hidden", door = "0"}
     },
     ["courtyard"] = {
         {room = "hallway_1f", door_name = "courtyard_w", key = "key_club", door = "0"},
@@ -160,7 +166,11 @@ full_mansion = {
         {room = "boneyard", door_name = "boneyard", key = "key_boneyard", door = "0"}
     }, 
     ["boneyard"] = {
-        {room = "kitchen", door_name = "kitchen", key = "key_boneyard", door = "0"}
+        {room = "kitchen", door_name = "kitchen", key = "key_boneyard", door = "0"},
+        {room = "graveyard", door_name = "graveyard", key = "key_graveyard", door = "0"}
+    }, 
+    ["graveyard"] = {
+        {room = "boneyard", door_name = "boneyard", key = "key_graveyard", door = "0"}
     }, 
     ["rec_room"] = {
         {room = "courtyard", door_name = "rec_room_n", key = "key_northrec", door = "0"},

@@ -625,6 +625,13 @@
             "item_count": 1
           },
           {
+            "name": "Dining Room L China Hutch",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
             "name": "Dining Room L Brazier",
             "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
@@ -729,6 +736,13 @@
             "name": "Kitchen Oven",
             "visibility_rules": ["fs_decor_on", "furnisanity_on", "fs_treasures_on"],
             "access_rules": ["$canGrabFire"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Kitchen Refrigerator",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -911,6 +925,13 @@
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
+          },
+          {
+            "name": "Graveyard Tombstone 3",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
           }
         ],
         "map_locations": [
@@ -1004,6 +1025,20 @@
             "item_count": 1
           },
           {
+            "name": "Storage Room Cage Button",
+            // "visibility_rules": ["fs_treasures_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Storage Room Wall button",
+            // "visibility_rules": ["fs_treasures_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
             "name": "Storage Room Ceiling Light",
             "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "access_rules": ["poltergust"],
@@ -1077,6 +1112,14 @@
           {
             "name": "Storage Room Crate (top row)",
             "visibility_rules": ["fs_storage_on", "furnisanity_on"],
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Storage Room Chair",
+            "visibility_rules": ["fs_seating_on", "furnisanity_on"],
             "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
@@ -1640,6 +1683,13 @@
             "item_count": 1
           },
           {
+            "name": "Rec Room Front Bicycle",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
             "name": "Rec Room Rear Bicycle",
             "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
@@ -1966,8 +2016,22 @@
             "item_count": 1
           },
           {
+            "name": "Wardrobe West Dresser",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
             "name": "Wardrobe Center Dresser",
             "visibility_rules": ["fs_drawers_on", "furnisanity_on", "fs_treasures_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Wardrobe Right Dresser",
+            "visibility_rules": ["fs_drawers_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
             "item_count": 1
@@ -2838,6 +2902,14 @@
             "item_count": 1
           },
           {
+            "name": "2F Washroom Toilet",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
             "name": "2F Washroom Light",
             "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
             "access_rules": ["poltergust"],
@@ -3081,7 +3153,7 @@
       {
         //rooms
         "name": "Observatory",
-        "access_rules": ["$canReachRoom|observatory|, $canGrabFire"],
+        "access_rules": ["$canReachRoom|observatory|"],
         "sections": [
           //furniture checks
           {
@@ -3425,6 +3497,14 @@
             "item_count": 1
           },
           {
+            "name": "Safari Room C Deer Head",
+            "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
             "name": "Safari Room R Deer Head",
             "visibility_rules": ["fs_hangables_on", "furnisanity_on"],
             "access_rules": ["poltergust"],
@@ -3648,6 +3728,34 @@
           },
           {
             "name": "Armory Armor Suit L (right side)",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Armor Suit 6",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Armor Suit 7",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Armor Suit 8",
+            "visibility_rules": ["fs_decor_on", "furnisanity_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Armor Suit 9",
             "visibility_rules": ["fs_decor_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
@@ -4222,6 +4330,14 @@
             "item_count": 1
           },
           {
+            "name": "Breaker Room Table",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
             "name": "Breaker Room Metal Drum L",
             "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
@@ -4349,6 +4465,27 @@
           },
           {
             "name": "Cellar Crate (along back wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar NW Crate",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar Barrel (back wall)",
+            "visibility_rules": ["fs_storage_on", "furnisanity_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Cellar Barrel (by exit)",
             "visibility_rules": ["fs_storage_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
@@ -4594,8 +4731,24 @@
             "item_count": 1
           },
           {
+            "name": "Secret Altar L Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
             "name": "Secret Altar C Chandelier",
             "visibility_rules": ["fs_ceiling_on", "furnisanity_on", "fs_treasures_on"],
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Secret Altar R Chandelier",
+            "visibility_rules": ["fs_ceiling_on", "furnisanity_on"],
             "access_rules": ["poltergust"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",

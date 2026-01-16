@@ -128,5 +128,70 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Meme Locations",
+    "children": [
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "name": "Touch Courtyard Grass",
+            "access_rules": ["$canReachRoom|courtyard|"],
+            "chest_unopened_img": "images/ghosts/touch_grass.png",
+            "chest_opened_img": "images/ghosts/touch_grass_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 705,
+            "y": 134,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "name": "Tourch Boneyard Grass",
+            "access_rules": ["$canReachRoom|boneyard|"],
+            "chest_unopened_img": "images/ghosts/touch_grass.png",
+            "chest_opened_img": "images/ghosts/touch_grass_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 125,
+            "y": 780,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "sections": [
+          {
+            "name": "Touch Graveyard Grass",
+            "access_rules": ["$canReachRoom|graveyard|"],
+            "chest_unopened_img": "images/ghosts/touch_grass.png",
+            "chest_opened_img": "images/ghosts/touch_grass_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 180,
+            "y": 470,
+            "size": 14
+          }
+        ]
+      }
+    ]
   }
 ]

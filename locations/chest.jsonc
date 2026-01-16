@@ -93,6 +93,18 @@
             "item_count": 1
           },
           {
+            "name": "Hidden Room Large Chest L",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Hidden Room Large Chest C",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
             "name": "Hidden Room Small Chest R Shelf",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
@@ -100,6 +112,18 @@
           },
           {
             "name": "Hidden Room Small Chest L Floor",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Hidden Room Small Chest L Shelf",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Hidden Room Small Chest R Floor",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
@@ -682,7 +706,7 @@
       {
         //rooms
         "name": "Observatory",
-        "access_rules": ["$canReachRoom|observatory|, $canGrabFire"],
+        "access_rules": ["$canReachRoom|observatory|"],
         "sections": [
           //chest checks
           {
@@ -742,12 +766,12 @@
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
           },
-          // {
-          //   "name": "Sealed Room SW Shelf Chest",
-          //   "chest_unopened_img": "images/minor checks/chest_red.png",
-          //   "chest_opened_img": "images/minor checks/chest_red_gray.png",
-          //   "item_count": 1
-          // },
+          {
+            "name": "Sealed Room SW Shelf Chest",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
           {
             "name": "Sealed Room SE Shelf Chest",
             "chest_unopened_img": "images/minor checks/chest_red.png",
@@ -767,7 +791,19 @@
             "item_count": 1
           },
           {
+            "name": "Sealed Room Upper C Big Chest",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
             "name": "Sealed Room Upper R Big Chest",
+            "chest_unopened_img": "images/minor checks/chest_red.png",
+            "chest_opened_img": "images/minor checks/chest_red_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Sealed Room Lower Big Chest",
             "chest_unopened_img": "images/minor checks/chest_red.png",
             "chest_opened_img": "images/minor checks/chest_red_gray.png",
             "item_count": 1
@@ -889,6 +925,18 @@
             "item_count": 1
           },
           {
+            "name": "Armory Gray Chest 4th",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Armory Gray Chest 5th",
+            "chest_unopened_img": "images/minor checks/chest_blue.png",
+            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "item_count": 1
+          },
+          {
             "name": "Armory Clear Chest",
             "access_rules": "$canCatchGhosts|Armory|",
             "chest_unopened_img": "images/minor checks/chest_blue.png",
@@ -934,6 +982,18 @@
         "access_rules": ["$canReachRoom|telephone|"],
         "sections": [
           //chest checks
+          {
+            "name": "Telephone Room C Chest",
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Telephone Room R1 Chest",
+            "chest_unopened_img": "images/minor checks/chest_green.png",
+            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "item_count": 1
+          },
           {
             "name": "Telephone Room R2 Chest",
             "chest_unopened_img": "images/minor checks/chest_green.png",
