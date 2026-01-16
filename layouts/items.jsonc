@@ -61,11 +61,10 @@
     "rows": [
       [
         "wincon",
-        "washroom_boo",
+        "auto_tab",
         "balcony_boo",
         "final_boo",
-        "mario_items",
-        "auto_tab"
+        "mario_items"
       ],
       [
         "walksanity",

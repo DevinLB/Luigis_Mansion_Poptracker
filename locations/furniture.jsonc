@@ -1032,7 +1032,7 @@
             "item_count": 1
           },
           {
-            "name": "Storage Room Wall button",
+            "name": "Storage Room Wall Button",
             // "visibility_rules": ["fs_treasures_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
@@ -2528,6 +2528,13 @@
           },
           {
             "name": "Twins' Room Desk",
+            "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
+            "chest_unopened_img": "images/minor checks/furniture.png",
+            "chest_opened_img": "images/minor checks/furniture_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Twins' Room Bunk Bed",
             "visibility_rules": ["fs_surfaces_on", "furnisanity_on"],
             "chest_unopened_img": "images/minor checks/furniture.png",
             "chest_opened_img": "images/minor checks/furniture_gray.png",
