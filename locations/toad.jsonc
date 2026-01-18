@@ -4,6 +4,25 @@
     "visibility_rules": "toadsanity_on",
     "children": [
       {
+        "name": "Starting Room",
+        "sections": [
+          {
+            "name": "Starting Room Toad",
+            "chest_unopened_img": "images/minor checks/toad.png",
+            "chest_opened_img": "images/minor checks/toad_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Lab",
+            "x": 200,
+            "y": 435,
+            "size": 14
+          }
+        ]
+      },
+      {
         "name": "Foyer",
         "access_rules": ["$canReachRoom|foyer|"],
         "sections": [

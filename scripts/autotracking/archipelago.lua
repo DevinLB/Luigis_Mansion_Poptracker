@@ -165,7 +165,7 @@ function onClear(slot_data)
         --Prints out door number, door name, and locked status
         print(v, door_names[k], dump_table(door_locks[k][door_names[k]]))
     end
-    print(dump_table(door_locks))
+    -- print(dump_table(door_locks))
 
     --Enemy Randomizer Logic
     enemies = slot_data['ghost elements']
@@ -299,6 +299,15 @@ function onClear(slot_data)
             obj.CurrentStage = 2
         end
     end
+    if slot_data['grassanity'] then
+        local obj = Tracker:FindObjectForCode("grass")
+        local stage = slot_data['grassanity']
+        if stage == 1 then
+            obj.CurrentStage = 1
+        elseif stage == 0 then
+            obj.CurrentStage = 2
+        end
+    end
     -- if slot_data['washroom boo count'] then
     --     local mario = Tracker:FindObjectForCode("washroom_boo")
     --     mario.AcquiredCount = (slot_data['washroom boo count'])
@@ -380,7 +389,8 @@ end
 
 function onLocation(location_id, location_name)
     local loc_list = LOCATION_MAPPING[location_id]
-
+    -- Uncomment to see attempted location IDs from apworld (useful for missing locations)
+    -- print (location_id, location_name)
     for i, loc in ipairs(loc_list) do
         if not loc then
             return
@@ -468,15 +478,16 @@ function updateHint(hint, sections_to_update)
 end
 
 function onMapChange(key, value, old)
-    -- print("key", key)
-    -- print("old", old)
-    -- print("value", value)
-    print("got  " .. key .. " = " .. tostring(value) .. " (was " .. tostring(old) .. ")")
-    print(dump_table(MAP_MAPPING[tostring(value)]))
+
+    -- print("got  " .. key .. " = " .. tostring(value) .. " (was " .. tostring(old) .. ")")
+    -- print(dump_table(MAP_MAPPING[tostring(value)]))
 
     tabs = MAP_MAPPING[tostring(value)]
+    local auto_tab = Tracker:FindObjectForCode("auto_tab")
     for i, tab in ipairs(tabs) do
-        Tracker:UiHint("ActivateTab", tab)
+        if auto_tab.CurrentStage == 0 then
+            Tracker:UiHint("ActivateTab", tab)
+        end
     end
 end
 

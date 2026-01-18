@@ -33,6 +33,33 @@
             "size": 14
           }
         ]
+      },
+      {
+        "name": "Training",
+        "sections": [
+          {
+            "name": "Complete Training",
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/training_complete.png",
+            "chest_opened_img": "images/minor checks/training_complete_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Catch 9 Ghosts in Training",
+            "access_rules": ["poltergust"],
+            "chest_unopened_img": "images/minor checks/training_catch_nine.png",
+            "chest_opened_img": "images/minor checks/training_catch_nine_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lab",
+            "x": 530,
+            "y": 460,
+            "size": 14
+          }
+        ]
       }
     ]
   },
@@ -45,6 +72,7 @@
         "sections": [
           {
             "name": "Defeat Chauncey (Nursery)",
+            "access_rules": ["$canReachRoom|nursery|"],
             "chest_unopened_img": "images/ghosts/chauncey.png",
             "chest_opened_img": "images/ghosts/chauncey_gray.png",
             "item_count": 1
@@ -64,6 +92,7 @@
         "sections": [
           {
             "name": "Defeat Bogmire (Graveyard)",
+            "access_rules": ["$canReachRoom|boneyard|, $canGrabWater, $canCatchGhosts|Graveyard|"],
             "chest_unopened_img": "images/ghosts/bogmire.png",
             "chest_opened_img": "images/ghosts/bogmire_gray.png",
             "item_count": 1
@@ -83,6 +112,7 @@
         "sections": [
           {
             "name": "Defeat Boolossus (Balcony)",
+            "access_rules": ["$canReachRoom|balcony|"],
             "chest_unopened_img": "images/ghosts/boolossus.png",
             "chest_opened_img": "images/ghosts/boolossus_gray.png",
             "item_count": 1
@@ -93,6 +123,72 @@
             "map": "f3",
             "x": 590,
             "y": 100,
+            "size": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meme Locations",
+    "children": [
+      {
+        "name": "Grass_1",
+        "visibility_rules": "grass_on",
+        "sections": [
+          {
+            "name": "Touch Courtyard Grass",
+            "access_rules": ["$canReachRoom|courtyard|"],
+            "chest_unopened_img": "images/minor checks/touch_grass.png",
+            "chest_opened_img": "images/minor checks/touch_grass_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 333,
+            "y": 75,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Grass_2",
+        "sections": [
+          {
+            "name": "Touch Boneyard Grass",
+            "access_rules": ["$canReachRoom|boneyard|"],
+            "chest_unopened_img": "images/minor checks/touch_grass.png",
+            "chest_opened_img": "images/minor checks/touch_grass_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 115,
+            "y": 425,
+            "size": 14
+          }
+        ]
+      },
+      {
+        "name": "Grass_3",
+        "sections": [
+          {
+            "name": "Touch Graveyard Grass",
+            "access_rules": ["$canReachRoom|graveyard|"],
+            "chest_unopened_img": "images/minor checks/touch_grass.png",
+            "chest_opened_img": "images/minor checks/touch_grass_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "f1",
+            "x": 105,
+            "y": 190,
             "size": 14
           }
         ]
