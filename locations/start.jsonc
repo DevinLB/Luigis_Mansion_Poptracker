@@ -133,7 +133,7 @@
     "name": "Meme Locations",
     "children": [
       {
-        "name": "Grass_1",
+        "name": "Courtyard Grass",
         "visibility_rules": "grass_on",
         "sections": [
           {
@@ -154,7 +154,8 @@
         ]
       },
       {
-        "name": "Grass_2",
+        "name": "Boneyard Grass",
+        "visibility_rules": "grass_on",
         "sections": [
           {
             "name": "Touch Boneyard Grass",
@@ -174,7 +175,8 @@
         ]
       },
       {
-        "name": "Grass_3",
+        "name": "Graveyard Grass",
+        "visibility_rules": "grass_on",
         "sections": [
           {
             "name": "Touch Graveyard Grass",
