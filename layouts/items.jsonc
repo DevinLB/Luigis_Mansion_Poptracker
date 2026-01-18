@@ -61,7 +61,7 @@
     "rows": [
       [
         "wincon",
-        "washroom_boo",
+        "auto_tab",
         "balcony_boo",
         "final_boo",
         "mario_items"
@@ -76,20 +76,27 @@
       ],
       [
         "mouse",
+        "grass",
         "furnisanity",
         "fs_decor",
         "fs_ceiling",
-        "fs_candles",
-        "fs_hangables"
+        "fs_candles"
       ],
       [
+        "fs_hangables",
         "fs_seating",
         "fs_surfaces",
         "fs_storage",
         "fs_plants",
-        "fs_drawers",
-        "fs_treasures"
-
+        "fs_drawers"
+      ],
+      [
+        "fs_treasures",
+        "fs_floor_1",
+        "fs_floor_2",
+        "fs_floor_3",
+        "fs_roof",
+        "fs_basement"
       ]
     ]
   },

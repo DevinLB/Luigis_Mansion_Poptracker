@@ -29,5 +29,11 @@
     "location_size": 48,
     "location_border_thickness": 4,
     "img": "images/maps/roof.png"
+  },
+  {
+    "name": "lab",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/lab.png"
   }
 ]

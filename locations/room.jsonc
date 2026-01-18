@@ -1074,7 +1074,7 @@
           {
             "name": "Sitting Room Light On",
             "visibility_rules": "lightsanity_on",
-            "access_rules": ["$canGrabFire, $canGrabWater, poltergust"],
+            "access_rules": ["$canGrabFire, $canCatchGhosts|Sitting Room|, poltergust"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -1121,7 +1121,7 @@
       },
       {
         "name": "Observatory",
-        "access_rules": ["$canReachRoom|observatory|, $canGrabFire"],
+        "access_rules": ["$canReachRoom|observatory|"],
         "sections": [
           //Room Checks
           {
@@ -1129,6 +1129,13 @@
             "visibility_rules": "walksanity_on",
             "chest_unopened_img": "images/minor checks/walk.png",
             "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Observatory Light On",
+            "visibility_rules": "lightsanity_on",
+            "chest_unopened_img": "images/minor checks/light.png",
+            "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
           }
         ],
@@ -1772,6 +1779,30 @@
             "map": "b1",
             "x": "276",
             "y": "555",
+            "size": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lab",
+    "children": [
+      {
+        "name": "Gallery",
+        "sections": [
+          {
+            "name": "Visit E. Gadd's Gallery",
+            "chest_unopened_img": "images/minor checks/walk.png",
+            "chest_opened_img": "images/minor checks/walk_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lab",
+            "x": 645,
+            "y": 343,
             "size": 14
           }
         ]

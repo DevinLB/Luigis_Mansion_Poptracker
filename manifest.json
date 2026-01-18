@@ -1,7 +1,7 @@
 {
   "name": "Luigi's Mansion",
   "game_name": "Luigi's Mansion",
-  "package_version": "0.0.4",
+  "package_version": "0.1.0",
   "package_uid": "lm_poptracker",
   "platform": "Game Cube",
   "author": "Decton, UmedMuzl",

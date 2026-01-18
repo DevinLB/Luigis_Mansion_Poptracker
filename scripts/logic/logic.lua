@@ -30,7 +30,7 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     end
 
     -- Add Open Doors to the key list
-    -- if door_locks = nil then 
+    -- if door_locks == nil then 
     --     door_locks = {}
     -- end
 
@@ -58,6 +58,55 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
             end
         end
     end
+
+    -- Cellar Dust Pile Logic - remove cellar keys if luigi doesn't have a vacuum
+    if has("poltergust") == false then
+        if has_key["key_cellar"] then
+            has_key["key_cellar"] = false
+        end
+        if has_key["key_basehall"] then
+            has_key["key_basehall"] = false
+        end
+    end
+    
+    -- Fire Door Logic - remove tea room and boneyard keys if luigi doesn't start in the room and doesn't have water
+    if (starting_room ~= "tea" and canGrabWater == false) then
+        if has_key["key_tea"] then
+            has_key["key_tea"] = false
+        end
+    end
+    if ((starting_room ~= "boneyard" or starting_room ~= "graveyard") and canGrabWater == false) then
+        if has_key["key_boneyard"] then
+            has_key["key_boneyard"] = false
+        end
+    end
+
+    -- Observatory Access Logic - remove observatory key if luigi doesn't have fire
+    if canGrabFire == false then
+        if has_key["key_observatory"] then
+            has_key["key_observatory"] = false
+        end
+    end
+
+    -- Mouse Hole Camera Logic - remove hidden room and graveyard keys if luigi doesn't have the camera function via having the vacuum
+    if has("poltergust") == false then 
+        if has_key["key_hidden"] then
+            has_key["key_hidden"] = false
+        end
+        if has_key["key_graveyard"] then
+            has_key["key_graveyard"] = false
+        end
+    end
+    if has("poltergust") then 
+        if has_key["key_hidden"] == false then
+            has_key["key_hidden"] = true
+        end
+        if has_key["key_graveyard"] == false then
+            has_key["key_graveyard"] = true
+        end
+    end
+
+
 
     -- Build bidirectional graph
     local graph = {}
@@ -122,7 +171,7 @@ function canReachRoom(target_room)
     for _, room in ipairs(accessible_from) do
         -- print("room is ", room)
         if room == target_room then
-            print(room, " is ", target_room)
+            -- print(room, " is ", target_room)
             return true
         end
     end
@@ -170,7 +219,7 @@ function canGrabIce()
     and (
         canReachRoom("kitchen") or
         canReachRoom("pipe") or
-        canReachRoom("tea") or
+        (canReachRoom("tea") and canGrabWater()) or
         canReachRoom("ceramics")
     ) 
     and (
