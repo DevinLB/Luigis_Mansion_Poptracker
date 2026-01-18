@@ -1118,6 +1118,121 @@
     ]
   },
   {
+    "name": "FS Floor 1",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_floor_1",
+        "inherit_codes": false,
+        "img": "images/options/fs_floor_1.png"
+      },
+      {
+        "codes": "fs_floor_1_on, fs_floor_1",
+        "inherit_codes": false,
+        "img": "images/options/fs_floor_1_on.png"
+      },
+      {
+        "codes": "fs_floor_1_off, fs_floor_1",
+        "inherit_codes": false,
+        "img": "images/options/fs_floor_1_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Floor 2",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_floor_2",
+        "inherit_codes": false,
+        "img": "images/options/fs_floor_2.png"
+      },
+      {
+        "codes": "fs_floor_2_on, fs_floor_2",
+        "inherit_codes": false,
+        "img": "images/options/fs_floor_2_on.png"
+      },
+      {
+        "codes": "fs_floor_2_off, fs_floor_2",
+        "inherit_codes": false,
+        "img": "images/options/fs_floor_2_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Floor 3",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_floor_3",
+        "inherit_codes": false,
+        "img": "images/options/fs_floor_3.png"
+      },
+      {
+        "codes": "fs_floor_3_on, fs_floor_3",
+        "inherit_codes": false,
+        "img": "images/options/fs_floor_3_on.png"
+      },
+      {
+        "codes": "fs_floor_3_off, fs_floor_3",
+        "inherit_codes": false,
+        "img": "images/options/fs_floor_3_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Roof",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_roof",
+        "inherit_codes": false,
+        "img": "images/options/fs_roof.png"
+      },
+      {
+        "codes": "fs_roof_on, fs_roof",
+        "inherit_codes": false,
+        "img": "images/options/fs_roof_on.png"
+      },
+      {
+        "codes": "fs_roof_off, fs_roof",
+        "inherit_codes": false,
+        "img": "images/options/fs_roof_off.png"
+      }
+    ]
+  },
+  {
+    "name": "FS Basement",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "codes": "fs_basement",
+        "inherit_codes": false,
+        "img": "images/options/fs_basement.png"
+      },
+      {
+        "codes": "fs_basement_on, fs_basement",
+        "inherit_codes": false,
+        "img": "images/options/fs_basement_on.png"
+      },
+      {
+        "codes": "fs_basement_off, fs_basement",
+        "inherit_codes": false,
+        "img": "images/options/fs_basement_off.png"
+      }
+    ]
+  },
+  {
     "name": "Automatic Map Tab",
     "type":"progressive",
     "allow_disabled": false,
