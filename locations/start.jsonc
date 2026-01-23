@@ -92,7 +92,7 @@
         "sections": [
           {
             "name": "Defeat Bogmire (Graveyard)",
-            "access_rules": ["$canReachRoom|boneyard|, $canGrabWater, $canCatchGhosts|Graveyard|"],
+            "access_rules": ["$canReachRoom|boneyard|, $canCatchGhosts|Graveyard|"],
             "chest_unopened_img": "images/ghosts/bogmire.png",
             "chest_opened_img": "images/ghosts/bogmire_gray.png",
             "item_count": 1

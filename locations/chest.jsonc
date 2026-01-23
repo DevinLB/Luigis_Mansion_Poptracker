@@ -268,7 +268,7 @@
       {
         //rooms
         "name": "Graveyard",
-        "access_rules": ["$canReachRoom|boneyard|, $canGrabWater, $canCatchGhosts|Graveyard|"],
+        "access_rules": ["$canReachRoom|boneyard|, $canCatchGhosts|Graveyard|"],
         "sections": [
           //chest checks
           {
@@ -614,7 +614,7 @@
       {
         //rooms
         "name": "Tea Room",
-        "access_rules": ["$canReachRoom|tea|, $canCatchGhosts|Tea Room|, $canGrabWater"],
+        "access_rules": ["$canReachRoom|tea|, $canCatchGhosts|Tea Room|"],
         "sections": [
           //chest checks
           {

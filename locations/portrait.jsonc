@@ -119,7 +119,7 @@
       {
         //Rooms
         "name": "Boneyard",
-        "access_rules": ["$canReachRoom|boneyard|, $canGrabWater"],
+        "access_rules": ["$canReachRoom|boneyard|"],
         "sections": [
           //Portait Ghost
           {
@@ -141,7 +141,7 @@
       {
         //Rooms
         "name": "Graveyard",
-        "access_rules": ["$canReachRoom|boneyard|, $canGrabWater"],
+        "access_rules": ["$canReachRoom|boneyard|"],
         "sections": [
           //Portait Ghost
           {

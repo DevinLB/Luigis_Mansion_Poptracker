@@ -855,7 +855,7 @@
       {
         //rooms
         "name": "Boneyard",
-        "access_rules": ["$canReachRoom|boneyard|, $canGrabWater"],
+        "access_rules": ["$canReachRoom|boneyard|"],
         "sections": [
           //furniture checks
           {
@@ -895,7 +895,7 @@
       {
         //rooms
         "name": "Graveyard",
-        "access_rules": ["$canReachRoom|boneyard|, $canGrabWater, poltergust"],
+        "access_rules": ["$canReachRoom|boneyard|, poltergust"],
         "sections": [
           //furniture checks
           {
@@ -2822,7 +2822,7 @@
       {
         //rooms
         "name": "Tea Room",
-        "access_rules": ["$canReachRoom|tea|, $canGrabWater"],
+        "access_rules": ["$canReachRoom|tea|"],
         "sections": [
           //furniture checks
           {
