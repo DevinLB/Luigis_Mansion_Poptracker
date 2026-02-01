@@ -112,7 +112,7 @@
         "sections": [
           {
             "name": "Defeat Boolossus (Balcony)",
-            "access_rules": ["$canReachRoom|balcony|"],
+            "access_rules": ["$canReachRoom|balcony|, $canGrabIce"],
             "chest_unopened_img": "images/ghosts/boolossus.png",
             "chest_opened_img": "images/ghosts/boolossus_gray.png",
             "item_count": 1
