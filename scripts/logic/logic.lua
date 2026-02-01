@@ -21,6 +21,9 @@ end
 
 -- Access Logic
 
+fireLoopCheck = false
+waterLoopCheck = false
+iceLoopCheck = false
 function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     mansion = mansion_layout
     -- Convert keys list to lookup
@@ -29,11 +32,15 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
         has_key[key] = true
     end
 
+    -- Create a default door list and starting room if slot data isn't detected.
+    if door_locks == nil then 
+        door_locks = default_door_locks
+    end
+    if starting_room == nil then
+        starting_room = "foyer"
+    end
+    
     -- Add Open Doors to the key list
-    -- if door_locks == nil then 
-    --     door_locks = {}
-    -- end
-
     for _, door in ipairs(door_names) do
         if door_locks[_][door] == "1" then
             for __, door2 in pairs(door_keys) do
@@ -70,22 +77,36 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     end
     
     -- Fire Door Logic - remove tea room and boneyard keys if luigi doesn't start in the room and doesn't have water
-    if (starting_room ~= "tea" and canGrabWater == false) then
-        if has_key["key_tea"] then
-            has_key["key_tea"] = false
+    -- Tea Room
+    if waterLoopCheck == false then
+        waterLoopCheck = true
+        if (starting_room ~= "tea" and canGrabWater() == false) then
+            if has_key["key_tea"] then
+                has_key["key_tea"] = false
+            end
         end
+        waterLoopCheck = false
     end
-    if ((starting_room ~= "boneyard" or starting_room ~= "graveyard") and canGrabWater == false) then
-        if has_key["key_boneyard"] then
-            has_key["key_boneyard"] = false
+    -- Boneyard and Graveyard
+    if waterLoopCheck == false then
+        waterLoopCheck = true
+        if ((starting_room ~= "boneyard" or starting_room ~= "graveyard") and canGrabWater() == false) then
+            if has_key["key_boneyard"] then
+                has_key["key_boneyard"] = false
+            end
         end
+        waterLoopCheck = false
     end
 
     -- Observatory Access Logic - remove observatory key if luigi doesn't have fire
-    if canGrabFire == false then
-        if has_key["key_observatory"] then
-            has_key["key_observatory"] = false
+    if fireLoopCheck == false then
+        fireLoopCheck = true
+        if (canGrabFire() == false) then
+            if has_key["key_observatory"] then
+                has_key["key_observatory"] = false
+            end
         end
+        fireLoopCheck = false
     end
 
     -- Mouse Hole Camera Logic - remove hidden room and graveyard keys if luigi doesn't have the camera function via having the vacuum
@@ -97,6 +118,7 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
             has_key["key_graveyard"] = false
         end
     end
+    -- give keys here since they don't exist in game
     if has("poltergust") then 
         if has_key["key_hidden"] == false then
             has_key["key_hidden"] = true
@@ -151,6 +173,8 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     for room, _ in pairs(accessible) do
         table.insert(result, room)
     end
+
+
 
     return result
 end

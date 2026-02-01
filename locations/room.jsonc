@@ -48,7 +48,7 @@
           {
             "name": "1F Hallway Light On",
             "visibility_rules": "lightsanity_on",
-            "access_rules": ["$canReachRoom|boneyard|, $canGrabWater, poltergust"],
+            "access_rules": ["$canReachRoom|boneyard|, poltergust"],
             "chest_unopened_img": "images/minor checks/light.png",
             "chest_opened_img": "images/minor checks/light_gray.png",
             "item_count": 1
@@ -335,7 +335,7 @@
       },
       {
         "name": "Boneyard",
-        "access_rules": ["$canReachRoom|boneyard|, $canGrabWater"],
+        "access_rules": ["$canReachRoom|boneyard|"],
         "sections": [
           //Room Checks
           {
@@ -365,7 +365,7 @@
       },
       {
         "name": "Graveyard",
-        "access_rules": ["$canReachRoom|boneyard|, $canGrabWater, poltergust"],
+        "access_rules": ["$canReachRoom|boneyard|, poltergust"],
         "sections": [
           //Room Checks
           {
@@ -911,7 +911,7 @@
       },
       {
         "name": "Tea Room",
-        "access_rules": ["$canReachRoom|tea|, $canGrabWater"],
+        "access_rules": ["$canReachRoom|tea|"],
         "sections": [
           //Room Checks
           {
