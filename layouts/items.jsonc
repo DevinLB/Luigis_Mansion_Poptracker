@@ -52,6 +52,39 @@
       ]
     ]
   },
+  "broadcast_view_items": {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "margin": "0,0,0,0",
+    "item_margin": "10,0",
+    "item_size": 50,
+    "rows": [
+      [
+        "key_heart",
+        "key_club",
+        "key_diamond",
+        "key_spade",
+        "key"
+      ],
+      [
+        "fire",
+        "water",
+        "ice",
+        "booCount",
+        "gb_horror",
+        "poltergust",
+        "vacuum_upgrade"
+      ],
+      [
+        "cap",
+        "glove",
+        "letter",
+        "shoe",
+        "star",
+        "huge_flower"
+      ]
+    ]
+  },
   "settings_popup": {
     "type": "itemgrid",
     "h_alignment": "left",
