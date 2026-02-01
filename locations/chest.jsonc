@@ -153,8 +153,8 @@
           //chest checks
           {
             "name": "Laundry Washing Machine",
-            "chest_unopened_img": "images/minor checks/chest_green.png",
-            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "chest_unopened_img": "images/minor checks/furniture/washing_machine.png",
+            "chest_opened_img": "images/minor checks/furniture/washing_machine_gray.png",
             "item_count": 1
           },
           {
@@ -908,32 +908,32 @@
           //chest checks
           {
             "name": "Armory Gray Chest (left, back Wall)",
-            "chest_unopened_img": "images/minor checks/chest_blue.png",
-            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "chest_unopened_img": "images/minor checks/furniture/wood_chest.png",
+            "chest_opened_img": "images/minor checks/furniture/wood_chest_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory Gray Chest (middle, back Wall)",
-            "chest_unopened_img": "images/minor checks/chest_blue.png",
-            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "chest_unopened_img": "images/minor checks/furniture/wood_chest.png",
+            "chest_opened_img": "images/minor checks/furniture/wood_chest_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory Gray Chest (right, back Wall)",
-            "chest_unopened_img": "images/minor checks/chest_blue.png",
-            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "chest_unopened_img": "images/minor checks/furniture/wood_chest.png",
+            "chest_opened_img": "images/minor checks/furniture/wood_chest_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory 4th Gray Chest",
-            "chest_unopened_img": "images/minor checks/chest_blue.png",
-            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "chest_unopened_img": "images/minor checks/furniture/wood_chest.png",
+            "chest_opened_img": "images/minor checks/furniture/wood_chest_gray.png",
             "item_count": 1
           },
           {
             "name": "Armory 5th Gray Chest",
-            "chest_unopened_img": "images/minor checks/chest_blue.png",
-            "chest_opened_img": "images/minor checks/chest_blue_gray.png",
+            "chest_unopened_img": "images/minor checks/furniture/wood_chest.png",
+            "chest_opened_img": "images/minor checks/furniture/wood_chest_gray.png",
             "item_count": 1
           },
           {
@@ -984,20 +984,20 @@
           //chest checks
           {
             "name": "Telephone Room C Chest",
-            "chest_unopened_img": "images/minor checks/chest_green.png",
-            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "chest_unopened_img": "images/minor checks/furniture/wood_chest.png",
+            "chest_opened_img": "images/minor checks/furniture/wood_chest_gray.png",
             "item_count": 1
           },
           {
             "name": "Telephone Room R1 Chest",
-            "chest_unopened_img": "images/minor checks/chest_green.png",
-            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "chest_unopened_img": "images/minor checks/furniture/wood_chest.png",
+            "chest_opened_img": "images/minor checks/furniture/wood_chest_gray.png",
             "item_count": 1
           },
           {
             "name": "Telephone Room R2 Chest",
-            "chest_unopened_img": "images/minor checks/chest_green.png",
-            "chest_opened_img": "images/minor checks/chest_green_gray.png",
+            "chest_unopened_img": "images/minor checks/furniture/wood_chest.png",
+            "chest_opened_img": "images/minor checks/furniture/wood_chest_gray.png",
             "item_count": 1
           },
           {

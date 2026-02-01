@@ -32,11 +32,15 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
         has_key[key] = true
     end
 
+    -- Create a default door list and starting room if slot data isn't detected.
+    if door_locks == nil then 
+        door_locks = default_door_locks
+    end
+    if starting_room == nil then
+        starting_room = "foyer"
+    end
+    
     -- Add Open Doors to the key list
-    -- if door_locks == nil then 
-    --     door_locks = {}
-    -- end
-
     for _, door in ipairs(door_names) do
         if door_locks[_][door] == "1" then
             for __, door2 in pairs(door_keys) do
@@ -73,6 +77,7 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     end
     
     -- Fire Door Logic - remove tea room and boneyard keys if luigi doesn't start in the room and doesn't have water
+    -- Tea Room
     if waterLoopCheck == false then
         waterLoopCheck = true
         if (starting_room ~= "tea" and canGrabWater() == false) then
@@ -82,6 +87,7 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
         end
         waterLoopCheck = false
     end
+    -- Boneyard and Graveyard
     if waterLoopCheck == false then
         waterLoopCheck = true
         if ((starting_room ~= "boneyard" or starting_room ~= "graveyard") and canGrabWater() == false) then
@@ -96,7 +102,6 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
     if fireLoopCheck == false then
         fireLoopCheck = true
         if (canGrabFire() == false) then
-            -- print("FIRE IS NOT DETECTED")
             if has_key["key_observatory"] then
                 has_key["key_observatory"] = false
             end
@@ -113,6 +118,7 @@ function getAccessibleRooms(mansion_layout, player_keys, starting_room)
             has_key["key_graveyard"] = false
         end
     end
+    -- give keys here since they don't exist in game
     if has("poltergust") then 
         if has_key["key_hidden"] == false then
             has_key["key_hidden"] = true
