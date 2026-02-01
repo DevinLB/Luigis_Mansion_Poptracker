@@ -1,6 +1,7 @@
-# Luigi's Mansion PopTracker 0.1.0
+# Luigi's Mansion PopTracker 0.1.1
 
 This is the PopTracker pack for Luigi's Mansion Archipelago randomizer.
+This was made for version 0.5.21 of the Luigi's Mansion apworld. While it should be fine, using this tracker on newer/older versions may cause some functions and logic to misbehave.
 
 ## Installation
 
@@ -15,9 +16,8 @@ Download the lmpt.zip file and install the pack to your PopTracker. On the PopTr
 
 ## Known Issues
 
-1. Map might skew off the screen on certain resolution sizes.
-2. WalkSanity Icon ("Visited" check) needs to be colored more obviously to avoid confusiton.
-3. Not all furniture icons match the location they represent.
+1. Map might skew off the screen on certain resolution/scale sizes.
+2. Starting Room Boo Location will read as accessible when it may not be (Luigi must be able to leave and reenter the room with a door in order to spawn that boo)
 
 ## Credits
 Decton 
