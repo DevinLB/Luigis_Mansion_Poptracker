@@ -5,6 +5,7 @@
         "increment": 1,
         "max_quantity": 50,
         "overlay_background": "#000000",
+        "overlay_font_size": 18,
         "img": "images/minor checks/boo.png",
         "codes": "booCount"
     },

@@ -44,7 +44,8 @@
     "max_quantity": 5,
     "initial_quantity": 0,
     // "allow_disabled": false,
-    "overlay_font_size": 25,
+    "overlay_background": "#000000",
+    "overlay_font_size": 18,
     "overlay_align": "center",
     "img": "images/keys/poltergust.png"
   },
@@ -90,8 +91,9 @@
     "codes": "huge_flower",
     "max_quantity": 3,
     "initial_quantity": 0,
-    "overlay_font_size": 25,
-    "overlay_align": "center",
+    "overlay_background": "#000000",
+    "overlay_font_size": 18,
+    // "overlay_align": "center",
     "img": "images/minor checks/plant.png"
   },
 
@@ -429,7 +431,8 @@
     "type": "consumable",
     "initial_quantity": 0,
     "max_quantity": 54,
-    "overlay_font_size": 18,
+    "overlay_background": "#000000",
+    "overlay_font_size": 25,
     "img": "images/keys/key_gray.png",
     "codes": "key"
   },
